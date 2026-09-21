@@ -55,7 +55,8 @@ export default function PersonDetail() {
             {person.name}
           </h1>
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-            {person.title} · {primaryCompany?.name} ({person.company})
+            {person.title}
+            {person.company && ` · ${primaryCompany?.name ?? person.company} (${person.company})`}
           </p>
           {otherRoles.length > 0 && (
             <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
@@ -77,6 +78,59 @@ export default function PersonDetail() {
         <StatTile label="Sells" value={summary.sellCount} tone="critical" sublabel={fmtCurrency(summary.sellValue)} />
       </div>
 
+      {person.fund && person.fundHoldings && (
+        <div className="mb-6">
+          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
+            Fund portfolio (13F)
+          </h2>
+          <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            Full quarterly institutional holdings as of {fmtDate(person.fundHoldings.asOfDate)} — reported with up
+            to a 45-day lag, U.S.-listed equity positions only.{' '}
+            <a href={person.fundHoldings.filingUrl} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
+              SEC filing ↗
+            </a>
+          </p>
+          <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+            <table className="w-full min-w-[480px] border-collapse text-sm">
+              <thead>
+                <tr
+                  className="text-left text-xs uppercase tracking-wide"
+                  style={{ color: 'var(--text-muted)', borderBottom: '1px solid var(--gridline)' }}
+                >
+                  <th className="px-4 py-2.5 font-medium">Company</th>
+                  <th className="px-4 py-2.5 font-medium">Position</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Shares</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {person.fundHoldings.positions.map((pos, i) => (
+                  <tr
+                    key={`${pos.cusip}-${pos.positionType}-${i}`}
+                    style={{ borderBottom: '1px solid var(--gridline)' }}
+                    className="last:border-b-0 transition-colors hover:bg-[var(--surface-2)]"
+                  >
+                    <td className="px-4 py-2.5 font-medium" style={{ color: 'var(--text-primary)' }}>
+                      {pos.issuer}
+                    </td>
+                    <td className="px-4 py-2.5 text-xs" style={{ color: 'var(--text-muted)' }}>
+                      {pos.positionType}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {fmtShares(pos.shares)}
+                    </td>
+                    <td className="px-4 py-2.5 text-right font-medium tabular-nums" style={{ color: 'var(--text-primary)' }}>
+                      {fmtCurrency(pos.value)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {holdings.length > 0 && !person.fund && (
       <div className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-5">
         <div
           className="rounded-lg border p-4 lg:col-span-3"
@@ -85,13 +139,7 @@ export default function PersonDetail() {
           <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
             Holdings by market value
           </h2>
-          {holdings.length > 0 ? (
-            <HoldingsChart holdings={holdings} />
-          ) : (
-            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-              No open positions reported in the tracked filings.
-            </p>
-          )}
+          <HoldingsChart holdings={holdings} />
         </div>
 
         <div
@@ -126,7 +174,10 @@ export default function PersonDetail() {
           </div>
         </div>
       </div>
+      )}
 
+      {history.length > 0 && (
+      <>
       <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
         Transaction history
       </h2>
@@ -188,6 +239,8 @@ export default function PersonDetail() {
           </tbody>
         </table>
       </div>
+      </>
+      )}
     </div>
   )
 }

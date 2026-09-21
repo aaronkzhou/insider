@@ -65,6 +65,8 @@ export function personHoldings(personId) {
 }
 
 export function personPortfolioValue(personId) {
+  const fund = getPerson(personId)?.fundHoldings
+  if (fund) return fund.totalValue
   return personHoldings(personId).reduce((sum, h) => sum + (h.value ?? 0), 0)
 }
 
@@ -138,7 +140,11 @@ export function detectClusters(windowDays = 5) {
     pushCluster(current, clusters)
   }
 
-  return clusters.sort((a, b) => new Date(b.endDate) - new Date(a.endDate))
+  // Biggest clusters (most insiders moving together) first — that's the
+  // strongest signal — recency as the tiebreaker.
+  return clusters.sort(
+    (a, b) => b.personIds.length - a.personIds.length || new Date(b.endDate) - new Date(a.endDate),
+  )
 }
 
 function pushCluster(txs, clusters) {

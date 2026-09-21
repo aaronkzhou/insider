@@ -4,6 +4,8 @@ import { companies } from '../data/companies'
 import { detectClusters, fmtCurrency, fmtDate, fmtShares } from '../lib/portfolio'
 import StatusPill from './StatusPill'
 
+const MAJOR_THRESHOLD = 4 // 4+ insiders moving together is the "highlight this" signal
+
 export default function ClusterActivity({ windowDays = 5, limit = 6 }) {
   const clusters = detectClusters(windowDays).slice(0, limit)
 
@@ -20,33 +22,47 @@ export default function ClusterActivity({ windowDays = 5, limit = 6 }) {
 
   return (
     <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      {clusters.map((c) => {
+      {clusters.map((c, i) => {
         const company = companies[c.ticker]
         const spanDays = Math.round((new Date(c.endDate) - new Date(c.startDate)) / 86_400_000)
+        const isMajor = c.personIds.length >= MAJOR_THRESHOLD
         return (
           <div
             key={`${c.ticker}-${c.type}-${c.startDate}`}
-            className="rounded-lg border p-4"
-            style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
+            className={`rounded-lg border p-4 ${i === 0 && isMajor ? 'sm:col-span-2 lg:col-span-3' : ''}`}
+            style={{
+              background: 'var(--surface-1)',
+              borderColor: isMajor ? 'var(--accent)' : 'var(--border)',
+              borderWidth: isMajor ? 2 : 1,
+            }}
           >
             <div className="flex items-center justify-between">
-              <div>
+              <div className="flex items-center gap-2">
                 <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>
                   {c.ticker}
                 </span>
-                <span className="ml-1.5 text-xs" style={{ color: 'var(--text-muted)' }}>
+                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
                   {company?.name}
                 </span>
+                {isMajor && (
+                  <span
+                    className="rounded px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white"
+                    style={{ background: 'var(--accent)' }}
+                  >
+                    {c.personIds.length} insiders
+                  </span>
+                )}
               </div>
               <StatusPill type={c.type} />
             </div>
 
             <div className="mt-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
-              {c.personIds.length} insiders · {fmtDate(c.startDate)}
+              {!isMajor && `${c.personIds.length} insiders · `}
+              {fmtDate(c.startDate)}
               {spanDays > 0 ? ` – ${fmtDate(c.endDate)}` : ''}
             </div>
 
-            <div className="mt-3 space-y-1">
+            <div className={`mt-3 ${i === 0 && isMajor ? 'grid grid-cols-2 gap-x-4 gap-y-1 sm:grid-cols-3' : 'space-y-1'}`}>
               {c.personIds.map((personId) => {
                 const person = getPerson(personId)
                 return (

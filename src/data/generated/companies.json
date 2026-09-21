@@ -124,5 +124,11 @@
     "sector": "Gaming",
     "price": null,
     "priceAsOf": null
+  },
+  "SHAZ": {
+    "name": "SHAZ",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
   }
 }

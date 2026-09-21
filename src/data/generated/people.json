@@ -1061,5 +1061,288 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
       }
     ]
+  },
+  {
+    "id": "situational-awareness-lp-5724",
+    "cik": "2045724",
+    "name": "Situational Awareness LP",
+    "title": "10% Owner",
+    "company": "SHAZ",
+    "roles": {
+      "SHAZ": "10% Owner"
+    },
+    "initials": "SA",
+    "staticHoldings": [
+      {
+        "ticker": "SHAZ",
+        "shares": 8070950,
+        "asOfDate": "2026-09-15",
+        "sourceEvent": "other",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
+      }
+    ],
+    "fund": true,
+    "fundHoldings": {
+      "asOfDate": "2026-08-14",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/0000935836-26-000418-index.htm",
+      "totalValue": 20242292228,
+      "positions": [
+        {
+          "issuer": "SANDISK CORP",
+          "cusip": "80004C200",
+          "shares": 2495344,
+          "value": 5673738513,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "MICRON TECHNOLOGY INC",
+          "cusip": 595112103,
+          "shares": 4828786,
+          "value": 5573819392,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "BLOOM ENERGY CORP",
+          "cusip": 93712107,
+          "shares": 6272808,
+          "value": 1898778982,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+          "cusip": 874039100,
+          "shares": 2649035,
+          "value": 1265099645,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "NEBIUS GROUP N.V.",
+          "cusip": "N97284108",
+          "shares": 4464260,
+          "value": 1232894684,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "COREWEAVE INC",
+          "cusip": "21873S108",
+          "shares": 7479558,
+          "value": 744515203,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "CORE SCIENTIFIC INC NEW",
+          "cusip": "21874A106",
+          "shares": 26008473,
+          "value": 665556824,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "STMICROELECTRONICS",
+          "cusip": 861012102,
+          "shares": 7802700,
+          "value": 584344203,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "APPLIED DIGITAL CORP",
+          "cusip": 38169207,
+          "shares": 15384616,
+          "value": 469022807,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "RIOT PLATFORMS INC",
+          "cusip": 767292105,
+          "shares": 17100000,
+          "value": 468198000,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "SHARONAI HOLDINGS INC",
+          "cusip": 778920306,
+          "shares": 5396127,
+          "value": 456836112,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "IREN LIMITED",
+          "cusip": "Q4982L109",
+          "shares": 9474099,
+          "value": 433250547,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "CLEANSPARK INC",
+          "cusip": "18452B209",
+          "shares": 12276139,
+          "value": 178617822,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "KEEL INFRASTRUCTURE CORP",
+          "cusip": 486917107,
+          "shares": 26451393,
+          "value": 151830996,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "SOLARIS ENERGY INFRAS INC",
+          "cusip": "83418M103",
+          "shares": 1129621,
+          "value": 90889306,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "WHITEFIBER INC",
+          "cusip": "G96115103",
+          "shares": 1757600,
+          "value": 68282760,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "BITDEER TECHNOLOGIES GROUP",
+          "cusip": "G11448100",
+          "shares": 3439450,
+          "value": 54584072,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "T1 ENERGY INC",
+          "cusip": "35834F104",
+          "shares": 4900000,
+          "value": 46452000,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "BLOOM ENERGY CORP",
+          "cusip": 93712107,
+          "shares": 145800,
+          "value": 44133660,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "HIVE DIGITAL TECHNOLOGIES LT",
+          "cusip": 433921103,
+          "shares": 9133726,
+          "value": 33246763,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "BABCOCK & WILCOX ENTERPRISES",
+          "cusip": "05614L209",
+          "shares": 2027451,
+          "value": 28587059,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "PROPETRO HLDG CORP",
+          "cusip": "74347M108",
+          "shares": 1960382,
+          "value": 28111878,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+          "cusip": 874039100,
+          "shares": 50000,
+          "value": 23878500,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "VISHAY INTERTECHNOLOGY INC",
+          "cusip": 928298108,
+          "shares": 375000,
+          "value": 20167500,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "INFOSYS LTD",
+          "cusip": 456788108,
+          "shares": 500000,
+          "value": 5245000,
+          "positionType": "Put"
+        },
+        {
+          "issuer": "CEREBRAS SYSTEMS INC",
+          "cusip": "15675D103",
+          "shares": 10000,
+          "value": 2210000,
+          "positionType": "Shares"
+        }
+      ]
+    }
+  },
+  {
+    "id": "thiel-macro-llc-2087",
+    "cik": "1562087",
+    "name": "Thiel Macro LLC",
+    "title": "Institutional Investment Manager",
+    "company": null,
+    "roles": {},
+    "initials": "TM",
+    "fund": true,
+    "fundHoldings": {
+      "asOfDate": "2026-08-14",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1562087/000131586326000593/0001315863-26-000593-index.htm",
+      "totalValue": 418666506,
+      "positions": [
+        {
+          "issuer": "AMAZON COM INC",
+          "cusip": 23135106,
+          "shares": 495000,
+          "value": 117978300,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "VISTA ENERGY S.A.B. DE C.V.",
+          "cusip": "92837L109",
+          "shares": 1189792,
+          "value": 75908730,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "VISTRA CORP",
+          "cusip": "92840M102",
+          "shares": 372755,
+          "value": 59130126,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "AMERICAN ELEC PWR CO INC",
+          "cusip": 25537101,
+          "shares": 308617,
+          "value": 42221892,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "DTE ENERGY CO",
+          "cusip": 233331107,
+          "shares": 264450,
+          "value": 40294247,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "FIRSTENERGY CORP",
+          "cusip": 337932107,
+          "shares": 839319,
+          "value": 39901225,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "CMS ENERGY CORP",
+          "cusip": 125896100,
+          "shares": 517124,
+          "value": 39559986,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "X-ENERGY INC",
+          "cusip": "98386P102",
+          "shares": 200000,
+          "value": 3672000,
+          "positionType": "Shares"
+        }
+      ]
+    }
   }
 ]
