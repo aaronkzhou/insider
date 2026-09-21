@@ -22,8 +22,13 @@ jobs:
 
       - run: npm ci
 
-      - name: Fetch latest SEC Form 4 data
+      - name: Fetch latest SEC Form 4 data (tracked companies)
         run: npm run fetch:sec
+
+      - name: Refresh individually-tracked people
+        run: |
+          node scripts/add-person.mjs "Donald Trump Jr." 2016181
+          node scripts/add-person.mjs "Donald J. Trump" 947033
 
       - name: Commit and push if data changed
         run: |

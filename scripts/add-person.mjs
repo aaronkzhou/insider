@@ -189,7 +189,10 @@ async function main() {
     filingUrl: h.filingUrl,
   }))
 
-  transactions.push(...newBuySell.map((t, i) => ({ id: `${t.accession}-owner-${i}`, ...t })))
+  // Safe to re-run (e.g. from a daily cron): skip transactions already recorded.
+  const existingKeys = new Set(transactions.map((t) => `${t.personId}|${t.ticker}|${t.type}|${t.date}|${t.accession}`))
+  const freshBuySell = newBuySell.filter((t) => !existingKeys.has(`${t.personId}|${t.ticker}|${t.type}|${t.date}|${t.accession}`))
+  transactions.push(...freshBuySell.map((t, i) => ({ id: `${t.accession}-owner-${i}`, ...t })))
 
   for (const ticker of Object.keys(roles)) {
     if (!companies[ticker]) {
@@ -202,7 +205,7 @@ async function main() {
   writeFileSync('src/data/generated/transactions.json', JSON.stringify(transactions, null, 2) + '\n')
   writeFileSync('src/data/generated/companies.json', JSON.stringify(companies, null, 2) + '\n')
 
-  console.log(`\nDone. ${newBuySell.length} real buy/sell transactions, ${p.staticHoldings.length} holdings snapshot(s) for ${displayName}.`)
+  console.log(`\nDone. ${freshBuySell.length} new buy/sell transaction(s) (${newBuySell.length} total on file), ${p.staticHoldings.length} holdings snapshot(s) for ${displayName}.`)
 }
 
 main().catch((err) => {
