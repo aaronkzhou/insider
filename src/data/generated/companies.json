@@ -1,0 +1,74 @@
+{
+  "AAPL": {
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "price": 330.19,
+    "priceAsOf": "2026-09-15"
+  },
+  "MSFT": {
+    "name": "Microsoft Corp.",
+    "sector": "Technology",
+    "price": 500.783,
+    "priceAsOf": "2026-09-14"
+  },
+  "NVDA": {
+    "name": "NVIDIA Corp.",
+    "sector": "Semiconductors",
+    "price": 219.5932,
+    "priceAsOf": "2026-09-17"
+  },
+  "TSLA": {
+    "name": "Tesla, Inc.",
+    "sector": "Automotive",
+    "price": 360.134,
+    "priceAsOf": "2026-09-08"
+  },
+  "AMZN": {
+    "name": "Amazon.com Inc.",
+    "sector": "E-Commerce",
+    "price": 254.77,
+    "priceAsOf": "2026-09-01"
+  },
+  "GOOGL": {
+    "name": "Alphabet Inc.",
+    "sector": "Technology",
+    "price": 337.71,
+    "priceAsOf": "2026-08-28"
+  },
+  "META": {
+    "name": "Meta Platforms, Inc.",
+    "sector": "Technology",
+    "price": 675.2278,
+    "priceAsOf": "2026-09-15"
+  },
+  "NFLX": {
+    "name": "Netflix Inc.",
+    "sector": "Media",
+    "price": 75.27,
+    "priceAsOf": "2026-09-10"
+  },
+  "JPM": {
+    "name": "JPMorgan Chase & Co.",
+    "sector": "Financials",
+    "price": null,
+    "priceAsOf": null
+  },
+  "COST": {
+    "name": "Costco Wholesale Corp.",
+    "sector": "Retail",
+    "price": 957.4525,
+    "priceAsOf": "2026-06-23"
+  },
+  "UBER": {
+    "name": "Uber Technologies, Inc.",
+    "sector": "Transportation",
+    "price": 71.3054,
+    "priceAsOf": "2026-09-11"
+  },
+  "DIS": {
+    "name": "Walt Disney Co.",
+    "sector": "Media",
+    "price": 107.13,
+    "priceAsOf": "2026-09-01"
+  }
+}

@@ -124,10 +124,12 @@ function extractTransactions(xmlText, fallbackTicker, accession, indexHref) {
   const name = ownerObj.reportingOwnerId?.rptOwnerName
   if (!cik || !name) return { person: null, txs: [] }
 
+  // Some filing agents encode these as "true"/"false", others as 1/0 — accept both.
+  const toBool = (v) => v === true || v === 1 || ['true', '1'].includes(String(v).trim().toLowerCase())
   const rel = ownerObj.reportingOwnerRelationship ?? {}
-  const isOfficer = String(rel.isOfficer).toLowerCase() === 'true'
-  const isDirector = String(rel.isDirector).toLowerCase() === 'true'
-  const isTenPercent = String(rel.isTenPercentOwner).toLowerCase() === 'true'
+  const isOfficer = toBool(rel.isOfficer)
+  const isDirector = toBool(rel.isDirector)
+  const isTenPercent = toBool(rel.isTenPercentOwner)
   let title = 'Reporting Person'
   if (isOfficer && rel.officerTitle) title = rel.officerTitle
   else if (isDirector) title = 'Director'
@@ -159,6 +161,14 @@ function extractTransactions(xmlText, fallbackTicker, accession, indexHref) {
   return { person: { cik: String(cik), name, title, isOfficer, isDirector }, txs }
 }
 
+const TRACKED_TICKERS = new Set(COMPANIES.map((c) => c.ticker))
+// SEC's per-CIK filing list includes filings where that CIK appears as a
+// >10% reporting owner of an unrelated issuer (e.g. Uber files Form 4s for
+// its Aurora Innovation stake) — filter those off-scope tickers out, and
+// filter out corporate/trust entities acting as reporting owners (this is a
+// tracker of people, not other companies' insider stakes in third parties).
+const CORPORATE_NAME_RE = /\b(Inc|LLC|L\.?L\.?C|LP|L\.?P\.?|Corp|Corporation|Trust|Fund|Partners|Ltd|Co\.|N\.V\.|PLC)\b\.?/i
+
 async function main() {
   const peopleByCik = new Map()
   const allTxs = []
@@ -173,6 +183,9 @@ async function main() {
       if (!xml) continue
       const { person, txs } = extractTransactions(xml, company.ticker, filing.accession, filing.indexHref)
       if (!person || txs.length === 0) continue
+      if (CORPORATE_NAME_RE.test(person.name)) continue
+      const inScopeTxs = txs.filter((t) => TRACKED_TICKERS.has(t.ticker))
+      if (inScopeTxs.length === 0) continue
 
       if (!peopleByCik.has(person.cik)) {
         peopleByCik.set(person.cik, {
@@ -182,14 +195,13 @@ async function main() {
         })
       }
       const p = peopleByCik.get(person.cik)
-      if (!p.roles[company.ticker]) p.roles[company.ticker] = person.title
+      const actualTicker = inScopeTxs[0].ticker
+      if (!p.roles[actualTicker]) p.roles[actualTicker] = person.title
 
-      for (const tx of txs) {
+      for (const tx of inScopeTxs) {
         allTxs.push({ id: `${filing.accession}-${allTxs.length}`, ...tx })
       }
-      if (txs.length > 0) {
-        console.log(`  + ${person.name} — ${txs.length} P/S transaction(s) in ${filing.accession}`)
-      }
+      console.log(`  + ${person.name} — ${inScopeTxs.length} P/S transaction(s) in ${filing.accession}`)
     }
   }
 

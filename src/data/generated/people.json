@@ -1,0 +1,717 @@
+[
+  {
+    "id": "newstead-jennifer-0525",
+    "cik": "1780525",
+    "name": "Newstead Jennifer",
+    "title": "SVP, GC and Government Affairs",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "SVP, GC and Government Affairs"
+    },
+    "initials": "NJ"
+  },
+  {
+    "id": "borders-ben-0523",
+    "cik": "2100523",
+    "name": "Borders Ben",
+    "title": "Principal Accounting Officer",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Principal Accounting Officer"
+    },
+    "initials": "BB"
+  },
+  {
+    "id": "levinson-arthur-d-4128",
+    "cik": "1214128",
+    "name": "LEVINSON ARTHUR D",
+    "title": "Director",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Director"
+    },
+    "initials": "LA"
+  },
+  {
+    "id": "parekh-kevan-0912",
+    "cik": "2050912",
+    "name": "Parekh Kevan",
+    "title": "Senior Vice President, CFO",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Senior Vice President, CFO"
+    },
+    "initials": "PK"
+  },
+  {
+    "id": "o-brien-deirdre-7094",
+    "cik": "1767094",
+    "name": "O'BRIEN DEIRDRE",
+    "title": "Senior Vice President",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Senior Vice President"
+    },
+    "initials": "OD"
+  },
+  {
+    "id": "cook-timothy-d-4156",
+    "cik": "1214156",
+    "name": "COOK TIMOTHY D",
+    "title": "Chief Executive Officer",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Chief Executive Officer"
+    },
+    "initials": "CT"
+  },
+  {
+    "id": "kondo-chris-1982",
+    "cik": "1631982",
+    "name": "KONDO CHRIS",
+    "title": "Principal Accounting Officer",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Principal Accounting Officer"
+    },
+    "initials": "KC"
+  },
+  {
+    "id": "hood-amy-6843",
+    "cik": "1576843",
+    "name": "Hood Amy",
+    "title": "EVP, Chief Financial Officer",
+    "company": "MSFT",
+    "roles": {
+      "MSFT": "EVP, Chief Financial Officer"
+    },
+    "initials": "HA"
+  },
+  {
+    "id": "nadella-satya-3142",
+    "cik": "1513142",
+    "name": "Nadella Satya",
+    "title": "Chief Executive Officer",
+    "company": "MSFT",
+    "roles": {
+      "MSFT": "Chief Executive Officer"
+    },
+    "initials": "NS"
+  },
+  {
+    "id": "kress-colette-8670",
+    "cik": "1588670",
+    "name": "Kress Colette",
+    "title": "EVP & Chief Financial Officer",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "EVP & Chief Financial Officer"
+    },
+    "initials": "KC"
+  },
+  {
+    "id": "stevens-mark-a-9039",
+    "cik": "1199039",
+    "name": "STEVENS MARK A",
+    "title": "Director",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "Director"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "teter-timothy-s-6841",
+    "cik": "1696841",
+    "name": "Teter Timothy S.",
+    "title": "EVP, General Counsel and Sec",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "EVP, General Counsel and Sec"
+    },
+    "initials": "TT"
+  },
+  {
+    "id": "neal-stephen-c-8670",
+    "cik": "1768670",
+    "name": "Neal Stephen C",
+    "title": "Director",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "Director"
+    },
+    "initials": "NS"
+  },
+  {
+    "id": "dabiri-john-8224",
+    "cik": "1818224",
+    "name": "Dabiri John",
+    "title": "Director",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "Director"
+    },
+    "initials": "DJ"
+  },
+  {
+    "id": "shah-aarti-s-5292",
+    "cik": "1725292",
+    "name": "Shah Aarti S.",
+    "title": "Director",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "Director"
+    },
+    "initials": "SA"
+  },
+  {
+    "id": "robertson-donald-f-jr-6111",
+    "cik": "1526111",
+    "name": "Robertson Donald F Jr",
+    "title": "Principal Accounting Officer",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "Principal Accounting Officer"
+    },
+    "initials": "RD"
+  },
+  {
+    "id": "taneja-vaibhav-1340",
+    "cik": "1771340",
+    "name": "Taneja Vaibhav",
+    "title": "Chief Financial Officer",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "Chief Financial Officer"
+    },
+    "initials": "TV"
+  },
+  {
+    "id": "wilson-thompson-kathleen-1680",
+    "cik": "1331680",
+    "name": "Wilson-Thompson Kathleen",
+    "title": "Director",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "Director"
+    },
+    "initials": "WK"
+  },
+  {
+    "id": "murdoch-james-r-0590",
+    "cik": "1420590",
+    "name": "MURDOCH JAMES R",
+    "title": "Director",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "Director"
+    },
+    "initials": "MJ"
+  },
+  {
+    "id": "musk-kimbal-4731",
+    "cik": "1494731",
+    "name": "Musk Kimbal",
+    "title": "Director",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "Director"
+    },
+    "initials": "MK"
+  },
+  {
+    "id": "musk-elon-4730",
+    "cik": "1494730",
+    "name": "Musk Elon",
+    "title": "CEO",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "CEO"
+    },
+    "initials": "ME"
+  },
+  {
+    "id": "zhu-xiaotong-2928",
+    "cik": "1972928",
+    "name": "Zhu Xiaotong",
+    "title": "SVP, APAC and",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "SVP, APAC and"
+    },
+    "initials": "ZX"
+  },
+  {
+    "id": "ehrenpreis-ira-matthew-2598",
+    "cik": "1412598",
+    "name": "Ehrenpreis Ira Matthew",
+    "title": "Director",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "Director"
+    },
+    "initials": "EI"
+  },
+  {
+    "id": "denholm-robyn-m-2782",
+    "cik": "1242782",
+    "name": "DENHOLM ROBYN M",
+    "title": "Director",
+    "company": "TSLA",
+    "roles": {
+      "TSLA": "Director"
+    },
+    "initials": "DR"
+  },
+  {
+    "id": "herrington-douglas-j-6006",
+    "cik": "1936006",
+    "name": "Herrington Douglas J",
+    "title": "CEO Worldwide Amazon Stores",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "CEO Worldwide Amazon Stores"
+    },
+    "initials": "HD"
+  },
+  {
+    "id": "jassy-andrew-r-4545",
+    "cik": "1374545",
+    "name": "Jassy Andrew R",
+    "title": "President and CEO",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "President and CEO"
+    },
+    "initials": "JA"
+  },
+  {
+    "id": "garman-matthew-s-4813",
+    "cik": "2024813",
+    "name": "Garman Matthew S",
+    "title": "CEO Amazon Web Services",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "CEO Amazon Web Services"
+    },
+    "initials": "GM"
+  },
+  {
+    "id": "zapolsky-david-7979",
+    "cik": "1557979",
+    "name": "Zapolsky David",
+    "title": "Senior Vice President",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "Senior Vice President"
+    },
+    "initials": "ZD"
+  },
+  {
+    "id": "olsavsky-brian-t-9902",
+    "cik": "1639902",
+    "name": "Olsavsky Brian T",
+    "title": "Senior Vice President and CFO",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "Senior Vice President and CFO"
+    },
+    "initials": "OB"
+  },
+  {
+    "id": "reynolds-shelley-7333",
+    "cik": "1397333",
+    "name": "Reynolds Shelley",
+    "title": "Vice President",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "Vice President"
+    },
+    "initials": "RS"
+  },
+  {
+    "id": "bezos-jeffrey-p-3298",
+    "cik": "1043298",
+    "name": "BEZOS JEFFREY P",
+    "title": "Executive Chair",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "Executive Chair"
+    },
+    "initials": "BJ"
+  },
+  {
+    "id": "rubinstein-jonathan-9522",
+    "cik": "1209522",
+    "name": "RUBINSTEIN JONATHAN",
+    "title": "Director",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "Director"
+    },
+    "initials": "RJ"
+  },
+  {
+    "id": "arnold-frances-5419",
+    "cik": "1665419",
+    "name": "ARNOLD FRANCES",
+    "title": "Director",
+    "company": "GOOGL",
+    "roles": {
+      "GOOGL": "Director"
+    },
+    "initials": "AF"
+  },
+  {
+    "id": "saraci-marsida-8895",
+    "cik": "2138895",
+    "name": "Saraci Marsida",
+    "title": "VP, Chief Accounting Officer",
+    "company": "GOOGL",
+    "roles": {
+      "GOOGL": "VP, Chief Accounting Officer"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "cox-christopher-k-7459",
+    "cik": "1607459",
+    "name": "Cox Christopher K",
+    "title": "Chief Product Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Product Officer"
+    },
+    "initials": "CC"
+  },
+  {
+    "id": "olivan-javier-4475",
+    "cik": "1564475",
+    "name": "Olivan Javier",
+    "title": "Chief Operating Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Operating Officer"
+    },
+    "initials": "OJ"
+  },
+  {
+    "id": "anderson-aaron-5073",
+    "cik": "1645073",
+    "name": "Anderson Aaron",
+    "title": "Chief Accounting Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Accounting Officer"
+    },
+    "initials": "AA"
+  },
+  {
+    "id": "mahoney-curtis-j-5423",
+    "cik": "2105423",
+    "name": "Mahoney Curtis J.",
+    "title": "Chief Legal Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Legal Officer"
+    },
+    "initials": "MC"
+  },
+  {
+    "id": "li-susan-j-9092",
+    "cik": "1739092",
+    "name": "LI SUSAN J",
+    "title": "Chief Financial Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Financial Officer"
+    },
+    "initials": "LS"
+  },
+  {
+    "id": "bosworth-andrew-7373",
+    "cik": "1917373",
+    "name": "Bosworth Andrew",
+    "title": "Chief Technology Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Technology Officer"
+    },
+    "initials": "BA"
+  },
+  {
+    "id": "andreessen-marc-l-0077",
+    "cik": "1160077",
+    "name": "Andreessen Marc L",
+    "title": "Director",
+    "company": "META",
+    "roles": {
+      "META": "Director"
+    },
+    "initials": "AM"
+  },
+  {
+    "id": "kimmitt-robert-m-1218",
+    "cik": "1181218",
+    "name": "KIMMITT ROBERT M",
+    "title": "Director",
+    "company": "META",
+    "roles": {
+      "META": "Director"
+    },
+    "initials": "KR"
+  },
+  {
+    "id": "alford-peggy-6236",
+    "cik": "1736236",
+    "name": "Alford Peggy",
+    "title": "Director",
+    "company": "META",
+    "roles": {
+      "META": "Director"
+    },
+    "initials": "AP"
+  },
+  {
+    "id": "barton-richard-n-4230",
+    "cik": "1184230",
+    "name": "BARTON RICHARD N",
+    "title": "Director",
+    "company": "NFLX",
+    "roles": {
+      "NFLX": "Director"
+    },
+    "initials": "BR"
+  },
+  {
+    "id": "neumann-spencer-adam-3133",
+    "cik": "1543133",
+    "name": "Neumann Spencer Adam",
+    "title": "Chief Financial Officer",
+    "company": "NFLX",
+    "roles": {
+      "NFLX": "Chief Financial Officer"
+    },
+    "initials": "NS"
+  },
+  {
+    "id": "peters-gregory-k-3109",
+    "cik": "1583109",
+    "name": "Peters Gregory K",
+    "title": "Co-CEO",
+    "company": "NFLX",
+    "roles": {
+      "NFLX": "Co-CEO"
+    },
+    "initials": "PG"
+  },
+  {
+    "id": "hyman-david-a-7747",
+    "cik": "1507747",
+    "name": "HYMAN DAVID A",
+    "title": "Chief Legal Officer",
+    "company": "NFLX",
+    "roles": {
+      "NFLX": "Chief Legal Officer"
+    },
+    "initials": "HD"
+  },
+  {
+    "id": "sarandos-theodore-a-3838",
+    "cik": "1393838",
+    "name": "SARANDOS THEODORE A",
+    "title": "Co-CEO",
+    "company": "NFLX",
+    "roles": {
+      "NFLX": "Co-CEO"
+    },
+    "initials": "ST"
+  },
+  {
+    "id": "denman-kenneth-d-4779",
+    "cik": "1254779",
+    "name": "DENMAN KENNETH D",
+    "title": "Director",
+    "company": "COST",
+    "roles": {
+      "COST": "Director"
+    },
+    "initials": "DK"
+  },
+  {
+    "id": "frates-caton-8633",
+    "cik": "1928633",
+    "name": "Frates Caton",
+    "title": "Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Executive Vice President"
+    },
+    "initials": "FC"
+  },
+  {
+    "id": "adamo-claudine-6124",
+    "cik": "1916124",
+    "name": "Adamo Claudine",
+    "title": "Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Executive Vice President"
+    },
+    "initials": "AC"
+  },
+  {
+    "id": "jones-teresa-a-1064",
+    "cik": "2031064",
+    "name": "Jones Teresa A.",
+    "title": "Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Executive Vice President"
+    },
+    "initials": "JT"
+  },
+  {
+    "id": "decker-susan-l-4655",
+    "cik": "1234655",
+    "name": "DECKER SUSAN L",
+    "title": "Director",
+    "company": "COST",
+    "roles": {
+      "COST": "Director"
+    },
+    "initials": "DS"
+  },
+  {
+    "id": "klauer-james-c-9360",
+    "cik": "1729360",
+    "name": "Klauer James C",
+    "title": "Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Executive Vice President"
+    },
+    "initials": "KJ"
+  },
+  {
+    "id": "miller-russell-d-9741",
+    "cik": "1729741",
+    "name": "Miller Russell D",
+    "title": "Sr. Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Sr. Executive Vice President"
+    },
+    "initials": "MR"
+  },
+  {
+    "id": "polit-javier-2700",
+    "cik": "1852700",
+    "name": "POLIT JAVIER",
+    "title": "Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Executive Vice President"
+    },
+    "initials": "PJ"
+  },
+  {
+    "id": "wilcox-william-richard-7546",
+    "cik": "2087546",
+    "name": "Wilcox William Richard",
+    "title": "Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Executive Vice President"
+    },
+    "initials": "WW"
+  },
+  {
+    "id": "barbre-tiffany-marie-6006",
+    "cik": "2076006",
+    "name": "Barbre Tiffany Marie",
+    "title": "Reporting Person",
+    "company": "COST",
+    "roles": {
+      "COST": "Reporting Person"
+    },
+    "initials": "BT"
+  },
+  {
+    "id": "hazelbaker-jill-5297",
+    "cik": "1775297",
+    "name": "Hazelbaker Jill",
+    "title": "See Remarks",
+    "company": "UBER",
+    "roles": {
+      "UBER": "See Remarks"
+    },
+    "initials": "HJ"
+  },
+  {
+    "id": "khosrowshahi-dara-4237",
+    "cik": "1184237",
+    "name": "KHOSROWSHAHI DARA",
+    "title": "Chief Executive Officer",
+    "company": "UBER",
+    "roles": {
+      "UBER": "Chief Executive Officer"
+    },
+    "initials": "KD"
+  },
+  {
+    "id": "macdonald-andrew-1761",
+    "cik": "2071761",
+    "name": "Macdonald Andrew",
+    "title": "See Remarks",
+    "company": "UBER",
+    "roles": {
+      "UBER": "See Remarks"
+    },
+    "initials": "MA"
+  },
+  {
+    "id": "woodford-brent-1698",
+    "cik": "1211698",
+    "name": "WOODFORD BRENT",
+    "title": "EVP, Control, Fin Plan & Tax",
+    "company": "DIS",
+    "roles": {
+      "DIS": "EVP, Control, Fin Plan & Tax"
+    },
+    "initials": "WB"
+  },
+  {
+    "id": "roeder-paul-m-1555",
+    "cik": "2121555",
+    "name": "Roeder Paul M",
+    "title": "Sr EVP and Chief Comm Officer",
+    "company": "DIS",
+    "roles": {
+      "DIS": "Sr EVP and Chief Comm Officer"
+    },
+    "initials": "RP"
+  },
+  {
+    "id": "chang-amy-1504",
+    "cik": "1551504",
+    "name": "Chang Amy",
+    "title": "Director",
+    "company": "DIS",
+    "roles": {
+      "DIS": "Director"
+    },
+    "initials": "CA"
+  },
+  {
+    "id": "coleman-sonia-l-9984",
+    "cik": "1969984",
+    "name": "Coleman Sonia L",
+    "title": "Sr. EVP & Chief People Officer",
+    "company": "DIS",
+    "roles": {
+      "DIS": "Sr. EVP & Chief People Officer"
+    },
+    "initials": "CS"
+  }
+]

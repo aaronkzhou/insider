@@ -46,7 +46,7 @@ export default function Layout() {
       </main>
 
       <footer className="mx-auto max-w-6xl px-4 pb-8 pt-2 text-xs sm:px-6" style={{ color: 'var(--text-muted)' }}>
-        Illustrative mock data for UI demonstration purposes only — not real SEC filings or investment advice.
+        Real transaction data sourced from public SEC EDGAR Form 4 filings. Not investment advice.
       </footer>
     </div>
   )
