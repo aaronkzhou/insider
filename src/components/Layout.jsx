@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import ThemeToggle from './ThemeToggle'
+import LogoMark from './LogoMark'
 
 const navLinkClass =
   'border-b-2 px-1 py-1 text-[13px] font-semibold uppercase tracking-wide transition-colors'
@@ -17,12 +18,7 @@ export default function Layout() {
       >
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
           <NavLink to="/" className="flex items-center gap-2">
-            <span
-              className="flex h-7 w-7 items-center justify-center rounded-md text-sm font-bold text-white"
-              style={{ background: 'var(--accent)' }}
-            >
-              I
-            </span>
+            <LogoMark size={28} />
             <span className="text-sm font-bold tracking-tight" style={{ color: 'var(--text-primary)' }}>
               INSIDER DESK
             </span>

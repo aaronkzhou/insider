@@ -23,9 +23,12 @@ const REQUEST_DELAY_MS = 300
 const parser = new XMLParser({ ignoreAttributes: false })
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
-const [, , last, first, ...years] = process.argv
+const rawArgs = process.argv.slice(2)
+const spouseFlag = rawArgs.find((a) => a.startsWith('--spouse='))
+const spouseName = spouseFlag ? spouseFlag.slice('--spouse='.length) : null
+const [last, first, ...years] = rawArgs.filter((a) => !a.startsWith('--'))
 if (!last || !first || years.length === 0) {
-  console.error('Usage: node scripts/add-congress-member.mjs "Last" "First" YEAR [YEAR...]')
+  console.error('Usage: node scripts/add-congress-member.mjs "Last" "First" YEAR [YEAR...] [--spouse="Full Name"]')
   process.exit(1)
 }
 
@@ -193,19 +196,29 @@ async function main() {
     }
   }
 
+  const hasSpouseTrades = trades.some((t) => t.owner === 'Spouse')
+  const combinedName = spouseName && hasSpouseTrades ? `${displayName} & ${spouseName}` : displayName
+
   const people = JSON.parse(readFileSync('src/data/generated/people.json', 'utf8'))
   let p = people.find((x) => x.id === personId)
   if (!p) {
     p = {
       id: personId,
       cik: null,
-      name: displayName,
+      name: combinedName,
       title: 'Member of Congress',
       company: null,
       roles: {},
-      initials: displayName.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]?.toUpperCase()).join(''),
+      initials: combinedName.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]?.toUpperCase()).join(''),
     }
     people.push(p)
+  }
+  // Keep the display name current even on repeat runs (e.g. once spousal
+  // trades first appear, or if it was created before --spouse was passed).
+  p.name = combinedName
+  p.initials = combinedName.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]?.toUpperCase()).join('')
+  if (spouseName && hasSpouseTrades) {
+    p.title = `Member of Congress — trades below include disclosed transactions by spouse ${spouseName}`
   }
   p.congressional = true
   p.congressionalTrades = trades.sort((a, b) => new Date(b.date) - new Date(a.date))

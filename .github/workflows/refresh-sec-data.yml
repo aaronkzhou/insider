@@ -40,7 +40,7 @@ jobs:
         run: |
           YEAR=$(date -u +%Y)
           LAST_YEAR=$((YEAR - 1))
-          node scripts/add-congress-member.mjs "Pelosi" "Nancy" "$LAST_YEAR" "$YEAR"
+          node scripts/add-congress-member.mjs "Pelosi" "Nancy" "$LAST_YEAR" "$YEAR" --spouse="Paul Pelosi"
 
       - name: Commit and push if data changed
         run: |
