@@ -713,5 +713,280 @@
       "DIS": "Sr. EVP & Chief People Officer"
     },
     "initials": "CS"
+  },
+  {
+    "id": "moore-alexander-d-3952",
+    "cik": "1823952",
+    "name": "Moore Alexander D.",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "MA"
+  },
+  {
+    "id": "stat-lauren-elaina-friedman-0244",
+    "cik": "1840244",
+    "name": "Stat Lauren Elaina Friedman",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "SL"
+  },
+  {
+    "id": "buckley-jeffrey-5189",
+    "cik": "1705189",
+    "name": "Buckley Jeffrey",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "BJ"
+  },
+  {
+    "id": "karp-alexander-c-3951",
+    "cik": "1823951",
+    "name": "Karp Alexander C.",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "KA"
+  },
+  {
+    "id": "sankar-shyam-4159",
+    "cik": "1824159",
+    "name": "Sankar Shyam",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "SS"
+  },
+  {
+    "id": "glazer-david-a-3940",
+    "cik": "1823940",
+    "name": "Glazer David A.",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "GD"
+  },
+  {
+    "id": "taylor-ryan-d-3923",
+    "cik": "1823923",
+    "name": "Taylor Ryan D.",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "TR"
+  },
+  {
+    "id": "cohen-stephen-andrew-3920",
+    "cik": "1823920",
+    "name": "Cohen Stephen Andrew",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "CS"
+  },
+  {
+    "id": "thiel-peter-1060",
+    "cik": "1211060",
+    "name": "THIEL PETER",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "TP"
+  },
+  {
+    "id": "norrod-forrest-eugene-2864",
+    "cik": "1622864",
+    "name": "Norrod Forrest Eugene",
+    "title": "EVP & GM DSG",
+    "company": "AMD",
+    "roles": {
+      "AMD": "EVP & GM DSG"
+    },
+    "initials": "NF"
+  },
+  {
+    "id": "su-lisa-t-5109",
+    "cik": "1405109",
+    "name": "Su Lisa T",
+    "title": "Chair, President & CEO",
+    "company": "AMD",
+    "roles": {
+      "AMD": "Chair, President & CEO"
+    },
+    "initials": "SL"
+  },
+  {
+    "id": "hu-jean-x-2385",
+    "cik": "1452385",
+    "name": "Hu Jean X.",
+    "title": "EVP, CFO and Treasurer",
+    "company": "AMD",
+    "roles": {
+      "AMD": "EVP, CFO and Treasurer"
+    },
+    "initials": "HJ"
+  },
+  {
+    "id": "papermaster-mark-d-9649",
+    "cik": "1449649",
+    "name": "Papermaster Mark D",
+    "title": "Chief Technology Officer & EVP",
+    "company": "AMD",
+    "roles": {
+      "AMD": "Chief Technology Officer & EVP"
+    },
+    "initials": "PM"
+  },
+  {
+    "id": "hahn-ava-7376",
+    "cik": "1267376",
+    "name": "Hahn Ava",
+    "title": "SVP, GC & Corporate Secretary",
+    "company": "AMD",
+    "roles": {
+      "AMD": "SVP, GC & Corporate Secretary"
+    },
+    "initials": "HA"
+  },
+  {
+    "id": "grasby-paul-darren-8248",
+    "cik": "1768248",
+    "name": "GRASBY PAUL DARREN",
+    "title": "EVP & CSO",
+    "company": "AMD",
+    "roles": {
+      "AMD": "EVP & CSO"
+    },
+    "initials": "GP"
+  },
+  {
+    "id": "denzel-nora-8351",
+    "cik": "1418351",
+    "name": "Denzel Nora",
+    "title": "Director",
+    "company": "AMD",
+    "roles": {
+      "AMD": "Director"
+    },
+    "initials": "DN"
+  },
+  {
+    "id": "brazeal-mark-david-7720",
+    "cik": "1627720",
+    "name": "Brazeal Mark David",
+    "title": "Chief Legal & Corp Affairs Ofc",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "Chief Legal & Corp Affairs Ofc"
+    },
+    "initials": "BM"
+  },
+  {
+    "id": "delly-gayla-j-8358",
+    "cik": "1218358",
+    "name": "DELLY GAYLA J",
+    "title": "Director",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "Director"
+    },
+    "initials": "DG"
+  },
+  {
+    "id": "page-justine-9561",
+    "cik": "1359561",
+    "name": "PAGE JUSTINE",
+    "title": "Director",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "Director"
+    },
+    "initials": "PJ"
+  },
+  {
+    "id": "samueli-henry-1633",
+    "cik": "1201633",
+    "name": "SAMUELI HENRY",
+    "title": "Director",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "Director"
+    },
+    "initials": "SH"
+  },
+  {
+    "id": "you-harry-l-2602",
+    "cik": "1432602",
+    "name": "You Harry L.",
+    "title": "Director",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "Director"
+    },
+    "initials": "YH"
+  },
+  {
+    "id": "velaga-s-ram-3553",
+    "cik": "2103553",
+    "name": "Velaga S. Ram",
+    "title": "President, ISG",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "President, ISG"
+    },
+    "initials": "VS"
+  },
+  {
+    "id": "kawwas-charlie-b-8425",
+    "cik": "1608425",
+    "name": "Kawwas Charlie B",
+    "title": "President, SSG",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "President, SSG"
+    },
+    "initials": "KC"
+  },
+  {
+    "id": "spears-kirsten-m-0725",
+    "cik": "1670725",
+    "name": "Spears Kirsten M.",
+    "title": "CFO & Chief Accounting Officer",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "CFO & Chief Accounting Officer"
+    },
+    "initials": "SK"
+  },
+  {
+    "id": "tan-hock-e-1588",
+    "cik": "1211588",
+    "name": "TAN HOCK E",
+    "title": "President and CEO",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "President and CEO"
+    },
+    "initials": "TH"
   }
 ]

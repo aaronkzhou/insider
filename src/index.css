@@ -71,6 +71,12 @@ body,
   height: 100%;
 }
 
+html {
+  /* Tailwind's text-* and spacing (p-*, gap-*, m-*) utilities are rem-based,
+     so shrinking the root font-size compacts the whole app proportionally. */
+  font-size: 87.5%;
+}
+
 body {
   background: var(--page-plane);
   color: var(--text-primary);

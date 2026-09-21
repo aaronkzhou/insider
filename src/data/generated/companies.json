@@ -70,5 +70,29 @@
     "sector": "Media",
     "price": 107.13,
     "priceAsOf": "2026-09-01"
+  },
+  "DJT": {
+    "name": "Trump Media & Technology Group Corp.",
+    "sector": "Media",
+    "price": null,
+    "priceAsOf": null
+  },
+  "PLTR": {
+    "name": "Palantir Technologies Inc.",
+    "sector": "Technology",
+    "price": 172.64,
+    "priceAsOf": "2026-09-15"
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices Inc.",
+    "sector": "Semiconductors",
+    "price": 503.05,
+    "priceAsOf": "2026-09-15"
+  },
+  "AVGO": {
+    "name": "Broadcom Inc.",
+    "sector": "Semiconductors",
+    "price": 401.33,
+    "priceAsOf": "2026-07-10"
   }
 }

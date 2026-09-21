@@ -28,6 +28,10 @@ const COMPANIES = [
   { ticker: 'COST', cik: '0000909832', name: 'Costco Wholesale Corp.', sector: 'Retail' },
   { ticker: 'UBER', cik: '0001543151', name: 'Uber Technologies, Inc.', sector: 'Transportation' },
   { ticker: 'DIS', cik: '0001744489', name: 'Walt Disney Co.', sector: 'Media' },
+  { ticker: 'DJT', cik: '0001849635', name: 'Trump Media & Technology Group Corp.', sector: 'Media' },
+  { ticker: 'PLTR', cik: '0001321655', name: 'Palantir Technologies Inc.', sector: 'Technology' },
+  { ticker: 'AMD', cik: '0000002488', name: 'Advanced Micro Devices Inc.', sector: 'Semiconductors' },
+  { ticker: 'AVGO', cik: '0001730168', name: 'Broadcom Inc.', sector: 'Semiconductors' },
 ]
 
 const parser = new XMLParser({ ignoreAttributes: false })
