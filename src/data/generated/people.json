@@ -988,5 +988,78 @@
       "AVGO": "President and CEO"
     },
     "initials": "TH"
+  },
+  {
+    "id": "donald-trump-jr-6181",
+    "cik": "2016181",
+    "name": "Donald Trump Jr.",
+    "title": "Director",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Director",
+      "PEW": "Director",
+      "DJT": "Director"
+    },
+    "initials": "DT",
+    "staticHoldings": [
+      {
+        "ticker": "PSQH",
+        "shares": 891847,
+        "asOfDate": "2026-08-13",
+        "sourceEvent": "award",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000201618126000005/0002016181-26-000005-index.htm"
+      },
+      {
+        "ticker": "PEW",
+        "shares": 311433,
+        "asOfDate": "2026-06-23",
+        "sourceEvent": "option exercise",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000121390026071536/0001213900-26-071536-index.htm"
+      },
+      {
+        "ticker": "DJT",
+        "shares": 61098,
+        "asOfDate": "2026-06-19",
+        "sourceEvent": "award",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000143774926021434/0001437749-26-021434-index.htm"
+      }
+    ]
+  },
+  {
+    "id": "donald-j-trump-7033",
+    "cik": "947033",
+    "name": "Donald J. Trump",
+    "title": "10% Owner",
+    "company": "DJT",
+    "roles": {
+      "DJT": "10% Owner",
+      "TRMP": "Director",
+      "DJTE.PK": "Chairman of the Board & CEO",
+      "RIV": "Reporting Person"
+    },
+    "initials": "DJ",
+    "staticHoldings": [
+      {
+        "ticker": "DJT",
+        "shares": 0,
+        "asOfDate": "2024-12-17",
+        "sourceEvent": "gift",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000147450624000291/0001474506-24-000291-index.htm"
+      },
+      {
+        "ticker": "TRMP",
+        "shares": 1220145,
+        "asOfDate": "2006-05-10",
+        "sourceEvent": "other",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914006000728/0000899140-06-000728-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "shares": 12173,
+        "asOfDate": "2005-05-19",
+        "sourceEvent": "other",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      }
+    ]
   }
 ]

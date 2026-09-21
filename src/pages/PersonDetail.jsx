@@ -110,6 +110,7 @@ export default function PersonDetail() {
                   </div>
                   <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
                     {fmtShares(h.shares)} sh · as of {fmtDate(h.asOfDate)}
+                    {h.sourceEvent && ` · via ${h.sourceEvent}, not a market trade`}
                   </div>
                 </div>
                 <div className="text-right">
@@ -117,7 +118,7 @@ export default function PersonDetail() {
                     {fmtCurrency(h.value)}
                   </div>
                   <div className="text-xs tabular-nums" style={{ color: 'var(--text-muted)' }}>
-                    @ ${h.price?.toFixed(2) ?? '—'}
+                    {h.price ? `@ $${h.price.toFixed(2)}` : 'no market price on file'}
                   </div>
                 </div>
               </div>

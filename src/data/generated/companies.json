@@ -94,5 +94,35 @@
     "sector": "Semiconductors",
     "price": 401.33,
     "priceAsOf": "2026-07-10"
+  },
+  "PSQH": {
+    "name": "PSQ Holdings, Inc.",
+    "sector": "E-Commerce",
+    "price": null,
+    "priceAsOf": null
+  },
+  "PEW": {
+    "name": "Digital World Acquisition Corp. (Perception Capital / PEW)",
+    "sector": "Financials",
+    "price": null,
+    "priceAsOf": null
+  },
+  "TRMP": {
+    "name": "Trump Entertainment Resorts, Inc.",
+    "sector": "Gaming",
+    "price": null,
+    "priceAsOf": null
+  },
+  "DJTE.PK": {
+    "name": "Trump Entertainment Resorts Holdings (Pink Sheets)",
+    "sector": "Gaming",
+    "price": null,
+    "priceAsOf": null
+  },
+  "RIV": {
+    "name": "Riviera Holdings Corp.",
+    "sector": "Gaming",
+    "price": null,
+    "priceAsOf": null
   }
 }

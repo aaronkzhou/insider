@@ -1,4 +1,5 @@
 import { companies } from '../data/companies'
+import { getPerson } from '../data/people'
 import { transactions } from '../data/transactions'
 
 export function txValue(tx) {
@@ -30,7 +31,17 @@ export function personHoldings(personId) {
     if (tx.sharesOwnedAfter == null) continue
     const existing = byTicker[tx.ticker]
     if (!existing || new Date(tx.date) > new Date(existing.date)) {
-      byTicker[tx.ticker] = { date: tx.date, shares: tx.sharesOwnedAfter }
+      byTicker[tx.ticker] = { date: tx.date, shares: tx.sharesOwnedAfter, sourceEvent: null }
+    }
+  }
+
+  // Some people have real filings with no open-market trade (a stock award
+  // or gift, say) — still a real, sourced position, just not from buying or
+  // selling. Only fills in tickers with no P/S-derived holding above.
+  for (const h of getPerson(personId)?.staticHoldings ?? []) {
+    const existing = byTicker[h.ticker]
+    if (!existing || new Date(h.asOfDate) > new Date(existing.date)) {
+      byTicker[h.ticker] = { date: h.asOfDate, shares: h.shares, sourceEvent: h.sourceEvent, filingUrl: h.filingUrl }
     }
   }
 
@@ -47,6 +58,7 @@ export function personHoldings(personId) {
         priceAsOf: company?.priceAsOf ?? null,
         value: company?.price ? h.shares * company.price : null,
         asOfDate: h.date,
+        sourceEvent: h.sourceEvent,
       }
     })
     .sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
