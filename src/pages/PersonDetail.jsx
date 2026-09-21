@@ -1,0 +1,192 @@
+import { useMemo } from 'react'
+import { Link, useParams } from 'react-router-dom'
+import { getPerson } from '../data/people'
+import { companies } from '../data/companies'
+import {
+  fmtCurrency,
+  fmtDate,
+  fmtShares,
+  personHoldings,
+  personSummary,
+  personTransactionsWithRunningTotal,
+} from '../lib/portfolio'
+import StatTile from '../components/StatTile'
+import StatusPill from '../components/StatusPill'
+import HoldingsChart from '../components/HoldingsChart'
+
+export default function PersonDetail() {
+  const { id } = useParams()
+  const person = getPerson(id)
+
+  const holdings = useMemo(() => (person ? personHoldings(person.id) : []), [person])
+  const summary = useMemo(() => (person ? personSummary(person.id) : null), [person])
+  const history = useMemo(() => (person ? personTransactionsWithRunningTotal(person.id) : []), [person])
+
+  if (!person) {
+    return (
+      <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+        Insider not found.{' '}
+        <Link to="/people" className="underline" style={{ color: 'var(--accent)' }}>
+          Back to people
+        </Link>
+      </div>
+    )
+  }
+
+  const primaryCompany = companies[person.company]
+  const net = summary.buyValue - summary.sellValue
+  const otherRoles = Object.entries(person.roles ?? {}).filter(([ticker]) => ticker !== person.company)
+
+  return (
+    <div>
+      <Link to="/people" className="mb-4 inline-flex text-xs font-medium" style={{ color: 'var(--text-muted)' }}>
+        ← Back to people
+      </Link>
+
+      <div className="mb-6 flex flex-wrap items-center gap-4">
+        <div
+          className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg text-lg font-semibold text-white"
+          style={{ background: 'var(--accent)' }}
+        >
+          {person.initials}
+        </div>
+        <div>
+          <h1 className="text-xl font-semibold" style={{ color: 'var(--text-primary)' }}>
+            {person.name}
+          </h1>
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+            {person.title} · {primaryCompany?.name} ({person.company})
+          </p>
+          {otherRoles.length > 0 && (
+            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              Also files as {otherRoles.map(([ticker, title]) => `${title} at ${ticker}`).join(', ')}
+            </p>
+          )}
+        </div>
+      </div>
+
+      <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <StatTile label="Portfolio value" value={fmtCurrency(summary.portfolioValue)} sublabel={`${holdings.length} holding${holdings.length === 1 ? '' : 's'}, reported`} />
+        <StatTile
+          label="Net activity"
+          value={`${net >= 0 ? '+' : ''}${fmtCurrency(net)}`}
+          tone={net >= 0 ? 'good' : 'critical'}
+          sublabel="bought minus sold"
+        />
+        <StatTile label="Buys" value={summary.buyCount} tone="good" sublabel={fmtCurrency(summary.buyValue)} />
+        <StatTile label="Sells" value={summary.sellCount} tone="critical" sublabel={fmtCurrency(summary.sellValue)} />
+      </div>
+
+      <div className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-5">
+        <div
+          className="rounded-lg border p-4 lg:col-span-3"
+          style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
+        >
+          <h2 className="mb-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+            Holdings by market value
+          </h2>
+          {holdings.length > 0 ? (
+            <HoldingsChart holdings={holdings} />
+          ) : (
+            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+              No open positions reported in the tracked filings.
+            </p>
+          )}
+        </div>
+
+        <div
+          className="rounded-lg border p-4 lg:col-span-2"
+          style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
+        >
+          <h2 className="mb-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+            Position detail
+          </h2>
+          <div className="space-y-3">
+            {holdings.map((h) => (
+              <div key={h.ticker} className="flex items-center justify-between text-sm">
+                <div>
+                  <div className="font-medium" style={{ color: 'var(--text-primary)' }}>
+                    {h.ticker}
+                  </div>
+                  <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                    {fmtShares(h.shares)} sh · as of {fmtDate(h.asOfDate)}
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="font-medium tabular-nums" style={{ color: 'var(--text-primary)' }}>
+                    {fmtCurrency(h.value)}
+                  </div>
+                  <div className="text-xs tabular-nums" style={{ color: 'var(--text-muted)' }}>
+                    @ ${h.price?.toFixed(2) ?? '—'}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <h2 className="mb-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+        Transaction history
+      </h2>
+      <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+        <table className="w-full min-w-[640px] border-collapse text-sm">
+          <thead>
+            <tr
+              className="text-left text-xs uppercase tracking-wide"
+              style={{ color: 'var(--text-muted)', borderBottom: '1px solid var(--gridline)' }}
+            >
+              <th className="px-4 py-2.5 font-medium">Company</th>
+              <th className="px-4 py-2.5 font-medium">Type</th>
+              <th className="px-4 py-2.5 text-right font-medium">Shares</th>
+              <th className="px-4 py-2.5 text-right font-medium">Price</th>
+              <th className="px-4 py-2.5 text-right font-medium">Shares owned after</th>
+              <th className="px-4 py-2.5 text-right font-medium">Date</th>
+              <th className="px-4 py-2.5 text-right font-medium">Filing</th>
+            </tr>
+          </thead>
+          <tbody>
+            {history.map((tx) => (
+              <tr key={tx.id} style={{ borderBottom: '1px solid var(--gridline)' }} className="last:border-b-0 transition-colors hover:bg-[var(--surface-2)]">
+                <td className="px-4 py-2.5 font-medium" style={{ color: 'var(--text-primary)' }}>
+                  {tx.ticker}
+                </td>
+                <td className="px-4 py-2.5">
+                  <StatusPill type={tx.type} />
+                </td>
+                <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                  {fmtShares(tx.shares)}
+                </td>
+                <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                  ${tx.price.toFixed(2)}
+                  {tx.tranches > 1 && (
+                    <span style={{ color: 'var(--text-muted)' }}> ({tx.tranches}x)</span>
+                  )}
+                </td>
+                <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                  {fmtShares(tx.sharesOwnedAfter)}
+                </td>
+                <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-muted)' }}>
+                  {fmtDate(tx.date)}
+                </td>
+                <td className="px-4 py-2.5 text-right">
+                  {tx.filingUrl && (
+                    <a
+                      href={tx.filingUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-xs font-medium hover:underline"
+                      style={{ color: 'var(--accent)' }}
+                    >
+                      SEC ↗
+                    </a>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}

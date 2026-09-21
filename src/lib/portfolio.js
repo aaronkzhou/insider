@@ -1,0 +1,172 @@
+import { companies } from '../data/companies'
+import { transactions } from '../data/transactions'
+
+export function txValue(tx) {
+  return tx.shares * tx.price
+}
+
+export function personTransactions(personId) {
+  return transactions
+    .filter((tx) => tx.personId === personId)
+    .slice()
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+}
+
+/** Each transaction already carries its own reported shares-owned-after (SEC filings report this directly). */
+export function personTransactionsWithRunningTotal(personId) {
+  return personTransactions(personId)
+}
+
+/**
+ * Current holdings by ticker for a person: shares + market value, using the
+ * shares-owned-after figure from their most recent filing on that ticker
+ * (the authoritative number SEC filers themselves report). No cost basis /
+ * gain% is shown — full purchase history isn't available, so we don't invent one.
+ */
+export function personHoldings(personId) {
+  const byTicker = {}
+  for (const tx of transactions) {
+    if (tx.personId !== personId) continue
+    if (tx.sharesOwnedAfter == null) continue
+    const existing = byTicker[tx.ticker]
+    if (!existing || new Date(tx.date) > new Date(existing.date)) {
+      byTicker[tx.ticker] = { date: tx.date, shares: tx.sharesOwnedAfter }
+    }
+  }
+
+  return Object.entries(byTicker)
+    .filter(([, h]) => h.shares > 0)
+    .map(([ticker, h]) => {
+      const company = companies[ticker]
+      return {
+        ticker,
+        name: company?.name ?? ticker,
+        sector: company?.sector,
+        shares: h.shares,
+        price: company?.price ?? null,
+        priceAsOf: company?.priceAsOf ?? null,
+        value: company?.price ? h.shares * company.price : null,
+        asOfDate: h.date,
+      }
+    })
+    .sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
+}
+
+export function personPortfolioValue(personId) {
+  return personHoldings(personId).reduce((sum, h) => sum + (h.value ?? 0), 0)
+}
+
+export function personSummary(personId) {
+  const txs = transactions.filter((tx) => tx.personId === personId)
+  const buys = txs.filter((tx) => tx.type === 'buy')
+  const sells = txs.filter((tx) => tx.type === 'sell')
+  const last = txs.slice().sort((a, b) => new Date(b.date) - new Date(a.date))[0]
+  return {
+    tradeCount: txs.length,
+    buyCount: buys.length,
+    sellCount: sells.length,
+    buyValue: buys.reduce((s, tx) => s + txValue(tx), 0),
+    sellValue: sells.reduce((s, tx) => s + txValue(tx), 0),
+    lastTradeDate: last?.date,
+    lastTradeType: last?.type,
+    portfolioValue: personPortfolioValue(personId),
+    tickers: [...new Set(txs.map((tx) => tx.ticker))],
+  }
+}
+
+export function allTransactionsSorted() {
+  return transactions.slice().sort((a, b) => new Date(b.date) - new Date(a.date))
+}
+
+export function marketSummary() {
+  const buyValue = transactions
+    .filter((tx) => tx.type === 'buy')
+    .reduce((s, tx) => s + txValue(tx), 0)
+  const sellValue = transactions
+    .filter((tx) => tx.type === 'sell')
+    .reduce((s, tx) => s + txValue(tx), 0)
+  return {
+    buyValue,
+    sellValue,
+    netValue: buyValue - sellValue,
+    tradeCount: transactions.length,
+  }
+}
+
+/**
+ * Cluster detection: 2+ distinct insiders trading the same ticker, same
+ * direction (buy or sell), within `windowDays` of each other — the classic
+ * "insiders moving together" signal insider-trading trackers surface.
+ */
+export function detectClusters(windowDays = 5) {
+  const groups = {}
+  for (const tx of transactions) {
+    const key = `${tx.ticker}|${tx.type}`
+    ;(groups[key] ??= []).push(tx)
+  }
+
+  const clusters = []
+  for (const txs of Object.values(groups)) {
+    const sorted = txs.slice().sort((a, b) => new Date(a.date) - new Date(b.date))
+    let current = []
+    for (const tx of sorted) {
+      if (current.length === 0) {
+        current = [tx]
+        continue
+      }
+      const clusterStart = new Date(current[0].date)
+      const diffDays = (new Date(tx.date) - clusterStart) / 86_400_000
+      if (diffDays <= windowDays) {
+        current.push(tx)
+      } else {
+        pushCluster(current, clusters)
+        current = [tx]
+      }
+    }
+    pushCluster(current, clusters)
+  }
+
+  return clusters.sort((a, b) => new Date(b.endDate) - new Date(a.endDate))
+}
+
+function pushCluster(txs, clusters) {
+  const personIds = [...new Set(txs.map((t) => t.personId))]
+  if (personIds.length < 2) return
+  const dates = txs.map((t) => t.date).sort()
+  clusters.push({
+    ticker: txs[0].ticker,
+    type: txs[0].type,
+    txs: txs.slice().sort((a, b) => new Date(a.date) - new Date(b.date)),
+    personIds,
+    startDate: dates[0],
+    endDate: dates[dates.length - 1],
+    totalValue: txs.reduce((s, t) => s + txValue(t), 0),
+    totalShares: txs.reduce((s, t) => s + t.shares, 0),
+  })
+}
+
+export function fmtCurrency(value, opts = {}) {
+  if (value == null) return '—'
+  const abs = Math.abs(value)
+  if (abs >= 1_000_000) {
+    return `${value < 0 ? '-' : ''}$${(abs / 1_000_000).toFixed(2)}M`
+  }
+  if (abs >= 1_000) {
+    return `${value < 0 ? '-' : ''}$${(abs / 1_000).toFixed(1)}K`
+  }
+  return value.toLocaleString('en-US', { style: 'currency', currency: 'USD', ...opts })
+}
+
+export function fmtShares(value) {
+  if (value == null) return '—'
+  return value.toLocaleString('en-US')
+}
+
+export function fmtDate(iso) {
+  if (!iso) return '—'
+  return new Date(iso).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })
+}

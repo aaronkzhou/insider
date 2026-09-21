@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/* Blur-inspired: near-black surfaces, sharp edges, dense tables, dark by default. */
+:root {
+  color-scheme: dark;
+
+  --surface-1: #111112;
+  --surface-2: #18181a;
+  --page-plane: #09090a;
+  --text-primary: #f5f5f4;
+  --text-secondary: #9a9a9e;
+  --text-muted: #6b6b70;
+  --gridline: #232326;
+  --baseline: #313135;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  --accent: #4e7fff;
+  --accent-hover: #6b93ff;
+  --accent-soft: rgba(78, 127, 255, 0.14);
+
+  --series-1: #4e7fff;
+  --series-2: #e56a3d;
+  --series-3: #22b083;
+  --series-4: #d6a400;
+  --series-5: #9d8bf0;
+
+  --status-good: #17c964;
+  --status-good-bg: rgba(23, 201, 100, 0.14);
+  --status-critical: #f5455c;
+  --status-critical-bg: rgba(245, 69, 92, 0.14);
+  --status-warning: #f5a623;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --surface-1: #ffffff;
+  --surface-2: #fcfcfb;
+  --page-plane: #f4f4f3;
+  --text-primary: #0b0b0c;
+  --text-secondary: #52515a;
+  --text-muted: #86858c;
+  --gridline: #e5e4e2;
+  --baseline: #c7c6c9;
+  --border: rgba(11, 11, 12, 0.1);
+  --border-strong: rgba(11, 11, 12, 0.18);
+
+  --accent: #2a5ce0;
+  --accent-hover: #1c48c2;
+  --accent-soft: rgba(42, 92, 224, 0.1);
+
+  --series-1: #2a5ce0;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #b98300;
+  --series-5: #6a4fd6;
+
+  --status-good: #0ca34c;
+  --status-good-bg: #e3f7ec;
+  --status-critical: #d0243f;
+  --status-critical-bg: #fbe7ea;
+  --status-warning: #b9790a;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--page-plane);
+  color: var(--text-primary);
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  border-color: var(--border);
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 6px;
+}
