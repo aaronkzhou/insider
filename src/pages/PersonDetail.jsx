@@ -13,6 +13,7 @@ import {
 import StatTile from '../components/StatTile'
 import StatusPill from '../components/StatusPill'
 import HoldingsChart from '../components/HoldingsChart'
+import CongressionalDetail from './CongressionalDetail'
 
 export default function PersonDetail() {
   const { id } = useParams()
@@ -31,6 +32,13 @@ export default function PersonDetail() {
         </Link>
       </div>
     )
+  }
+
+  // Congressional STOCK Act disclosures are a different filing system and
+  // data shape (dollar ranges, no position size) — a separate page, not
+  // forced into the SEC Form 4 layout.
+  if (person.congressional) {
+    return <CongressionalDetail person={person} />
   }
 
   const primaryCompany = companies[person.company]
@@ -240,6 +248,147 @@ export default function PersonDetail() {
         </table>
       </div>
       </>
+      )}
+
+      {person.optionPositions?.length > 0 && (
+        <div className="mt-6">
+          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
+            Options &amp; derivative holdings
+          </h2>
+          <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            Real stock options, RSUs, and warrants from Form 4's derivative table — never a market trade.
+          </p>
+          <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+            <table className="w-full min-w-[640px] border-collapse text-sm">
+              <thead>
+                <tr
+                  className="text-left text-xs uppercase tracking-wide"
+                  style={{ color: 'var(--text-muted)', borderBottom: '1px solid var(--gridline)' }}
+                >
+                  <th className="px-4 py-2.5 font-medium">Company</th>
+                  <th className="px-4 py-2.5 font-medium">Security</th>
+                  <th className="px-4 py-2.5 font-medium">Event</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Underlying shares</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Exercise price</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Expires</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Date</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Filing</th>
+                </tr>
+              </thead>
+              <tbody>
+                {person.optionPositions.map((op, i) => (
+                  <tr
+                    key={`${op.accession}-${i}`}
+                    style={{ borderBottom: '1px solid var(--gridline)' }}
+                    className="last:border-b-0 transition-colors hover:bg-[var(--surface-2)]"
+                  >
+                    <td className="px-4 py-2.5 font-medium" style={{ color: 'var(--text-primary)' }}>
+                      {op.ticker}
+                    </td>
+                    <td className="px-4 py-2.5 text-xs" style={{ color: 'var(--text-secondary)' }}>
+                      {op.securityTitle}
+                    </td>
+                    <td className="px-4 py-2.5 text-xs capitalize" style={{ color: 'var(--text-muted)' }}>
+                      {op.eventType}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {op.underlyingShares != null ? fmtShares(op.underlyingShares) : '—'}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {op.exercisePrice != null ? `$${op.exercisePrice.toFixed(2)}` : '—'}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-muted)' }}>
+                      {op.expirationDate ? fmtDate(op.expirationDate) : '—'}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-muted)' }}>
+                      {fmtDate(op.date)}
+                    </td>
+                    <td className="px-4 py-2.5 text-right">
+                      {op.filingUrl && (
+                        <a
+                          href={op.filingUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-xs font-medium hover:underline"
+                          style={{ color: 'var(--accent)' }}
+                        >
+                          SEC ↗
+                        </a>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {person.otherEvents?.length > 0 && (
+        <div className="mt-6">
+          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
+            Other real filing events
+          </h2>
+          <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            Real, sourced events that aren't open-market trades — stock awards, gifts, option exercises, tax
+            withholding. Shown for transparency; excluded from the buy/sell feed and stats above.
+          </p>
+          <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+            <table className="w-full min-w-[560px] border-collapse text-sm">
+              <thead>
+                <tr
+                  className="text-left text-xs uppercase tracking-wide"
+                  style={{ color: 'var(--text-muted)', borderBottom: '1px solid var(--gridline)' }}
+                >
+                  <th className="px-4 py-2.5 font-medium">Company</th>
+                  <th className="px-4 py-2.5 font-medium">Event</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Shares</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Shares owned after</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Date</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Filing</th>
+                </tr>
+              </thead>
+              <tbody>
+                {person.otherEvents.map((ev, i) => (
+                  <tr
+                    key={`${ev.accession}-${i}`}
+                    style={{ borderBottom: '1px solid var(--gridline)' }}
+                    className="last:border-b-0 transition-colors hover:bg-[var(--surface-2)]"
+                  >
+                    <td className="px-4 py-2.5 font-medium" style={{ color: 'var(--text-primary)' }}>
+                      {ev.ticker}
+                    </td>
+                    <td className="px-4 py-2.5 text-xs capitalize" style={{ color: 'var(--text-muted)' }}>
+                      {ev.eventType}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {fmtShares(ev.shares)}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {ev.sharesOwnedAfter != null ? fmtShares(ev.sharesOwnedAfter) : '—'}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-muted)' }}>
+                      {fmtDate(ev.date)}
+                    </td>
+                    <td className="px-4 py-2.5 text-right">
+                      {ev.filingUrl && (
+                        <a
+                          href={ev.filingUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-xs font-medium hover:underline"
+                          style={{ color: 'var(--accent)' }}
+                        >
+                          SEC ↗
+                        </a>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       )}
     </div>
   )

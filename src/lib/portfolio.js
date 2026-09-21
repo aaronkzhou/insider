@@ -88,6 +88,27 @@ export function personSummary(personId) {
   }
 }
 
+/**
+ * Congressional STOCK Act disclosures (person.congressionalTrades) report
+ * dollar RANGES, not exact figures, and never a resulting position size — so
+ * there's no portfolio value to compute, only trade counts and range totals.
+ */
+export function personCongressionalSummary(personId) {
+  const trades = getPerson(personId)?.congressionalTrades ?? []
+  const buys = trades.filter((t) => t.type === 'buy')
+  const sells = trades.filter((t) => t.type === 'sell')
+  const last = trades[0] // already sorted newest-first by the fetch script
+  return {
+    tradeCount: trades.length,
+    buyCount: buys.length,
+    sellCount: sells.length,
+    lowTotal: trades.reduce((s, t) => s + t.amountLow, 0),
+    highTotal: trades.reduce((s, t) => s + t.amountHigh, 0),
+    lastTradeDate: last?.date,
+    tickers: [...new Set(trades.map((t) => t.ticker).filter(Boolean))],
+  }
+}
+
 export function allTransactionsSorted() {
   return transactions.slice().sort((a, b) => new Date(b.date) - new Date(a.date))
 }

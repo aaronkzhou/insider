@@ -75,6 +75,9 @@ const CODE_LABEL = {
   M: 'option exercise',
   F: 'tax withholding',
   C: 'conversion',
+  X: 'option exercise',
+  D: 'disposition to issuer',
+  J: 'other',
 }
 
 async function main() {
@@ -88,6 +91,8 @@ async function main() {
   const roles = {}
   const holdingsByTicker = {} // ticker -> { shares, date, source: {code, accession} }
   const newBuySell = []
+  const otherEvents = [] // every non-P/S nonDerivative event, for real transaction history (not the buy/sell feed)
+  const optionEvents = [] // every derivative-table event (options, RSUs, warrants)
   let personId = null
 
   for (const filing of filings) {
@@ -143,18 +148,58 @@ async function main() {
           filingUrl: filing.indexHref,
         })
         console.log(`  + ${code === 'P' ? 'BUY' : 'SELL'} ${ticker} ${shares} sh @ $${price} on ${date} (${filing.accession})`)
-      } else if (Number.isFinite(sharesOwnedAfter)) {
-        const existing = holdingsByTicker[ticker]
-        if (!existing || new Date(date) > new Date(existing.date)) {
-          holdingsByTicker[ticker] = {
-            shares: sharesOwnedAfter,
-            date,
-            eventType: CODE_LABEL[code] ?? 'other',
-            accession: filing.accession,
-            filingUrl: filing.indexHref,
+      } else {
+        if (Number.isFinite(sharesOwnedAfter)) {
+          const existing = holdingsByTicker[ticker]
+          if (!existing || new Date(date) > new Date(existing.date)) {
+            holdingsByTicker[ticker] = {
+              shares: sharesOwnedAfter,
+              date,
+              eventType: CODE_LABEL[code] ?? 'other',
+              accession: filing.accession,
+              filingUrl: filing.indexHref,
+            }
           }
         }
+        if (shares) {
+          otherEvents.push({
+            ticker,
+            code,
+            eventType: CODE_LABEL[code] ?? code ?? 'other',
+            shares,
+            price: price || null,
+            date,
+            sharesOwnedAfter: Number.isFinite(sharesOwnedAfter) ? sharesOwnedAfter : null,
+            accession: filing.accession,
+            filingUrl: filing.indexHref,
+          })
+        }
       }
+    }
+
+    // Derivative table: stock options, RSUs, warrants — real disclosed positions,
+    // never a market buy/sell, kept fully separate from the transaction feed.
+    const deriv = asArray(root.derivativeTable?.derivativeTransaction)
+    for (const t of deriv) {
+      const code = t.transactionCoding?.transactionCode
+      const date = t.transactionDate?.value
+      const underlyingShares = Number(t.underlyingSecurity?.underlyingSecurityShares?.value)
+      const exercisePrice = Number(t.conversionOrExercisePrice?.value)
+      const sharesOwnedAfter = Number(t.postTransactionAmounts?.sharesOwnedFollowingTransaction?.value)
+      if (!date) continue
+      optionEvents.push({
+        ticker,
+        securityTitle: t.securityTitle?.value ?? 'Derivative security',
+        code,
+        eventType: CODE_LABEL[code] ?? code ?? 'other',
+        underlyingShares: Number.isFinite(underlyingShares) ? underlyingShares : null,
+        exercisePrice: Number.isFinite(exercisePrice) ? exercisePrice : null,
+        expirationDate: t.expirationDate?.value ?? null,
+        sharesOwnedAfter: Number.isFinite(sharesOwnedAfter) ? sharesOwnedAfter : null,
+        date,
+        accession: filing.accession,
+        filingUrl: filing.indexHref,
+      })
     }
   }
 
@@ -189,6 +234,13 @@ async function main() {
     filingUrl: h.filingUrl,
   }))
 
+  // Every real filing event that isn't a market buy/sell (awards, gifts,
+  // exercises, tax withholding) — shown as real history, never as a trade.
+  p.otherEvents = otherEvents.sort((a, b) => new Date(b.date) - new Date(a.date))
+
+  // Real derivative/option positions (stock options, RSUs, warrants).
+  p.optionPositions = optionEvents.sort((a, b) => new Date(b.date) - new Date(a.date))
+
   // Safe to re-run (e.g. from a daily cron): skip transactions already recorded.
   const existingKeys = new Set(transactions.map((t) => `${t.personId}|${t.ticker}|${t.type}|${t.date}|${t.accession}`))
   const freshBuySell = newBuySell.filter((t) => !existingKeys.has(`${t.personId}|${t.ticker}|${t.type}|${t.date}|${t.accession}`))
@@ -205,7 +257,11 @@ async function main() {
   writeFileSync('src/data/generated/transactions.json', JSON.stringify(transactions, null, 2) + '\n')
   writeFileSync('src/data/generated/companies.json', JSON.stringify(companies, null, 2) + '\n')
 
-  console.log(`\nDone. ${freshBuySell.length} new buy/sell transaction(s) (${newBuySell.length} total on file), ${p.staticHoldings.length} holdings snapshot(s) for ${displayName}.`)
+  console.log(
+    `\nDone. ${freshBuySell.length} new buy/sell (${newBuySell.length} total), ` +
+      `${p.otherEvents.length} other filing event(s), ${p.optionPositions.length} derivative/option event(s), ` +
+      `${p.staticHoldings.length} holdings snapshot(s) for ${displayName}.`,
+  )
 }
 
 main().catch((err) => {

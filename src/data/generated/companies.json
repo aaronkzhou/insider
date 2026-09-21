@@ -130,5 +130,23 @@
     "sector": null,
     "price": null,
     "priceAsOf": null
+  },
+  "SPCX": {
+    "name": "SPCX",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "EDR": {
+    "name": "EDR",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "SCTY": {
+    "name": "SCTY",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
   }
 }

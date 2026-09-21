@@ -24,6 +24,7 @@
     "@vitejs/plugin-react": "^6.1.1",
     "fast-xml-parser": "^5.11.1",
     "oxlint": "^1.81.0",
+    "pdf-parse": "^2.4.5",
     "vite": "^8.3.0"
   }
 }

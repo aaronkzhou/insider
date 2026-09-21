@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { people } from '../data/people'
 import { companies } from '../data/companies'
-import { fmtCurrency, fmtDate, personSummary } from '../lib/portfolio'
+import { fmtCurrency, fmtDate, personCongressionalSummary, personSummary } from '../lib/portfolio'
 
 // Explicitly requested focus people — shown first, larger. Order is the
 // order they appear. Everyone else still shows below, just more compact.
@@ -12,6 +12,7 @@ const FEATURED_IDS = [
   'donald-trump-jr-6181', // Donald Trump Jr.
   'thiel-peter-1060', // Peter Thiel
   'situational-awareness-lp-5724', // Leopold Aschenbrenner's fund
+  'nancy-pelosi-congress', // Nancy & Paul Pelosi (congressional disclosures)
 ]
 
 function matches(person, q) {
@@ -30,13 +31,16 @@ export default function PeopleList() {
     const q = search.trim().toLowerCase()
     const withSummary = people
       .filter((p) => matches(p, q))
-      .map((person) => ({ person, summary: personSummary(person.id) }))
+      .map((person) => ({
+        person,
+        summary: person.congressional ? personCongressionalSummary(person.id) : personSummary(person.id),
+      }))
 
     const featured = FEATURED_IDS.map((id) => withSummary.find((r) => r.person.id === id)).filter(Boolean)
     const featuredIds = new Set(featured.map((r) => r.person.id))
     const rest = withSummary
       .filter((r) => !featuredIds.has(r.person.id))
-      .sort((a, b) => b.summary.portfolioValue - a.summary.portfolioValue)
+      .sort((a, b) => (b.summary.portfolioValue ?? 0) - (a.summary.portfolioValue ?? 0))
 
     return { featured, rest }
   }, [search])
@@ -94,6 +98,60 @@ export default function PeopleList() {
 
 function FeaturedCard({ person, summary }) {
   const primaryCompany = companies[person.company]
+
+  if (person.congressional) {
+    return (
+      <Link
+        to={`/people/${person.id}`}
+        className="rounded-lg border p-5 transition-colors hover:border-[var(--accent)]"
+        style={{ background: 'var(--surface-1)', borderColor: 'var(--border-strong)' }}
+      >
+        <div className="flex items-center gap-4">
+          <div
+            className="flex h-16 w-16 shrink-0 items-center justify-center rounded-lg text-xl font-bold text-white"
+            style={{ background: 'var(--accent)' }}
+          >
+            {person.initials}
+          </div>
+          <div className="min-w-0">
+            <div className="truncate text-lg font-bold" style={{ color: 'var(--text-primary)' }}>
+              {person.name}
+            </div>
+            <div className="truncate text-sm" style={{ color: 'var(--text-muted)' }}>
+              {person.title}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-4 grid grid-cols-2 gap-3">
+          <div>
+            <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              Disclosed range total
+            </div>
+            <div className="mt-0.5 text-base font-bold tabular-nums" style={{ color: 'var(--text-primary)' }}>
+              {fmtCurrency(summary.lowTotal)} – {fmtCurrency(summary.highTotal)}
+            </div>
+          </div>
+          <div>
+            <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              Trades
+            </div>
+            <div className="mt-0.5 text-xl font-bold tabular-nums" style={{ color: 'var(--text-primary)' }}>
+              {summary.tradeCount}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-3 flex items-center justify-between text-xs" style={{ color: 'var(--text-muted)' }}>
+          <span>
+            {summary.buyCount} buys · {summary.sellCount} sells · {summary.tickers.length} companies
+          </span>
+          <span>Last: {fmtDate(summary.lastTradeDate)}</span>
+        </div>
+      </Link>
+    )
+  }
+
   const net = summary.buyValue - summary.sellValue
   return (
     <Link
@@ -153,7 +211,7 @@ function FeaturedCard({ person, summary }) {
 }
 
 function CompactCard({ person, summary }) {
-  const net = summary.buyValue - summary.sellValue
+  const net = person.congressional ? 0 : summary.buyValue - summary.sellValue
   return (
     <Link
       to={`/people/${person.id}`}

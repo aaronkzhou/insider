@@ -25,10 +25,22 @@ jobs:
       - name: Fetch latest SEC Form 4 data (tracked companies)
         run: npm run fetch:sec
 
-      - name: Refresh individually-tracked people
+      - name: Refresh individually-tracked people (real Form 4 filers)
         run: |
           node scripts/add-person.mjs "Donald Trump Jr." 2016181
           node scripts/add-person.mjs "Donald J. Trump" 947033
+          node scripts/add-person.mjs "Musk Elon" 1494730
+
+      - name: Refresh fund portfolios (real 13F filers)
+        run: |
+          node scripts/add-fund.mjs "Situational Awareness LP" 2045724
+          node scripts/add-fund.mjs "Thiel Macro LLC" 1562087
+
+      - name: Refresh congressional disclosures (real STOCK Act PTRs)
+        run: |
+          YEAR=$(date -u +%Y)
+          LAST_YEAR=$((YEAR - 1))
+          node scripts/add-congress-member.mjs "Pelosi" "Nancy" "$LAST_YEAR" "$YEAR"
 
       - name: Commit and push if data changed
         run: |
