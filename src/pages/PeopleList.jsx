@@ -25,7 +25,7 @@ export default function PeopleList() {
   return (
     <div>
       <div className="mb-6">
-        <h1 className="text-xl font-semibold" style={{ color: 'var(--text-primary)' }}>
+        <h1 className="text-xl font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
           Insiders
         </h1>
         <p className="mt-1 text-sm" style={{ color: 'var(--text-secondary)' }}>

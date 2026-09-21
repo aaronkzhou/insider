@@ -165,9 +165,27 @@ export function fmtShares(value) {
   return value.toLocaleString('en-US')
 }
 
+/**
+ * `new Date("2026-09-17")` parses as UTC midnight, which renders as the
+ * previous day in any timezone behind UTC. Parse date-only strings as local
+ * calendar components instead so a filing date never silently shifts by a day.
+ */
+export function parseDateOnly(iso) {
+  const [y, m, d] = iso.split('-').map(Number)
+  return new Date(y, m - 1, d)
+}
+
+export function isoDay(date) {
+  const y = date.getFullYear()
+  const m = String(date.getMonth() + 1).padStart(2, '0')
+  const d = String(date.getDate()).padStart(2, '0')
+  return `${y}-${m}-${d}`
+}
+
 export function fmtDate(iso) {
   if (!iso) return '—'
-  return new Date(iso).toLocaleDateString('en-US', {
+  const date = /^\d{4}-\d{2}-\d{2}$/.test(iso) ? parseDateOnly(iso) : new Date(iso)
+  return date.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',

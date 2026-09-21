@@ -1,40 +1,29 @@
 import { useMemo, useState } from 'react'
 import StatTile from '../components/StatTile'
-import FilterBar from '../components/FilterBar'
 import TransactionTable from '../components/TransactionTable'
 import ActivityChart from '../components/ActivityChart'
 import ClusterActivity from '../components/ClusterActivity'
+import CalendarHeatmap from '../components/CalendarHeatmap'
 import { allTransactionsSorted, fmtCurrency, fmtDate, marketSummary } from '../lib/portfolio'
-import { getPerson } from '../data/people'
-import { companies } from '../data/companies'
 import meta from '../data/generated/meta.json'
 
 export default function Dashboard() {
-  const [type, setType] = useState('all')
-  const [search, setSearch] = useState('')
+  const [selectedDay, setSelectedDay] = useState(null)
 
   const summary = useMemo(() => marketSummary(), [])
   const all = useMemo(() => allTransactionsSorted(), [])
+  const buys = useMemo(() => all.filter((tx) => tx.type === 'buy'), [all])
+  const sells = useMemo(() => all.filter((tx) => tx.type === 'sell'), [all])
 
-  const filtered = useMemo(() => {
-    const q = search.trim().toLowerCase()
-    return all.filter((tx) => {
-      if (type !== 'all' && tx.type !== type) return false
-      if (!q) return true
-      const person = getPerson(tx.personId)
-      const company = companies[tx.ticker]
-      return (
-        person?.name.toLowerCase().includes(q) ||
-        tx.ticker.toLowerCase().includes(q) ||
-        company?.name.toLowerCase().includes(q)
-      )
-    })
-  }, [all, type, search])
+  const dayTxs = useMemo(
+    () => (selectedDay ? all.filter((tx) => tx.date === selectedDay) : []),
+    [all, selectedDay],
+  )
 
   return (
     <div>
       <div className="mb-6">
-        <h1 className="text-xl font-semibold" style={{ color: 'var(--text-primary)' }}>
+        <h1 className="text-xl font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
           Insider Activity Dashboard
         </h1>
         <p className="mt-1 text-sm" style={{ color: 'var(--text-secondary)' }}>
@@ -58,14 +47,14 @@ export default function Dashboard() {
         className="mb-6 rounded-lg border p-4"
         style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
       >
-        <h2 className="mb-2 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
           Monthly buy vs. sell value
         </h2>
         <ActivityChart />
       </div>
 
       <div className="mb-6">
-        <h2 className="mb-1 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+        <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
           Cluster activity
         </h2>
         <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
@@ -74,11 +63,61 @@ export default function Dashboard() {
         <ClusterActivity windowDays={5} />
       </div>
 
-      <h2 className="mb-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
-        Recent transactions
-      </h2>
-      <FilterBar type={type} onTypeChange={setType} search={search} onSearchChange={setSearch} />
-      <TransactionTable transactions={filtered} />
+      <div className="mb-6 grid grid-cols-1 gap-4">
+        <div
+          className="rounded-lg border p-4"
+          style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
+        >
+          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--status-good)' }}>
+            Buy activity
+          </h2>
+          <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            Each cell is one day — darker means more insiders bought. Hover for names, click for detail.
+          </p>
+          <CalendarHeatmap
+            transactions={buys}
+            colorVar="var(--status-good)"
+            onSelectDay={setSelectedDay}
+            selectedDay={selectedDay}
+          />
+        </div>
+
+        <div
+          className="rounded-lg border p-4"
+          style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
+        >
+          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--status-critical)' }}>
+            Sell activity
+          </h2>
+          <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            Each cell is one day — darker means more insiders sold. Hover for names, click for detail.
+          </p>
+          <CalendarHeatmap
+            transactions={sells}
+            colorVar="var(--status-critical)"
+            onSelectDay={setSelectedDay}
+            selectedDay={selectedDay}
+          />
+        </div>
+      </div>
+
+      {selectedDay && (
+        <div className="mb-6">
+          <div className="mb-3 flex items-center justify-between">
+            <h2 className="text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
+              {fmtDate(selectedDay)} — {dayTxs.length} transaction{dayTxs.length === 1 ? '' : 's'}
+            </h2>
+            <button
+              onClick={() => setSelectedDay(null)}
+              className="text-xs font-medium"
+              style={{ color: 'var(--text-muted)' }}
+            >
+              Clear ✕
+            </button>
+          </div>
+          <TransactionTable transactions={dayTxs} />
+        </div>
+      )}
 
       <p className="mt-6 text-xs" style={{ color: 'var(--text-muted)' }}>
         Source: {meta.source}. Fetched {fmtDate(meta.fetchedAt)}. Open-market purchase (code P) and sale (code S)

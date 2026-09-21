@@ -51,7 +51,7 @@ export default function PersonDetail() {
           {person.initials}
         </div>
         <div>
-          <h1 className="text-xl font-semibold" style={{ color: 'var(--text-primary)' }}>
+          <h1 className="text-xl font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
             {person.name}
           </h1>
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
@@ -82,7 +82,7 @@ export default function PersonDetail() {
           className="rounded-lg border p-4 lg:col-span-3"
           style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
         >
-          <h2 className="mb-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
             Holdings by market value
           </h2>
           {holdings.length > 0 ? (
@@ -98,7 +98,7 @@ export default function PersonDetail() {
           className="rounded-lg border p-4 lg:col-span-2"
           style={{ background: 'var(--surface-1)', borderColor: 'var(--border)' }}
         >
-          <h2 className="mb-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
             Position detail
           </h2>
           <div className="space-y-3">
@@ -126,7 +126,7 @@ export default function PersonDetail() {
         </div>
       </div>
 
-      <h2 className="mb-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+      <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
         Transaction history
       </h2>
       <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
