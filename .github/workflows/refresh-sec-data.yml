@@ -45,6 +45,10 @@ jobs:
           YEAR=$(date -u +%Y)
           LAST_YEAR=$((YEAR - 1))
           node scripts/add-congress-member.mjs "Pelosi" "Nancy" "$LAST_YEAR" "$YEAR" --spouse="Paul Pelosi"
+          # Annual Financial Disclosure Reports (the real asset/holdings
+          # schedule, filed once a year) land in the PRIOR calendar year's
+          # zip. Safe to re-run daily — it's a no-op once nothing new is filed.
+          node scripts/add-congress-annual-disclosure.mjs "Pelosi" "Nancy" "$LAST_YEAR"
 
       - name: Scan the market-wide firehose for untracked-stock clusters
         run: node scripts/scan-market-clusters.mjs

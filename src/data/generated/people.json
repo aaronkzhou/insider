@@ -3443,7 +3443,466 @@
         "docId": 20026590,
         "filingUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
       }
-    ]
+    ],
+    "annualAssetDisclosure": {
+      "formType": "House Annual Financial Disclosure Report (STOCK Act)",
+      "filingYear": 2025,
+      "filedDate": "5/15/2026",
+      "docId": 10075701,
+      "filingUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf",
+      "holdings": [
+        {
+          "name": "Zinfandel Lane - Home & Vineyard",
+          "ticker": null,
+          "assetType": "real estate",
+          "owner": "Joint",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "25 Point Lobos - Commercial Property",
+          "ticker": null,
+          "assetType": "real estate",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "45 Belden Place - Four Story Commercial Building",
+          "ticker": null,
+          "assetType": "real estate",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Units",
+          "ticker": "AB",
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Alphabet Inc. - Class A",
+          "ticker": "GOOGL",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "assetType": "option",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "assetType": "option",
+          "owner": "Spouse",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "name": "American Express Company",
+          "ticker": "AXP",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Apple Inc.",
+          "ticker": "AAPL",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "assetType": "option",
+          "owner": "Spouse",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "name": "Aristotle LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 15001,
+          "valueHigh": 50000
+        },
+        {
+          "name": "AT&T Inc.",
+          "ticker": "T",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "name": "Auberge du Soleil",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Class A Common Stock,",
+          "ticker": "SQ",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "name": "Borel Real Estate Company",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 15001,
+          "valueHigh": 50000
+        },
+        {
+          "name": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "assetType": "option",
+          "owner": "Spouse",
+          "valueLow": null,
+          "valueHigh": null
+        },
+        {
+          "name": "City Car Services LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 50001,
+          "valueHigh": 100000
+        },
+        {
+          "name": "Clean Energy Fuels Corp.",
+          "ticker": "CLNE",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 1001,
+          "valueHigh": 15000
+        },
+        {
+          "name": "Comcast Corporation - Class A",
+          "ticker": "CMCSA",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "name": "CrowdStrike Holdings, Inc. - Class A",
+          "ticker": "CRWD",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Dropbox, Inc. - Class A",
+          "ticker": "DBX",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "name": "EDI Associates",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "name": "Forge Investments, LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Forty-Five Belden Corporation",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Global Ambassador Concierge LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 15001,
+          "valueHigh": 50000
+        },
+        {
+          "name": "Interactive Brokers Group, Inc.",
+          "ticker": "IBKR",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "name": "Matthews International Mutual Fund",
+          "ticker": null,
+          "assetType": "mutual fund",
+          "owner": "Spouse",
+          "valueLow": null,
+          "valueHigh": null
+        },
+        {
+          "name": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Morningstar, Inc.",
+          "ticker": "MORN",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "name": "Nautilus Leasing Services",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 50001,
+          "valueHigh": 100000
+        },
+        {
+          "name": "Netflix, Inc.",
+          "ticker": "NFLX",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Nine Forty Five Battery LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "assetType": "option",
+          "owner": "Spouse",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "name": "Palo Alto Networks, Inc. - Common Stock",
+          "ticker": "PANW",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "PayPal Holdings, Inc.",
+          "ticker": "PYPL",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": null,
+          "valueHigh": null
+        },
+        {
+          "name": "Piatti Restaurant Company",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "QUALCOMM Incorporated",
+          "ticker": "QCOM",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 15001,
+          "valueHigh": 50000
+        },
+        {
+          "name": "REOF XX, LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "name": "REOF XXI, LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "name": "REOF XXII, LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "name": "REOF XXV, LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "name": "REOF XXVI, LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "name": "Roblox Corporation Class A",
+          "ticker": "RBLX",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "name": "Russell Ranch LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "name": "Salesforce.com Inc",
+          "ticker": "CRM",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Stoneridge LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "name": "Tempus AI, Inc. - Class A Common Stock",
+          "ticker": "TEM",
+          "assetType": "option",
+          "owner": "Spouse",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "name": "Thirteen Hundred One Sansome LLC",
+          "ticker": null,
+          "assetType": "business/fund interest",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Common Stock",
+          "ticker": null,
+          "assetType": "private stock",
+          "owner": "Spouse",
+          "valueLow": 1,
+          "valueHigh": 1000
+        },
+        {
+          "name": "Visa Inc.",
+          "ticker": "V",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 5000001,
+          "valueHigh": 25000000
+        },
+        {
+          "name": "Common Stock",
+          "ticker": "VST",
+          "assetType": "option",
+          "owner": "Spouse",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "name": "Walt Disney Company",
+          "ticker": "DIS",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": null,
+          "valueHigh": null
+        },
+        {
+          "name": "Discovery, Inc. - Series A",
+          "ticker": "WBD",
+          "assetType": "stock",
+          "owner": "Spouse",
+          "valueLow": 50001,
+          "valueHigh": 100000
+        }
+      ],
+      "lowTotal": 85561052,
+      "highTotal": 411516000
+    }
   },
   {
     "id": "tan-lip-bu-8463",
