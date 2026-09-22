@@ -6,8 +6,8 @@ import StatusPill from './StatusPill'
 
 const MAJOR_THRESHOLD = 4 // 4+ insiders moving together is the "highlight this" signal
 
-export default function ClusterActivity({ windowDays = 5, limit = 6 }) {
-  const clusters = detectClusters(windowDays).slice(0, limit)
+export default function ClusterActivity({ transactions, windowDays = 5, limit = 6 }) {
+  const clusters = detectClusters(transactions, windowDays).slice(0, limit)
 
   if (clusters.length === 0) {
     return (

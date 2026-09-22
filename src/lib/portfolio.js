@@ -116,19 +116,30 @@ export function allTransactionsSorted() {
   return transactions.slice().sort((a, b) => new Date(b.date) - new Date(a.date))
 }
 
-export function marketSummary() {
-  const buyValue = transactions
+/**
+ * Transactions span decades for some long-tenured filers (one goes back to
+ * 2004), which drowns out actual recent activity on the dashboard's
+ * aggregate views. Person detail pages still show full history — this is
+ * only for the market-wide summary/chart/cluster views.
+ */
+export function recentTransactions(days = 180) {
+  const cutoff = Date.now() - days * 86_400_000
+  return transactions.filter((tx) => parseDateOnly(tx.date).getTime() >= cutoff)
+}
+
+export function marketSummary(txs = transactions) {
+  const buyValue = txs
     .filter((tx) => tx.type === 'buy')
     .reduce((s, tx) => s + txValue(tx), 0)
-  const sellValue = transactions
+  const sellValue = txs
     .filter((tx) => tx.type === 'sell')
     .reduce((s, tx) => s + txValue(tx), 0)
-  const dates = transactions.map((tx) => tx.date).sort()
+  const dates = txs.map((tx) => tx.date).sort()
   return {
     buyValue,
     sellValue,
     netValue: buyValue - sellValue,
-    tradeCount: transactions.length,
+    tradeCount: txs.length,
     earliestDate: dates[0],
     latestDate: dates[dates.length - 1],
   }
@@ -139,9 +150,9 @@ export function marketSummary() {
  * direction (buy or sell), within `windowDays` of each other — the classic
  * "insiders moving together" signal insider-trading trackers surface.
  */
-export function detectClusters(windowDays = 5) {
+export function detectClusters(txs = transactions, windowDays = 5) {
   const groups = {}
-  for (const tx of transactions) {
+  for (const tx of txs) {
     const key = `${tx.ticker}|${tx.type}`
     ;(groups[key] ??= []).push(tx)
   }

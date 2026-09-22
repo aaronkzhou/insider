@@ -1,8 +1,8 @@
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
-import { transactions } from '../data/transactions'
+import { transactions as allTransactions } from '../data/transactions'
 import { fmtCurrency, txValue } from '../lib/portfolio'
 
-function buildMonthlyData() {
+function buildMonthlyData(transactions) {
   const byMonth = {}
   for (const tx of transactions) {
     const key = tx.date.slice(0, 7) // YYYY-MM
@@ -37,8 +37,8 @@ function ChartTooltip({ active, payload, label }) {
   )
 }
 
-export default function ActivityChart() {
-  const data = buildMonthlyData()
+export default function ActivityChart({ transactions = allTransactions }) {
+  const data = buildMonthlyData(transactions)
 
   return (
     <ResponsiveContainer width="100%" height={260}>

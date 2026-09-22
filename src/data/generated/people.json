@@ -235,16 +235,16 @@
     "staticHoldings": [
       {
         "ticker": "SPCX",
-        "shares": 808780270,
+        "shares": 2478170710,
         "asOfDate": "2026-06-15",
         "sourceEvent": "conversion",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000162828026044069/0001628280-26-044069-index.htm"
       },
       {
         "ticker": "TSLA",
-        "shares": 727704534,
+        "shares": 1851029320,
         "asOfDate": "2026-06-16",
-        "sourceEvent": "option exercise",
+        "sourceEvent": "option exercise; tax withholding; held indirectly (By Trust)",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000110465926075213/0001104659-26-075213-index.htm"
       },
       {
@@ -740,12 +740,34 @@
         "ticker": "SCTY",
         "code": "J",
         "eventType": "other",
+        "shares": 43,
+        "price": null,
+        "date": "2015-09-08",
+        "sharesOwnedAfter": 20805125,
+        "accession": "0001408356-15-000081",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000140835615000081/0001408356-15-000081-index.htm"
+      },
+      {
+        "ticker": "SCTY",
+        "code": "J",
+        "eventType": "other",
         "shares": 44,
         "price": null,
         "date": "2015-08-04",
         "sharesOwnedAfter": 20681572,
         "accession": "0001408356-15-000058",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000140835615000058/0001408356-15-000058-index.htm"
+      },
+      {
+        "ticker": "SCTY",
+        "code": "J",
+        "eventType": "other",
+        "shares": 43,
+        "price": null,
+        "date": "2015-06-12",
+        "sharesOwnedAfter": 20681528,
+        "accession": "0001408356-15-000050",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000140835615000050/0001408356-15-000050-index.htm"
       },
       {
         "ticker": "SCTY",
@@ -2152,10 +2174,152 @@
       },
       {
         "ticker": "DJT",
-        "shares": 61098,
+        "shares": 114811098,
         "asOfDate": "2026-06-19",
-        "sourceEvent": "award",
+        "sourceEvent": "award; held indirectly (See Footnote 4)",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000143774926021434/0001437749-26-021434-index.htm"
+      }
+    ],
+    "otherEvents": [
+      {
+        "ticker": "PSQH",
+        "code": "A",
+        "eventType": "award",
+        "shares": 69444,
+        "price": 3.6,
+        "date": "2026-08-13",
+        "sharesOwnedAfter": 891847,
+        "accession": "0002016181-26-000005",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000201618126000005/0002016181-26-000005-index.htm"
+      },
+      {
+        "ticker": "PSQH",
+        "code": "A",
+        "eventType": "award",
+        "shares": 125000,
+        "price": null,
+        "date": "2026-07-09",
+        "sharesOwnedAfter": 822403,
+        "accession": "0002016181-26-000003",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000201618126000003/0002016181-26-000003-index.htm"
+      },
+      {
+        "ticker": "PEW",
+        "code": "M",
+        "eventType": "option exercise",
+        "shares": 11433,
+        "price": null,
+        "date": "2026-06-23",
+        "sharesOwnedAfter": 311433,
+        "accession": "0001213900-26-071536",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000121390026071536/0001213900-26-071536-index.htm"
+      },
+      {
+        "ticker": "DJT",
+        "code": "A",
+        "eventType": "award",
+        "shares": 23600,
+        "price": null,
+        "date": "2026-06-19",
+        "sharesOwnedAfter": 61098,
+        "accession": "0001437749-26-021434",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000143774926021434/0001437749-26-021434-index.htm"
+      },
+      {
+        "ticker": "DJT",
+        "code": "A",
+        "eventType": "award",
+        "shares": 11552,
+        "price": null,
+        "date": "2025-08-22",
+        "sharesOwnedAfter": 37498,
+        "accession": "0001474506-25-000155",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000147450625000155/0001474506-25-000155-index.htm"
+      },
+      {
+        "ticker": "PSQH",
+        "code": "A",
+        "eventType": "award",
+        "shares": 71429,
+        "price": null,
+        "date": "2025-06-18",
+        "sharesOwnedAfter": 697403,
+        "accession": "0001474506-25-000115",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000147450625000115/0001474506-25-000115-index.htm"
+      },
+      {
+        "ticker": "DJT",
+        "code": "A",
+        "eventType": "award",
+        "shares": 25946,
+        "price": null,
+        "date": "2025-01-28",
+        "sharesOwnedAfter": 25946,
+        "accession": "0001474506-25-000024",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000147450625000024/0001474506-25-000024-index.htm"
+      },
+      {
+        "ticker": "DJT",
+        "code": "G",
+        "eventType": "gift",
+        "shares": 114750000,
+        "price": null,
+        "date": "2024-12-17",
+        "sharesOwnedAfter": 114750000,
+        "accession": "0001474506-24-000290",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000147450624000290/0001474506-24-000290-index.htm"
+      },
+      {
+        "ticker": "PSQH",
+        "code": "A",
+        "eventType": "award",
+        "shares": 74627,
+        "price": null,
+        "date": "2024-12-06",
+        "sharesOwnedAfter": 625974,
+        "accession": "0001474506-24-000274",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000147450624000274/0001474506-24-000274-index.htm"
+      }
+    ],
+    "optionPositions": [
+      {
+        "ticker": "PEW",
+        "securityTitle": "Restricted Stock Units",
+        "code": "A",
+        "eventType": "award",
+        "underlyingShares": 48638,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 48638,
+        "date": "2026-07-15",
+        "accession": "0001213900-26-079297",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000121390026079297/0001213900-26-079297-index.htm"
+      },
+      {
+        "ticker": "PEW",
+        "securityTitle": "Restricted Stock Units",
+        "code": "M",
+        "eventType": "option exercise",
+        "underlyingShares": 11433,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2026-06-23",
+        "accession": "0001213900-26-071536",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000121390026071536/0001213900-26-071536-index.htm"
+      },
+      {
+        "ticker": "PEW",
+        "securityTitle": "Restricted Stock Unit",
+        "code": "A",
+        "eventType": "award",
+        "underlyingShares": 11433,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 11433,
+        "date": "2025-07-16",
+        "accession": "0001213900-25-064825",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000121390025064825/0001213900-25-064825-index.htm"
       }
     ]
   },
@@ -2175,16 +2339,16 @@
     "staticHoldings": [
       {
         "ticker": "DJT",
-        "shares": 0,
+        "shares": 114750000,
         "asOfDate": "2024-12-17",
-        "sourceEvent": "gift",
+        "sourceEvent": "gift; held indirectly (Held by Donald J. Trump Revocable Trust Dated April 7, 2014)",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000147450624000291/0001474506-24-000291-index.htm"
       },
       {
         "ticker": "TRMP",
         "shares": 1220145,
         "asOfDate": "2006-05-10",
-        "sourceEvent": "other",
+        "sourceEvent": "option exercise",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914006000728/0000899140-06-000728-index.htm"
       },
       {
@@ -2193,6 +2357,262 @@
         "asOfDate": "2005-05-19",
         "sourceEvent": "other",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      }
+    ],
+    "otherEvents": [
+      {
+        "ticker": "DJT",
+        "code": "G",
+        "eventType": "gift",
+        "shares": 114750000,
+        "price": null,
+        "date": "2024-12-17",
+        "sharesOwnedAfter": 0,
+        "accession": "0001474506-24-000291",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000147450624000291/0001474506-24-000291-index.htm"
+      },
+      {
+        "ticker": "DJT",
+        "code": "J",
+        "eventType": "other",
+        "shares": 36000000,
+        "price": null,
+        "date": "2024-04-26",
+        "sharesOwnedAfter": 114750000,
+        "accession": "0001474506-24-000146",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000147450624000146/0001474506-24-000146-index.htm"
+      },
+      {
+        "ticker": "TRMP",
+        "code": "X",
+        "eventType": "option exercise",
+        "shares": 1217933,
+        "price": 14.6,
+        "date": "2006-05-10",
+        "sharesOwnedAfter": 1220145,
+        "accession": "0000899140-06-000728",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914006000728/0000899140-06-000728-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "code": "J",
+        "eventType": "other",
+        "shares": 2212,
+        "price": null,
+        "date": "2005-05-19",
+        "sharesOwnedAfter": 12173,
+        "accession": "0000899140-05-000489",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      }
+    ],
+    "optionPositions": [
+      {
+        "ticker": "DJT",
+        "securityTitle": "Right to receive Earnout Shares",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 36000000,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2024-04-26",
+        "accession": "0001474506-24-000146",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000147450624000146/0001474506-24-000146-index.htm"
+      },
+      {
+        "ticker": "TRMP",
+        "securityTitle": "Class A Limited Partnership Interests (right to acquire)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 4821880,
+        "exercisePrice": 0,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2009-02-13",
+        "accession": "0000899140-09-000582",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914009000582/0000899140-09-000582-index.htm"
+      },
+      {
+        "ticker": "TRMP",
+        "securityTitle": "Class B Limited Partnership Interests (right to acquire)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 4554197,
+        "exercisePrice": 0,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2009-02-13",
+        "accession": "0000899140-09-000582",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914009000582/0000899140-09-000582-index.htm"
+      },
+      {
+        "ticker": "TRMP",
+        "securityTitle": "Common Stock Warrant (right to buy)",
+        "code": "X",
+        "eventType": "option exercise",
+        "underlyingShares": 1217933,
+        "exercisePrice": 14.6,
+        "expirationDate": "2006-05-20",
+        "sharesOwnedAfter": 0,
+        "date": "2006-05-10",
+        "accession": "0000899140-06-000728",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914006000728/0000899140-06-000728-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "securityTitle": "Class A Limited Partnership Intersts (right to acquire)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 4821880,
+        "exercisePrice": 0,
+        "expirationDate": null,
+        "sharesOwnedAfter": 4821880,
+        "date": "2005-05-20",
+        "accession": "0000899140-05-000489",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "securityTitle": "Class A Limited Partnership Interests (right to acquire)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 1407,
+        "exercisePrice": 0,
+        "expirationDate": null,
+        "sharesOwnedAfter": 1407,
+        "date": "2005-05-20",
+        "accession": "0000899140-05-000489",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "securityTitle": "Class B Limited Partnership Interests (right to acquire)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 4554197,
+        "exercisePrice": 0,
+        "expirationDate": null,
+        "sharesOwnedAfter": 4554197,
+        "date": "2005-05-20",
+        "accession": "0000899140-05-000489",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "securityTitle": "Common Stock Warrant (right to buy)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 1217933,
+        "exercisePrice": 14.6,
+        "expirationDate": "2006-05-20",
+        "sharesOwnedAfter": 1217933,
+        "date": "2005-05-20",
+        "accession": "0000899140-05-000489",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "securityTitle": "Common Stock Warrant (right to buy)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 1446706,
+        "exercisePrice": 21.9,
+        "expirationDate": "2015-05-20",
+        "sharesOwnedAfter": 1446706,
+        "date": "2005-05-20",
+        "accession": "0000899140-05-000489",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      },
+      {
+        "ticker": "DJTE.PK",
+        "securityTitle": "Limited Partnership Interest (right to acquire)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 2211250,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2005-05-19",
+        "accession": "0000899140-05-000489",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089914005000489/0000899140-05-000489-index.htm"
+      },
+      {
+        "ticker": "RIV",
+        "securityTitle": "Option (Right to sell)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 350000,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2004-04-05",
+        "accession": "0000898080-04-000199",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089808004000199/0000898080-04-000199-index.htm"
+      },
+      {
+        "ticker": "RIV",
+        "securityTitle": "Option (Right to sell)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 8000,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2004-04-05",
+        "accession": "0000898080-04-000199",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089808004000199/0000898080-04-000199-index.htm"
+      },
+      {
+        "ticker": "RIV",
+        "securityTitle": "Option (Obligation to sell)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 350000,
+        "exercisePrice": null,
+        "expirationDate": "2003-12-31",
+        "sharesOwnedAfter": 0,
+        "date": "2003-12-18",
+        "accession": "0000898080-03-000598",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089808003000598/0000898080-03-000598-index.htm"
+      },
+      {
+        "ticker": "RIV",
+        "securityTitle": "Option (Obligation to sell)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 8000,
+        "exercisePrice": null,
+        "expirationDate": "2003-12-31",
+        "sharesOwnedAfter": 0,
+        "date": "2003-12-18",
+        "accession": "0000898080-03-000598",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089808003000598/0000898080-03-000598-index.htm"
+      },
+      {
+        "ticker": "RIV",
+        "securityTitle": "Option (Obligation to sell)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 350000,
+        "exercisePrice": null,
+        "expirationDate": "2004-12-31",
+        "sharesOwnedAfter": 350000,
+        "date": "2003-12-18",
+        "accession": "0000898080-03-000598",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089808003000598/0000898080-03-000598-index.htm"
+      },
+      {
+        "ticker": "RIV",
+        "securityTitle": "Option (Obligation to sell)",
+        "code": "J",
+        "eventType": "other",
+        "underlyingShares": 8000,
+        "exercisePrice": null,
+        "expirationDate": "2004-12-31",
+        "sharesOwnedAfter": 8000,
+        "date": "2003-12-18",
+        "accession": "0000898080-03-000598",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/947033/000089808003000598/0000898080-03-000598-index.htm"
       }
     ]
   },
@@ -3635,5 +4055,38 @@
       "PEW": "Director"
     },
     "initials": "CC"
+  },
+  {
+    "id": "nelson-julie-4394",
+    "cik": "1914394",
+    "name": "Nelson Julie",
+    "title": "Chief Operating Officer",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Chief Operating Officer"
+    },
+    "initials": "NJ"
+  },
+  {
+    "id": "lee-david-j-5182",
+    "cik": "1605182",
+    "name": "Lee David J.",
+    "title": "Director",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Director"
+    },
+    "initials": "LD"
+  },
+  {
+    "id": "willis-j-kevin-5329",
+    "cik": "1575329",
+    "name": "WILLIS J KEVIN",
+    "title": "Director",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Director"
+    },
+    "initials": "WJ"
   }
 ]

@@ -168,10 +168,10 @@
     "priceAsOf": "2026-08-21"
   },
   "APPH": {
-    "name": "APPH",
-    "sector": null,
-    "price": null,
-    "priceAsOf": null
+    "name": "AppHarvest, Inc.",
+    "sector": "Agriculture",
+    "price": 1.22,
+    "priceAsOf": "2022-11-21"
   },
   "DJT": {
     "name": "Trump Media & Technology Group Corp.",

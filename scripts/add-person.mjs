@@ -80,6 +80,25 @@ const CODE_LABEL = {
   J: 'other',
 }
 
+// Tracks the most-recent-dated holding per ticker. A single filing can
+// report BOTH a direct position (a transaction block) and an indirect one
+// (a holding block, e.g. shares now held via a trust) on the same date —
+// those are the same beneficial owner's total position, so same-date
+// entries are summed rather than one silently overwriting the other.
+function recordHolding(holdingsByTicker, ticker, entry) {
+  const existing = holdingsByTicker[ticker]
+  if (!existing || new Date(entry.date) > new Date(existing.date)) {
+    holdingsByTicker[ticker] = { ...entry }
+    return
+  }
+  if (new Date(entry.date).getTime() === new Date(existing.date).getTime()) {
+    existing.shares += entry.shares
+    if (entry.eventType && !existing.eventType.includes(entry.eventType)) {
+      existing.eventType = `${existing.eventType}; ${entry.eventType}`
+    }
+  }
+}
+
 async function main() {
   const people = JSON.parse(readFileSync('src/data/generated/people.json', 'utf8'))
   const transactions = JSON.parse(readFileSync('src/data/generated/transactions.json', 'utf8'))
@@ -152,16 +171,13 @@ async function main() {
         console.log(`  + ${code === 'P' ? 'BUY' : 'SELL'} ${ticker} ${shares} sh @ $${price} on ${date} (${filing.accession})`)
       } else {
         if (Number.isFinite(sharesOwnedAfter)) {
-          const existing = holdingsByTicker[ticker]
-          if (!existing || new Date(date) > new Date(existing.date)) {
-            holdingsByTicker[ticker] = {
-              shares: sharesOwnedAfter,
-              date,
-              eventType: CODE_LABEL[code] ?? 'other',
-              accession: filing.accession,
-              filingUrl: filing.indexHref,
-            }
-          }
+          recordHolding(holdingsByTicker, ticker, {
+            shares: sharesOwnedAfter,
+            date,
+            eventType: CODE_LABEL[code] ?? 'other',
+            accession: filing.accession,
+            filingUrl: filing.indexHref,
+          })
         }
         if (shares) {
           otherEvents.push({
@@ -177,6 +193,28 @@ async function main() {
           })
         }
       }
+    }
+
+    // A holding block (as opposed to a transaction block) reports a position
+    // with no trade this period — most commonly shares held INDIRECTLY (via
+    // a trust, LLC, etc.) alongside a same-filing direct-ownership
+    // transaction. Real example: Trump's Dec 2024 Form 4 reports 0 shares
+    // owned DIRECTLY (he gifted them away) but this block on the same filing
+    // reports 114,750,000 shares held INDIRECTLY by his revocable trust — the
+    // true beneficial position, silently dropped if this block is ignored.
+    const holdingBlocks = asArray(root.nonDerivativeTable?.nonDerivativeHolding)
+    for (const h of holdingBlocks) {
+      const sharesOwnedAfter = Number(h.postTransactionAmounts?.sharesOwnedFollowingTransaction?.value)
+      if (!Number.isFinite(sharesOwnedAfter)) continue
+      const ownership = h.ownershipNature?.directOrIndirectOwnership?.value
+      const nature = h.ownershipNature?.natureOfOwnership?.value
+      recordHolding(holdingsByTicker, ticker, {
+        shares: sharesOwnedAfter,
+        date: root.periodOfReport,
+        eventType: ownership === 'I' ? `held indirectly${nature ? ` (${nature})` : ''}` : 'holding',
+        accession: filing.accession,
+        filingUrl: filing.indexHref,
+      })
     }
 
     // Derivative table: stock options, RSUs, warrants — real disclosed positions,

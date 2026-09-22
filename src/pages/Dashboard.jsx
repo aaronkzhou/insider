@@ -5,14 +5,19 @@ import ActivityChart from '../components/ActivityChart'
 import ClusterActivity from '../components/ClusterActivity'
 import MarketAlerts from '../components/MarketAlerts'
 import CalendarHeatmap from '../components/CalendarHeatmap'
-import { allTransactionsSorted, fmtCurrency, fmtDate, marketSummary } from '../lib/portfolio'
+import { fmtCurrency, fmtDate, marketSummary, recentTransactions } from '../lib/portfolio'
 import meta from '../data/generated/meta.json'
+
+const WINDOW_DAYS = 180
 
 export default function Dashboard() {
   const [selectedDay, setSelectedDay] = useState(null)
 
-  const summary = useMemo(() => marketSummary(), [])
-  const all = useMemo(() => allTransactionsSorted(), [])
+  const all = useMemo(
+    () => recentTransactions(WINDOW_DAYS).slice().sort((a, b) => new Date(b.date) - new Date(a.date)),
+    [],
+  )
+  const summary = useMemo(() => marketSummary(all), [all])
   const buys = useMemo(() => all.filter((tx) => tx.type === 'buy'), [all])
   const sells = useMemo(() => all.filter((tx) => tx.type === 'sell'), [all])
 
@@ -28,13 +33,13 @@ export default function Dashboard() {
           Insider Activity Dashboard
         </h1>
         <p className="mt-1 text-sm" style={{ color: 'var(--text-secondary)' }}>
-          Who's buying, who's selling — real SEC Form 4 open-market transactions.
+          Who's buying, who's selling — real SEC Form 4 open-market transactions, last 6 months.
         </p>
       </div>
 
       <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <StatTile label="Total Bought" value={fmtCurrency(summary.buyValue)} tone="good" sublabel="in tracked filings" />
-        <StatTile label="Total Sold" value={fmtCurrency(summary.sellValue)} tone="critical" sublabel="in tracked filings" />
+        <StatTile label="Total Bought" value={fmtCurrency(summary.buyValue)} tone="good" sublabel="last 6 months" />
+        <StatTile label="Total Sold" value={fmtCurrency(summary.sellValue)} tone="critical" sublabel="last 6 months" />
         <StatTile
           label="Net Flow"
           value={fmtCurrency(summary.netValue)}
@@ -44,7 +49,7 @@ export default function Dashboard() {
         <StatTile
           label="Transactions"
           value={summary.tradeCount}
-          sublabel={`P/S codes, ${fmtDate(summary.earliestDate)} – ${fmtDate(summary.latestDate)}`}
+          sublabel={summary.tradeCount ? `P/S codes, ${fmtDate(summary.earliestDate)} – ${fmtDate(summary.latestDate)}` : 'no P/S trades in window'}
         />
       </div>
 
@@ -55,7 +60,7 @@ export default function Dashboard() {
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
           Monthly buy vs. sell value
         </h2>
-        <ActivityChart />
+        <ActivityChart transactions={all} />
       </div>
 
       <div className="mb-6">
@@ -65,7 +70,7 @@ export default function Dashboard() {
         <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
           Two or more insiders at the same company trading the same direction within a few days of each other.
         </p>
-        <ClusterActivity windowDays={5} />
+        <ClusterActivity transactions={all} windowDays={5} />
       </div>
 
       <div className="mb-6">
