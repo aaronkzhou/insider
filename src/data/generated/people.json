@@ -5598,5 +5598,417 @@
       "lowTotal": 85561052,
       "highTotal": 411516000
     }
+  },
+  {
+    "id": "destiny-tech100-fund",
+    "cik": "1843974",
+    "name": "Destiny Tech100 Inc.",
+    "title": "Registered Closed-End Fund",
+    "company": null,
+    "roles": {},
+    "initials": "DT",
+    "fund": true,
+    "fundHoldings": {
+      "fundName": "Destiny Tech100 Inc.",
+      "fundCik": "1843974",
+      "formType": "NPORT-P",
+      "asOfDate": "2026-06-30",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000089418926024246/primary_doc.xml",
+      "totalValue": 1640039147,
+      "positions": [
+        {
+          "issuer": "First American Treasury Obligations, Class X, 3.58%",
+          "cusip": null,
+          "shares": 939712701,
+          "value": 939712701,
+          "positionType": "Short-Term Investment Vehicle",
+          "percentOfFund": 57.4807506635
+        },
+        {
+          "issuer": "Magnitude ANC III, LLC (economic exposure to Anthropic PBC Series B Preferred Shares)",
+          "cusip": null,
+          "shares": 386088,
+          "value": 235671976,
+          "positionType": "Position",
+          "percentOfFund": 14.4156848025
+        },
+        {
+          "issuer": "DXYZ SpaceX I LLC (economic exposure to Space Exploration Technologies Corp. Class A Common Stock)",
+          "cusip": null,
+          "shares": 675675,
+          "value": 115445831,
+          "positionType": "Position",
+          "percentOfFund": 7.0616402168
+        },
+        {
+          "issuer": "Goanna Capital 26E LLC (invested in OpenAI Group PBC Series C Preferred Stock)",
+          "cusip": null,
+          "shares": 50895,
+          "value": 35040868,
+          "positionType": "Position",
+          "percentOfFund": 2.1433948982
+        },
+        {
+          "issuer": "SP21Z Opportunities LLC (invested in OpenEvidence Inc. Common Stock)",
+          "cusip": null,
+          "shares": 69707,
+          "value": 34933663,
+          "positionType": "Position",
+          "percentOfFund": 2.1368373275
+        },
+        {
+          "issuer": "MWAM VC SpaceX-II, LLC (economic exposure to Space Exploration Technologies Corp. Class A Common Stock)",
+          "cusip": null,
+          "shares": 214285,
+          "value": 33280603,
+          "positionType": "Position",
+          "percentOfFund": 2.0357222607
+        },
+        {
+          "issuer": "Snowpoint Growth 2.5, LLC (invested in Shield AI Inc. Series F1 Preferred Stock)",
+          "cusip": null,
+          "shares": 192668,
+          "value": 30125568,
+          "positionType": "Position",
+          "percentOfFund": 1.8427337307
+        },
+        {
+          "issuer": "Snowpoint Growth 2.6, LLC (invested in Space Exploration Technologies Corp. Class A Common Stock)",
+          "cusip": null,
+          "shares": 142425,
+          "value": 24334736,
+          "positionType": "Position",
+          "percentOfFund": 1.4885175682
+        },
+        {
+          "issuer": "Revolut Group Holdings Ltd.",
+          "cusip": null,
+          "shares": 8200,
+          "value": 16630994,
+          "positionType": "Equity — Common",
+          "percentOfFund": 1.0172917945
+        },
+        {
+          "issuer": "WH Strategic Opportunities Fund V LP (invested in Chaos Industries, Inc. Series D Preferred Stock)",
+          "cusip": null,
+          "shares": 113088,
+          "value": 15712254,
+          "positionType": "Position",
+          "percentOfFund": 0.961093911
+        },
+        {
+          "issuer": "Hermeus Corporation - Series C Preferred Stock",
+          "cusip": null,
+          "shares": 642357,
+          "value": 15000000,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.9175264214
+        },
+        {
+          "issuer": "Beast Industries Co. - Series C Preferred Stock",
+          "cusip": null,
+          "shares": 372578,
+          "value": 14999990,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.9175258574
+        },
+        {
+          "issuer": "Mercury Technologies, Inc. - Series D Preferred Stock",
+          "cusip": null,
+          "shares": 846338,
+          "value": 14999987,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.9175256513
+        },
+        {
+          "issuer": "Prive Tens, LLC (invested in Tenstorrent Holdings Inc., subordinated convertible promissory note 15.00% 12/31/2026)",
+          "cusip": null,
+          "shares": 12500000,
+          "value": 12500000,
+          "positionType": "Position",
+          "percentOfFund": 0.7646053766
+        },
+        {
+          "issuer": "Hexagon Master LLC - Series 1 (invested in Ferox Games B.V. Series F Preferred Stock)",
+          "cusip": null,
+          "shares": 374950,
+          "value": 11263273,
+          "positionType": "Position",
+          "percentOfFund": 0.6889567294
+        },
+        {
+          "issuer": "MCTC Investment Holdings (Delaware) LLC (invested in Databricks, Inc. Series L Preferred Stock)",
+          "cusip": null,
+          "shares": 52632,
+          "value": 11200616,
+          "positionType": "Position",
+          "percentOfFund": 0.6851240923
+        },
+        {
+          "issuer": "Skild AI, Inc. - Series C Preferred Stock",
+          "cusip": null,
+          "shares": 153957,
+          "value": 11074127,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.6773869643
+        },
+        {
+          "issuer": "DA-1125 Gaingels Fund II (invested in Databricks, Inc. Series L Preferred Stock)",
+          "cusip": null,
+          "shares": 39474,
+          "value": 8400462,
+          "positionType": "Position",
+          "percentOfFund": 0.5138430692
+        },
+        {
+          "issuer": "DXYZ OAI I LLC (economic exposure to OpenAI Group PBC Profit Participation Units)",
+          "cusip": null,
+          "shares": 11236,
+          "value": 7735911,
+          "positionType": "Position",
+          "percentOfFund": 0.473193537
+        },
+        {
+          "issuer": "Lemonade 18, LLC (invested in Monzo Bank Holding Group Limited F Ordinary Shares)",
+          "cusip": null,
+          "shares": 306480,
+          "value": 6201581,
+          "positionType": "Position",
+          "percentOfFund": 0.3793409441
+        },
+        {
+          "issuer": "Vast, Inc. - Series A Preferred Stock",
+          "cusip": null,
+          "shares": 2493143,
+          "value": 4999998,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.3058420461
+        },
+        {
+          "issuer": "Snowpoint Growth 2.7, LLC (invested in Astranis Space Technologies Corp. Series E Preferred Stock)",
+          "cusip": null,
+          "shares": 259960,
+          "value": 4999995,
+          "positionType": "Position",
+          "percentOfFund": 0.3058418448
+        },
+        {
+          "issuer": "Redwood Materials, Inc.",
+          "cusip": null,
+          "shares": 114000,
+          "value": 4205460,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.2572413862
+        },
+        {
+          "issuer": "Payward, Inc. - Series C Preferred Stock",
+          "cusip": null,
+          "shares": 102606,
+          "value": 4166830,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.2548784289
+        },
+        {
+          "issuer": "Fund FG-RTA, a series of Forge Investments LLC (economic exposure to Stripe, Inc., Common Stock)",
+          "cusip": null,
+          "shares": 49075,
+          "value": 3314526,
+          "positionType": "Position",
+          "percentOfFund": 0.2027443215
+        },
+        {
+          "issuer": "Supabase, Inc. - Series A Preferred Stock",
+          "cusip": null,
+          "shares": 40909,
+          "value": 2820676,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.1725362953
+        },
+        {
+          "issuer": "Axiom Space, Inc. Series C-1 Preferred Stock",
+          "cusip": null,
+          "shares": 21517,
+          "value": 2618404,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.1601636456
+        },
+        {
+          "issuer": "Vercel Inc. - Class A Common Stock",
+          "cusip": null,
+          "shares": 12448,
+          "value": 2500181,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.1529321346
+        },
+        {
+          "issuer": "Astranis Space Technologies Corp. - Series E Preferred Stock",
+          "cusip": null,
+          "shares": 129980,
+          "value": 2499998,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.152920953
+        },
+        {
+          "issuer": "AlpacaDB, Inc.",
+          "cusip": null,
+          "shares": 457980,
+          "value": 1999999,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.1223367783
+        },
+        {
+          "issuer": "ClassDojo, Inc.",
+          "cusip": null,
+          "shares": 106136,
+          "value": 1857380,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.1136130188
+        },
+        {
+          "issuer": "Boom Technology, Inc. Series B-2 Preferred Stock",
+          "cusip": null,
+          "shares": 546093,
+          "value": 1736576,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.1062236118
+        },
+        {
+          "issuer": "CElegans Labs, Inc.",
+          "cusip": null,
+          "shares": 90952,
+          "value": 1603484,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0980825843
+        },
+        {
+          "issuer": "Chime Financial Inc.",
+          "cusip": null,
+          "shares": 60785,
+          "value": 1244877,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0761471596
+        },
+        {
+          "issuer": "Axiom Space, Inc. Series C Preferred Stock",
+          "cusip": null,
+          "shares": 8879,
+          "value": 1132428,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.0692688222
+        },
+        {
+          "issuer": "Superhuman Platform, Inc.",
+          "cusip": null,
+          "shares": 82720,
+          "value": 794112,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0485745844
+        },
+        {
+          "issuer": "Klarna Group PLC",
+          "cusip": null,
+          "shares": 36924,
+          "value": 747342,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0457137222
+        },
+        {
+          "issuer": "Jeeves, Inc. - Series C Preferred Stock",
+          "cusip": null,
+          "shares": 176886,
+          "value": 449290,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.0274823909
+        },
+        {
+          "issuer": "Discord, Inc. - Series G Preferred Stock",
+          "cusip": null,
+          "shares": 13110,
+          "value": 434072,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.0265515089
+        },
+        {
+          "issuer": "Public Holdings, Inc.",
+          "cusip": null,
+          "shares": 55555,
+          "value": 364996,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0223262537
+        },
+        {
+          "issuer": "Discord, Inc.",
+          "cusip": null,
+          "shares": 10690,
+          "value": 353946,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0216503151
+        },
+        {
+          "issuer": "Automation Anywhere, Inc.",
+          "cusip": null,
+          "shares": 88885,
+          "value": 319986,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0195730413
+        },
+        {
+          "issuer": "Fund FG-TQY, a series of Forge Investments LLC (economic exposure to Plaid, Inc., Common Stock)",
+          "cusip": null,
+          "shares": 1540,
+          "value": 308000,
+          "positionType": "Position",
+          "percentOfFund": 0.0188398765
+        },
+        {
+          "issuer": "Khosla Ventures IFSPV II, LLC (invested in Impossible Foods, Inc., Series H Preferred Stock)",
+          "cusip": null,
+          "shares": null,
+          "value": 132450,
+          "positionType": "Position",
+          "percentOfFund": 0.0081017788
+        },
+        {
+          "issuer": "Flexport, Inc.",
+          "cusip": null,
+          "shares": 26000,
+          "value": 85800,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0052482513
+        },
+        {
+          "issuer": "Impossible Foods, Inc. - Series A Preferred Stock",
+          "cusip": null,
+          "shares": 52000,
+          "value": 83200,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.0050892134
+        },
+        {
+          "issuer": "Rhenium Bolt 2021, LLC",
+          "cusip": null,
+          "shares": null,
+          "value": 0,
+          "positionType": "Position",
+          "percentOfFund": 0
+        },
+        {
+          "issuer": "Klarna Group PLC Class B Shares",
+          "cusip": null,
+          "shares": 36924,
+          "value": 0,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0
+        },
+        {
+          "issuer": "G Squared Special Situations Fund, LLC - Series H-1",
+          "cusip": null,
+          "shares": null,
+          "value": 0,
+          "positionType": "Position",
+          "percentOfFund": 0
+        }
+      ]
+    }
   }
 ]

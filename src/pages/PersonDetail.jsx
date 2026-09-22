@@ -218,14 +218,23 @@ export default function PersonDetail() {
       {person.fund && person.fundHoldings && (
         <div className="mb-6">
           <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
-            Fund portfolio (13F)
+            {person.fundHoldings.formType === 'NPORT-P' ? 'Fund portfolio (Form N-PORT)' : 'Fund portfolio (13F)'}
           </h2>
           <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
             {person.fundHoldings.fundName && person.fundHoldings.fundName !== person.name && (
               <>Filed by {person.fundHoldings.fundName}, which {person.name} controls. </>
             )}
-            Full quarterly institutional holdings as of {fmtDate(person.fundHoldings.asOfDate)} — reported with up
-            to a 45-day lag, U.S.-listed equity positions only.{' '}
+            {person.fundHoldings.formType === 'NPORT-P' ? (
+              <>
+                The fund's own real disclosed portfolio as of {fmtDate(person.fundHoldings.asOfDate)} — mostly private
+                company stakes, not U.S.-listed equities, which is why they never show up in a 13F or Form 4.
+              </>
+            ) : (
+              <>
+                Full quarterly institutional holdings as of {fmtDate(person.fundHoldings.asOfDate)} — reported with up
+                to a 45-day lag, U.S.-listed equity positions only.
+              </>
+            )}{' '}
             <a href={person.fundHoldings.filingUrl} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
               SEC filing ↗
             </a>

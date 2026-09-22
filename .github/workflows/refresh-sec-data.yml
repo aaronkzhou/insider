@@ -45,6 +45,10 @@ jobs:
           # tracked-company step) and separately controls this fund — merge
           # onto his existing page instead of creating a second disconnected one.
           bash scripts/with-retry.sh node scripts/add-fund.mjs "Thiel Macro LLC" 1562087 --person-id=thiel-peter-1060
+          # Destiny Tech100 (DXYZ) is a registered closed-end fund — its real
+          # portfolio is private-company stakes disclosed via Form N-PORT,
+          # not a 13F.
+          bash scripts/with-retry.sh node scripts/add-nport-fund.mjs "Destiny Tech100 Inc." 1843974 destiny-tech100-fund
 
       - name: Refresh beneficial-ownership disclosures (real Schedule 13D/13G filers)
         run: |
