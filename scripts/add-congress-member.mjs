@@ -91,7 +91,10 @@ const HEADER_RE = new RegExp(
 
 function parsePtrText(text) {
   const norm = text.replace(/[\s\0]+/g, ' ').trim()
-  const anchorRe = /([PSE])\s+(\d{2}\/\d{2}\/\d{4})\s+\d{2}\/\d{2}\/\d{4}\s+\$([\d,]+)\s*-\s*\$([\d,]+)/g
+  // Transaction code can carry a qualifier — "S (partial)" for a partial
+  // sale — which the previous version of this regex didn't tolerate, so the
+  // whole row silently vanished into the PRECEDING row's description.
+  const anchorRe = /([PSE])(?:\s*\([^)]*\))?\s+(\d{2}\/\d{2}\/\d{4})\s+\d{2}\/\d{2}\/\d{4}\s+\$([\d,]+)\s*-\s*\$([\d,]+)/g
   const anchors = [...norm.matchAll(anchorRe)]
   if (anchors.length === 0) return []
 
@@ -142,6 +145,13 @@ function parsePtrText(text) {
       // extraction, leaving just "D :" — match that instead of the word.
       const descMatch = descRaw.match(/\bD\s*:\s*(.*?)\s*$/)
       let description = descMatch ? descMatch[1].trim() : descRaw.trim() || null
+      // A page break mid-table reprints the column-header row ("ID Owner
+      // Asset Transaction Type Date Notification Date Amount Cap. Gains >
+      // $200?") or the filing-ID stamp, and the asset-type-code footnote
+      // ("* For the complete list...") — none of that is part of the real
+      // description, so cut it off wherever it starts.
+      const BOILERPLATE_CUT = /\s*(?:Filing ID #\d+|ID\s+Owner\s+Asset\s+Transaction|Transaction\s+Type\s+Date\s+Notification|\*\s*For the complete list|I\s+P\s+O\s+Yes\s+No).*$/s
+      if (description) description = description.replace(BOILERPLATE_CUT, '').trim() || null
       // A real PTR description sentence is a line or two. Anything wildly
       // longer means the boundary search failed and swallowed extra rows
       // (or the trailing certification block) — cut it rather than show it.
