@@ -1,79 +1,115 @@
 {
-  "scannedAt": "2026-09-22T05:52:43.992Z",
-  "filingsScanned": 193,
+  "scannedAt": "2026-09-22T17:33:44.679Z",
+  "filingsScanned": 49,
   "alerts": [
     {
-      "ticker": "GWRE",
-      "companyName": "Guidewire Software, Inc.",
-      "cik": "0001528396",
-      "insiderCount": 5,
+      "ticker": "BBDO",
+      "companyName": "BANK BRADESCO",
+      "cik": "0001160330",
+      "insiderCount": 11,
       "insiders": [
         {
-          "name": "King James Winston",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1586253/000158625326000020/0001586253-26-000020-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
+          "name": "Caffarelli Paulo Rogerio",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2116145/000129281426004666/0001292814-26-004666-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
         },
         {
-          "name": "Peterson David Franklin",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1528396/000149615226000018/0001496152-26-000018-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
+          "name": "Favarao Vinicius Urias",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2122593/000129281426004664/0001292814-26-004664-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
         },
         {
-          "name": "Cooper Jeffrey Elliott",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1805719/000180571926000027/0001805719-26-000027-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
+          "name": "de Oliveira Tulio Xavier",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2126527/000129281426004662/0001292814-26-004662-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
         },
         {
-          "name": "Mullen John P",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1917389/000191738926000023/0001917389-26-000023-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
+          "name": "Machado Silvana Rosa",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2126967/000129281426004660/0001292814-26-004660-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
         },
         {
-          "name": "Rosenbaum Michael George",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1784996/000178499626000095/0001784996-26-000095-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
+          "name": "Paris Roberto de Jesus",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2126530/000129281426004658/0001292814-26-004658-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
+        },
+        {
+          "name": "Mantarro Renata Geiser",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2126532/000129281426004656/0001292814-26-004656-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
+        },
+        {
+          "name": "Fernandes Oswaldo Tadeu",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2126544/000129281426004654/0001292814-26-004654-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
+        },
+        {
+          "name": "Tescarolo Marcos Valerio",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2125962/000129281426004652/0001292814-26-004652-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
+        },
+        {
+          "name": "Bueno Julio Cesar",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2122582/000129281426004650/0001292814-26-004650-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
+        },
+        {
+          "name": "Freiberger Fernando",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2125967/000129281426004648/0001292814-26-004648-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
+        },
+        {
+          "name": "Ramalho Miranda Jose Augusto",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2127966/000129281426004646/0001292814-26-004646-index.htm",
+          "type": "buy",
+          "date": "2026-09-18"
         }
       ],
       "tracked": false,
-      "buys": 0,
-      "sells": 5,
+      "buys": 11,
+      "sells": 0,
       "other": 0,
-      "direction": "sell"
+      "direction": "buy"
     },
     {
-      "ticker": "TTAN",
-      "companyName": "ServiceTitan, Inc.",
-      "cik": "0001638826",
+      "ticker": "GLBE",
+      "companyName": "Global-E Online Ltd.",
+      "cik": "0001835963",
       "insiderCount": 4,
       "insiders": [
         {
-          "name": "Sherry David",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045642/000163882626000108/0001638826-26-000108-index.htm",
+          "name": "Koren Ofer",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1964100/000119312526397440/0001193125-26-397440-index.htm",
           "type": "sell",
           "date": "2026-09-17"
         },
         {
-          "name": "O'Connor Michele",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1771322/000163882626000106/0001638826-26-000106-index.htm",
+          "name": "Tamari Shahar",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1964142/000119312526397421/0001193125-26-397421-index.htm",
+          "type": "sell",
+          "date": "2026-09-18"
+        },
+        {
+          "name": "Schlachet Amir",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1964286/000119312526397387/0001193125-26-397387-index.htm",
           "type": "sell",
           "date": "2026-09-17"
         },
         {
-          "name": "Kuzoyan Vahe",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1908757/000163882626000104/0001638826-26-000104-index.htm",
+          "name": "Debbi Nir",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1964141/000119312526397352/0001193125-26-397352-index.htm",
           "type": "sell",
-          "date": "2026-09-17"
-        },
-        {
-          "name": "Mahdessian Ara",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1908788/000163882626000102/0001638826-26-000102-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
+          "date": "2026-09-21"
         }
       ],
       "tracked": false,
@@ -81,37 +117,6 @@
       "sells": 4,
       "other": 0,
       "direction": "sell"
-    },
-    {
-      "ticker": "BOLT",
-      "companyName": "Bolt Biotherapeutics, Inc.",
-      "cik": "0001641281",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "Yonehiro Grant",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526396894/0001193125-26-396894-index.htm",
-          "type": "sell",
-          "date": "2026-09-16"
-        },
-        {
-          "name": "Nemec Sarah",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023538/000119312526396892/0001193125-26-396892-index.htm",
-          "type": "buy",
-          "date": "2026-06-05"
-        },
-        {
-          "name": "Quinn William P.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1724190/000119312526396890/0001193125-26-396890-index.htm",
-          "type": "buy",
-          "date": "2026-06-05"
-        }
-      ],
-      "tracked": false,
-      "buys": 2,
-      "sells": 1,
-      "other": 0,
-      "direction": "buy"
     }
   ]
 }

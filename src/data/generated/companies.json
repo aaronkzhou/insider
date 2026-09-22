@@ -270,61 +270,49 @@
     "priceAsOf": null
   },
   "SHAZ": {
-    "name": "SharonAI Holdings Inc.",
-    "sector": "Technology",
-    "price": null,
-    "priceAsOf": null
-  },
-  "ABCL": {
-    "name": "AbCellera Biologics Inc.",
-    "sector": "Biotechnology",
-    "price": null,
-    "priceAsOf": null
-  },
-  "PGRU": {
-    "name": "PropertyGuru Group Ltd",
-    "sector": "Real Estate Technology",
-    "price": null,
-    "priceAsOf": null
-  },
-  "CMPS": {
-    "name": "COMPASS Pathways plc",
-    "sector": "Biotechnology",
+    "name": "SHAZ",
+    "sector": null,
     "price": null,
     "priceAsOf": null
   },
   "CMMB": {
     "name": "Chemomab Therapeutics Ltd.",
-    "sector": "Biotechnology",
-    "price": null,
-    "priceAsOf": null
-  },
-  "CORZ": {
-    "name": "Core Scientific, Inc.",
-    "sector": "Technology",
-    "price": null,
-    "priceAsOf": null
-  },
-  "NBIS": {
-    "name": "Nebius Group N.V.",
-    "sector": "Technology",
-    "price": null,
-    "priceAsOf": null
-  },
-  "SHAZW": {
-    "name": "SharonAI Holdings Inc.",
     "sector": null,
     "price": null,
     "priceAsOf": null
   },
-  "CORZZ": {
-    "name": "Core Scientific, Inc.",
+  "ABCL": {
+    "name": "AbCellera Biologics Inc.",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "CMPS": {
+    "name": "COMPASS Pathways plc",
     "sector": null,
     "price": null,
     "priceAsOf": null
   },
   "PEMCO AVIATION GROUP INC": {
     "name": "PEMCO AVIATION GROUP INC",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "PGRU": {
+    "name": "PROPERTYGURU GROUP LTD",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "NBIS": {
+    "name": "Nebius Group N.V.",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "CORZ": {
+    "name": "Core Scientific, Inc.",
     "sector": null,
     "price": null,
     "priceAsOf": null
