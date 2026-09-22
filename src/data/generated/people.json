@@ -2059,9 +2059,27 @@
     "initials": "TP",
     "beneficialOwnership": [
       {
+        "ticker": "PLTR",
+        "companyName": "Palantir Technologies Inc.",
+        "shares": 100335000,
+        "percentOfClass": 4.5,
+        "asOfDate": "2024-11-14",
+        "filingType": "Schedule 13G/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465924119313/tm2427620d21_sc13ga.htm",
+        "note": "Reduced from 148,925,737 shares (7.1%) as of 2024-02-14 — a real, disclosed change."
+      },
+      {
+        "ticker": "CMMB",
+        "companyName": "Chemomab Therapeutics Ltd.",
+        "shares": 22631200,
+        "percentOfClass": 4.6,
+        "asOfDate": "2026-02-17",
+        "filingType": "Schedule 13G/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000121106026000005/primary_doc.xml"
+      },
+      {
         "ticker": "ABCL",
         "companyName": "AbCellera Biologics Inc.",
-        "sector": "Biotechnology",
         "shares": 14360427,
         "percentOfClass": 4.99,
         "asOfDate": "2023-04-24",
@@ -2069,34 +2087,34 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465923049066/tm2313479d1_sc13da.htm"
       },
       {
-        "ticker": "PGRU",
-        "companyName": "PropertyGuru Group Ltd",
-        "sector": "Real Estate Technology",
-        "shares": 10195197,
-        "percentOfClass": 6.1,
-        "asOfDate": "2022-09-09",
-        "filingType": "Schedule 13G",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922098902/tm2225018d1_sc13g.htm"
-      },
-      {
         "ticker": "CMPS",
         "companyName": "COMPASS Pathways plc",
-        "sector": "Biotechnology",
         "shares": 1305788,
         "percentOfClass": 3.1,
         "asOfDate": "2022-02-14",
         "filingType": "Schedule 13G/A",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm"
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm",
+        "note": "Reduced from 2,352,516 shares (6.5%) as of 2021-02-16 — a real, disclosed change."
       },
       {
-        "ticker": "CMMB",
-        "companyName": "Chemomab Therapeutics Ltd.",
-        "sector": "Biotechnology",
-        "shares": 22631200,
-        "percentOfClass": 4.6,
-        "asOfDate": "2025-12-31",
+        "ticker": null,
+        "companyName": "PEMCO AVIATION GROUP INC",
+        "shares": 0,
+        "percentOfClass": 0,
+        "asOfDate": "2004-01-05",
         "filingType": "Schedule 13G/A",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000121106026000005/xslSCHEDULE_13G_X01/primary_doc.xml"
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000089843204000002/schedule-13ga.txt",
+        "note": "Reduced from 280,998 shares (7.42%) as of 2003-02-14 — a real, disclosed change."
+      },
+      {
+        "ticker": "PGRU",
+        "companyName": "PROPERTYGURU GROUP LTD",
+        "shares": 0,
+        "percentOfClass": 0,
+        "asOfDate": "2025-02-14",
+        "filingType": "Schedule 13G/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000141588925004193/primary_doc.xml",
+        "note": "Reduced from 10,195,197 shares (6.1%) as of 2022-09-09 — a real, disclosed change."
       }
     ],
     "fund": true,
@@ -4523,7 +4541,37 @@
           "positionType": "Shares"
         }
       ]
-    }
+    },
+    "beneficialOwnership": [
+      {
+        "ticker": "SHAZ",
+        "companyName": "SharonAI Holdings Inc.",
+        "shares": 8070950,
+        "percentOfClass": 21.1,
+        "asOfDate": "2026-09-17",
+        "filingType": "Schedule 13D/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000500/primary_doc.xml"
+      },
+      {
+        "ticker": "NBIS",
+        "companyName": "Nebius Group N.V.",
+        "shares": 12410060,
+        "percentOfClass": 5.6,
+        "asOfDate": "2026-05-27",
+        "filingType": "Schedule 13G",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000303/primary_doc.xml"
+      },
+      {
+        "ticker": "CORZ",
+        "companyName": "Core Scientific, Inc.",
+        "shares": 14089395,
+        "percentOfClass": 4.4,
+        "asOfDate": "2026-08-04",
+        "filingType": "Schedule 13D/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000091957426004796/primary_doc.xml",
+        "note": "Reduced from 28,756,478 shares (9.4%) as of 2025-10-14 — a real, disclosed change."
+      }
+    ]
   },
   {
     "id": "nancy-pelosi-congress",

@@ -47,7 +47,9 @@ jobs:
           bash scripts/with-retry.sh node scripts/add-fund.mjs "Thiel Macro LLC" 1562087 --person-id=thiel-peter-1060
 
       - name: Refresh beneficial-ownership disclosures (real Schedule 13D/13G filers)
-        run: bash scripts/with-retry.sh node scripts/add-beneficial-ownership.mjs
+        run: |
+          bash scripts/with-retry.sh node scripts/add-beneficial-ownership.mjs "Peter Thiel" 1211060 --person-id=thiel-peter-1060
+          bash scripts/with-retry.sh node scripts/add-beneficial-ownership.mjs "Situational Awareness LP" 2045724
 
       - name: Refresh congressional disclosures (real STOCK Act PTRs)
         run: |

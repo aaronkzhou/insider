@@ -298,5 +298,35 @@
     "sector": "Biotechnology",
     "price": null,
     "priceAsOf": null
+  },
+  "CORZ": {
+    "name": "Core Scientific, Inc.",
+    "sector": "Technology",
+    "price": null,
+    "priceAsOf": null
+  },
+  "NBIS": {
+    "name": "Nebius Group N.V.",
+    "sector": "Technology",
+    "price": null,
+    "priceAsOf": null
+  },
+  "SHAZW": {
+    "name": "SharonAI Holdings Inc.",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "CORZZ": {
+    "name": "Core Scientific, Inc.",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "PEMCO AVIATION GROUP INC": {
+    "name": "PEMCO AVIATION GROUP INC",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
   }
 }

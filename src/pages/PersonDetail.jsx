@@ -175,10 +175,17 @@ export default function PersonDetail() {
                 {person.beneficialOwnership.map((b, i) => (
                   <tr key={i} style={{ borderBottom: '1px solid var(--gridline)' }} className="last:border-b-0">
                     <td className="px-4 py-2.5 font-medium" style={{ color: 'var(--text-primary)' }}>
-                      {b.ticker}
-                      <span className="ml-1.5 text-xs font-normal" style={{ color: 'var(--text-muted)' }}>
-                        {b.companyName}
-                      </span>
+                      {b.ticker ?? b.companyName}
+                      {b.ticker && (
+                        <span className="ml-1.5 text-xs font-normal" style={{ color: 'var(--text-muted)' }}>
+                          {b.companyName}
+                        </span>
+                      )}
+                      {b.note && (
+                        <div className="mt-0.5 text-xs font-normal" style={{ color: 'var(--status-warning)' }}>
+                          {b.note}
+                        </div>
+                      )}
                     </td>
                     <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
                       {fmtShares(b.shares)}
