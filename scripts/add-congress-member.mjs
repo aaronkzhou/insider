@@ -18,7 +18,7 @@ import { execSync } from 'node:child_process'
 import { XMLParser } from 'fast-xml-parser'
 import { PDFParse } from 'pdf-parse'
 
-const USER_AGENT = 'InsiderDeskResearch/1.0 (contact: research@insiderdesk.app)'
+const USER_AGENT = 'PaperTrailResearch/1.0 (contact: research@papertrail.app)'
 const REQUEST_DELAY_MS = 300
 const parser = new XMLParser({ ignoreAttributes: false })
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))

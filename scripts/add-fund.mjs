@@ -11,7 +11,7 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { XMLParser } from 'fast-xml-parser'
 
-const USER_AGENT = 'InsiderDeskResearch/1.0 (contact: research@insiderdesk.app)'
+const USER_AGENT = 'PaperTrailResearch/1.0 (contact: research@papertrail.app)'
 const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: true })
 
 const rawArgs = process.argv.slice(2)

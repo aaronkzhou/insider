@@ -10,7 +10,7 @@
 import { writeFileSync, mkdirSync } from 'node:fs'
 import { XMLParser } from 'fast-xml-parser'
 
-const USER_AGENT = 'InsiderDeskResearch/1.0 (contact: research@insiderdesk.app)'
+const USER_AGENT = 'PaperTrailResearch/1.0 (contact: research@papertrail.app)'
 const FILINGS_PER_COMPANY = 50
 const REQUEST_DELAY_MS = 180
 

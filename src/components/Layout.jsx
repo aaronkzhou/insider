@@ -20,7 +20,7 @@ export default function Layout() {
           <NavLink to="/" className="flex items-center gap-2">
             <LogoMark size={28} />
             <span className="text-sm font-bold tracking-tight" style={{ color: 'var(--text-primary)' }}>
-              INSIDER DESK
+              PAPER TRAIL
             </span>
           </NavLink>
 

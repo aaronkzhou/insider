@@ -17,7 +17,7 @@ import { execSync } from 'node:child_process'
 import { XMLParser } from 'fast-xml-parser'
 import { PDFParse } from 'pdf-parse'
 
-const USER_AGENT = 'InsiderDeskResearch/1.0 (contact: research@insiderdesk.app)'
+const USER_AGENT = 'PaperTrailResearch/1.0 (contact: research@papertrail.app)'
 const parser = new XMLParser({ ignoreAttributes: false })
 
 const [, , last, first, yearArg] = process.argv

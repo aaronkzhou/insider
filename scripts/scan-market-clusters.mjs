@@ -11,7 +11,7 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { XMLParser } from 'fast-xml-parser'
 
-const USER_AGENT = 'InsiderDeskResearch/1.0 (contact: research@insiderdesk.app)'
+const USER_AGENT = 'PaperTrailResearch/1.0 (contact: research@papertrail.app)'
 const PAGES = 5 // 100 entries each = up to 250 filings (2 entries per filing)
 const MIN_INSIDERS = 3
 const parser = new XMLParser({ ignoreAttributes: false })
