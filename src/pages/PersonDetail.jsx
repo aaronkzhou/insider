@@ -92,6 +92,9 @@ export default function PersonDetail() {
             Fund portfolio (13F)
           </h2>
           <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            {person.fundHoldings.fundName && person.fundHoldings.fundName !== person.name && (
+              <>Filed by {person.fundHoldings.fundName}, which {person.name} controls. </>
+            )}
             Full quarterly institutional holdings as of {fmtDate(person.fundHoldings.asOfDate)} — reported with up
             to a 45-day lag, U.S.-listed equity positions only.{' '}
             <a href={person.fundHoldings.filingUrl} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
@@ -138,7 +141,11 @@ export default function PersonDetail() {
         </div>
       )}
 
-      {holdings.length > 0 && !person.fund && (
+      {/* Hide only when every Form4 holding is priceless (the true redundant
+          case — a fund's own tiny Form4 stub position already shown, priced,
+          in its 13F table above). A mixed case like Thiel, with a real priced
+          personal position separate from his fund, should still show it. */}
+      {holdings.length > 0 && !(person.fund && holdings.every((h) => h.value == null)) && (
       <div className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-5">
         <div
           className="rounded-lg border p-4 lg:col-span-3"

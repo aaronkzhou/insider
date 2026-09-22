@@ -65,9 +65,12 @@ export function personHoldings(personId) {
 }
 
 export function personPortfolioValue(personId) {
+  // Someone can hold real Form 4-disclosed shares personally AND separately
+  // control a fund with its own 13F — sum both rather than letting one
+  // silently hide the other (a pure-fund person's Form4 value is ~0 anyway).
+  const formHoldingsValue = personHoldings(personId).reduce((sum, h) => sum + (h.value ?? 0), 0)
   const fund = getPerson(personId)?.fundHoldings
-  if (fund) return fund.totalValue
-  return personHoldings(personId).reduce((sum, h) => sum + (h.value ?? 0), 0)
+  return formHoldingsValue + (fund?.totalValue ?? 0)
 }
 
 export function personSummary(personId) {

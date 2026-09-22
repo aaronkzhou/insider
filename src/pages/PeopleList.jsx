@@ -7,9 +7,9 @@ import { fmtCurrency, fmtDate, personCongressionalSummary, personSummary } from 
 // Explicitly requested focus people — shown first, larger. Order is the
 // order they appear. Everyone else still shows below, just more compact.
 const FEATURED_IDS = [
-  'musk-elon-4730', // Elon Musk
   'donald-j-trump-7033', // Donald J. Trump
   'donald-trump-jr-6181', // Donald Trump Jr.
+  'jd-vance-4682', // JD Vance
   'thiel-peter-1060', // Peter Thiel
   'situational-awareness-lp-5724', // Leopold Aschenbrenner's fund
   'nancy-pelosi-congress', // Nancy & Paul Pelosi (congressional disclosures)

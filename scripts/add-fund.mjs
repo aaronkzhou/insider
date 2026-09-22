@@ -1,16 +1,25 @@
 // Fetches a real 13F-HR (quarterly institutional portfolio holdings) filing
 // and attaches it to a person record as `fundHoldings` — a full portfolio
 // snapshot, not a stream of buy/sell events (13F doesn't report those).
-// Usage: node scripts/add-fund.mjs "Fund Name" OWNER_CIK
+// Usage: node scripts/add-fund.mjs "Fund Name" OWNER_CIK [--person-id=existing-id]
+//
+// Pass --person-id when the fund's controlling person already has their own
+// page (e.g. Peter Thiel personally holds PLTR via Form 4, and separately
+// controls Thiel Macro LLC, which files its own 13F) — this attaches the
+// fund portfolio onto that existing record instead of creating a second,
+// disconnected one for what a user thinks of as the same person.
 import { readFileSync, writeFileSync } from 'node:fs'
 import { XMLParser } from 'fast-xml-parser'
 
 const USER_AGENT = 'InsiderDeskResearch/1.0 (contact: research@insiderdesk.app)'
 const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: true })
 
-const [, , displayName, ownerCik] = process.argv
+const rawArgs = process.argv.slice(2)
+const personIdFlag = rawArgs.find((a) => a.startsWith('--person-id='))
+const overridePersonId = personIdFlag ? personIdFlag.slice('--person-id='.length) : null
+const [displayName, ownerCik] = rawArgs.filter((a) => !a.startsWith('--'))
 if (!displayName || !ownerCik) {
-  console.error('Usage: node scripts/add-fund.mjs "Fund Name" OWNER_CIK')
+  console.error('Usage: node scripts/add-fund.mjs "Fund Name" OWNER_CIK [--person-id=existing-id]')
   process.exit(1)
 }
 
@@ -72,9 +81,14 @@ async function main() {
   console.log(`Total reported value: $${(totalValue / 1e9).toFixed(2)}B across ${holdings.length} positions`)
 
   const people = JSON.parse(readFileSync('src/data/generated/people.json', 'utf8'))
-  const personId = displayName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') + '-' + String(ownerCik).slice(-4)
+  const generatedId = displayName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') + '-' + String(ownerCik).slice(-4)
+  const personId = overridePersonId ?? generatedId
   let p = people.find((x) => x.id === personId)
   if (!p) {
+    if (overridePersonId) {
+      console.error(`--person-id=${overridePersonId} was given but no existing person has that id.`)
+      process.exit(1)
+    }
     p = {
       id: personId,
       cik: String(ownerCik),
@@ -88,6 +102,8 @@ async function main() {
   }
   p.fund = true
   p.fundHoldings = {
+    fundName: displayName,
+    fundCik: String(ownerCik),
     asOfDate: filingDate,
     filingUrl: indexHref,
     totalValue,
@@ -95,7 +111,7 @@ async function main() {
   }
 
   writeFileSync('src/data/generated/people.json', JSON.stringify(people, null, 2) + '\n')
-  console.log(`\nSaved fund portfolio for ${displayName}.`)
+  console.log(`\nSaved fund portfolio for ${displayName} onto person "${personId}".`)
 }
 
 main().catch((err) => {

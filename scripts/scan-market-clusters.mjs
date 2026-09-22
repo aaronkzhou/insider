@@ -42,22 +42,26 @@ async function fetchPrimaryDocXml(indexUrl) {
 
 /** Real transaction code (P/S) from the filing itself — the firehose titles
  * alone don't say whether a filer bought or sold. */
-async function fetchTransactionType(indexUrl) {
+async function fetchTransactionDetail(indexUrl) {
   const xml = await fetchPrimaryDocXml(indexUrl)
-  if (!xml) return null
+  if (!xml) return { type: null, date: null }
   let doc
   try {
     doc = parser.parse(xml)
   } catch {
-    return null
+    return { type: null, date: null }
   }
   const rows = asArray(doc?.ownershipDocument?.nonDerivativeTable?.nonDerivativeTransaction)
+  // Prefer the real P/S trade's own date; fall back to whatever's there.
+  let fallbackDate = null
   for (const row of rows) {
     const code = row.transactionCoding?.transactionCode
-    if (code === 'P') return 'buy'
-    if (code === 'S') return 'sell'
+    const date = row.transactionDate?.value ?? null
+    if (code === 'P') return { type: 'buy', date }
+    if (code === 'S') return { type: 'sell', date }
+    fallbackDate ??= date
   }
-  return 'other' // award, gift, exercise, etc. — real, just not a market trade
+  return { type: 'other', date: fallbackDate } // award, gift, exercise, etc. — real, just not a market trade
 }
 
 async function fetchFirehosePage(start) {
@@ -162,8 +166,9 @@ async function main() {
     let other = 0
     for (const insider of a.insiders) {
       await sleep(150)
-      const type = await fetchTransactionType(insider.filingUrl).catch(() => null)
+      const { type, date } = await fetchTransactionDetail(insider.filingUrl).catch(() => ({ type: null, date: null }))
       insider.type = type
+      insider.date = date
       if (type === 'buy') buys += 1
       else if (type === 'sell') sells += 1
       else other += 1

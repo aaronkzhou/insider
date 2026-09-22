@@ -1879,7 +1879,73 @@
     "roles": {
       "PLTR": "Director"
     },
-    "initials": "TP"
+    "initials": "TP",
+    "fund": true,
+    "fundHoldings": {
+      "fundName": "Thiel Macro LLC",
+      "fundCik": "1562087",
+      "asOfDate": "2026-08-14",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1562087/000131586326000593/0001315863-26-000593-index.htm",
+      "totalValue": 418666506,
+      "positions": [
+        {
+          "issuer": "AMAZON COM INC",
+          "cusip": 23135106,
+          "shares": 495000,
+          "value": 117978300,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "VISTA ENERGY S.A.B. DE C.V.",
+          "cusip": "92837L109",
+          "shares": 1189792,
+          "value": 75908730,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "VISTRA CORP",
+          "cusip": "92840M102",
+          "shares": 372755,
+          "value": 59130126,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "AMERICAN ELEC PWR CO INC",
+          "cusip": 25537101,
+          "shares": 308617,
+          "value": 42221892,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "DTE ENERGY CO",
+          "cusip": 233331107,
+          "shares": 264450,
+          "value": 40294247,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "FIRSTENERGY CORP",
+          "cusip": 337932107,
+          "shares": 839319,
+          "value": 39901225,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "CMS ENERGY CORP",
+          "cusip": 125896100,
+          "shares": 517124,
+          "value": 39559986,
+          "positionType": "Shares"
+        },
+        {
+          "issuer": "X-ENERGY INC",
+          "cusip": "98386P102",
+          "shares": 200000,
+          "value": 3672000,
+          "positionType": "Shares"
+        }
+      ]
+    }
   },
   {
     "id": "norrod-forrest-eugene-2864",
@@ -2391,79 +2457,6 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000339/0000935836-26-000339-index.htm"
       }
     ]
-  },
-  {
-    "id": "thiel-macro-llc-2087",
-    "cik": "1562087",
-    "name": "Thiel Macro LLC",
-    "title": "Institutional Investment Manager",
-    "company": null,
-    "roles": {},
-    "initials": "TM",
-    "fund": true,
-    "fundHoldings": {
-      "asOfDate": "2026-08-14",
-      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1562087/000131586326000593/0001315863-26-000593-index.htm",
-      "totalValue": 418666506,
-      "positions": [
-        {
-          "issuer": "AMAZON COM INC",
-          "cusip": 23135106,
-          "shares": 495000,
-          "value": 117978300,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "VISTA ENERGY S.A.B. DE C.V.",
-          "cusip": "92837L109",
-          "shares": 1189792,
-          "value": 75908730,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "VISTRA CORP",
-          "cusip": "92840M102",
-          "shares": 372755,
-          "value": 59130126,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "AMERICAN ELEC PWR CO INC",
-          "cusip": 25537101,
-          "shares": 308617,
-          "value": 42221892,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "DTE ENERGY CO",
-          "cusip": 233331107,
-          "shares": 264450,
-          "value": 40294247,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "FIRSTENERGY CORP",
-          "cusip": 337932107,
-          "shares": 839319,
-          "value": 39901225,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "CMS ENERGY CORP",
-          "cusip": 125896100,
-          "shares": 517124,
-          "value": 39559986,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "X-ENERGY INC",
-          "cusip": "98386P102",
-          "shares": 200000,
-          "value": 3672000,
-          "positionType": "Shares"
-        }
-      ]
-    }
   },
   {
     "id": "nancy-pelosi-congress",
@@ -3274,5 +3267,39 @@
       "MU": "Director"
     },
     "initials": "LT"
+  },
+  {
+    "id": "jd-vance-4682",
+    "cik": "1834682",
+    "name": "JD Vance",
+    "title": "Director",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Director"
+    },
+    "initials": "JV",
+    "staticHoldings": [
+      {
+        "ticker": "APPH",
+        "shares": 2939577,
+        "asOfDate": "2021-01-29",
+        "sourceEvent": "award",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834682/000120919121006496/0001209191-21-006496-index.htm"
+      }
+    ],
+    "otherEvents": [
+      {
+        "ticker": "APPH",
+        "code": "A",
+        "eventType": "award",
+        "shares": 2939577,
+        "price": null,
+        "date": "2021-01-29",
+        "sharesOwnedAfter": 2939577,
+        "accession": "0001209191-21-006496",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834682/000120919121006496/0001209191-21-006496-index.htm"
+      }
+    ],
+    "optionPositions": []
   }
 ]

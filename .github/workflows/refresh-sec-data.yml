@@ -30,11 +30,15 @@ jobs:
           node scripts/add-person.mjs "Donald Trump Jr." 2016181
           node scripts/add-person.mjs "Donald J. Trump" 947033
           node scripts/add-person.mjs "Musk Elon" 1494730
+          node scripts/add-person.mjs "JD Vance" 1834682
 
       - name: Refresh fund portfolios (real 13F filers)
         run: |
           node scripts/add-fund.mjs "Situational Awareness LP" 2045724
-          node scripts/add-fund.mjs "Thiel Macro LLC" 1562087
+          # Thiel personally holds PLTR via Form 4 (fetched above via the
+          # tracked-company step) and separately controls this fund — merge
+          # onto his existing page instead of creating a second disconnected one.
+          node scripts/add-fund.mjs "Thiel Macro LLC" 1562087 --person-id=thiel-peter-1060
 
       - name: Refresh congressional disclosures (real STOCK Act PTRs)
         run: |

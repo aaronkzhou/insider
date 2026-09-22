@@ -184,5 +184,11 @@
     "sector": "Semiconductors",
     "price": 968.9,
     "priceAsOf": "2026-08-21"
+  },
+  "APPH": {
+    "name": "APPH",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
   }
 }

@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-22T00:24:46.386Z",
+  "scannedAt": "2026-09-22T00:30:47.033Z",
   "filingsScanned": 194,
   "alerts": [
     {
@@ -11,37 +11,44 @@
         {
           "name": "Kurtz George",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1778564/000177856426000165/0001778564-26-000165-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Schumacher Laura J",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000131924526000014/0001319245-26-000014-index.htm",
-          "type": "other"
+          "type": "other",
+          "date": "2026-09-18"
         },
         {
           "name": "Flower Johanna",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1872303/000187230326000008/0001872303-26-000008-index.htm",
-          "type": "other"
+          "type": "other",
+          "date": "2026-09-18"
         },
         {
           "name": "OLEARY DENIS",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000125351226000015/0001253512-26-000015-index.htm",
-          "type": "other"
+          "type": "other",
+          "date": "2026-09-18"
         },
         {
           "name": "GANDHI SAMEER K",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000023/0001201326-26-000023-index.htm",
-          "type": "other"
+          "type": "other",
+          "date": "2026-09-18"
         },
         {
           "name": "Watzinger Gerhard",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000144583226000013/0001445832-26-000013-index.htm",
-          "type": "other"
+          "type": "other",
+          "date": "2026-09-18"
         },
         {
           "name": "DAVIS CARY",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000122063226000006/0001220632-26-000006-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         }
       ],
       "tracked": false,
@@ -59,27 +66,32 @@
         {
           "name": "King James Winston",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1586253/000158625326000020/0001586253-26-000020-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Peterson David Franklin",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1528396/000149615226000018/0001496152-26-000018-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Cooper Jeffrey Elliott",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1805719/000180571926000027/0001805719-26-000027-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Mullen John P",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1917389/000191738926000023/0001917389-26-000023-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Rosenbaum Michael George",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1784996/000178499626000095/0001784996-26-000095-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         }
       ],
       "tracked": false,
@@ -97,22 +109,26 @@
         {
           "name": "Sherry David",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045642/000163882626000108/0001638826-26-000108-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "O'Connor Michele",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1771322/000163882626000106/0001638826-26-000106-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Kuzoyan Vahe",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1908757/000163882626000104/0001638826-26-000104-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Mahdessian Ara",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1908788/000163882626000102/0001638826-26-000102-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         }
       ],
       "tracked": false,
@@ -130,17 +146,20 @@
         {
           "name": "Yonehiro Grant",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526396894/0001193125-26-396894-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-16"
         },
         {
           "name": "Nemec Sarah",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023538/000119312526396892/0001193125-26-396892-index.htm",
-          "type": "buy"
+          "type": "buy",
+          "date": "2026-06-05"
         },
         {
           "name": "Quinn William P.",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1724190/000119312526396890/0001193125-26-396890-index.htm",
-          "type": "buy"
+          "type": "buy",
+          "date": "2026-06-05"
         }
       ],
       "tracked": false,
@@ -158,17 +177,20 @@
         {
           "name": "Lovett Scott R.",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/2024441/000151741326000294/0001517413-26-000294-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Ford Jeffrey",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1993556/000151741326000293/0001517413-26-000293-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         },
         {
           "name": "Bergman Artur",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1769490/000151741326000292/0001517413-26-000292-index.htm",
-          "type": "sell"
+          "type": "sell",
+          "date": "2026-09-17"
         }
       ],
       "tracked": false,

@@ -62,17 +62,22 @@ export default function ClusterActivity({ windowDays = 5, limit = 6 }) {
               {spanDays > 0 ? ` – ${fmtDate(c.endDate)}` : ''}
             </div>
 
-            <div className={`mt-3 ${i === 0 && isMajor ? 'grid grid-cols-2 gap-x-4 gap-y-1 sm:grid-cols-3' : 'space-y-1'}`}>
+            <div className={`mt-3 ${i === 0 && isMajor ? 'grid grid-cols-2 gap-x-4 gap-y-1.5 sm:grid-cols-3' : 'space-y-1.5'}`}>
               {c.personIds.map((personId) => {
                 const person = getPerson(personId)
+                // A person can appear more than once in the window — show each date they traded.
+                const dates = c.txs.filter((t) => t.personId === personId).map((t) => t.date)
                 return (
                   <Link
                     key={personId}
                     to={`/people/${personId}`}
-                    className="block truncate text-sm font-medium hover:underline"
+                    className="block hover:underline"
                     style={{ color: 'var(--text-primary)' }}
                   >
-                    {person?.name ?? personId}
+                    <div className="truncate text-sm font-medium">{person?.name ?? personId}</div>
+                    <div className="truncate text-xs" style={{ color: 'var(--text-muted)' }}>
+                      {dates.map((d) => fmtDate(d)).join(', ')}
+                    </div>
                   </Link>
                 )
               })}

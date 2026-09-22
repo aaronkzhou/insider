@@ -65,26 +65,33 @@ export default function MarketAlerts() {
               </div>
             )}
 
-            <div className="mt-3 space-y-1">
+            <div className="mt-3 space-y-1.5">
               {a.insiders.slice(0, 5).map((ins) => (
                 <a
                   key={ins.name}
                   href={ins.filingUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center justify-between gap-2 truncate text-sm hover:underline"
+                  className="block hover:underline"
                   style={{ color: 'var(--text-secondary)' }}
                 >
-                  <span className="truncate">{ins.name}</span>
-                  {ins.type === 'buy' && (
-                    <span className="shrink-0 text-xs" style={{ color: 'var(--status-good)' }}>
-                      buy
-                    </span>
-                  )}
-                  {ins.type === 'sell' && (
-                    <span className="shrink-0 text-xs" style={{ color: 'var(--status-critical)' }}>
-                      sell
-                    </span>
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="truncate text-sm">{ins.name}</span>
+                    {ins.type === 'buy' && (
+                      <span className="shrink-0 text-xs" style={{ color: 'var(--status-good)' }}>
+                        buy
+                      </span>
+                    )}
+                    {ins.type === 'sell' && (
+                      <span className="shrink-0 text-xs" style={{ color: 'var(--status-critical)' }}>
+                        sell
+                      </span>
+                    )}
+                  </div>
+                  {ins.date && (
+                    <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                      {fmtDate(ins.date)}
+                    </div>
                   )}
                 </a>
               ))}
