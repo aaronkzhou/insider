@@ -147,6 +147,67 @@ export default function PersonDetail() {
         </div>
       )}
 
+      {person.beneficialOwnership?.length > 0 && (
+        <div className="mb-6">
+          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
+            Beneficial ownership (Schedule 13D/13G)
+          </h2>
+          <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            A distinct SEC filing type from Form 4 and a 13F — filed by any person or entity that crosses 5%
+            beneficial ownership of a public company's stock. Each row is a point-in-time snapshot as of its own
+            filing date, not a continuously updated position like Form 4 holdings above.
+          </p>
+          <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+            <table className="w-full min-w-[600px] border-collapse text-sm">
+              <thead>
+                <tr
+                  className="text-left text-xs uppercase tracking-wide"
+                  style={{ color: 'var(--text-muted)', borderBottom: '1px solid var(--gridline)' }}
+                >
+                  <th className="px-4 py-2.5 font-medium">Company</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Shares</th>
+                  <th className="px-4 py-2.5 text-right font-medium">% of class</th>
+                  <th className="px-4 py-2.5 font-medium">As of</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Filing</th>
+                </tr>
+              </thead>
+              <tbody>
+                {person.beneficialOwnership.map((b, i) => (
+                  <tr key={i} style={{ borderBottom: '1px solid var(--gridline)' }} className="last:border-b-0">
+                    <td className="px-4 py-2.5 font-medium" style={{ color: 'var(--text-primary)' }}>
+                      {b.ticker}
+                      <span className="ml-1.5 text-xs font-normal" style={{ color: 'var(--text-muted)' }}>
+                        {b.companyName}
+                      </span>
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {fmtShares(b.shares)}
+                    </td>
+                    <td className="px-4 py-2.5 text-right tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {b.percentOfClass}%
+                    </td>
+                    <td className="px-4 py-2.5 text-xs" style={{ color: 'var(--text-muted)' }}>
+                      {fmtDate(b.asOfDate)} · {b.filingType}
+                    </td>
+                    <td className="px-4 py-2.5 text-right">
+                      <a
+                        href={b.filingUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-xs font-medium hover:underline"
+                        style={{ color: 'var(--accent)' }}
+                      >
+                        SEC ↗
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
       {person.fund && person.fundHoldings && (
         <div className="mb-6">
           <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>

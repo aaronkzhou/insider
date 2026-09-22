@@ -71,44 +71,182 @@
     "price": 107.13,
     "priceAsOf": "2026-09-01"
   },
+  "DJT": {
+    "name": "Trump Media & Technology Group Corp.",
+    "sector": "Media",
+    "price": null,
+    "priceAsOf": null
+  },
+  "PSQH": {
+    "name": "PSQ Holdings, Inc.",
+    "sector": "E-Commerce",
+    "price": 0.5038,
+    "priceAsOf": "2026-06-08"
+  },
+  "PEW": {
+    "name": "GrabAGun Digital Holdings Inc.",
+    "sector": "Retail",
+    "price": 2.2501,
+    "priceAsOf": "2026-09-02"
+  },
+  "APPH": {
+    "name": "AppHarvest, Inc.",
+    "sector": "Agriculture",
+    "price": 1.22,
+    "priceAsOf": "2022-11-21"
+  },
   "PLTR": {
     "name": "Palantir Technologies Inc.",
     "sector": "Technology",
-    "price": 172.64,
+    "price": 176.1055,
     "priceAsOf": "2026-09-15"
   },
   "AMD": {
     "name": "Advanced Micro Devices Inc.",
     "sector": "Semiconductors",
-    "price": 503.05,
+    "price": 506.88,
     "priceAsOf": "2026-09-15"
   },
   "AVGO": {
     "name": "Broadcom Inc.",
     "sector": "Semiconductors",
-    "price": 401.33,
+    "price": 401.329,
     "priceAsOf": "2026-07-10"
   },
+  "INTC": {
+    "name": "Intel Corp.",
+    "sector": "Semiconductors",
+    "price": 95,
+    "priceAsOf": "2026-08-11"
+  },
+  "MU": {
+    "name": "Micron Technology Inc.",
+    "sector": "Semiconductors",
+    "price": 989.59,
+    "priceAsOf": "2026-08-21"
+  },
+  "DXYZ": {
+    "name": "Destiny Tech100 Inc.",
+    "sector": "Closed-End Fund",
+    "price": 32.14,
+    "priceAsOf": "2026-09-03"
+  },
+  "VCX": {
+    "name": "Fundrise Innovation Fund, LLC",
+    "sector": "Closed-End Fund",
+    "price": 18.25,
+    "priceAsOf": "2026-02-19"
+  },
+  "SNDK": {
+    "name": "Sandisk Corp.",
+    "sector": "Semiconductors",
+    "price": 1587,
+    "priceAsOf": "2026-09-17"
+  },
+  "BABA": {
+    "name": "Alibaba Group Holding Ltd",
+    "sector": "Technology",
+    "price": 14.47,
+    "priceAsOf": "2026-08-25"
+  },
+  "ORCL": {
+    "name": "Oracle Corp.",
+    "sector": "Technology",
+    "price": 139.94,
+    "priceAsOf": "2026-09-16"
+  },
+  "CRM": {
+    "name": "Salesforce, Inc.",
+    "sector": "Technology",
+    "price": 239.3321,
+    "priceAsOf": "2026-09-18"
+  },
+  "ADBE": {
+    "name": "Adobe Inc.",
+    "sector": "Technology",
+    "price": 251.7602,
+    "priceAsOf": "2026-09-17"
+  },
+  "QCOM": {
+    "name": "Qualcomm Inc.",
+    "sector": "Semiconductors",
+    "price": 185.315,
+    "priceAsOf": "2026-09-11"
+  },
+  "CSCO": {
+    "name": "Cisco Systems, Inc.",
+    "sector": "Technology",
+    "price": 110.18,
+    "priceAsOf": "2026-09-14"
+  },
+  "SMCI": {
+    "name": "Super Micro Computer, Inc.",
+    "sector": "Technology",
+    "price": 40,
+    "priceAsOf": "2026-09-04"
+  },
+  "SNOW": {
+    "name": "Snowflake Inc.",
+    "sector": "Technology",
+    "price": 318.51,
+    "priceAsOf": "2026-09-16"
+  },
+  "MRVL": {
+    "name": "Marvell Technology, Inc.",
+    "sector": "Semiconductors",
+    "price": 223.39,
+    "priceAsOf": "2026-09-15"
+  },
+  "TXN": {
+    "name": "Texas Instruments Inc.",
+    "sector": "Semiconductors",
+    "price": 264.96,
+    "priceAsOf": "2026-08-27"
+  },
+  "MSTR": {
+    "name": "Strategy Inc.",
+    "sector": "Technology",
+    "price": 138.75,
+    "priceAsOf": "2026-09-04"
+  },
+  "COIN": {
+    "name": "Coinbase Global, Inc.",
+    "sector": "Financials",
+    "price": 181.1392,
+    "priceAsOf": "2026-09-08"
+  },
+  "V": {
+    "name": "Visa Inc.",
+    "sector": "Financials",
+    "price": 368.34,
+    "priceAsOf": "2026-09-09"
+  },
+  "PYPL": {
+    "name": "PayPal Holdings, Inc.",
+    "sector": "Financials",
+    "price": 56.7083,
+    "priceAsOf": "2026-09-03"
+  },
+  "CRWD": {
+    "name": "CrowdStrike Holdings, Inc.",
+    "sector": "Technology",
+    "price": 247.45,
+    "priceAsOf": "2026-09-18"
+  },
   "TRMP": {
-    "name": "Trump Entertainment Resorts, Inc.",
-    "sector": "Gaming",
+    "name": "TRMP",
+    "sector": null,
     "price": null,
     "priceAsOf": null
   },
   "DJTE.PK": {
-    "name": "Trump Entertainment Resorts Holdings (Pink Sheets)",
-    "sector": "Gaming",
+    "name": "DJTE.PK",
+    "sector": null,
     "price": null,
     "priceAsOf": null
   },
   "RIV": {
-    "name": "Riviera Holdings Corp.",
-    "sector": "Gaming",
-    "price": null,
-    "priceAsOf": null
-  },
-  "SHAZ": {
-    "name": "SHAZ",
+    "name": "RIV",
     "sector": null,
     "price": null,
     "priceAsOf": null
@@ -131,64 +269,34 @@
     "price": null,
     "priceAsOf": null
   },
-  "INTC": {
-    "name": "Intel Corp.",
-    "sector": "Semiconductors",
-    "price": 95,
-    "priceAsOf": "2026-08-11"
-  },
-  "DXYZ": {
-    "name": "Destiny Tech100 Inc.",
-    "sector": "Closed-End Fund",
-    "price": 32.14,
-    "priceAsOf": "2026-09-03"
-  },
-  "VCX": {
-    "name": "Fundrise Innovation Fund, LLC",
-    "sector": "Closed-End Fund",
-    "price": 18.25,
-    "priceAsOf": "2026-02-19"
-  },
-  "SNDK": {
-    "name": "Sandisk Corp.",
-    "sector": "Semiconductors",
-    "price": 1574.21,
-    "priceAsOf": "2026-09-17"
-  },
-  "BABA": {
-    "name": "Alibaba Group Holding Ltd",
+  "SHAZ": {
+    "name": "SharonAI Holdings Inc.",
     "sector": "Technology",
-    "price": 14.47,
-    "priceAsOf": "2026-08-25"
-  },
-  "MU": {
-    "name": "Micron Technology Inc.",
-    "sector": "Semiconductors",
-    "price": 968.9,
-    "priceAsOf": "2026-08-21"
-  },
-  "APPH": {
-    "name": "AppHarvest, Inc.",
-    "sector": "Agriculture",
-    "price": 1.22,
-    "priceAsOf": "2022-11-21"
-  },
-  "DJT": {
-    "name": "Trump Media & Technology Group Corp.",
-    "sector": "Media",
     "price": null,
     "priceAsOf": null
   },
-  "PSQH": {
-    "name": "PSQ Holdings, Inc.",
-    "sector": "E-Commerce",
-    "price": 0.5,
-    "priceAsOf": "2026-06-08"
+  "ABCL": {
+    "name": "AbCellera Biologics Inc.",
+    "sector": "Biotechnology",
+    "price": null,
+    "priceAsOf": null
   },
-  "PEW": {
-    "name": "GrabAGun Digital Holdings Inc.",
-    "sector": "Retail",
-    "price": 2.25,
-    "priceAsOf": "2026-09-02"
+  "PGRU": {
+    "name": "PropertyGuru Group Ltd",
+    "sector": "Real Estate Technology",
+    "price": null,
+    "priceAsOf": null
+  },
+  "CMPS": {
+    "name": "COMPASS Pathways plc",
+    "sector": "Biotechnology",
+    "price": null,
+    "priceAsOf": null
+  },
+  "CMMB": {
+    "name": "Chemomab Therapeutics Ltd.",
+    "sector": "Biotechnology",
+    "price": null,
+    "priceAsOf": null
   }
 }

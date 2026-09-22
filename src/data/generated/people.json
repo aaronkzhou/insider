@@ -1536,7 +1536,8 @@
     "title": "Director",
     "company": "META",
     "roles": {
-      "META": "Director"
+      "META": "Director",
+      "COIN": "Director"
     },
     "initials": "AM"
   },
@@ -1805,6 +1806,160 @@
     "initials": "CS"
   },
   {
+    "id": "langston-willie-7821",
+    "cik": "2047821",
+    "name": "Langston Willie",
+    "title": "Director",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Director"
+    },
+    "initials": "LW"
+  },
+  {
+    "id": "pena-michael-1770",
+    "cik": "2131770",
+    "name": "Pena Michael",
+    "title": "Chief Financial Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Financial Officer"
+    },
+    "initials": "PM"
+  },
+  {
+    "id": "rinn-james-5227",
+    "cik": "1985227",
+    "name": "Rinn James",
+    "title": "Chief Financial Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Financial Officer"
+    },
+    "initials": "RJ"
+  },
+  {
+    "id": "wunderlich-dusty-5472",
+    "cik": "2015472",
+    "name": "Wunderlich Dusty",
+    "title": "Chief Strategy Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Strategy Officer"
+    },
+    "initials": "WD"
+  },
+  {
+    "id": "seifert-michael-stephen-5187",
+    "cik": "1985187",
+    "name": "Seifert Michael Stephen",
+    "title": "Chief Executive Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Executive Officer"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "hebert-michael-robert-5192",
+    "cik": "1985192",
+    "name": "Hebert Michael Robert",
+    "title": "Chief People Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief People Officer"
+    },
+    "initials": "HM"
+  },
+  {
+    "id": "hilty-justin-c-0555",
+    "cik": "2060555",
+    "name": "Hilty Justin C.",
+    "title": "Reporting Person",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Reporting Person"
+    },
+    "initials": "HJ"
+  },
+  {
+    "id": "vittitow-matthew-w-0636",
+    "cik": "2060636",
+    "name": "Vittitow Matthew W.",
+    "title": "Chief Operating Officer",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Chief Operating Officer"
+    },
+    "initials": "VM"
+  },
+  {
+    "id": "nemati-marc-a-0619",
+    "cik": "2060619",
+    "name": "Nemati Marc A.",
+    "title": "President and CEO",
+    "company": "PEW",
+    "roles": {
+      "PEW": "President and CEO"
+    },
+    "initials": "NM"
+  },
+  {
+    "id": "reisdorf-kelly-l-4008",
+    "cik": "1794008",
+    "name": "Reisdorf Kelly L",
+    "title": "Director",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Director"
+    },
+    "initials": "RK"
+  },
+  {
+    "id": "cox-chris-w-7813",
+    "cik": "2077813",
+    "name": "Cox Chris W.",
+    "title": "Director",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Director"
+    },
+    "initials": "CC"
+  },
+  {
+    "id": "nelson-julie-4394",
+    "cik": "1914394",
+    "name": "Nelson Julie",
+    "title": "Chief Operating Officer",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Chief Operating Officer"
+    },
+    "initials": "NJ"
+  },
+  {
+    "id": "lee-david-j-5182",
+    "cik": "1605182",
+    "name": "Lee David J.",
+    "title": "Director",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Director"
+    },
+    "initials": "LD"
+  },
+  {
+    "id": "willis-j-kevin-5329",
+    "cik": "1575329",
+    "name": "WILLIS J KEVIN",
+    "title": "Director",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Director"
+    },
+    "initials": "WJ"
+  },
+  {
     "id": "moore-alexander-d-3952",
     "cik": "1823952",
     "name": "Moore Alexander D.",
@@ -1902,6 +2057,48 @@
       "PLTR": "Director"
     },
     "initials": "TP",
+    "beneficialOwnership": [
+      {
+        "ticker": "ABCL",
+        "companyName": "AbCellera Biologics Inc.",
+        "sector": "Biotechnology",
+        "shares": 14360427,
+        "percentOfClass": 4.99,
+        "asOfDate": "2023-04-24",
+        "filingType": "Schedule 13D/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465923049066/tm2313479d1_sc13da.htm"
+      },
+      {
+        "ticker": "PGRU",
+        "companyName": "PropertyGuru Group Ltd",
+        "sector": "Real Estate Technology",
+        "shares": 10195197,
+        "percentOfClass": 6.1,
+        "asOfDate": "2022-09-09",
+        "filingType": "Schedule 13G",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922098902/tm2225018d1_sc13g.htm"
+      },
+      {
+        "ticker": "CMPS",
+        "companyName": "COMPASS Pathways plc",
+        "sector": "Biotechnology",
+        "shares": 1305788,
+        "percentOfClass": 3.1,
+        "asOfDate": "2022-02-14",
+        "filingType": "Schedule 13G/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm"
+      },
+      {
+        "ticker": "CMMB",
+        "companyName": "Chemomab Therapeutics Ltd.",
+        "sector": "Biotechnology",
+        "shares": 22631200,
+        "percentOfClass": 4.6,
+        "asOfDate": "2025-12-31",
+        "filingType": "Schedule 13G/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000121106026000005/xslSCHEDULE_13G_X01/primary_doc.xml"
+      }
+    ],
     "fund": true,
     "fundHoldings": {
       "fundName": "Thiel Macro LLC",
@@ -2146,6 +2343,1327 @@
     "initials": "TH"
   },
   {
+    "id": "tan-lip-bu-8463",
+    "cik": "1008463",
+    "name": "TAN LIP BU",
+    "title": "CEO",
+    "company": "INTC",
+    "roles": {
+      "INTC": "CEO"
+    },
+    "initials": "TL"
+  },
+  {
+    "id": "chandrasekaran-nagasubramaniyan-2075",
+    "cik": "2082075",
+    "name": "Chandrasekaran Nagasubramaniyan",
+    "title": "EVP, CT & Ops Off, GM Foundry",
+    "company": "INTC",
+    "roles": {
+      "INTC": "EVP, CT & Ops Off, GM Foundry"
+    },
+    "initials": "CN"
+  },
+  {
+    "id": "miller-boise-april-0881",
+    "cik": "1680881",
+    "name": "Miller Boise April",
+    "title": "EVP and Chief Legal Officer",
+    "company": "INTC",
+    "roles": {
+      "INTC": "EVP and Chief Legal Officer"
+    },
+    "initials": "MB"
+  },
+  {
+    "id": "bjorlin-alexis-8757",
+    "cik": "1798757",
+    "name": "Bjorlin Alexis",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "BA"
+  },
+  {
+    "id": "mehrotra-sanjay-2654",
+    "cik": "1242654",
+    "name": "MEHROTRA SANJAY",
+    "title": "President and CEO",
+    "company": "MU",
+    "roles": {
+      "MU": "President and CEO"
+    },
+    "initials": "MS"
+  },
+  {
+    "id": "sadana-sumit-1079",
+    "cik": "1311079",
+    "name": "Sadana Sumit",
+    "title": "EVP and Chief Business Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP and Chief Business Officer"
+    },
+    "initials": "SS"
+  },
+  {
+    "id": "allen-scott-r-2149",
+    "cik": "1652149",
+    "name": "ALLEN SCOTT R.",
+    "title": "CVP, Chief Accounting Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "CVP, Chief Accounting Officer"
+    },
+    "initials": "AS"
+  },
+  {
+    "id": "arnzen-april-s-2063",
+    "cik": "1632063",
+    "name": "ARNZEN APRIL S",
+    "title": "EVP and Chief People Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP and Chief People Officer"
+    },
+    "initials": "AA"
+  },
+  {
+    "id": "dugle-lynn-a-3368",
+    "cik": "1453368",
+    "name": "Dugle Lynn A",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "DL"
+  },
+  {
+    "id": "gomo-steven-j-4095",
+    "cik": "1224095",
+    "name": "GOMO STEVEN J",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "GS"
+  },
+  {
+    "id": "ray-michael-charles-3199",
+    "cik": "1593199",
+    "name": "RAY MICHAEL CHARLES",
+    "title": "SVP, Chief Legal Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "SVP, Chief Legal Officer"
+    },
+    "initials": "RM"
+  },
+  {
+    "id": "cordano-michael-d-1490",
+    "cik": "1201490",
+    "name": "CORDANO MICHAEL D",
+    "title": "EVP, Worldwide Sales",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP, Worldwide Sales"
+    },
+    "initials": "CM"
+  },
+  {
+    "id": "bhatia-manish-h-9498",
+    "cik": "1689498",
+    "name": "BHATIA MANISH H",
+    "title": "EVP, Global Operations",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP, Global Operations"
+    },
+    "initials": "BM"
+  },
+  {
+    "id": "liu-teyin-m-8769",
+    "cik": "2058769",
+    "name": "Liu Teyin M",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "LT"
+  },
+  {
+    "id": "silver-ethan-4406",
+    "cik": "2154406",
+    "name": "Silver Ethan",
+    "title": "Chief Operating Officer",
+    "company": "DXYZ",
+    "roles": {
+      "DXYZ": "Chief Operating Officer"
+    },
+    "initials": "SE"
+  },
+  {
+    "id": "prasad-sohail-3728",
+    "cik": "2003728",
+    "name": "Prasad Sohail",
+    "title": "President and CEO",
+    "company": "DXYZ",
+    "roles": {
+      "DXYZ": "President and CEO"
+    },
+    "initials": "PS"
+  },
+  {
+    "id": "hall-bjorn-9781",
+    "cik": "1799781",
+    "name": "Hall Bjorn",
+    "title": "Secretary and CCO",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Secretary and CCO"
+    },
+    "initials": "HB"
+  },
+  {
+    "id": "osaka-glenn-9446",
+    "cik": "1799446",
+    "name": "Osaka Glenn",
+    "title": "Director",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Director"
+    },
+    "initials": "OG"
+  },
+  {
+    "id": "deitrich-jeffrey-9447",
+    "cik": "1799447",
+    "name": "Deitrich Jeffrey",
+    "title": "Director",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Director"
+    },
+    "initials": "DJ"
+  },
+  {
+    "id": "staloch-alison-7181",
+    "cik": "1867181",
+    "name": "Staloch Alison",
+    "title": "Treasurer",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Treasurer"
+    },
+    "initials": "SA"
+  },
+  {
+    "id": "goeckeler-david-3941",
+    "cik": "1713941",
+    "name": "Goeckeler David",
+    "title": "Chairman & CEO",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "Chairman & CEO"
+    },
+    "initials": "GD"
+  },
+  {
+    "id": "visoso-luis-felipe-6289",
+    "cik": "1816289",
+    "name": "Visoso Luis Felipe",
+    "title": "EVP & CFO",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "EVP & CFO"
+    },
+    "initials": "VL"
+  },
+  {
+    "id": "ilkbahar-alper-9630",
+    "cik": "2059630",
+    "name": "Ilkbahar Alper",
+    "title": "EVP & Chief Technology Officer",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "EVP & Chief Technology Officer"
+    },
+    "initials": "IA"
+  },
+  {
+    "id": "shek-bernard-0144",
+    "cik": "2060144",
+    "name": "Shek Bernard",
+    "title": "Chief Legal Officer & Secty",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "Chief Legal Officer & Secty"
+    },
+    "initials": "SB"
+  },
+  {
+    "id": "pokorny-michael-8338",
+    "cik": "2058338",
+    "name": "Pokorny Michael",
+    "title": "VP, Chief Accounting Officer",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "VP, Chief Accounting Officer"
+    },
+    "initials": "PM"
+  },
+  {
+    "id": "sayiner-necip-8515",
+    "cik": "1338515",
+    "name": "Sayiner Necip",
+    "title": "Director",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "Director"
+    },
+    "initials": "SN"
+  },
+  {
+    "id": "tsai-joseph-c-3999",
+    "cik": "1633999",
+    "name": "Tsai Joseph C",
+    "title": "Director",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Director"
+    },
+    "initials": "TJ"
+  },
+  {
+    "id": "wu-yongming-1606",
+    "cik": "2121606",
+    "name": "Wu Yongming",
+    "title": "Chief Executive Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief Executive Officer"
+    },
+    "initials": "WY"
+  },
+  {
+    "id": "evans-j-michael-8339",
+    "cik": "1428339",
+    "name": "EVANS J. MICHAEL",
+    "title": "President",
+    "company": "BABA",
+    "roles": {
+      "BABA": "President"
+    },
+    "initials": "EJ"
+  },
+  {
+    "id": "jiang-fan-fj-5804",
+    "cik": "2115804",
+    "name": "Jiang Fan (FJ)",
+    "title": "CEO of Business Group",
+    "company": "BABA",
+    "roles": {
+      "BABA": "CEO of Business Group"
+    },
+    "initials": "JF"
+  },
+  {
+    "id": "xu-hong-4529",
+    "cik": "2114529",
+    "name": "Xu Hong",
+    "title": "Chief Financial Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief Financial Officer"
+    },
+    "initials": "XH"
+  },
+  {
+    "id": "yu-siying-4147",
+    "cik": "2114147",
+    "name": "Yu Siying",
+    "title": "General Counsel",
+    "company": "BABA",
+    "roles": {
+      "BABA": "General Counsel"
+    },
+    "initials": "YS"
+  },
+  {
+    "id": "jiang-fang-4927",
+    "cik": "2114927",
+    "name": "Jiang Fang",
+    "title": "Chief People Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief People Officer"
+    },
+    "initials": "JF"
+  },
+  {
+    "id": "sicilia-michael-d-1965",
+    "cik": "2071965",
+    "name": "Sicilia Michael D.",
+    "title": "Chief Executive Officer",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "Chief Executive Officer"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "henley-jeffrey-6100",
+    "cik": "1206100",
+    "name": "HENLEY JEFFREY",
+    "title": "Vice Chairman",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "Vice Chairman"
+    },
+    "initials": "HJ"
+  },
+  {
+    "id": "levey-stuart-2913",
+    "cik": "1952913",
+    "name": "Levey Stuart",
+    "title": "EVP, Chief Legal Officer",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "EVP, Chief Legal Officer"
+    },
+    "initials": "LS"
+  },
+  {
+    "id": "magouyrk-clayton-m-1873",
+    "cik": "2071873",
+    "name": "Magouyrk Clayton M.",
+    "title": "Chief Executive Officer",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "Chief Executive Officer"
+    },
+    "initials": "MC"
+  },
+  {
+    "id": "kehring-douglas-a-7283",
+    "cik": "1527283",
+    "name": "KEHRING DOUGLAS A",
+    "title": "EVP, Principal Financial Offcr",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "EVP, Principal Financial Offcr"
+    },
+    "initials": "KD"
+  },
+  {
+    "id": "hura-mark-9378",
+    "cik": "2089378",
+    "name": "Hura Mark",
+    "title": "Pres., Global Field Operations",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "Pres., Global Field Operations"
+    },
+    "initials": "HM"
+  },
+  {
+    "id": "seligman-naomi-o-2761",
+    "cik": "1192761",
+    "name": "SELIGMAN NAOMI O",
+    "title": "Director",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "Director"
+    },
+    "initials": "SN"
+  },
+  {
+    "id": "berg-jeffrey-6104",
+    "cik": "1206104",
+    "name": "BERG JEFFREY",
+    "title": "Director",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "Director"
+    },
+    "initials": "BJ"
+  },
+  {
+    "id": "kirk-david-blair-7892",
+    "cik": "2077892",
+    "name": "Kirk David Blair",
+    "title": "Director",
+    "company": "CRM",
+    "roles": {
+      "CRM": "Director"
+    },
+    "initials": "KD"
+  },
+  {
+    "id": "conway-craig-0922",
+    "cik": "1340922",
+    "name": "Conway Craig",
+    "title": "Director",
+    "company": "CRM",
+    "roles": {
+      "CRM": "Director"
+    },
+    "initials": "CC"
+  },
+  {
+    "id": "narayen-shantanu-4154",
+    "cik": "1224154",
+    "name": "NARAYEN SHANTANU",
+    "title": "Chair and CEO",
+    "company": "ADBE",
+    "roles": {
+      "ADBE": "Chair and CEO"
+    },
+    "initials": "NS"
+  },
+  {
+    "id": "forusz-jillian-1886",
+    "cik": "2031886",
+    "name": "Forusz Jillian",
+    "title": "SVP & CAO",
+    "company": "ADBE",
+    "roles": {
+      "ADBE": "SVP & CAO"
+    },
+    "initials": "FJ"
+  },
+  {
+    "id": "ricks-david-a-8604",
+    "cik": "1538604",
+    "name": "Ricks David A",
+    "title": "Director",
+    "company": "ADBE",
+    "roles": {
+      "ADBE": "Director"
+    },
+    "initials": "RD"
+  },
+  {
+    "id": "durn-daniel-0062",
+    "cik": "1610062",
+    "name": "Durn Daniel",
+    "title": "EVP & CFO",
+    "company": "ADBE",
+    "roles": {
+      "ADBE": "EVP & CFO",
+      "MRVL": "Chief Financial Officer"
+    },
+    "initials": "DD"
+  },
+  {
+    "id": "palkhiwala-akash-j-6420",
+    "cik": "1786420",
+    "name": "Palkhiwala Akash J.",
+    "title": "EVP, CFO & COO",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "EVP, CFO & COO"
+    },
+    "initials": "PA"
+  },
+  {
+    "id": "grech-patricia-y-1650",
+    "cik": "2081650",
+    "name": "Grech Patricia Y",
+    "title": "SVP, Chief Accounting Officer",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "SVP, Chief Accounting Officer"
+    },
+    "initials": "GP"
+  },
+  {
+    "id": "ace-heather-s-0762",
+    "cik": "1610762",
+    "name": "ACE HEATHER S",
+    "title": "EVP, Chief HR Officer",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "EVP, Chief HR Officer"
+    },
+    "initials": "AH"
+  },
+  {
+    "id": "amon-cristiano-r-9665",
+    "cik": "1559665",
+    "name": "AMON CRISTIANO R",
+    "title": "President & CEO",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "President & CEO"
+    },
+    "initials": "AC"
+  },
+  {
+    "id": "subaiya-thimaya-k-5287",
+    "cik": "2015287",
+    "name": "Subaiya Thimaya K.",
+    "title": "EVP, Operations",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "EVP, Operations"
+    },
+    "initials": "ST"
+  },
+  {
+    "id": "tuszik-oliver-6411",
+    "cik": "2066411",
+    "name": "Tuszik Oliver",
+    "title": "EVP, Global Sales",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "EVP, Global Sales"
+    },
+    "initials": "TO"
+  },
+  {
+    "id": "patterson-mark-0779",
+    "cik": "2080779",
+    "name": "Patterson Mark",
+    "title": "EVP and CFO",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "EVP and CFO"
+    },
+    "initials": "PM"
+  },
+  {
+    "id": "fink-nichlas-a-5737",
+    "cik": "1595737",
+    "name": "Fink Nichlas A",
+    "title": "SVP, Chief Accounting Officer",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "SVP, Chief Accounting Officer"
+    },
+    "initials": "FN"
+  },
+  {
+    "id": "patel-jeetendra-i-9016",
+    "cik": "1779016",
+    "name": "Patel Jeetendra I",
+    "title": "President and CPO",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "President and CPO"
+    },
+    "initials": "PJ"
+  },
+  {
+    "id": "stahlkopf-deborah-l-3299",
+    "cik": "1873299",
+    "name": "Stahlkopf Deborah L",
+    "title": "EVP and Chief Legal Officer",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "EVP and Chief Legal Officer"
+    },
+    "initials": "SD"
+  },
+  {
+    "id": "robbins-charles-9655",
+    "cik": "1559655",
+    "name": "Robbins Charles",
+    "title": "Chair and CEO",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "Chair and CEO"
+    },
+    "initials": "RC"
+  },
+  {
+    "id": "liang-charles-2942",
+    "cik": "1392942",
+    "name": "Liang Charles",
+    "title": "President and CEO",
+    "company": "SMCI",
+    "roles": {
+      "SMCI": "President and CEO"
+    },
+    "initials": "LC"
+  },
+  {
+    "id": "liu-liang-chiu-chu-sara-2941",
+    "cik": "1392941",
+    "name": "Liu Liang Chiu-Chu Sara",
+    "title": "Director",
+    "company": "SMCI",
+    "roles": {
+      "SMCI": "Director"
+    },
+    "initials": "LL"
+  },
+  {
+    "id": "beaulier-jonathan-mead-7025",
+    "cik": "2127025",
+    "name": "Beaulier Jonathan Mead",
+    "title": "Chief Revenue Officer",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Chief Revenue Officer"
+    },
+    "initials": "BJ"
+  },
+  {
+    "id": "ho-emily-2024",
+    "cik": "2012024",
+    "name": "Ho Emily",
+    "title": "Chief Accounting Officer",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Chief Accounting Officer"
+    },
+    "initials": "HE"
+  },
+  {
+    "id": "kleinerman-christian-9088",
+    "cik": "1979088",
+    "name": "Kleinerman Christian",
+    "title": "EVP, Product Management",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "EVP, Product Management"
+    },
+    "initials": "KC"
+  },
+  {
+    "id": "slootman-frank-2348",
+    "cik": "1402348",
+    "name": "Slootman Frank",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "SF"
+  },
+  {
+    "id": "raghunathan-vivek-8740",
+    "cik": "2038740",
+    "name": "Raghunathan Vivek",
+    "title": "SVP, Engineering",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "SVP, Engineering"
+    },
+    "initials": "RV"
+  },
+  {
+    "id": "dageville-benoit-1737",
+    "cik": "1821737",
+    "name": "Dageville Benoit",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "DB"
+  },
+  {
+    "id": "garrett-mark-6215",
+    "cik": "1246215",
+    "name": "GARRETT MARK",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "GM"
+  },
+  {
+    "id": "speiser-michael-l-3644",
+    "cik": "1433644",
+    "name": "Speiser Michael L",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "briggs-teresa-7659",
+    "cik": "1767659",
+    "name": "Briggs Teresa",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "BT"
+  },
+  {
+    "id": "murphy-matthew-j-1430",
+    "cik": "1381430",
+    "name": "MURPHY MATTHEW J",
+    "title": "Chairman of the Board and CEO",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "Chairman of the Board and CEO"
+    },
+    "initials": "MM"
+  },
+  {
+    "id": "koopmans-chris-6204",
+    "cik": "1676204",
+    "name": "Koopmans Chris",
+    "title": "President and COO",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "President and COO"
+    },
+    "initials": "KC"
+  },
+  {
+    "id": "bharathi-sandeep-5808",
+    "cik": "1975808",
+    "name": "Bharathi Sandeep",
+    "title": "President, Data Center Group",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "President, Data Center Group"
+    },
+    "initials": "BS"
+  },
+  {
+    "id": "meintjes-willem-a-5800",
+    "cik": "1635800",
+    "name": "Meintjes Willem A",
+    "title": "Chief Financial Officer",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "Chief Financial Officer"
+    },
+    "initials": "MW"
+  },
+  {
+    "id": "casper-mark-7961",
+    "cik": "2007961",
+    "name": "Casper Mark",
+    "title": "EVP & Chief Legal Officer",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "EVP & Chief Legal Officer"
+    },
+    "initials": "CM"
+  },
+  {
+    "id": "abraham-tsedeniya-7064",
+    "cik": "2127064",
+    "name": "Abraham Tsedeniya",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "AT"
+  },
+  {
+    "id": "craighead-martin-s-9699",
+    "cik": "1319699",
+    "name": "Craighead Martin S",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "CM"
+  },
+  {
+    "id": "bahai-ahmad-8135",
+    "cik": "1498135",
+    "name": "BAHAI AHMAD",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "BA"
+  },
+  {
+    "id": "lizardi-rafael-r-1660",
+    "cik": "1691660",
+    "name": "Lizardi Rafael R",
+    "title": "Sr. Vice President & CFO",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President & CFO"
+    },
+    "initials": "LR"
+  },
+  {
+    "id": "cox-carrie-smith-0753",
+    "cik": "1110753",
+    "name": "COX CARRIE SMITH",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "CC"
+  },
+  {
+    "id": "leonard-shanon-j-0456",
+    "cik": "1920456",
+    "name": "Leonard Shanon J",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "LS"
+  },
+  {
+    "id": "ilan-haviv-5466",
+    "cik": "1695466",
+    "name": "Ilan Haviv",
+    "title": "Chairman, President & CEO",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Chairman, President & CEO"
+    },
+    "initials": "IH"
+  },
+  {
+    "id": "knecht-julie-c-9349",
+    "cik": "1859349",
+    "name": "Knecht Julie C.",
+    "title": "VP & Chief Accounting Officer",
+    "company": "TXN",
+    "roles": {
+      "TXN": "VP & Chief Accounting Officer"
+    },
+    "initials": "KJ"
+  },
+  {
+    "id": "gary-mark-1977",
+    "cik": "1821977",
+    "name": "Gary Mark",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "GM"
+  },
+  {
+    "id": "roberts-mark-t-9255",
+    "cik": "1859255",
+    "name": "Roberts Mark T.",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "RM"
+  },
+  {
+    "id": "yunus-mohammad-8366",
+    "cik": "2008366",
+    "name": "Yunus Mohammad",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "YM"
+  },
+  {
+    "id": "kane-katharine-2065",
+    "cik": "2032065",
+    "name": "Kane Katharine",
+    "title": "SVP and  General Counsel",
+    "company": "TXN",
+    "roles": {
+      "TXN": "SVP and  General Counsel"
+    },
+    "initials": "KK"
+  },
+  {
+    "id": "bluedorn-todd-m-5277",
+    "cik": "1395277",
+    "name": "Bluedorn Todd M",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "BT"
+  },
+  {
+    "id": "ron-amichai-8389",
+    "cik": "1788389",
+    "name": "Ron Amichai",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "RA"
+  },
+  {
+    "id": "blinn-mark-a-9149",
+    "cik": "1129149",
+    "name": "BLINN MARK A",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "BM"
+  },
+  {
+    "id": "patsley-pamela-h-2591",
+    "cik": "1182591",
+    "name": "PATSLEY PAMELA H",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "PP"
+  },
+  {
+    "id": "witzsche-christine-3939",
+    "cik": "1883939",
+    "name": "Witzsche Christine",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "WC"
+  },
+  {
+    "id": "kozanian-hagop-h-6766",
+    "cik": "1746766",
+    "name": "Kozanian Hagop H",
+    "title": "Sr. Vice President",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Sr. Vice President"
+    },
+    "initials": "KH"
+  },
+  {
+    "id": "chow-thomas-c-4012",
+    "cik": "1834012",
+    "name": "Chow Thomas C.",
+    "title": "EVP & General Counsel",
+    "company": "MSTR",
+    "roles": {
+      "MSTR": "EVP & General Counsel"
+    },
+    "initials": "CT"
+  },
+  {
+    "id": "patten-jarrod-m-9191",
+    "cik": "1309191",
+    "name": "Patten Jarrod M",
+    "title": "Director",
+    "company": "MSTR",
+    "roles": {
+      "MSTR": "Director"
+    },
+    "initials": "PJ"
+  },
+  {
+    "id": "le-phong-1669",
+    "cik": "1651669",
+    "name": "Le Phong",
+    "title": "President & CEO",
+    "company": "MSTR",
+    "roles": {
+      "MSTR": "President & CEO"
+    },
+    "initials": "LP"
+  },
+  {
+    "id": "kang-andrew-5170",
+    "cik": "1825170",
+    "name": "Kang Andrew",
+    "title": "EVP & CFO",
+    "company": "MSTR",
+    "roles": {
+      "MSTR": "EVP & CFO"
+    },
+    "initials": "KA"
+  },
+  {
+    "id": "montgomery-jeanine-4548",
+    "cik": "1444548",
+    "name": "Montgomery Jeanine",
+    "title": "VP & CAO",
+    "company": "MSTR",
+    "roles": {
+      "MSTR": "VP & CAO"
+    },
+    "initials": "MJ"
+  },
+  {
+    "id": "wilson-frederick-r-7688",
+    "cik": "1227688",
+    "name": "WILSON FREDERICK R",
+    "title": "Director",
+    "company": "COIN",
+    "roles": {
+      "COIN": "Director"
+    },
+    "initials": "WF"
+  },
+  {
+    "id": "jones-jennifer-n-1432",
+    "cik": "1851432",
+    "name": "Jones Jennifer N.",
+    "title": "Chief Accounting Officer",
+    "company": "COIN",
+    "roles": {
+      "COIN": "Chief Accounting Officer"
+    },
+    "initials": "JJ"
+  },
+  {
+    "id": "grewal-paul-1414",
+    "cik": "1851414",
+    "name": "Grewal Paul",
+    "title": "Chief Legal Officer",
+    "company": "COIN",
+    "roles": {
+      "COIN": "Chief Legal Officer"
+    },
+    "initials": "GP"
+  },
+  {
+    "id": "brock-lawrence-j-3975",
+    "cik": "1963975",
+    "name": "Brock Lawrence J",
+    "title": "Chief People Officer",
+    "company": "COIN",
+    "roles": {
+      "COIN": "Chief People Officer"
+    },
+    "initials": "BL"
+  },
+  {
+    "id": "haas-alesia-j-8711",
+    "cik": "1668711",
+    "name": "HAAS ALESIA J",
+    "title": "Chief Financial Officer",
+    "company": "COIN",
+    "roles": {
+      "COIN": "Chief Financial Officer"
+    },
+    "initials": "HA"
+  },
+  {
+    "id": "rottenberg-julie-b-7192",
+    "cik": "1887192",
+    "name": "ROTTENBERG JULIE B",
+    "title": "GENERAL COUNSEL",
+    "company": "V",
+    "roles": {
+      "V": "GENERAL COUNSEL"
+    },
+    "initials": "RJ"
+  },
+  {
+    "id": "mcinerney-ryan-8261",
+    "cik": "1578261",
+    "name": "MCINERNEY RYAN",
+    "title": "Chief Executive Officer",
+    "company": "V",
+    "roles": {
+      "V": "Chief Executive Officer"
+    },
+    "initials": "MR"
+  },
+  {
+    "id": "taneja-rajat-2601",
+    "cik": "1532601",
+    "name": "Taneja Rajat",
+    "title": "PRESIDENT, TECHNOLOGY",
+    "company": "V",
+    "roles": {
+      "V": "PRESIDENT, TECHNOLOGY"
+    },
+    "initials": "TR"
+  },
+  {
+    "id": "mahon-tullier-kelly-1104",
+    "cik": "1621104",
+    "name": "MAHON TULLIER KELLY",
+    "title": "VICE CHAIR, CHF PPL & CORP AFF",
+    "company": "V",
+    "roles": {
+      "V": "VICE CHAIR, CHF PPL & CORP AFF"
+    },
+    "initials": "MT"
+  },
+  {
+    "id": "suh-chris-5015",
+    "cik": "1885015",
+    "name": "Suh Chris",
+    "title": "CHIEF FINANCIAL OFFICER",
+    "company": "V",
+    "roles": {
+      "V": "CHIEF FINANCIAL OFFICER"
+    },
+    "initials": "SC"
+  },
+  {
+    "id": "carney-lloyd-4424",
+    "cik": "1204424",
+    "name": "CARNEY LLOYD",
+    "title": "Director",
+    "company": "V",
+    "roles": {
+      "V": "Director"
+    },
+    "initials": "CL"
+  },
+  {
+    "id": "fabara-paul-d-6987",
+    "cik": "1646987",
+    "name": "Fabara Paul D",
+    "title": "CHIEF RISK & CLIENT SVCS OFC",
+    "company": "V",
+    "roles": {
+      "V": "CHIEF RISK & CLIENT SVCS OFC"
+    },
+    "initials": "FP"
+  },
+  {
+    "id": "natali-chris-5272",
+    "cik": "1905272",
+    "name": "Natali Chris",
+    "title": "SVP, Chief Accounting Officer",
+    "company": "PYPL",
+    "roles": {
+      "PYPL": "SVP, Chief Accounting Officer"
+    },
+    "initials": "NC"
+  },
+  {
+    "id": "kereere-suzan-6086",
+    "cik": "1896086",
+    "name": "Kereere Suzan",
+    "title": "President, Global Markets",
+    "company": "PYPL",
+    "roles": {
+      "PYPL": "President, Global Markets"
+    },
+    "initials": "KS"
+  },
+  {
+    "id": "keller-frank-6416",
+    "cik": "2006416",
+    "name": "Keller Frank",
+    "title": "Pres., Checkout Sol. & PayPal",
+    "company": "PYPL",
+    "roles": {
+      "PYPL": "Pres., Checkout Sol. & PayPal"
+    },
+    "initials": "KF"
+  },
+  {
+    "id": "miller-jamie-s-0697",
+    "cik": "1290697",
+    "name": "Miller Jamie S",
+    "title": "Chief Fin & Op Officer",
+    "company": "PYPL",
+    "roles": {
+      "PYPL": "Chief Fin & Op Officer"
+    },
+    "initials": "MJ"
+  },
+  {
+    "id": "kurtz-george-8564",
+    "cik": "1778564",
+    "name": "Kurtz George",
+    "title": "PRESIDENT AND CEO",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "PRESIDENT AND CEO"
+    },
+    "initials": "KG"
+  },
+  {
+    "id": "davis-cary-0632",
+    "cik": "1220632",
+    "name": "DAVIS CARY",
+    "title": "Director",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "Director"
+    },
+    "initials": "DC"
+  },
+  {
+    "id": "watzinger-gerhard-5832",
+    "cik": "1445832",
+    "name": "Watzinger Gerhard",
+    "title": "Director",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "Director"
+    },
+    "initials": "WG"
+  },
+  {
+    "id": "austin-roxanne-s-1632",
+    "cik": "1061632",
+    "name": "AUSTIN ROXANNE S",
+    "title": "Director",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "Director"
+    },
+    "initials": "AR"
+  },
+  {
+    "id": "gandhi-sameer-k-1326",
+    "cik": "1201326",
+    "name": "GANDHI SAMEER K",
+    "title": "Director",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "Director"
+    },
+    "initials": "GS"
+  },
+  {
+    "id": "podbere-burt-w-8610",
+    "cik": "1778610",
+    "name": "Podbere Burt W.",
+    "title": "CHIEF FINANCIAL OFFICER",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "CHIEF FINANCIAL OFFICER"
+    },
+    "initials": "PB"
+  },
+  {
+    "id": "oleary-denis-3512",
+    "cik": "1253512",
+    "name": "OLEARY DENIS",
+    "title": "Director",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "Director"
+    },
+    "initials": "OD"
+  },
+  {
     "id": "donald-trump-jr-6181",
     "cik": "2016181",
     "name": "Donald Trump Jr.",
@@ -2327,7 +3845,7 @@
     "id": "donald-j-trump-7033",
     "cik": "947033",
     "name": "Donald J. Trump",
-    "title": "10% Owner",
+    "title": "Chairman, Pres. and CEO",
     "company": "DJT",
     "roles": {
       "DJT": "Chairman, Pres. and CEO",
@@ -2617,6 +4135,133 @@
     ]
   },
   {
+    "id": "jd-vance-4682",
+    "cik": "1834682",
+    "name": "JD Vance",
+    "title": "Director",
+    "company": "APPH",
+    "roles": {
+      "APPH": "Director"
+    },
+    "initials": "JV",
+    "staticHoldings": [
+      {
+        "ticker": "APPH",
+        "shares": 2939577,
+        "asOfDate": "2021-01-29",
+        "sourceEvent": "award",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834682/000120919121006496/0001209191-21-006496-index.htm"
+      }
+    ],
+    "otherEvents": [
+      {
+        "ticker": "APPH",
+        "code": "A",
+        "eventType": "award",
+        "shares": 2939577,
+        "price": null,
+        "date": "2021-01-29",
+        "sharesOwnedAfter": 2939577,
+        "accession": "0001209191-21-006496",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834682/000120919121006496/0001209191-21-006496-index.htm"
+      }
+    ],
+    "optionPositions": [],
+    "executiveDisclosure": {
+      "formType": "OGE Form 278e",
+      "reportType": "Annual",
+      "year": 2024,
+      "filedDate": "2025-06-12",
+      "asOfDate": "2024-12-31",
+      "filingUrl": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Vice-President-JD-Vance.pdf",
+      "holdings": [
+        {
+          "ticker": "QQQ",
+          "name": "Invesco QQQ Trust, Series 1",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "ticker": "TLT",
+          "name": "iShares 20+ Year Treasury Bond",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "ticker": "DIA",
+          "name": "SPDR Dow Jones Indus. Avg. ETF",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "ticker": "SPY",
+          "name": "SPDR S&P 500",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Trust",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 250000,
+          "valueHigh": 500000
+        },
+        {
+          "ticker": null,
+          "name": "Bitcoin",
+          "account": "Coinbase Account",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "ticker": "SPY",
+          "name": "SPDR S&P 500",
+          "account": "Charles Schwab SEP IRA",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "ticker": "SPY",
+          "name": "SPDR S&P 500",
+          "account": "Spouse's Fidelity brokerage sweep account",
+          "valueLow": 15001,
+          "valueHigh": 50000
+        }
+      ],
+      "realEstate": [
+        {
+          "name": "Residential real estate, Washington, DC",
+          "valueLow": 500001,
+          "valueHigh": 1000000,
+          "note": "rental income"
+        },
+        {
+          "name": "Commercial real estate, Jackson, KY",
+          "valueLow": 50001,
+          "valueHigh": 100000
+        },
+        {
+          "name": "Residential real estate, Middletown, OH",
+          "valueLow": 50001,
+          "valueHigh": 100000
+        }
+      ],
+      "transactions": [
+        {
+          "description": "Vanguard Target Retirement 2050 Fund (VFIFX)",
+          "type": "sell",
+          "date": "2024-08-29",
+          "amountLow": 100001,
+          "amountHigh": 250000
+        }
+      ]
+    }
+  },
+  {
     "id": "situational-awareness-lp-5724",
     "cik": "2045724",
     "name": "Situational Awareness LP",
@@ -2635,8 +4280,62 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
       }
     ],
+    "otherEvents": [
+      {
+        "ticker": "SHAZ",
+        "code": "X",
+        "eventType": "option exercise",
+        "shares": 2674823,
+        "price": 0.0001,
+        "date": "2026-09-15",
+        "sharesOwnedAfter": 8070950,
+        "accession": "0000935836-26-000494",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
+      },
+      {
+        "ticker": "SHAZ",
+        "code": "X",
+        "eventType": "option exercise",
+        "shares": 3700000,
+        "price": 0.0001,
+        "date": "2026-06-30",
+        "sharesOwnedAfter": 5396127,
+        "accession": "0000935836-26-000339",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000339/0000935836-26-000339-index.htm"
+      }
+    ],
+    "optionPositions": [
+      {
+        "ticker": "SHAZ",
+        "securityTitle": "Pre-Funded Warrants",
+        "code": "X",
+        "eventType": "option exercise",
+        "underlyingShares": 2674823,
+        "exercisePrice": 0.0001,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2026-09-15",
+        "accession": "0000935836-26-000494",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
+      },
+      {
+        "ticker": "SHAZ",
+        "securityTitle": "Pre-funded Warrants",
+        "code": "X",
+        "eventType": "option exercise",
+        "underlyingShares": 3700000,
+        "exercisePrice": 0.0001,
+        "expirationDate": null,
+        "sharesOwnedAfter": 2674823,
+        "date": "2026-06-30",
+        "accession": "0000935836-26-000339",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000339/0000935836-26-000339-index.htm"
+      }
+    ],
     "fund": true,
     "fundHoldings": {
+      "fundName": "Situational Awareness LP",
+      "fundCik": "2045724",
       "asOfDate": "2026-08-14",
       "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/0000935836-26-000418-index.htm",
       "totalValue": 20242292228,
@@ -2824,59 +4523,7 @@
           "positionType": "Shares"
         }
       ]
-    },
-    "otherEvents": [
-      {
-        "ticker": "SHAZ",
-        "code": "X",
-        "eventType": "option exercise",
-        "shares": 2674823,
-        "price": 0.0001,
-        "date": "2026-09-15",
-        "sharesOwnedAfter": 8070950,
-        "accession": "0000935836-26-000494",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
-      },
-      {
-        "ticker": "SHAZ",
-        "code": "X",
-        "eventType": "option exercise",
-        "shares": 3700000,
-        "price": 0.0001,
-        "date": "2026-06-30",
-        "sharesOwnedAfter": 5396127,
-        "accession": "0000935836-26-000339",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000339/0000935836-26-000339-index.htm"
-      }
-    ],
-    "optionPositions": [
-      {
-        "ticker": "SHAZ",
-        "securityTitle": "Pre-Funded Warrants",
-        "code": "X",
-        "eventType": "option exercise",
-        "underlyingShares": 2674823,
-        "exercisePrice": 0.0001,
-        "expirationDate": null,
-        "sharesOwnedAfter": 0,
-        "date": "2026-09-15",
-        "accession": "0000935836-26-000494",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
-      },
-      {
-        "ticker": "SHAZ",
-        "securityTitle": "Pre-funded Warrants",
-        "code": "X",
-        "eventType": "option exercise",
-        "underlyingShares": 3700000,
-        "exercisePrice": 0.0001,
-        "expirationDate": null,
-        "sharesOwnedAfter": 2674823,
-        "date": "2026-06-30",
-        "accession": "0000935836-26-000339",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000339/0000935836-26-000339-index.htm"
-      }
-    ]
+    }
   },
   {
     "id": "nancy-pelosi-congress",
@@ -3903,649 +5550,5 @@
       "lowTotal": 85561052,
       "highTotal": 411516000
     }
-  },
-  {
-    "id": "tan-lip-bu-8463",
-    "cik": "1008463",
-    "name": "TAN LIP BU",
-    "title": "CEO",
-    "company": "INTC",
-    "roles": {
-      "INTC": "CEO"
-    },
-    "initials": "TL"
-  },
-  {
-    "id": "chandrasekaran-nagasubramaniyan-2075",
-    "cik": "2082075",
-    "name": "Chandrasekaran Nagasubramaniyan",
-    "title": "EVP, CT & Ops Off, GM Foundry",
-    "company": "INTC",
-    "roles": {
-      "INTC": "EVP, CT & Ops Off, GM Foundry"
-    },
-    "initials": "CN"
-  },
-  {
-    "id": "miller-boise-april-0881",
-    "cik": "1680881",
-    "name": "Miller Boise April",
-    "title": "EVP and Chief Legal Officer",
-    "company": "INTC",
-    "roles": {
-      "INTC": "EVP and Chief Legal Officer"
-    },
-    "initials": "MB"
-  },
-  {
-    "id": "silver-ethan-4406",
-    "cik": "2154406",
-    "name": "Silver Ethan",
-    "title": "Chief Operating Officer",
-    "company": "DXYZ",
-    "roles": {
-      "DXYZ": "Chief Operating Officer"
-    },
-    "initials": "SE"
-  },
-  {
-    "id": "prasad-sohail-3728",
-    "cik": "2003728",
-    "name": "Prasad Sohail",
-    "title": "President and CEO",
-    "company": "DXYZ",
-    "roles": {
-      "DXYZ": "President and CEO"
-    },
-    "initials": "PS"
-  },
-  {
-    "id": "hall-bjorn-9781",
-    "cik": "1799781",
-    "name": "Hall Bjorn",
-    "title": "Secretary and CCO",
-    "company": "VCX",
-    "roles": {
-      "VCX": "Secretary and CCO"
-    },
-    "initials": "HB"
-  },
-  {
-    "id": "osaka-glenn-9446",
-    "cik": "1799446",
-    "name": "Osaka Glenn",
-    "title": "Director",
-    "company": "VCX",
-    "roles": {
-      "VCX": "Director"
-    },
-    "initials": "OG"
-  },
-  {
-    "id": "deitrich-jeffrey-9447",
-    "cik": "1799447",
-    "name": "Deitrich Jeffrey",
-    "title": "Director",
-    "company": "VCX",
-    "roles": {
-      "VCX": "Director"
-    },
-    "initials": "DJ"
-  },
-  {
-    "id": "staloch-alison-7181",
-    "cik": "1867181",
-    "name": "Staloch Alison",
-    "title": "Treasurer",
-    "company": "VCX",
-    "roles": {
-      "VCX": "Treasurer"
-    },
-    "initials": "SA"
-  },
-  {
-    "id": "goeckeler-david-3941",
-    "cik": "1713941",
-    "name": "Goeckeler David",
-    "title": "Chairman & CEO",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "Chairman & CEO"
-    },
-    "initials": "GD"
-  },
-  {
-    "id": "visoso-luis-felipe-6289",
-    "cik": "1816289",
-    "name": "Visoso Luis Felipe",
-    "title": "EVP & CFO",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "EVP & CFO"
-    },
-    "initials": "VL"
-  },
-  {
-    "id": "ilkbahar-alper-9630",
-    "cik": "2059630",
-    "name": "Ilkbahar Alper",
-    "title": "EVP & Chief Technology Officer",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "EVP & Chief Technology Officer"
-    },
-    "initials": "IA"
-  },
-  {
-    "id": "shek-bernard-0144",
-    "cik": "2060144",
-    "name": "Shek Bernard",
-    "title": "Chief Legal Officer & Secty",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "Chief Legal Officer & Secty"
-    },
-    "initials": "SB"
-  },
-  {
-    "id": "pokorny-michael-8338",
-    "cik": "2058338",
-    "name": "Pokorny Michael",
-    "title": "VP, Chief Accounting Officer",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "VP, Chief Accounting Officer"
-    },
-    "initials": "PM"
-  },
-  {
-    "id": "sayiner-necip-8515",
-    "cik": "1338515",
-    "name": "Sayiner Necip",
-    "title": "Director",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "Director"
-    },
-    "initials": "SN"
-  },
-  {
-    "id": "tsai-joseph-c-3999",
-    "cik": "1633999",
-    "name": "Tsai Joseph C",
-    "title": "Director",
-    "company": "BABA",
-    "roles": {
-      "BABA": "Director"
-    },
-    "initials": "TJ"
-  },
-  {
-    "id": "wu-yongming-1606",
-    "cik": "2121606",
-    "name": "Wu Yongming",
-    "title": "Chief Executive Officer",
-    "company": "BABA",
-    "roles": {
-      "BABA": "Chief Executive Officer"
-    },
-    "initials": "WY"
-  },
-  {
-    "id": "evans-j-michael-8339",
-    "cik": "1428339",
-    "name": "EVANS J. MICHAEL",
-    "title": "President",
-    "company": "BABA",
-    "roles": {
-      "BABA": "President"
-    },
-    "initials": "EJ"
-  },
-  {
-    "id": "jiang-fan-fj-5804",
-    "cik": "2115804",
-    "name": "Jiang Fan (FJ)",
-    "title": "CEO of Business Group",
-    "company": "BABA",
-    "roles": {
-      "BABA": "CEO of Business Group"
-    },
-    "initials": "JF"
-  },
-  {
-    "id": "xu-hong-4529",
-    "cik": "2114529",
-    "name": "Xu Hong",
-    "title": "Chief Financial Officer",
-    "company": "BABA",
-    "roles": {
-      "BABA": "Chief Financial Officer"
-    },
-    "initials": "XH"
-  },
-  {
-    "id": "yu-siying-4147",
-    "cik": "2114147",
-    "name": "Yu Siying",
-    "title": "General Counsel",
-    "company": "BABA",
-    "roles": {
-      "BABA": "General Counsel"
-    },
-    "initials": "YS"
-  },
-  {
-    "id": "jiang-fang-4927",
-    "cik": "2114927",
-    "name": "Jiang Fang",
-    "title": "Chief People Officer",
-    "company": "BABA",
-    "roles": {
-      "BABA": "Chief People Officer"
-    },
-    "initials": "JF"
-  },
-  {
-    "id": "bjorlin-alexis-8757",
-    "cik": "1798757",
-    "name": "Bjorlin Alexis",
-    "title": "Director",
-    "company": "MU",
-    "roles": {
-      "MU": "Director"
-    },
-    "initials": "BA"
-  },
-  {
-    "id": "mehrotra-sanjay-2654",
-    "cik": "1242654",
-    "name": "MEHROTRA SANJAY",
-    "title": "President and CEO",
-    "company": "MU",
-    "roles": {
-      "MU": "President and CEO"
-    },
-    "initials": "MS"
-  },
-  {
-    "id": "sadana-sumit-1079",
-    "cik": "1311079",
-    "name": "Sadana Sumit",
-    "title": "EVP and Chief Business Officer",
-    "company": "MU",
-    "roles": {
-      "MU": "EVP and Chief Business Officer"
-    },
-    "initials": "SS"
-  },
-  {
-    "id": "allen-scott-r-2149",
-    "cik": "1652149",
-    "name": "ALLEN SCOTT R.",
-    "title": "CVP, Chief Accounting Officer",
-    "company": "MU",
-    "roles": {
-      "MU": "CVP, Chief Accounting Officer"
-    },
-    "initials": "AS"
-  },
-  {
-    "id": "arnzen-april-s-2063",
-    "cik": "1632063",
-    "name": "ARNZEN APRIL S",
-    "title": "EVP and Chief People Officer",
-    "company": "MU",
-    "roles": {
-      "MU": "EVP and Chief People Officer"
-    },
-    "initials": "AA"
-  },
-  {
-    "id": "dugle-lynn-a-3368",
-    "cik": "1453368",
-    "name": "Dugle Lynn A",
-    "title": "Director",
-    "company": "MU",
-    "roles": {
-      "MU": "Director"
-    },
-    "initials": "DL"
-  },
-  {
-    "id": "gomo-steven-j-4095",
-    "cik": "1224095",
-    "name": "GOMO STEVEN J",
-    "title": "Director",
-    "company": "MU",
-    "roles": {
-      "MU": "Director"
-    },
-    "initials": "GS"
-  },
-  {
-    "id": "ray-michael-charles-3199",
-    "cik": "1593199",
-    "name": "RAY MICHAEL CHARLES",
-    "title": "SVP, Chief Legal Officer",
-    "company": "MU",
-    "roles": {
-      "MU": "SVP, Chief Legal Officer"
-    },
-    "initials": "RM"
-  },
-  {
-    "id": "cordano-michael-d-1490",
-    "cik": "1201490",
-    "name": "CORDANO MICHAEL D",
-    "title": "EVP, Worldwide Sales",
-    "company": "MU",
-    "roles": {
-      "MU": "EVP, Worldwide Sales"
-    },
-    "initials": "CM"
-  },
-  {
-    "id": "bhatia-manish-h-9498",
-    "cik": "1689498",
-    "name": "BHATIA MANISH H",
-    "title": "EVP, Global Operations",
-    "company": "MU",
-    "roles": {
-      "MU": "EVP, Global Operations"
-    },
-    "initials": "BM"
-  },
-  {
-    "id": "liu-teyin-m-8769",
-    "cik": "2058769",
-    "name": "Liu Teyin M",
-    "title": "Director",
-    "company": "MU",
-    "roles": {
-      "MU": "Director"
-    },
-    "initials": "LT"
-  },
-  {
-    "id": "jd-vance-4682",
-    "cik": "1834682",
-    "name": "JD Vance",
-    "title": "Director",
-    "company": "APPH",
-    "roles": {
-      "APPH": "Director"
-    },
-    "initials": "JV",
-    "staticHoldings": [
-      {
-        "ticker": "APPH",
-        "shares": 2939577,
-        "asOfDate": "2021-01-29",
-        "sourceEvent": "award",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834682/000120919121006496/0001209191-21-006496-index.htm"
-      }
-    ],
-    "otherEvents": [
-      {
-        "ticker": "APPH",
-        "code": "A",
-        "eventType": "award",
-        "shares": 2939577,
-        "price": null,
-        "date": "2021-01-29",
-        "sharesOwnedAfter": 2939577,
-        "accession": "0001209191-21-006496",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834682/000120919121006496/0001209191-21-006496-index.htm"
-      }
-    ],
-    "optionPositions": [],
-    "executiveDisclosure": {
-      "formType": "OGE Form 278e",
-      "reportType": "Annual",
-      "year": 2024,
-      "filedDate": "2025-06-12",
-      "asOfDate": "2024-12-31",
-      "filingUrl": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Vice-President-JD-Vance.pdf",
-      "holdings": [
-        {
-          "ticker": "QQQ",
-          "name": "Invesco QQQ Trust, Series 1",
-          "account": "Charles Schwab Brokerage Account #1",
-          "valueLow": 1000001,
-          "valueHigh": 5000000
-        },
-        {
-          "ticker": "TLT",
-          "name": "iShares 20+ Year Treasury Bond",
-          "account": "Charles Schwab Brokerage Account #1",
-          "valueLow": 100001,
-          "valueHigh": 250000
-        },
-        {
-          "ticker": "DIA",
-          "name": "SPDR Dow Jones Indus. Avg. ETF",
-          "account": "Charles Schwab Brokerage Account #1",
-          "valueLow": 500001,
-          "valueHigh": 1000000
-        },
-        {
-          "ticker": "SPY",
-          "name": "SPDR S&P 500",
-          "account": "Charles Schwab Brokerage Account #1",
-          "valueLow": 1000001,
-          "valueHigh": 5000000
-        },
-        {
-          "ticker": "GLD",
-          "name": "SPDR Gold Trust",
-          "account": "Charles Schwab Brokerage Account #1",
-          "valueLow": 250000,
-          "valueHigh": 500000
-        },
-        {
-          "ticker": null,
-          "name": "Bitcoin",
-          "account": "Coinbase Account",
-          "valueLow": 250001,
-          "valueHigh": 500000
-        },
-        {
-          "ticker": "SPY",
-          "name": "SPDR S&P 500",
-          "account": "Charles Schwab SEP IRA",
-          "valueLow": 100001,
-          "valueHigh": 250000
-        },
-        {
-          "ticker": "SPY",
-          "name": "SPDR S&P 500",
-          "account": "Spouse's Fidelity brokerage sweep account",
-          "valueLow": 15001,
-          "valueHigh": 50000
-        }
-      ],
-      "realEstate": [
-        {
-          "name": "Residential real estate, Washington, DC",
-          "valueLow": 500001,
-          "valueHigh": 1000000,
-          "note": "rental income"
-        },
-        {
-          "name": "Commercial real estate, Jackson, KY",
-          "valueLow": 50001,
-          "valueHigh": 100000
-        },
-        {
-          "name": "Residential real estate, Middletown, OH",
-          "valueLow": 50001,
-          "valueHigh": 100000
-        }
-      ],
-      "transactions": [
-        {
-          "description": "Vanguard Target Retirement 2050 Fund (VFIFX)",
-          "type": "sell",
-          "date": "2024-08-29",
-          "amountLow": 100001,
-          "amountHigh": 250000
-        }
-      ]
-    }
-  },
-  {
-    "id": "langston-willie-7821",
-    "cik": "2047821",
-    "name": "Langston Willie",
-    "title": "Director",
-    "company": "PSQH",
-    "roles": {
-      "PSQH": "Director"
-    },
-    "initials": "LW"
-  },
-  {
-    "id": "pena-michael-1770",
-    "cik": "2131770",
-    "name": "Pena Michael",
-    "title": "Chief Financial Officer",
-    "company": "PSQH",
-    "roles": {
-      "PSQH": "Chief Financial Officer"
-    },
-    "initials": "PM"
-  },
-  {
-    "id": "rinn-james-5227",
-    "cik": "1985227",
-    "name": "Rinn James",
-    "title": "Chief Financial Officer",
-    "company": "PSQH",
-    "roles": {
-      "PSQH": "Chief Financial Officer"
-    },
-    "initials": "RJ"
-  },
-  {
-    "id": "wunderlich-dusty-5472",
-    "cik": "2015472",
-    "name": "Wunderlich Dusty",
-    "title": "Chief Strategy Officer",
-    "company": "PSQH",
-    "roles": {
-      "PSQH": "Chief Strategy Officer"
-    },
-    "initials": "WD"
-  },
-  {
-    "id": "seifert-michael-stephen-5187",
-    "cik": "1985187",
-    "name": "Seifert Michael Stephen",
-    "title": "Chief Executive Officer",
-    "company": "PSQH",
-    "roles": {
-      "PSQH": "Chief Executive Officer"
-    },
-    "initials": "SM"
-  },
-  {
-    "id": "hebert-michael-robert-5192",
-    "cik": "1985192",
-    "name": "Hebert Michael Robert",
-    "title": "Chief People Officer",
-    "company": "PSQH",
-    "roles": {
-      "PSQH": "Chief People Officer"
-    },
-    "initials": "HM"
-  },
-  {
-    "id": "hilty-justin-c-0555",
-    "cik": "2060555",
-    "name": "Hilty Justin C.",
-    "title": "Reporting Person",
-    "company": "PEW",
-    "roles": {
-      "PEW": "Reporting Person"
-    },
-    "initials": "HJ"
-  },
-  {
-    "id": "vittitow-matthew-w-0636",
-    "cik": "2060636",
-    "name": "Vittitow Matthew W.",
-    "title": "Chief Operating Officer",
-    "company": "PEW",
-    "roles": {
-      "PEW": "Chief Operating Officer"
-    },
-    "initials": "VM"
-  },
-  {
-    "id": "nemati-marc-a-0619",
-    "cik": "2060619",
-    "name": "Nemati Marc A.",
-    "title": "President and CEO",
-    "company": "PEW",
-    "roles": {
-      "PEW": "President and CEO"
-    },
-    "initials": "NM"
-  },
-  {
-    "id": "reisdorf-kelly-l-4008",
-    "cik": "1794008",
-    "name": "Reisdorf Kelly L",
-    "title": "Director",
-    "company": "PEW",
-    "roles": {
-      "PEW": "Director"
-    },
-    "initials": "RK"
-  },
-  {
-    "id": "cox-chris-w-7813",
-    "cik": "2077813",
-    "name": "Cox Chris W.",
-    "title": "Director",
-    "company": "PEW",
-    "roles": {
-      "PEW": "Director"
-    },
-    "initials": "CC"
-  },
-  {
-    "id": "nelson-julie-4394",
-    "cik": "1914394",
-    "name": "Nelson Julie",
-    "title": "Chief Operating Officer",
-    "company": "APPH",
-    "roles": {
-      "APPH": "Chief Operating Officer"
-    },
-    "initials": "NJ"
-  },
-  {
-    "id": "lee-david-j-5182",
-    "cik": "1605182",
-    "name": "Lee David J.",
-    "title": "Director",
-    "company": "APPH",
-    "roles": {
-      "APPH": "Director"
-    },
-    "initials": "LD"
-  },
-  {
-    "id": "willis-j-kevin-5329",
-    "cik": "1575329",
-    "name": "WILLIS J KEVIN",
-    "title": "Director",
-    "company": "APPH",
-    "roles": {
-      "APPH": "Director"
-    },
-    "initials": "WJ"
   }
 ]

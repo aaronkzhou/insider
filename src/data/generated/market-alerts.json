@@ -1,62 +1,7 @@
 {
-  "scannedAt": "2026-09-22T00:30:47.033Z",
-  "filingsScanned": 194,
+  "scannedAt": "2026-09-22T05:52:43.992Z",
+  "filingsScanned": 193,
   "alerts": [
-    {
-      "ticker": "CRWD",
-      "companyName": "CrowdStrike Holdings, Inc.",
-      "cik": "0001535527",
-      "insiderCount": 7,
-      "insiders": [
-        {
-          "name": "Kurtz George",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1778564/000177856426000165/0001778564-26-000165-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
-        },
-        {
-          "name": "Schumacher Laura J",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000131924526000014/0001319245-26-000014-index.htm",
-          "type": "other",
-          "date": "2026-09-18"
-        },
-        {
-          "name": "Flower Johanna",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1872303/000187230326000008/0001872303-26-000008-index.htm",
-          "type": "other",
-          "date": "2026-09-18"
-        },
-        {
-          "name": "OLEARY DENIS",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000125351226000015/0001253512-26-000015-index.htm",
-          "type": "other",
-          "date": "2026-09-18"
-        },
-        {
-          "name": "GANDHI SAMEER K",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000023/0001201326-26-000023-index.htm",
-          "type": "other",
-          "date": "2026-09-18"
-        },
-        {
-          "name": "Watzinger Gerhard",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000144583226000013/0001445832-26-000013-index.htm",
-          "type": "other",
-          "date": "2026-09-18"
-        },
-        {
-          "name": "DAVIS CARY",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000122063226000006/0001220632-26-000006-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 2,
-      "other": 5,
-      "direction": "sell"
-    },
     {
       "ticker": "GWRE",
       "companyName": "Guidewire Software, Inc.",
@@ -167,37 +112,6 @@
       "sells": 1,
       "other": 0,
       "direction": "buy"
-    },
-    {
-      "ticker": "FSLY",
-      "companyName": "Fastly, Inc.",
-      "cik": "0001517413",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "Lovett Scott R.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2024441/000151741326000294/0001517413-26-000294-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
-        },
-        {
-          "name": "Ford Jeffrey",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1993556/000151741326000293/0001517413-26-000293-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
-        },
-        {
-          "name": "Bergman Artur",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1769490/000151741326000292/0001517413-26-000292-index.htm",
-          "type": "sell",
-          "date": "2026-09-17"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 3,
-      "other": 0,
-      "direction": "sell"
     }
   ]
 }

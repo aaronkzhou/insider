@@ -41,6 +41,20 @@ const COMPANIES = [
   { ticker: 'VCX', cik: '0001867090', name: 'Fundrise Innovation Fund, LLC', sector: 'Closed-End Fund' },
   { ticker: 'SNDK', cik: '0002023554', name: 'Sandisk Corp.', sector: 'Semiconductors' },
   { ticker: 'BABA', cik: '0001577552', name: 'Alibaba Group Holding Ltd', sector: 'Technology' },
+  { ticker: 'ORCL', cik: '0001341439', name: 'Oracle Corp.', sector: 'Technology' },
+  { ticker: 'CRM', cik: '0001108524', name: 'Salesforce, Inc.', sector: 'Technology' },
+  { ticker: 'ADBE', cik: '0000796343', name: 'Adobe Inc.', sector: 'Technology' },
+  { ticker: 'QCOM', cik: '0000804328', name: 'Qualcomm Inc.', sector: 'Semiconductors' },
+  { ticker: 'CSCO', cik: '0000858877', name: 'Cisco Systems, Inc.', sector: 'Technology' },
+  { ticker: 'SMCI', cik: '0001375365', name: 'Super Micro Computer, Inc.', sector: 'Technology' },
+  { ticker: 'SNOW', cik: '0001640147', name: 'Snowflake Inc.', sector: 'Technology' },
+  { ticker: 'MRVL', cik: '0001835632', name: 'Marvell Technology, Inc.', sector: 'Semiconductors' },
+  { ticker: 'TXN', cik: '0000097476', name: 'Texas Instruments Inc.', sector: 'Semiconductors' },
+  { ticker: 'MSTR', cik: '0001050446', name: 'Strategy Inc.', sector: 'Technology' },
+  { ticker: 'COIN', cik: '0001679788', name: 'Coinbase Global, Inc.', sector: 'Financials' },
+  { ticker: 'V', cik: '0001403161', name: 'Visa Inc.', sector: 'Financials' },
+  { ticker: 'PYPL', cik: '0001633917', name: 'PayPal Holdings, Inc.', sector: 'Financials' },
+  { ticker: 'CRWD', cik: '0001535527', name: 'CrowdStrike Holdings, Inc.', sector: 'Technology' },
 ]
 
 const parser = new XMLParser({ ignoreAttributes: false })
