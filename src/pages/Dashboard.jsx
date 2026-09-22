@@ -41,7 +41,11 @@ export default function Dashboard() {
           tone={summary.netValue >= 0 ? 'good' : 'critical'}
           sublabel={summary.netValue >= 0 ? 'net buying' : 'net selling'}
         />
-        <StatTile label="Transactions" value={summary.tradeCount} sublabel="P/S codes only" />
+        <StatTile
+          label="Transactions"
+          value={summary.tradeCount}
+          sublabel={`P/S codes, ${fmtDate(summary.earliestDate)} – ${fmtDate(summary.latestDate)}`}
+        />
       </div>
 
       <div

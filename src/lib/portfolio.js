@@ -123,11 +123,14 @@ export function marketSummary() {
   const sellValue = transactions
     .filter((tx) => tx.type === 'sell')
     .reduce((s, tx) => s + txValue(tx), 0)
+  const dates = transactions.map((tx) => tx.date).sort()
   return {
     buyValue,
     sellValue,
     netValue: buyValue - sellValue,
     tradeCount: transactions.length,
+    earliestDate: dates[0],
+    latestDate: dates[dates.length - 1],
   }
 }
 

@@ -86,6 +86,67 @@ export default function PersonDetail() {
         <StatTile label="Sells" value={summary.sellCount} tone="critical" sublabel={fmtCurrency(summary.sellValue)} />
       </div>
 
+      {person.executiveDisclosure && (
+        <div className="mb-6">
+          <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
+            Executive branch disclosure ({person.executiveDisclosure.formType})
+          </h2>
+          <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+            A third disclosure system — distinct from SEC Form 4 and congressional STOCK Act reports. Officials in
+            the executive branch (President, VP, senior appointees) file this with the U.S. Office of Government
+            Ethics. Reports disclosed VALUE RANGES for the {person.executiveDisclosure.year} calendar year, filed{' '}
+            {fmtDate(person.executiveDisclosure.filedDate)}, not exact figures.{' '}
+            <a href={person.executiveDisclosure.filingUrl} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
+              Real filing (PDF) ↗
+            </a>
+          </p>
+          <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+            <table className="w-full min-w-[560px] border-collapse text-sm">
+              <thead>
+                <tr
+                  className="text-left text-xs uppercase tracking-wide"
+                  style={{ color: 'var(--text-muted)', borderBottom: '1px solid var(--gridline)' }}
+                >
+                  <th className="px-4 py-2.5 font-medium">Holding</th>
+                  <th className="px-4 py-2.5 font-medium">Account</th>
+                  <th className="px-4 py-2.5 text-right font-medium">Reported value range</th>
+                </tr>
+              </thead>
+              <tbody>
+                {person.executiveDisclosure.holdings.map((h, i) => (
+                  <tr key={i} style={{ borderBottom: '1px solid var(--gridline)' }} className="last:border-b-0">
+                    <td className="px-4 py-2.5 font-medium" style={{ color: 'var(--text-primary)' }}>
+                      {h.ticker ?? h.name}
+                      {h.ticker && <span className="ml-1.5 text-xs font-normal" style={{ color: 'var(--text-muted)' }}>{h.name}</span>}
+                    </td>
+                    <td className="px-4 py-2.5 text-xs" style={{ color: 'var(--text-muted)' }}>
+                      {h.account}
+                    </td>
+                    <td className="px-4 py-2.5 text-right text-xs tabular-nums" style={{ color: 'var(--text-secondary)' }}>
+                      {fmtCurrency(h.valueLow)} – {fmtCurrency(h.valueHigh)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {person.executiveDisclosure.transactions?.length > 0 && (
+            <div className="mt-3 space-y-1">
+              {person.executiveDisclosure.transactions.map((t, i) => (
+                <div key={i} className="flex items-center gap-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
+                  <StatusPill type={t.type} />
+                  <span>{t.description}</span>
+                  <span style={{ color: 'var(--text-muted)' }}>
+                    {fmtDate(t.date)} · {fmtCurrency(t.amountLow)} – {fmtCurrency(t.amountHigh)}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
       {person.fund && person.fundHoldings && (
         <div className="mb-6">
           <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>

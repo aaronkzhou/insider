@@ -3300,7 +3300,100 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834682/000120919121006496/0001209191-21-006496-index.htm"
       }
     ],
-    "optionPositions": []
+    "optionPositions": [],
+    "executiveDisclosure": {
+      "formType": "OGE Form 278e",
+      "reportType": "Annual",
+      "year": 2024,
+      "filedDate": "2025-06-12",
+      "asOfDate": "2024-12-31",
+      "filingUrl": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Vice-President-JD-Vance.pdf",
+      "holdings": [
+        {
+          "ticker": "QQQ",
+          "name": "Invesco QQQ Trust, Series 1",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "ticker": "TLT",
+          "name": "iShares 20+ Year Treasury Bond",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "ticker": "DIA",
+          "name": "SPDR Dow Jones Indus. Avg. ETF",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 500001,
+          "valueHigh": 1000000
+        },
+        {
+          "ticker": "SPY",
+          "name": "SPDR S&P 500",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 1000001,
+          "valueHigh": 5000000
+        },
+        {
+          "ticker": "GLD",
+          "name": "SPDR Gold Trust",
+          "account": "Charles Schwab Brokerage Account #1",
+          "valueLow": 250000,
+          "valueHigh": 500000
+        },
+        {
+          "ticker": null,
+          "name": "Bitcoin",
+          "account": "Coinbase Account",
+          "valueLow": 250001,
+          "valueHigh": 500000
+        },
+        {
+          "ticker": "SPY",
+          "name": "SPDR S&P 500",
+          "account": "Charles Schwab SEP IRA",
+          "valueLow": 100001,
+          "valueHigh": 250000
+        },
+        {
+          "ticker": "SPY",
+          "name": "SPDR S&P 500",
+          "account": "Spouse's Fidelity brokerage sweep account",
+          "valueLow": 15001,
+          "valueHigh": 50000
+        }
+      ],
+      "realEstate": [
+        {
+          "name": "Residential real estate, Washington, DC",
+          "valueLow": 500001,
+          "valueHigh": 1000000,
+          "note": "rental income"
+        },
+        {
+          "name": "Commercial real estate, Jackson, KY",
+          "valueLow": 50001,
+          "valueHigh": 100000
+        },
+        {
+          "name": "Residential real estate, Middletown, OH",
+          "valueLow": 50001,
+          "valueHigh": 100000
+        }
+      ],
+      "transactions": [
+        {
+          "description": "Vanguard Target Retirement 2050 Fund (VFIFX)",
+          "type": "sell",
+          "date": "2024-08-29",
+          "amountLow": 100001,
+          "amountHigh": 250000
+        }
+      ]
+    }
   },
   {
     "id": "langston-willie-7821",
