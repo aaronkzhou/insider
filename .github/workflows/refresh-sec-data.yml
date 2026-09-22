@@ -42,6 +42,9 @@ jobs:
           LAST_YEAR=$((YEAR - 1))
           node scripts/add-congress-member.mjs "Pelosi" "Nancy" "$LAST_YEAR" "$YEAR" --spouse="Paul Pelosi"
 
+      - name: Scan the market-wide firehose for untracked-stock clusters
+        run: node scripts/scan-market-clusters.mjs
+
       - name: Commit and push if data changed
         run: |
           git config user.name "github-actions[bot]"

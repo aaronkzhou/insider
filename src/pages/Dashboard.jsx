@@ -3,6 +3,7 @@ import StatTile from '../components/StatTile'
 import TransactionTable from '../components/TransactionTable'
 import ActivityChart from '../components/ActivityChart'
 import ClusterActivity from '../components/ClusterActivity'
+import MarketAlerts from '../components/MarketAlerts'
 import CalendarHeatmap from '../components/CalendarHeatmap'
 import { allTransactionsSorted, fmtCurrency, fmtDate, marketSummary } from '../lib/portfolio'
 import meta from '../data/generated/meta.json'
@@ -61,6 +62,17 @@ export default function Dashboard() {
           Two or more insiders at the same company trading the same direction within a few days of each other.
         </p>
         <ClusterActivity windowDays={5} />
+      </div>
+
+      <div className="mb-6">
+        <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--status-warning)' }}>
+          Market-wide radar
+        </h2>
+        <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+          Stocks NOT in our tracked list where several insiders just filed together — found by scanning SEC's
+          real-time market-wide Form 4 feed, not scoped to any company on this site.
+        </p>
+        <MarketAlerts />
       </div>
 
       <div className="mb-6 grid grid-cols-1 gap-4">

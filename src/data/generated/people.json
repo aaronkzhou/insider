@@ -2145,7 +2145,7 @@
         "ticker": "SHAZ",
         "shares": 8070950,
         "asOfDate": "2026-09-15",
-        "sourceEvent": "other",
+        "sourceEvent": "option exercise",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
       }
     ],
@@ -2338,7 +2338,59 @@
           "positionType": "Shares"
         }
       ]
-    }
+    },
+    "otherEvents": [
+      {
+        "ticker": "SHAZ",
+        "code": "X",
+        "eventType": "option exercise",
+        "shares": 2674823,
+        "price": 0.0001,
+        "date": "2026-09-15",
+        "sharesOwnedAfter": 8070950,
+        "accession": "0000935836-26-000494",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
+      },
+      {
+        "ticker": "SHAZ",
+        "code": "X",
+        "eventType": "option exercise",
+        "shares": 3700000,
+        "price": 0.0001,
+        "date": "2026-06-30",
+        "sharesOwnedAfter": 5396127,
+        "accession": "0000935836-26-000339",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000339/0000935836-26-000339-index.htm"
+      }
+    ],
+    "optionPositions": [
+      {
+        "ticker": "SHAZ",
+        "securityTitle": "Pre-Funded Warrants",
+        "code": "X",
+        "eventType": "option exercise",
+        "underlyingShares": 2674823,
+        "exercisePrice": 0.0001,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2026-09-15",
+        "accession": "0000935836-26-000494",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/0000935836-26-000494-index.htm"
+      },
+      {
+        "ticker": "SHAZ",
+        "securityTitle": "Pre-funded Warrants",
+        "code": "X",
+        "eventType": "option exercise",
+        "underlyingShares": 3700000,
+        "exercisePrice": 0.0001,
+        "expirationDate": null,
+        "sharesOwnedAfter": 2674823,
+        "date": "2026-06-30",
+        "accession": "0000935836-26-000339",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000339/0000935836-26-000339-index.htm"
+      }
+    ]
   },
   {
     "id": "thiel-macro-llc-2087",
@@ -2859,5 +2911,247 @@
         "filingUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
       }
     ]
+  },
+  {
+    "id": "tan-lip-bu-8463",
+    "cik": "1008463",
+    "name": "TAN LIP BU",
+    "title": "CEO",
+    "company": "INTC",
+    "roles": {
+      "INTC": "CEO"
+    },
+    "initials": "TL"
+  },
+  {
+    "id": "chandrasekaran-nagasubramaniyan-2075",
+    "cik": "2082075",
+    "name": "Chandrasekaran Nagasubramaniyan",
+    "title": "EVP, CT & Ops Off, GM Foundry",
+    "company": "INTC",
+    "roles": {
+      "INTC": "EVP, CT & Ops Off, GM Foundry"
+    },
+    "initials": "CN"
+  },
+  {
+    "id": "miller-boise-april-0881",
+    "cik": "1680881",
+    "name": "Miller Boise April",
+    "title": "EVP and Chief Legal Officer",
+    "company": "INTC",
+    "roles": {
+      "INTC": "EVP and Chief Legal Officer"
+    },
+    "initials": "MB"
+  },
+  {
+    "id": "silver-ethan-4406",
+    "cik": "2154406",
+    "name": "Silver Ethan",
+    "title": "Chief Operating Officer",
+    "company": "DXYZ",
+    "roles": {
+      "DXYZ": "Chief Operating Officer"
+    },
+    "initials": "SE"
+  },
+  {
+    "id": "prasad-sohail-3728",
+    "cik": "2003728",
+    "name": "Prasad Sohail",
+    "title": "President and CEO",
+    "company": "DXYZ",
+    "roles": {
+      "DXYZ": "President and CEO"
+    },
+    "initials": "PS"
+  },
+  {
+    "id": "hall-bjorn-9781",
+    "cik": "1799781",
+    "name": "Hall Bjorn",
+    "title": "Secretary and CCO",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Secretary and CCO"
+    },
+    "initials": "HB"
+  },
+  {
+    "id": "osaka-glenn-9446",
+    "cik": "1799446",
+    "name": "Osaka Glenn",
+    "title": "Director",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Director"
+    },
+    "initials": "OG"
+  },
+  {
+    "id": "deitrich-jeffrey-9447",
+    "cik": "1799447",
+    "name": "Deitrich Jeffrey",
+    "title": "Director",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Director"
+    },
+    "initials": "DJ"
+  },
+  {
+    "id": "staloch-alison-7181",
+    "cik": "1867181",
+    "name": "Staloch Alison",
+    "title": "Treasurer",
+    "company": "VCX",
+    "roles": {
+      "VCX": "Treasurer"
+    },
+    "initials": "SA"
+  },
+  {
+    "id": "goeckeler-david-3941",
+    "cik": "1713941",
+    "name": "Goeckeler David",
+    "title": "Chairman & CEO",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "Chairman & CEO"
+    },
+    "initials": "GD"
+  },
+  {
+    "id": "visoso-luis-felipe-6289",
+    "cik": "1816289",
+    "name": "Visoso Luis Felipe",
+    "title": "EVP & CFO",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "EVP & CFO"
+    },
+    "initials": "VL"
+  },
+  {
+    "id": "ilkbahar-alper-9630",
+    "cik": "2059630",
+    "name": "Ilkbahar Alper",
+    "title": "EVP & Chief Technology Officer",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "EVP & Chief Technology Officer"
+    },
+    "initials": "IA"
+  },
+  {
+    "id": "shek-bernard-0144",
+    "cik": "2060144",
+    "name": "Shek Bernard",
+    "title": "Chief Legal Officer & Secty",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "Chief Legal Officer & Secty"
+    },
+    "initials": "SB"
+  },
+  {
+    "id": "pokorny-michael-8338",
+    "cik": "2058338",
+    "name": "Pokorny Michael",
+    "title": "VP, Chief Accounting Officer",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "VP, Chief Accounting Officer"
+    },
+    "initials": "PM"
+  },
+  {
+    "id": "sayiner-necip-8515",
+    "cik": "1338515",
+    "name": "Sayiner Necip",
+    "title": "Director",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "Director"
+    },
+    "initials": "SN"
+  },
+  {
+    "id": "tsai-joseph-c-3999",
+    "cik": "1633999",
+    "name": "Tsai Joseph C",
+    "title": "Director",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Director"
+    },
+    "initials": "TJ"
+  },
+  {
+    "id": "wu-yongming-1606",
+    "cik": "2121606",
+    "name": "Wu Yongming",
+    "title": "Chief Executive Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief Executive Officer"
+    },
+    "initials": "WY"
+  },
+  {
+    "id": "evans-j-michael-8339",
+    "cik": "1428339",
+    "name": "EVANS J. MICHAEL",
+    "title": "President",
+    "company": "BABA",
+    "roles": {
+      "BABA": "President"
+    },
+    "initials": "EJ"
+  },
+  {
+    "id": "jiang-fan-fj-5804",
+    "cik": "2115804",
+    "name": "Jiang Fan (FJ)",
+    "title": "CEO of Business Group",
+    "company": "BABA",
+    "roles": {
+      "BABA": "CEO of Business Group"
+    },
+    "initials": "JF"
+  },
+  {
+    "id": "xu-hong-4529",
+    "cik": "2114529",
+    "name": "Xu Hong",
+    "title": "Chief Financial Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief Financial Officer"
+    },
+    "initials": "XH"
+  },
+  {
+    "id": "yu-siying-4147",
+    "cik": "2114147",
+    "name": "Yu Siying",
+    "title": "General Counsel",
+    "company": "BABA",
+    "roles": {
+      "BABA": "General Counsel"
+    },
+    "initials": "YS"
+  },
+  {
+    "id": "jiang-fang-4927",
+    "cik": "2114927",
+    "name": "Jiang Fang",
+    "title": "Chief People Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief People Officer"
+    },
+    "initials": "JF"
   }
 ]

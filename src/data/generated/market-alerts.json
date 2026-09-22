@@ -1,0 +1,605 @@
+{
+  "scannedAt": "2026-09-22T00:06:29.814Z",
+  "filingsScanned": 193,
+  "alerts": [
+    {
+      "ticker": "PHIN",
+      "companyName": "PHINIA INC.",
+      "cik": "0001968915",
+      "insiderCount": 17,
+      "insiders": [
+        {
+          "name": "WOOD ROGER",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968915/000196891526000149/0001968915-26-000149-index.htm"
+        },
+        {
+          "name": "Walsh Meggan M.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2027788/000196891526000148/0001968915-26-000148-index.htm"
+        },
+        {
+          "name": "Norman Daun",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968915/000196891526000147/0001968915-26-000147-index.htm"
+        },
+        {
+          "name": "Newton Latondra",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1983540/000196891526000146/0001968915-26-000146-index.htm"
+        },
+        {
+          "name": "Kendrick Robin",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968915/000196891526000145/0001968915-26-000145-index.htm"
+        },
+        {
+          "name": "Chapin Samuel R.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968915/000196891526000144/0001968915-26-000144-index.htm"
+        },
+        {
+          "name": "Weerasinghe Rohan",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968915/000196891526000143/0001968915-26-000143-index.htm"
+        },
+        {
+          "name": "Pombier Samantha",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1983448/000196891526000142/0001968915-26-000142-index.htm"
+        },
+        {
+          "name": "Logar Matthew",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1981185/000196891526000141/0001968915-26-000141-index.htm"
+        },
+        {
+          "name": "Gustanski Christopher",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1981190/000196891526000140/0001968915-26-000140-index.htm"
+        },
+        {
+          "name": "Dori Sebastian",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1983614/000196891526000139/0001968915-26-000139-index.htm"
+        },
+        {
+          "name": "Di Beasi Alisa",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1982810/000196891526000138/0001968915-26-000138-index.htm"
+        },
+        {
+          "name": "Boyle Robert",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1981384/000196891526000137/0001968915-26-000137-index.htm"
+        },
+        {
+          "name": "Anderson Todd L",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968915/000196891526000136/0001968915-26-000136-index.htm"
+        },
+        {
+          "name": "Neto de Abreu Pedro Rui",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1984305/000196891526000135/0001968915-26-000135-index.htm"
+        },
+        {
+          "name": "Gropp Chris P",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1981241/000196891526000134/0001968915-26-000134-index.htm"
+        },
+        {
+          "name": "Ericson Brady D",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968915/000196891526000133/0001968915-26-000133-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "WDC",
+      "companyName": "WESTERN DIGITAL CORP",
+      "cik": "0000106040",
+      "insiderCount": 15,
+      "insiders": [
+        {
+          "name": "Tregillis Cynthia L",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2057088/000126682426000214/0001266824-26-000214-index.htm"
+        },
+        {
+          "name": "Tan Irving",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1729518/000126682426000213/0001266824-26-000213-index.htm"
+        },
+        {
+          "name": "STREETER STEPHANIE A",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1021762/000126682426000212/0001266824-26-000212-index.htm"
+        },
+        {
+          "name": "Shihab Ahmed Mohammed",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2059396/000126682426000211/0001266824-26-000211-index.htm"
+        },
+        {
+          "name": "Sennesael Kris",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1452383/000126682426000210/0001266824-26-000210-index.htm"
+        },
+        {
+          "name": "Oulman Roxanne",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1523073/000126682426000209/0001266824-26-000209-index.htm"
+        },
+        {
+          "name": "MASSENGILL MATTHEW E",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1232826/000126682426000208/0001266824-26-000208-index.htm"
+        },
+        {
+          "name": "KIDDOO BRUCE E",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1201627/000126682426000207/0001266824-26-000207-index.htm"
+        },
+        {
+          "name": "Gubbi Vidyadhara K",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2057093/000126682426000206/0001266824-26-000206-index.htm"
+        },
+        {
+          "name": "Feller Brad",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1560734/000126682426000205/0001266824-26-000205-index.htm"
+        },
+        {
+          "name": "DOLUCA TUNC",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1183597/000126682426000204/0001266824-26-000204-index.htm"
+        },
+        {
+          "name": "Davis Brian Scott",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2057091/000126682426000203/0001266824-26-000203-index.htm"
+        },
+        {
+          "name": "Das Manuvir",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2136645/000126682426000202/0001266824-26-000202-index.htm"
+        },
+        {
+          "name": "Cole Martin I",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1302874/000126682426000201/0001266824-26-000201-index.htm"
+        },
+        {
+          "name": "Alexy Kimberly",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1336514/000126682426000200/0001266824-26-000200-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "MC",
+      "companyName": "Moelis & Co",
+      "cik": "0001596967",
+      "insiderCount": 9,
+      "insiders": [
+        {
+          "name": "Barker Thorold",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2076366/000119312526396810/0001193125-26-396810-index.htm"
+        },
+        {
+          "name": "Mirrer Louise",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2038412/000119312526396809/0001193125-26-396809-index.htm"
+        },
+        {
+          "name": "Worrell Laila",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1961724/000119312526396808/0001193125-26-396808-index.htm"
+        },
+        {
+          "name": "Shropshire Kenneth",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1596967/000119312526396807/0001193125-26-396807-index.htm"
+        },
+        {
+          "name": "Cantor Eric",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1618434/000119312526396806/0001193125-26-396806-index.htm"
+        },
+        {
+          "name": "WATANABE OSAMU R.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1604471/000119312526396804/0001193125-26-396804-index.htm"
+        },
+        {
+          "name": "Riehl Nick",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2063501/000119312526396801/0001193125-26-396801-index.htm"
+        },
+        {
+          "name": "Pilcher Ciafone Katherine",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1994994/000119312526396799/0001193125-26-396799-index.htm"
+        },
+        {
+          "name": "Callesano Christopher",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1681752/000119312526396798/0001193125-26-396798-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "CRWD",
+      "companyName": "CrowdStrike Holdings, Inc.",
+      "cik": "0001535527",
+      "insiderCount": 6,
+      "insiders": [
+        {
+          "name": "Schumacher Laura J",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000131924526000014/0001319245-26-000014-index.htm"
+        },
+        {
+          "name": "Flower Johanna",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1872303/000187230326000008/0001872303-26-000008-index.htm"
+        },
+        {
+          "name": "OLEARY DENIS",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000125351226000015/0001253512-26-000015-index.htm"
+        },
+        {
+          "name": "GANDHI SAMEER K",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000023/0001201326-26-000023-index.htm"
+        },
+        {
+          "name": "Watzinger Gerhard",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000144583226000013/0001445832-26-000013-index.htm"
+        },
+        {
+          "name": "DAVIS CARY",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000122063226000006/0001220632-26-000006-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "FMAO",
+      "companyName": "FARMERS & MERCHANTS BANCORP INC",
+      "cik": "0000792966",
+      "insiderCount": 6,
+      "insiders": [
+        {
+          "name": "FRANK SIMON R.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1865532/000119312526396865/0001193125-26-396865-index.htm"
+        },
+        {
+          "name": "SAUDER KEVIN J",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1276726/000119312526396855/0001193125-26-396855-index.htm"
+        },
+        {
+          "name": "Planson Steven J",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1423983/000119312526396818/0001193125-26-396818-index.htm"
+        },
+        {
+          "name": "Johnston Lori Ann",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1834070/000119312526396793/0001193125-26-396793-index.htm"
+        },
+        {
+          "name": "Boyce Ian D",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2005860/000119312526396768/0001193125-26-396768-index.htm"
+        },
+        {
+          "name": "ALOMARI AHMED",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2070715/000119312526396759/0001193125-26-396759-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "RBA",
+      "companyName": "RB GLOBAL INC.",
+      "cik": "0001046102",
+      "insiderCount": 5,
+      "insiders": [
+        {
+          "name": "Bales Brian A",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1748289/000119312526396930/0001193125-26-396930-index.htm"
+        },
+        {
+          "name": "Elton Robert George",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1661705/000119312526396927/0001193125-26-396927-index.htm"
+        },
+        {
+          "name": "O'Day Timothy J.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1778835/000119312526396923/0001193125-26-396923-index.htm"
+        },
+        {
+          "name": "Stein Deborah",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1763701/000119312526396919/0001193125-26-396919-index.htm"
+        },
+        {
+          "name": "Stephenson Carol",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1493255/000119312526396916/0001193125-26-396916-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "XBPEW",
+      "companyName": "XBP Global Holdings, Inc.",
+      "cik": "0001839530",
+      "insiderCount": 5,
+      "insiders": [
+        {
+          "name": "Srivastava Sanjay",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2080117/000110465926109378/0001104659-26-109378-index.htm"
+        },
+        {
+          "name": "Reynolds James",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1839530/000110465926109377/0001104659-26-109377-index.htm"
+        },
+        {
+          "name": "Pryor Robert",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1839530/000110465926109376/0001104659-26-109376-index.htm"
+        },
+        {
+          "name": "Paolillo Regina",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1839530/000110465926109375/0001104659-26-109375-index.htm"
+        },
+        {
+          "name": "CHADHA PAR",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1839530/000110465926109374/0001104659-26-109374-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "GWRE",
+      "companyName": "Guidewire Software, Inc.",
+      "cik": "0001528396",
+      "insiderCount": 5,
+      "insiders": [
+        {
+          "name": "King James Winston",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1586253/000158625326000020/0001586253-26-000020-index.htm"
+        },
+        {
+          "name": "Peterson David Franklin",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1528396/000149615226000018/0001496152-26-000018-index.htm"
+        },
+        {
+          "name": "Cooper Jeffrey Elliott",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1805719/000180571926000027/0001805719-26-000027-index.htm"
+        },
+        {
+          "name": "Mullen John P",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1917389/000191738926000023/0001917389-26-000023-index.htm"
+        },
+        {
+          "name": "Rosenbaum Michael George",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1784996/000178499626000095/0001784996-26-000095-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "CDNS",
+      "companyName": "CADENCE DESIGN SYSTEMS INC",
+      "cik": "0000813672",
+      "insiderCount": 5,
+      "insiders": [
+        {
+          "name": "Scannell Paul",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2031609/000081367226000108/0000813672-26-000108-index.htm"
+        },
+        {
+          "name": "DEVGAN ANIRUDH",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1591933/000081367226000107/0000813672-26-000107-index.htm"
+        },
+        {
+          "name": "TENG CHIN-CHI",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1751946/000081367226000106/0000813672-26-000106-index.htm"
+        },
+        {
+          "name": "WALL JOHN M",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1718165/000081367226000105/0000813672-26-000105-index.htm"
+        },
+        {
+          "name": "Cunningham Paul",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1847883/000081367226000104/0000813672-26-000104-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "TTAN",
+      "companyName": "ServiceTitan, Inc.",
+      "cik": "0001638826",
+      "insiderCount": 4,
+      "insiders": [
+        {
+          "name": "Sherry David",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045642/000163882626000108/0001638826-26-000108-index.htm"
+        },
+        {
+          "name": "O'Connor Michele",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1771322/000163882626000106/0001638826-26-000106-index.htm"
+        },
+        {
+          "name": "Kuzoyan Vahe",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1908757/000163882626000104/0001638826-26-000104-index.htm"
+        },
+        {
+          "name": "Mahdessian Ara",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1908788/000163882626000102/0001638826-26-000102-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "ETRA",
+      "companyName": "Electra Therapeutics, Inc.",
+      "cik": "0002088082",
+      "insiderCount": 4,
+      "insiders": [
+        {
+          "name": "Koe Gary S.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2153365/000215336526000004/0002153365-26-000004-index.htm"
+        },
+        {
+          "name": "Stagliano Nancy",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2088082/000181744926000009/0001817449-26-000009-index.htm"
+        },
+        {
+          "name": "Parry Graham",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2153366/000215336626000006/0002153366-26-000006-index.htm"
+        },
+        {
+          "name": "Dong Quehuong (Kathy)",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2153364/000215336426000004/0002153364-26-000004-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "TDG",
+      "companyName": "TransDigm Group INC",
+      "cik": "0001260221",
+      "insiderCount": 4,
+      "insiders": [
+        {
+          "name": "Palmer Peter",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1542765/000154276526000001/0001542765-26-000001-index.htm"
+        },
+        {
+          "name": "Howley W Nicholas",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1352573/000135257326000014/0001352573-26-000014-index.htm"
+        },
+        {
+          "name": "Krasik Irina Igorevna",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2148570/000214857026000003/0002148570-26-000003-index.htm"
+        },
+        {
+          "name": "SMALL ROBERT J",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1260221/000123454426000001/0001234544-26-000001-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "RYZ",
+      "companyName": "Ryerson Holding Corp",
+      "cik": "0001481582",
+      "insiderCount": 4,
+      "insiders": [
+        {
+          "name": "Silver Mark S.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1627959/000089914026001076/0000899140-26-001076-index.htm"
+        },
+        {
+          "name": "Lehner Edward J.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1614103/000089914026001075/0000899140-26-001075-index.htm"
+        },
+        {
+          "name": "Greiff Andrew S",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1682850/000089914026001074/0000899140-26-001074-index.htm"
+        },
+        {
+          "name": "MARABITO RICHARD T",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1481582/000089914026001073/0000899140-26-001073-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "BOLT",
+      "companyName": "Bolt Biotherapeutics, Inc.",
+      "cik": "0001641281",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Yonehiro Grant",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526396894/0001193125-26-396894-index.htm"
+        },
+        {
+          "name": "Nemec Sarah",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023538/000119312526396892/0001193125-26-396892-index.htm"
+        },
+        {
+          "name": "Quinn William P.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1724190/000119312526396890/0001193125-26-396890-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "UPLD",
+      "companyName": "Upland Software, Inc.",
+      "cik": "0001505155",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Doman Dan",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1940842/000194084226000010/0001940842-26-000010-index.htm"
+        },
+        {
+          "name": "Nathaniel Sean",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1870221/000187022126000013/0001870221-26-000013-index.htm"
+        },
+        {
+          "name": "Simon Jennifer L.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2147950/000214795026000008/0002147950-26-000008-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "BUKS",
+      "companyName": "BUTLER NATIONAL CORP",
+      "cik": "0000015847",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Loh Michael Anthony",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2033348/000203334826000014/0002033348-26-000014-index.htm"
+        },
+        {
+          "name": "Yowell Jeffrey David",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2012406/000201240626000004/0002012406-26-000004-index.htm"
+        },
+        {
+          "name": "Bowen Julie Marie",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2065459/000206545926000006/0002065459-26-000006-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "WYY",
+      "companyName": "WIDEPOINT CORP",
+      "cik": "0001034760",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Sparling Ian",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1607108/000089706926001788/0000897069-26-001788-index.htm"
+        },
+        {
+          "name": "HOLLOWAY JASON",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1711121/000089706926001786/0000897069-26-001786-index.htm"
+        },
+        {
+          "name": "GEORGE ROBERT J",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1213068/000089706926001784/0000897069-26-001784-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "ILPT",
+      "companyName": "Industrial Logistics Properties Trust",
+      "cik": "0001717307",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Sy Tiffany R",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1717307/000110465926109350/0001104659-26-109350-index.htm"
+        },
+        {
+          "name": "PORTNOY ADAM D.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1717307/000110465926109349/0001104659-26-109349-index.htm"
+        },
+        {
+          "name": "Duffy Yael",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1806298/000110465926109347/0001104659-26-109347-index.htm"
+        }
+      ],
+      "tracked": false
+    },
+    {
+      "ticker": "FSLY",
+      "companyName": "Fastly, Inc.",
+      "cik": "0001517413",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Lovett Scott R.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2024441/000151741326000294/0001517413-26-000294-index.htm"
+        },
+        {
+          "name": "Ford Jeffrey",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1993556/000151741326000293/0001517413-26-000293-index.htm"
+        },
+        {
+          "name": "Bergman Artur",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1769490/000151741326000292/0001517413-26-000292-index.htm"
+        }
+      ],
+      "tracked": false
+    }
+  ]
+}

@@ -146,6 +146,10 @@ async function main() {
   console.log(`== ${ticker} (${name}) ==`)
   const filings = await listRecentForm4Filings(cik)
   console.log(`  found ${filings.length} recent Form 4 filings`)
+  if (filings.length === 0) {
+    console.log('  ! got zero filings — likely a transient SEC error, not "no data". Not writing a placeholder entry; re-run to retry.')
+    return
+  }
 
   const peopleByCik = new Map(people.map((p) => [p.cik, p]))
   const newTxs = []

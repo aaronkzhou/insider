@@ -32,6 +32,12 @@ const COMPANIES = [
   { ticker: 'PLTR', cik: '0001321655', name: 'Palantir Technologies Inc.', sector: 'Technology' },
   { ticker: 'AMD', cik: '0000002488', name: 'Advanced Micro Devices Inc.', sector: 'Semiconductors' },
   { ticker: 'AVGO', cik: '0001730168', name: 'Broadcom Inc.', sector: 'Semiconductors' },
+  { ticker: 'INTC', cik: '0000050863', name: 'Intel Corp.', sector: 'Semiconductors' },
+  { ticker: 'MU', cik: '0000723125', name: 'Micron Technology Inc.', sector: 'Semiconductors' },
+  { ticker: 'DXYZ', cik: '0001843974', name: 'Destiny Tech100 Inc.', sector: 'Closed-End Fund' },
+  { ticker: 'VCX', cik: '0001867090', name: 'Fundrise Innovation Fund, LLC', sector: 'Closed-End Fund' },
+  { ticker: 'SNDK', cik: '0002023554', name: 'Sandisk Corp.', sector: 'Semiconductors' },
+  { ticker: 'BABA', cik: '0001577552', name: 'Alibaba Group Holding Ltd', sector: 'Technology' },
 ]
 
 const parser = new XMLParser({ ignoreAttributes: false })
