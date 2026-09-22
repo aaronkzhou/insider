@@ -90,7 +90,10 @@ function extractTransactions(xmlText, fallbackTicker, accession, indexHref) {
   const root = doc?.ownershipDocument
   if (!root) return { person: null, txs: [] }
   const issuer = root.issuer ?? {}
-  const issuerTicker = issuer.issuerTradingSymbol || fallbackTicker
+  // Filers without a real exchange ticker (e.g. fund-interest units) often
+  // put the literal text "NONE" here — treat that the same as empty.
+  const rawSymbol = issuer.issuerTradingSymbol
+  const issuerTicker = rawSymbol && rawSymbol.toUpperCase() !== 'NONE' ? rawSymbol : fallbackTicker
 
   const owner = root.reportingOwner
   const ownerObj = Array.isArray(owner) ? owner[0] : owner
@@ -138,8 +141,11 @@ async function main() {
   const transactions = JSON.parse(readFileSync('src/data/generated/transactions.json', 'utf8'))
   const companies = JSON.parse(readFileSync('src/data/generated/companies.json', 'utf8'))
 
-  if (companies[ticker]) {
-    console.log(`${ticker} already tracked. Nothing to do.`)
+  // Check real data, not just a companies.json entry — an entry can exist
+  // with zero transactions if a prior run failed after writing the company
+  // row but before (or during) a transient SEC error on the filings fetch.
+  if (companies[ticker] && transactions.some((t) => t.ticker === ticker)) {
+    console.log(`${ticker} already tracked with real data. Nothing to do.`)
     return
   }
 

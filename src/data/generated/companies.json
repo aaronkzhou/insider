@@ -178,5 +178,11 @@
     "sector": "Technology",
     "price": 14.47,
     "priceAsOf": "2026-08-25"
+  },
+  "MU": {
+    "name": "Micron Technology Inc.",
+    "sector": "Semiconductors",
+    "price": 968.9,
+    "priceAsOf": "2026-08-21"
   }
 }

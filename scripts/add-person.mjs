@@ -108,8 +108,10 @@ async function main() {
     if (!root) continue
     const issuer = root.issuer ?? {}
     // Older filings sometimes bake the exchange into this field, e.g. "AMEX: RIV".
+    // Filers without a real ticker (fund-interest units) often put the
+    // literal text "NONE" here instead of leaving it empty.
     const ticker = issuer.issuerTradingSymbol?.replace(/^[A-Z]+:\s*/, '').trim()
-    if (!ticker) continue
+    if (!ticker || ticker.toUpperCase() === 'NONE') continue
 
     const owner = root.reportingOwner
     const ownerObj = Array.isArray(owner) ? owner[0] : owner

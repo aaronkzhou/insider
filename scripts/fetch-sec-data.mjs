@@ -124,7 +124,10 @@ function extractTransactions(xmlText, fallbackTicker, accession, indexHref) {
   if (!root) return { person: null, txs: [] }
 
   const issuer = root.issuer ?? {}
-  const ticker = issuer.issuerTradingSymbol || fallbackTicker
+  // Filers without a real exchange ticker (e.g. fund-interest units) often
+  // put the literal text "NONE" here — treat that the same as empty.
+  const rawSymbol = issuer.issuerTradingSymbol
+  const ticker = rawSymbol && rawSymbol.toUpperCase() !== 'NONE' ? rawSymbol : fallbackTicker
 
   const owner = root.reportingOwner
   const ownerObj = Array.isArray(owner) ? owner[0] : owner

@@ -1,9 +1,13 @@
 // Scans SEC EDGAR's real-time market-wide Form 4 firehose (NOT scoped to
 // our tracked company list) for stocks with unusually many distinct
 // insiders filing together recently — a cluster signal on a company we
-// aren't otherwise tracking. Cheap: each filing shows up as two linked
-// atom entries (reporting owner + issuer, tied by accession number), so
-// this only needs the firehose feed itself, no per-filing XML fetches.
+// aren't otherwise tracking. The firehose itself is cheap (each filing is
+// two linked atom entries — reporting owner + issuer, tied by an accession
+// number — no XML needed just to find candidates), but most clusters turn
+// out to be routine same-day equity vesting rather than real trading, so
+// candidates that clear the insider-count threshold get one further XML
+// fetch per filing to find the real P/S code and confirm actual buying or
+// selling is behind it before it's surfaced as an alert.
 import { readFileSync, writeFileSync } from 'node:fs'
 import { XMLParser } from 'fast-xml-parser'
 
@@ -22,6 +26,38 @@ async function fetchText(url) {
 function asArray(x) {
   if (x === undefined || x === null) return []
   return Array.isArray(x) ? x : [x]
+}
+
+async function fetchPrimaryDocXml(indexUrl) {
+  const base = indexUrl.replace(/\/[^/]+-index\.htm$/, '')
+  const guess = await fetchText(`${base}/form4.xml`).catch(() => null)
+  if (guess) return guess
+  const indexHtml = await fetchText(`${base}/`).catch(() => null)
+  if (!indexHtml) return null
+  const hrefs = [...indexHtml.matchAll(/href="([^"]+\.xml)"/g)].map((m) => m[1]).filter((h) => !h.includes('/xsl'))
+  if (hrefs.length === 0) return null
+  const docUrl = hrefs[0].startsWith('http') ? hrefs[0] : `https://www.sec.gov${hrefs[0]}`
+  return fetchText(docUrl).catch(() => null)
+}
+
+/** Real transaction code (P/S) from the filing itself — the firehose titles
+ * alone don't say whether a filer bought or sold. */
+async function fetchTransactionType(indexUrl) {
+  const xml = await fetchPrimaryDocXml(indexUrl)
+  if (!xml) return null
+  let doc
+  try {
+    doc = parser.parse(xml)
+  } catch {
+    return null
+  }
+  const rows = asArray(doc?.ownershipDocument?.nonDerivativeTable?.nonDerivativeTransaction)
+  for (const row of rows) {
+    const code = row.transactionCoding?.transactionCode
+    if (code === 'P') return 'buy'
+    if (code === 'S') return 'sell'
+  }
+  return 'other' // award, gift, exercise, etc. — real, just not a market trade
 }
 
 async function fetchFirehosePage(start) {
@@ -99,7 +135,7 @@ async function main() {
     byIssuer.get(rec.issuerCik).owners.set(rec.ownerCik, { name: rec.ownerName, filingUrl: rec.filingUrl })
   }
 
-  const alerts = [...byIssuer.values()]
+  const candidates = [...byIssuer.values()]
     .map((g) => {
       const ticker = cikToTicker.get(String(Number(g.issuerCik))) ?? null
       return {
@@ -114,9 +150,34 @@ async function main() {
     .filter((a) => a.insiderCount >= MIN_INSIDERS && !a.tracked)
     .sort((a, b) => b.insiderCount - a.insiderCount)
 
-  console.log(`Found ${alerts.length} untracked companies with ${MIN_INSIDERS}+ recent distinct insider filers:`)
-  for (const a of alerts) {
-    console.log(`  ${a.ticker ?? '(no ticker)'} — ${a.companyName} — ${a.insiderCount} insiders`)
+  console.log(`Found ${candidates.length} untracked companies with ${MIN_INSIDERS}+ recent distinct insider filers.`)
+  console.log('Fetching each filing to determine real buy/sell direction...')
+
+  // Only look up direction for the companies that actually cleared the
+  // cluster threshold — fetching every filing in the firehose isn't needed.
+  const alerts = []
+  for (const a of candidates) {
+    let buys = 0
+    let sells = 0
+    let other = 0
+    for (const insider of a.insiders) {
+      await sleep(150)
+      const type = await fetchTransactionType(insider.filingUrl).catch(() => null)
+      insider.type = type
+      if (type === 'buy') buys += 1
+      else if (type === 'sell') sells += 1
+      else other += 1
+    }
+    // Most clusters turn out to be routine same-day equity vesting (every
+    // exec filing an "other" event, not a market trade) — real signal only
+    // exists when there's actual open-market buying or selling behind it.
+    if (buys + sells < 2) {
+      console.log(`  (skip) ${a.ticker ?? a.companyName} — ${a.insiderCount} insiders but all routine (award/exercise/gift), no real trading`)
+      continue
+    }
+    const direction = buys > sells ? 'buy' : sells > buys ? 'sell' : 'mixed'
+    alerts.push({ ...a, buys, sells, other, direction })
+    console.log(`  ${a.ticker ?? '(no ticker)'} — ${a.companyName} — ${a.insiderCount} insiders (${buys} buy, ${sells} sell, ${other} other)`)
   }
 
   writeFileSync(

@@ -3153,5 +3153,126 @@
       "BABA": "Chief People Officer"
     },
     "initials": "JF"
+  },
+  {
+    "id": "bjorlin-alexis-8757",
+    "cik": "1798757",
+    "name": "Bjorlin Alexis",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "BA"
+  },
+  {
+    "id": "mehrotra-sanjay-2654",
+    "cik": "1242654",
+    "name": "MEHROTRA SANJAY",
+    "title": "President and CEO",
+    "company": "MU",
+    "roles": {
+      "MU": "President and CEO"
+    },
+    "initials": "MS"
+  },
+  {
+    "id": "sadana-sumit-1079",
+    "cik": "1311079",
+    "name": "Sadana Sumit",
+    "title": "EVP and Chief Business Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP and Chief Business Officer"
+    },
+    "initials": "SS"
+  },
+  {
+    "id": "allen-scott-r-2149",
+    "cik": "1652149",
+    "name": "ALLEN SCOTT R.",
+    "title": "CVP, Chief Accounting Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "CVP, Chief Accounting Officer"
+    },
+    "initials": "AS"
+  },
+  {
+    "id": "arnzen-april-s-2063",
+    "cik": "1632063",
+    "name": "ARNZEN APRIL S",
+    "title": "EVP and Chief People Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP and Chief People Officer"
+    },
+    "initials": "AA"
+  },
+  {
+    "id": "dugle-lynn-a-3368",
+    "cik": "1453368",
+    "name": "Dugle Lynn A",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "DL"
+  },
+  {
+    "id": "gomo-steven-j-4095",
+    "cik": "1224095",
+    "name": "GOMO STEVEN J",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "GS"
+  },
+  {
+    "id": "ray-michael-charles-3199",
+    "cik": "1593199",
+    "name": "RAY MICHAEL CHARLES",
+    "title": "SVP, Chief Legal Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "SVP, Chief Legal Officer"
+    },
+    "initials": "RM"
+  },
+  {
+    "id": "cordano-michael-d-1490",
+    "cik": "1201490",
+    "name": "CORDANO MICHAEL D",
+    "title": "EVP, Worldwide Sales",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP, Worldwide Sales"
+    },
+    "initials": "CM"
+  },
+  {
+    "id": "bhatia-manish-h-9498",
+    "cik": "1689498",
+    "name": "BHATIA MANISH H",
+    "title": "EVP, Global Operations",
+    "company": "MU",
+    "roles": {
+      "MU": "EVP, Global Operations"
+    },
+    "initials": "BM"
+  },
+  {
+    "id": "liu-teyin-m-8769",
+    "cik": "2058769",
+    "name": "Liu Teyin M",
+    "title": "Director",
+    "company": "MU",
+    "roles": {
+      "MU": "Director"
+    },
+    "initials": "LT"
   }
 ]
