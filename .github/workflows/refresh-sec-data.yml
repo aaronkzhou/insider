@@ -22,36 +22,45 @@ jobs:
 
       - run: npm ci
 
+      # Every real government data source used here has failed transiently
+      # in practice (SEC 503s, oge.gov connection timeouts, etc.) — wrap
+      # every fetch in scripts/with-retry.sh so a blip doesn't fail the whole
+      # day's refresh. It retries up to 3 times with a growing delay, then
+      # fails the step for real if the source genuinely isn't reachable.
       - name: Fetch latest SEC Form 4 data (tracked companies)
-        run: npm run fetch:sec
+        run: bash scripts/with-retry.sh npm run fetch:sec
 
       - name: Refresh individually-tracked people (real Form 4 filers)
         run: |
-          node scripts/add-person.mjs "Donald Trump Jr." 2016181
-          node scripts/add-person.mjs "Donald J. Trump" 947033
-          node scripts/add-person.mjs "Musk Elon" 1494730
-          node scripts/add-person.mjs "JD Vance" 1834682
+          bash scripts/with-retry.sh node scripts/add-person.mjs "Donald Trump Jr." 2016181
+          bash scripts/with-retry.sh node scripts/add-person.mjs "Donald J. Trump" 947033
+          bash scripts/with-retry.sh node scripts/add-person.mjs "Musk Elon" 1494730
+          bash scripts/with-retry.sh node scripts/add-person.mjs "JD Vance" 1834682
+          bash scripts/with-retry.sh node scripts/add-person.mjs "Situational Awareness LP" 2045724
 
       - name: Refresh fund portfolios (real 13F filers)
         run: |
-          node scripts/add-fund.mjs "Situational Awareness LP" 2045724
+          bash scripts/with-retry.sh node scripts/add-fund.mjs "Situational Awareness LP" 2045724
           # Thiel personally holds PLTR via Form 4 (fetched above via the
           # tracked-company step) and separately controls this fund — merge
           # onto his existing page instead of creating a second disconnected one.
-          node scripts/add-fund.mjs "Thiel Macro LLC" 1562087 --person-id=thiel-peter-1060
+          bash scripts/with-retry.sh node scripts/add-fund.mjs "Thiel Macro LLC" 1562087 --person-id=thiel-peter-1060
+
+      - name: Refresh beneficial-ownership disclosures (real Schedule 13D/13G filers)
+        run: bash scripts/with-retry.sh node scripts/add-beneficial-ownership.mjs
 
       - name: Refresh congressional disclosures (real STOCK Act PTRs)
         run: |
           YEAR=$(date -u +%Y)
           LAST_YEAR=$((YEAR - 1))
-          node scripts/add-congress-member.mjs "Pelosi" "Nancy" "$LAST_YEAR" "$YEAR" --spouse="Paul Pelosi"
+          bash scripts/with-retry.sh node scripts/add-congress-member.mjs "Pelosi" "Nancy" "$LAST_YEAR" "$YEAR" --spouse="Paul Pelosi"
           # Annual Financial Disclosure Reports (the real asset/holdings
           # schedule, filed once a year) land in the PRIOR calendar year's
           # zip. Safe to re-run daily — it's a no-op once nothing new is filed.
-          node scripts/add-congress-annual-disclosure.mjs "Pelosi" "Nancy" "$LAST_YEAR"
+          bash scripts/with-retry.sh node scripts/add-congress-annual-disclosure.mjs "Pelosi" "Nancy" "$LAST_YEAR"
 
       - name: Scan the market-wide firehose for untracked-stock clusters
-        run: node scripts/scan-market-clusters.mjs
+        run: bash scripts/with-retry.sh node scripts/scan-market-clusters.mjs
 
       - name: Commit and push if data changed
         run: |
