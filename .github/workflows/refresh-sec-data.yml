@@ -78,4 +78,40 @@ jobs:
           fi
           git add src/data/generated
           git commit -m "chore: refresh SEC insider data ($(date -u +%Y-%m-%d))"
-          git push
+
+          # This job's own fetch run takes 20-30+ minutes, so main can move
+          # (a manual push, another run) between checkout and this push —
+          # seen in practice, not hypothetical. Never force-push (could
+          # destroy someone else's commits); instead rebase onto whatever's
+          # now on main and retry. This commit only ever touches
+          # src/data/generated, so a rebase conflict confined to that path
+          # just means "our freshly-fetched data wins" — anything outside
+          # it would be unexpected and gets a hard stop instead of a guess.
+          attempt=1
+          max_attempts=5
+          while [ "$attempt" -le "$max_attempts" ]; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/$max_attempts) — rebasing onto latest main and retrying..."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              conflicted=$(git diff --name-only --diff-filter=U)
+              if [ -n "$conflicted" ] && ! echo "$conflicted" | grep -qv '^src/data/generated/'; then
+                echo "Conflict confined to src/data/generated — keeping our freshly-fetched data."
+                git checkout --ours -- src/data/generated
+                git add src/data/generated
+                git -c core.editor=true rebase --continue
+              else
+                echo "Rebase conflict outside src/data/generated — stopping for a human to look at it." >&2
+                echo "$conflicted" >&2
+                git rebase --abort
+                exit 1
+              fi
+            fi
+            attempt=$((attempt + 1))
+            sleep 5
+          done
+          echo "Failed to push after $max_attempts attempts." >&2
+          exit 1
