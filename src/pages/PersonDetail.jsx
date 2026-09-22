@@ -313,11 +313,24 @@ export default function PersonDetail() {
       </div>
       )}
 
-      {history.length > 0 && (
-      <>
       <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide" style={{ color: 'var(--accent)' }}>
         Transaction history
       </h2>
+      {history.length === 0 && (
+        <div
+          className="mb-6 rounded-lg border p-4 text-sm"
+          style={{ background: 'var(--surface-1)', borderColor: 'var(--border)', color: 'var(--text-secondary)' }}
+        >
+          No real open-market purchase (P) or sale (S) transactions on file for {person.name}.
+          {(person.otherEvents?.length > 0 || person.optionPositions?.length > 0) ? (
+            <> Their real disclosed activity is option/warrant exercises and other non-market events — see below.</>
+          ) : (
+            <> No other real filing events on file either.</>
+          )}
+        </div>
+      )}
+      {history.length > 0 && (
+      <>
       <div className="overflow-x-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
         <table className="w-full min-w-[640px] border-collapse text-sm">
           <thead>
