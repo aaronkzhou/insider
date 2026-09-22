@@ -71,12 +71,6 @@
     "price": 107.13,
     "priceAsOf": "2026-09-01"
   },
-  "DJT": {
-    "name": "Trump Media & Technology Group Corp.",
-    "sector": "Media",
-    "price": null,
-    "priceAsOf": null
-  },
   "PLTR": {
     "name": "Palantir Technologies Inc.",
     "sector": "Technology",
@@ -94,18 +88,6 @@
     "sector": "Semiconductors",
     "price": 401.33,
     "priceAsOf": "2026-07-10"
-  },
-  "PSQH": {
-    "name": "PSQ Holdings, Inc.",
-    "sector": "E-Commerce",
-    "price": null,
-    "priceAsOf": null
-  },
-  "PEW": {
-    "name": "Digital World Acquisition Corp. (Perception Capital / PEW)",
-    "sector": "Financials",
-    "price": null,
-    "priceAsOf": null
   },
   "TRMP": {
     "name": "Trump Entertainment Resorts, Inc.",
@@ -190,5 +172,23 @@
     "sector": null,
     "price": null,
     "priceAsOf": null
+  },
+  "DJT": {
+    "name": "Trump Media & Technology Group Corp.",
+    "sector": "Media",
+    "price": null,
+    "priceAsOf": null
+  },
+  "PSQH": {
+    "name": "PSQ Holdings, Inc.",
+    "sector": "E-Commerce",
+    "price": 0.5,
+    "priceAsOf": "2026-06-08"
+  },
+  "PEW": {
+    "name": "GrabAGun Digital Holdings Inc.",
+    "sector": "Retail",
+    "price": 2.25,
+    "priceAsOf": "2026-09-02"
   }
 }

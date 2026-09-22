@@ -29,6 +29,8 @@ const COMPANIES = [
   { ticker: 'UBER', cik: '0001543151', name: 'Uber Technologies, Inc.', sector: 'Transportation' },
   { ticker: 'DIS', cik: '0001744489', name: 'Walt Disney Co.', sector: 'Media' },
   { ticker: 'DJT', cik: '0001849635', name: 'Trump Media & Technology Group Corp.', sector: 'Media' },
+  { ticker: 'PSQH', cik: '0001847064', name: 'PSQ Holdings, Inc.', sector: 'E-Commerce' },
+  { ticker: 'PEW', cik: '0002051380', name: 'GrabAGun Digital Holdings Inc.', sector: 'Retail' },
   { ticker: 'PLTR', cik: '0001321655', name: 'Palantir Technologies Inc.', sector: 'Technology' },
   { ticker: 'AMD', cik: '0000002488', name: 'Advanced Micro Devices Inc.', sector: 'Semiconductors' },
   { ticker: 'AVGO', cik: '0001730168', name: 'Broadcom Inc.', sector: 'Semiconductors' },

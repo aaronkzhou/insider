@@ -3301,5 +3301,126 @@
       }
     ],
     "optionPositions": []
+  },
+  {
+    "id": "langston-willie-7821",
+    "cik": "2047821",
+    "name": "Langston Willie",
+    "title": "Director",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Director"
+    },
+    "initials": "LW"
+  },
+  {
+    "id": "pena-michael-1770",
+    "cik": "2131770",
+    "name": "Pena Michael",
+    "title": "Chief Financial Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Financial Officer"
+    },
+    "initials": "PM"
+  },
+  {
+    "id": "rinn-james-5227",
+    "cik": "1985227",
+    "name": "Rinn James",
+    "title": "Chief Financial Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Financial Officer"
+    },
+    "initials": "RJ"
+  },
+  {
+    "id": "wunderlich-dusty-5472",
+    "cik": "2015472",
+    "name": "Wunderlich Dusty",
+    "title": "Chief Strategy Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Strategy Officer"
+    },
+    "initials": "WD"
+  },
+  {
+    "id": "seifert-michael-stephen-5187",
+    "cik": "1985187",
+    "name": "Seifert Michael Stephen",
+    "title": "Chief Executive Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Executive Officer"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "hebert-michael-robert-5192",
+    "cik": "1985192",
+    "name": "Hebert Michael Robert",
+    "title": "Chief People Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief People Officer"
+    },
+    "initials": "HM"
+  },
+  {
+    "id": "hilty-justin-c-0555",
+    "cik": "2060555",
+    "name": "Hilty Justin C.",
+    "title": "Reporting Person",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Reporting Person"
+    },
+    "initials": "HJ"
+  },
+  {
+    "id": "vittitow-matthew-w-0636",
+    "cik": "2060636",
+    "name": "Vittitow Matthew W.",
+    "title": "Chief Operating Officer",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Chief Operating Officer"
+    },
+    "initials": "VM"
+  },
+  {
+    "id": "nemati-marc-a-0619",
+    "cik": "2060619",
+    "name": "Nemati Marc A.",
+    "title": "President and CEO",
+    "company": "PEW",
+    "roles": {
+      "PEW": "President and CEO"
+    },
+    "initials": "NM"
+  },
+  {
+    "id": "reisdorf-kelly-l-4008",
+    "cik": "1794008",
+    "name": "Reisdorf Kelly L",
+    "title": "Director",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Director"
+    },
+    "initials": "RK"
+  },
+  {
+    "id": "cox-chris-w-7813",
+    "cik": "2077813",
+    "name": "Cox Chris W.",
+    "title": "Director",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Director"
+    },
+    "initials": "CC"
   }
 ]
