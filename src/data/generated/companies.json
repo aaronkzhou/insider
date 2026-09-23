@@ -14,8 +14,8 @@
   "NVDA": {
     "name": "NVIDIA Corp.",
     "sector": "Semiconductors",
-    "price": 219.5932,
-    "priceAsOf": "2026-09-17"
+    "price": 234.0043,
+    "priceAsOf": "2026-09-04"
   },
   "TSLA": {
     "name": "Tesla, Inc.",
@@ -86,8 +86,8 @@
   "PEW": {
     "name": "GrabAGun Digital Holdings Inc.",
     "sector": "Retail",
-    "price": 2.2501,
-    "priceAsOf": "2026-09-02"
+    "price": 2.57,
+    "priceAsOf": "2026-07-16"
   },
   "APPH": {
     "name": "AppHarvest, Inc.",
@@ -188,8 +188,8 @@
   "SNOW": {
     "name": "Snowflake Inc.",
     "sector": "Technology",
-    "price": 318.51,
-    "priceAsOf": "2026-09-16"
+    "price": 344.5,
+    "priceAsOf": "2026-09-22"
   },
   "MRVL": {
     "name": "Marvell Technology, Inc.",
@@ -206,8 +206,8 @@
   "MSTR": {
     "name": "Strategy Inc.",
     "sector": "Technology",
-    "price": 138.75,
-    "priceAsOf": "2026-09-04"
+    "price": 169,
+    "priceAsOf": "2026-09-21"
   },
   "COIN": {
     "name": "Coinbase Global, Inc.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 247.45,
-    "priceAsOf": "2026-09-18"
+    "price": 244.47,
+    "priceAsOf": "2026-09-21"
   },
   "TRMP": {
     "name": "TRMP",

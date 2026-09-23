@@ -99,17 +99,6 @@
     "initials": "NS"
   },
   {
-    "id": "kress-colette-8670",
-    "cik": "1588670",
-    "name": "Kress Colette",
-    "title": "EVP & Chief Financial Officer",
-    "company": "NVDA",
-    "roles": {
-      "NVDA": "EVP & Chief Financial Officer"
-    },
-    "initials": "KC"
-  },
-  {
     "id": "stevens-mark-a-9039",
     "cik": "1199039",
     "name": "STEVENS MARK A",
@@ -154,26 +143,15 @@
     "initials": "DJ"
   },
   {
-    "id": "shah-aarti-s-5292",
-    "cik": "1725292",
-    "name": "Shah Aarti S.",
-    "title": "Director",
+    "id": "puri-ajay-k-7842",
+    "cik": "1347842",
+    "name": "Puri Ajay K",
+    "title": "EVP, Worldwide Field Ops",
     "company": "NVDA",
     "roles": {
-      "NVDA": "Director"
+      "NVDA": "EVP, Worldwide Field Ops"
     },
-    "initials": "SA"
-  },
-  {
-    "id": "robertson-donald-f-jr-6111",
-    "cik": "1526111",
-    "name": "Robertson Donald F Jr",
-    "title": "Principal Accounting Officer",
-    "company": "NVDA",
-    "roles": {
-      "NVDA": "Principal Accounting Officer"
-    },
-    "initials": "RD"
+    "initials": "PA"
   },
   {
     "id": "taneja-vaibhav-1340",
@@ -1875,10 +1853,10 @@
     "id": "hilty-justin-c-0555",
     "cik": "2060555",
     "name": "Hilty Justin C.",
-    "title": "Reporting Person",
+    "title": "Chief Financial Officer",
     "company": "PEW",
     "roles": {
-      "PEW": "Reporting Person"
+      "PEW": "Chief Financial Officer"
     },
     "initials": "HJ"
   },
@@ -3022,6 +3000,28 @@
     "initials": "LL"
   },
   {
+    "id": "slootman-frank-2348",
+    "cik": "1402348",
+    "name": "Slootman Frank",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "SF"
+  },
+  {
+    "id": "kleinerman-christian-9088",
+    "cik": "1979088",
+    "name": "Kleinerman Christian",
+    "title": "EVP, Product Management",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "EVP, Product Management"
+    },
+    "initials": "KC"
+  },
+  {
     "id": "beaulier-jonathan-mead-7025",
     "cik": "2127025",
     "name": "Beaulier Jonathan Mead",
@@ -3042,28 +3042,6 @@
       "SNOW": "Chief Accounting Officer"
     },
     "initials": "HE"
-  },
-  {
-    "id": "kleinerman-christian-9088",
-    "cik": "1979088",
-    "name": "Kleinerman Christian",
-    "title": "EVP, Product Management",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "EVP, Product Management"
-    },
-    "initials": "KC"
-  },
-  {
-    "id": "slootman-frank-2348",
-    "cik": "1402348",
-    "name": "Slootman Frank",
-    "title": "Director",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "Director"
-    },
-    "initials": "SF"
   },
   {
     "id": "raghunathan-vivek-8740",
@@ -3108,17 +3086,6 @@
       "SNOW": "Director"
     },
     "initials": "SM"
-  },
-  {
-    "id": "briggs-teresa-7659",
-    "cik": "1767659",
-    "name": "Briggs Teresa",
-    "title": "Director",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "Director"
-    },
-    "initials": "BT"
   },
   {
     "id": "murphy-matthew-j-1430",
@@ -3374,17 +3341,6 @@
     "initials": "KH"
   },
   {
-    "id": "chow-thomas-c-4012",
-    "cik": "1834012",
-    "name": "Chow Thomas C.",
-    "title": "EVP & General Counsel",
-    "company": "MSTR",
-    "roles": {
-      "MSTR": "EVP & General Counsel"
-    },
-    "initials": "CT"
-  },
-  {
     "id": "patten-jarrod-m-9191",
     "cik": "1309191",
     "name": "Patten Jarrod M",
@@ -3394,6 +3350,17 @@
       "MSTR": "Director"
     },
     "initials": "PJ"
+  },
+  {
+    "id": "chow-thomas-c-4012",
+    "cik": "1834012",
+    "name": "Chow Thomas C.",
+    "title": "EVP & General Counsel",
+    "company": "MSTR",
+    "roles": {
+      "MSTR": "EVP & General Counsel"
+    },
+    "initials": "CT"
   },
   {
     "id": "le-phong-1669",
@@ -3605,6 +3572,28 @@
     "initials": "MJ"
   },
   {
+    "id": "saha-anurag-1602",
+    "cik": "1921602",
+    "name": "Saha Anurag",
+    "title": "CHIEF ACCOUNTING OFFICER",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "CHIEF ACCOUNTING OFFICER"
+    },
+    "initials": "SA"
+  },
+  {
+    "id": "sentonas-michael-8270",
+    "cik": "1968270",
+    "name": "Sentonas Michael",
+    "title": "PRESIDENT",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "PRESIDENT"
+    },
+    "initials": "SM"
+  },
+  {
     "id": "kurtz-george-8564",
     "cik": "1778564",
     "name": "Kurtz George",
@@ -3614,6 +3603,17 @@
       "CRWD": "PRESIDENT AND CEO"
     },
     "initials": "KG"
+  },
+  {
+    "id": "podbere-burt-w-8610",
+    "cik": "1778610",
+    "name": "Podbere Burt W.",
+    "title": "CHIEF FINANCIAL OFFICER",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "CHIEF FINANCIAL OFFICER"
+    },
+    "initials": "PB"
   },
   {
     "id": "davis-cary-0632",
@@ -3658,28 +3658,6 @@
       "CRWD": "Director"
     },
     "initials": "GS"
-  },
-  {
-    "id": "podbere-burt-w-8610",
-    "cik": "1778610",
-    "name": "Podbere Burt W.",
-    "title": "CHIEF FINANCIAL OFFICER",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "CHIEF FINANCIAL OFFICER"
-    },
-    "initials": "PB"
-  },
-  {
-    "id": "oleary-denis-3512",
-    "cik": "1253512",
-    "name": "OLEARY DENIS",
-    "title": "Director",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "Director"
-    },
-    "initials": "OD"
   },
   {
     "id": "donald-trump-jr-6181",
