@@ -99,6 +99,17 @@
     "initials": "NS"
   },
   {
+    "id": "teter-timothy-s-6841",
+    "cik": "1696841",
+    "name": "Teter Timothy S.",
+    "title": "EVP, General Counsel and Sec",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "EVP, General Counsel and Sec"
+    },
+    "initials": "TT"
+  },
+  {
     "id": "stevens-mark-a-9039",
     "cik": "1199039",
     "name": "STEVENS MARK A",
@@ -110,15 +121,15 @@
     "initials": "SM"
   },
   {
-    "id": "teter-timothy-s-6841",
-    "cik": "1696841",
-    "name": "Teter Timothy S.",
-    "title": "EVP, General Counsel and Sec",
+    "id": "kress-colette-8670",
+    "cik": "1588670",
+    "name": "Kress Colette",
+    "title": "EVP & Chief Financial Officer",
     "company": "NVDA",
     "roles": {
-      "NVDA": "EVP, General Counsel and Sec"
+      "NVDA": "EVP & Chief Financial Officer"
     },
-    "initials": "TT"
+    "initials": "KC"
   },
   {
     "id": "neal-stephen-c-8670",
@@ -132,26 +143,15 @@
     "initials": "NS"
   },
   {
-    "id": "dabiri-john-8224",
-    "cik": "1818224",
-    "name": "Dabiri John",
+    "id": "shah-aarti-s-5292",
+    "cik": "1725292",
+    "name": "Shah Aarti S.",
     "title": "Director",
     "company": "NVDA",
     "roles": {
       "NVDA": "Director"
     },
-    "initials": "DJ"
-  },
-  {
-    "id": "puri-ajay-k-7842",
-    "cik": "1347842",
-    "name": "Puri Ajay K",
-    "title": "EVP, Worldwide Field Ops",
-    "company": "NVDA",
-    "roles": {
-      "NVDA": "EVP, Worldwide Field Ops"
-    },
-    "initials": "PA"
+    "initials": "SA"
   },
   {
     "id": "taneja-vaibhav-1340",
@@ -1853,10 +1853,10 @@
     "id": "hilty-justin-c-0555",
     "cik": "2060555",
     "name": "Hilty Justin C.",
-    "title": "Chief Financial Officer",
+    "title": "Reporting Person",
     "company": "PEW",
     "roles": {
-      "PEW": "Chief Financial Officer"
+      "PEW": "Reporting Person"
     },
     "initials": "HJ"
   },
@@ -2240,6 +2240,17 @@
     "initials": "DN"
   },
   {
+    "id": "samueli-henry-1633",
+    "cik": "1201633",
+    "name": "SAMUELI HENRY",
+    "title": "Director",
+    "company": "AVGO",
+    "roles": {
+      "AVGO": "Director"
+    },
+    "initials": "SH"
+  },
+  {
     "id": "brazeal-mark-david-7720",
     "cik": "1627720",
     "name": "Brazeal Mark David",
@@ -2271,17 +2282,6 @@
       "AVGO": "Director"
     },
     "initials": "PJ"
-  },
-  {
-    "id": "samueli-henry-1633",
-    "cik": "1201633",
-    "name": "SAMUELI HENRY",
-    "title": "Director",
-    "company": "AVGO",
-    "roles": {
-      "AVGO": "Director"
-    },
-    "initials": "SH"
   },
   {
     "id": "you-harry-l-2602",
@@ -2702,6 +2702,17 @@
     "initials": "JF"
   },
   {
+    "id": "smith-maria-7369",
+    "cik": "1957369",
+    "name": "Smith Maria",
+    "title": "EVP, Chief  Accounting Officer",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "EVP, Chief  Accounting Officer"
+    },
+    "initials": "SM"
+  },
+  {
     "id": "sicilia-michael-d-1965",
     "cik": "2071965",
     "name": "Sicilia Michael D.",
@@ -2779,17 +2790,6 @@
     "initials": "SN"
   },
   {
-    "id": "berg-jeffrey-6104",
-    "cik": "1206104",
-    "name": "BERG JEFFREY",
-    "title": "Director",
-    "company": "ORCL",
-    "roles": {
-      "ORCL": "Director"
-    },
-    "initials": "BJ"
-  },
-  {
     "id": "kirk-david-blair-7892",
     "cik": "2077892",
     "name": "Kirk David Blair",
@@ -2857,6 +2857,17 @@
     "initials": "DD"
   },
   {
+    "id": "amon-cristiano-r-9665",
+    "cik": "1559665",
+    "name": "AMON CRISTIANO R",
+    "title": "President & CEO",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "President & CEO"
+    },
+    "initials": "AC"
+  },
+  {
     "id": "palkhiwala-akash-j-6420",
     "cik": "1786420",
     "name": "Palkhiwala Akash J.",
@@ -2888,17 +2899,6 @@
       "QCOM": "EVP, Chief HR Officer"
     },
     "initials": "AH"
-  },
-  {
-    "id": "amon-cristiano-r-9665",
-    "cik": "1559665",
-    "name": "AMON CRISTIANO R",
-    "title": "President & CEO",
-    "company": "QCOM",
-    "roles": {
-      "QCOM": "President & CEO"
-    },
-    "initials": "AC"
   },
   {
     "id": "subaiya-thimaya-k-5287",
@@ -3000,6 +3000,28 @@
     "initials": "LL"
   },
   {
+    "id": "dageville-benoit-1737",
+    "cik": "1821737",
+    "name": "Dageville Benoit",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "DB"
+  },
+  {
+    "id": "beaulier-jonathan-mead-7025",
+    "cik": "2127025",
+    "name": "Beaulier Jonathan Mead",
+    "title": "Chief Revenue Officer",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Chief Revenue Officer"
+    },
+    "initials": "BJ"
+  },
+  {
     "id": "slootman-frank-2348",
     "cik": "1402348",
     "name": "Slootman Frank",
@@ -3022,17 +3044,6 @@
     "initials": "KC"
   },
   {
-    "id": "beaulier-jonathan-mead-7025",
-    "cik": "2127025",
-    "name": "Beaulier Jonathan Mead",
-    "title": "Chief Revenue Officer",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "Chief Revenue Officer"
-    },
-    "initials": "BJ"
-  },
-  {
     "id": "ho-emily-2024",
     "cik": "2012024",
     "name": "Ho Emily",
@@ -3053,17 +3064,6 @@
       "SNOW": "SVP, Engineering"
     },
     "initials": "RV"
-  },
-  {
-    "id": "dageville-benoit-1737",
-    "cik": "1821737",
-    "name": "Dageville Benoit",
-    "title": "Director",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "Director"
-    },
-    "initials": "DB"
   },
   {
     "id": "garrett-mark-6215",
@@ -3396,6 +3396,17 @@
     "initials": "MJ"
   },
   {
+    "id": "haas-alesia-j-8711",
+    "cik": "1668711",
+    "name": "HAAS ALESIA J",
+    "title": "Chief Financial Officer",
+    "company": "COIN",
+    "roles": {
+      "COIN": "Chief Financial Officer"
+    },
+    "initials": "HA"
+  },
+  {
     "id": "wilson-frederick-r-7688",
     "cik": "1227688",
     "name": "WILSON FREDERICK R",
@@ -3438,17 +3449,6 @@
       "COIN": "Chief People Officer"
     },
     "initials": "BL"
-  },
-  {
-    "id": "haas-alesia-j-8711",
-    "cik": "1668711",
-    "name": "HAAS ALESIA J",
-    "title": "Chief Financial Officer",
-    "company": "COIN",
-    "roles": {
-      "COIN": "Chief Financial Officer"
-    },
-    "initials": "HA"
   },
   {
     "id": "rottenberg-julie-b-7192",
@@ -3572,6 +3572,28 @@
     "initials": "MJ"
   },
   {
+    "id": "podbere-burt-w-8610",
+    "cik": "1778610",
+    "name": "Podbere Burt W.",
+    "title": "CHIEF FINANCIAL OFFICER",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "CHIEF FINANCIAL OFFICER"
+    },
+    "initials": "PB"
+  },
+  {
+    "id": "kurtz-george-8564",
+    "cik": "1778564",
+    "name": "Kurtz George",
+    "title": "PRESIDENT AND CEO",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "PRESIDENT AND CEO"
+    },
+    "initials": "KG"
+  },
+  {
     "id": "saha-anurag-1602",
     "cik": "1921602",
     "name": "Saha Anurag",
@@ -3592,28 +3614,6 @@
       "CRWD": "PRESIDENT"
     },
     "initials": "SM"
-  },
-  {
-    "id": "kurtz-george-8564",
-    "cik": "1778564",
-    "name": "Kurtz George",
-    "title": "PRESIDENT AND CEO",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "PRESIDENT AND CEO"
-    },
-    "initials": "KG"
-  },
-  {
-    "id": "podbere-burt-w-8610",
-    "cik": "1778610",
-    "name": "Podbere Burt W.",
-    "title": "CHIEF FINANCIAL OFFICER",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "CHIEF FINANCIAL OFFICER"
-    },
-    "initials": "PB"
   },
   {
     "id": "davis-cary-0632",

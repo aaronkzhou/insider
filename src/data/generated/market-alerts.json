@@ -1,5 +1,37 @@
 {
-  "scannedAt": "2026-09-23T17:53:00.879Z",
-  "filingsScanned": 62,
-  "alerts": []
+  "scannedAt": "2026-09-26T16:22:50.210Z",
+  "filingsScanned": 132,
+  "alerts": [
+    {
+      "ticker": "BKKT-WT",
+      "companyName": "Bakkt, Inc.",
+      "cik": "0001820302",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Henderson Joseph Sean-Walsh",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2030505/000162828026063638/0001628280-26-063638-index.htm",
+          "type": "sell",
+          "date": "2026-09-23"
+        },
+        {
+          "name": "D'Annunzio Marc",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1871559/000162828026063636/0001628280-26-063636-index.htm",
+          "type": "sell",
+          "date": "2026-09-23"
+        },
+        {
+          "name": "Baes Nicholas",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2043681/000162828026063634/0001628280-26-063634-index.htm",
+          "type": "sell",
+          "date": "2026-09-23"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    }
+  ]
 }
