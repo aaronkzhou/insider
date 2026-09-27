@@ -143,6 +143,17 @@
     "initials": "NS"
   },
   {
+    "id": "dabiri-john-8224",
+    "cik": "1818224",
+    "name": "Dabiri John",
+    "title": "Director",
+    "company": "NVDA",
+    "roles": {
+      "NVDA": "Director"
+    },
+    "initials": "DJ"
+  },
+  {
     "id": "shah-aarti-s-5292",
     "cik": "1725292",
     "name": "Shah Aarti S.",
