@@ -237,6 +237,13 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000110465926075213/0001104659-26-075213-index.htm"
       },
       {
+        "ticker": "EDR",
+        "shares": 7583,
+        "asOfDate": "2022-06-13",
+        "sourceEvent": "option exercise",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000089924322022688/0000899243-22-022688-index.htm"
+      },
+      {
         "ticker": "SCTY",
         "shares": 0,
         "asOfDate": "2016-11-21",
@@ -433,6 +440,17 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000089924323008179/0000899243-23-008179-index.htm"
       },
       {
+        "ticker": "EDR",
+        "code": "M",
+        "eventType": "option exercise",
+        "shares": 7583,
+        "price": null,
+        "date": "2022-06-13",
+        "sharesOwnedAfter": 7583,
+        "accession": "0000899243-22-022688",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000089924322022688/0000899243-22-022688-index.htm"
+      },
+      {
         "ticker": "TSLA",
         "code": "M",
         "eventType": "option exercise",
@@ -618,6 +636,39 @@
         "sharesOwnedAfter": 0,
         "accession": "0001408356-16-000172",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000140835616000172/0001408356-16-000172-index.htm"
+      },
+      {
+        "ticker": "TSLA",
+        "code": "M",
+        "eventType": "option exercise",
+        "shares": 2147986,
+        "price": 6.63,
+        "date": "2016-05-19",
+        "sharesOwnedAfter": 31727328,
+        "accession": "0001494730-16-000007",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000149473016000007/0001494730-16-000007-index.htm"
+      },
+      {
+        "ticker": "TSLA",
+        "code": "M",
+        "eventType": "option exercise",
+        "shares": 3355986,
+        "price": 6.63,
+        "date": "2016-05-19",
+        "sharesOwnedAfter": 35083314,
+        "accession": "0001494730-16-000007",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000149473016000007/0001494730-16-000007-index.htm"
+      },
+      {
+        "ticker": "TSLA",
+        "code": "G",
+        "eventType": "gift",
+        "shares": 1200000,
+        "price": null,
+        "date": "2016-05-19",
+        "sharesOwnedAfter": 33883314,
+        "accession": "0001494730-16-000007",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000149473016000007/0001494730-16-000007-index.htm"
       },
       {
         "ticker": "TSLA",
@@ -945,6 +996,19 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000089924323008179/0000899243-23-008179-index.htm"
       },
       {
+        "ticker": "EDR",
+        "securityTitle": "Restricted Stock Unit",
+        "code": "M",
+        "eventType": "option exercise",
+        "underlyingShares": 7583,
+        "exercisePrice": null,
+        "expirationDate": null,
+        "sharesOwnedAfter": 0,
+        "date": "2022-06-13",
+        "accession": "0000899243-22-022688",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000089924322022688/0000899243-22-022688-index.htm"
+      },
+      {
         "ticker": "TSLA",
         "securityTitle": "Non-Qualifed Stock Option (right to buy)",
         "code": "M",
@@ -1183,6 +1247,32 @@
         "securityTitle": "Non-Qualified Stock Option (right to buy)",
         "code": "M",
         "eventType": "option exercise",
+        "underlyingShares": 2147986,
+        "exercisePrice": 6.63,
+        "expirationDate": "2016-12-03",
+        "sharesOwnedAfter": 3355986,
+        "date": "2016-05-19",
+        "accession": "0001494730-16-000007",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000149473016000007/0001494730-16-000007-index.htm"
+      },
+      {
+        "ticker": "TSLA",
+        "securityTitle": "Non-Qualified Stock Option (right to buy)",
+        "code": "M",
+        "eventType": "option exercise",
+        "underlyingShares": 3355986,
+        "exercisePrice": 6.63,
+        "expirationDate": "2016-12-03",
+        "sharesOwnedAfter": 0,
+        "date": "2016-05-19",
+        "accession": "0001494730-16-000007",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1494730/000149473016000007/0001494730-16-000007-index.htm"
+      },
+      {
+        "ticker": "TSLA",
+        "securityTitle": "Non-Qualified Stock Option (right to buy)",
+        "code": "M",
+        "eventType": "option exercise",
         "underlyingShares": 676000,
         "exercisePrice": 6.63,
         "expirationDate": "2016-12-03",
@@ -1350,6 +1440,28 @@
       "GOOGL": "Director"
     },
     "initials": "AF"
+  },
+  {
+    "id": "saraci-marsida-8895",
+    "cik": "2138895",
+    "name": "Saraci Marsida",
+    "title": "VP, Chief Accounting Officer",
+    "company": "GOOGL",
+    "roles": {
+      "GOOGL": "VP, Chief Accounting Officer"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "zuckerberg-mark-8760",
+    "cik": "1548760",
+    "name": "Zuckerberg Mark",
+    "title": "COB and CEO",
+    "company": "META",
+    "roles": {
+      "META": "COB and CEO"
+    },
+    "initials": "ZM"
   },
   {
     "id": "cox-christopher-k-7459",
@@ -2535,6 +2647,39 @@
     "initials": "SN"
   },
   {
+    "id": "yu-siying-4147",
+    "cik": "2114147",
+    "name": "Yu Siying",
+    "title": "General Counsel",
+    "company": "BABA",
+    "roles": {
+      "BABA": "General Counsel"
+    },
+    "initials": "YS"
+  },
+  {
+    "id": "jiang-fang-4927",
+    "cik": "2114927",
+    "name": "Jiang Fang",
+    "title": "Chief People Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief People Officer"
+    },
+    "initials": "JF"
+  },
+  {
+    "id": "xu-hong-4529",
+    "cik": "2114529",
+    "name": "Xu Hong",
+    "title": "Chief Financial Officer",
+    "company": "BABA",
+    "roles": {
+      "BABA": "Chief Financial Officer"
+    },
+    "initials": "XH"
+  },
+  {
     "id": "tsai-joseph-c-3999",
     "cik": "1633999",
     "name": "Tsai Joseph C",
@@ -2575,39 +2720,6 @@
     "company": "BABA",
     "roles": {
       "BABA": "CEO of Business Group"
-    },
-    "initials": "JF"
-  },
-  {
-    "id": "xu-hong-4529",
-    "cik": "2114529",
-    "name": "Xu Hong",
-    "title": "Chief Financial Officer",
-    "company": "BABA",
-    "roles": {
-      "BABA": "Chief Financial Officer"
-    },
-    "initials": "XH"
-  },
-  {
-    "id": "yu-siying-4147",
-    "cik": "2114147",
-    "name": "Yu Siying",
-    "title": "General Counsel",
-    "company": "BABA",
-    "roles": {
-      "BABA": "General Counsel"
-    },
-    "initials": "YS"
-  },
-  {
-    "id": "jiang-fang-4927",
-    "cik": "2114927",
-    "name": "Jiang Fang",
-    "title": "Chief People Officer",
-    "company": "BABA",
-    "roles": {
-      "BABA": "Chief People Officer"
     },
     "initials": "JF"
   },
@@ -3119,6 +3231,17 @@
     "initials": "LS"
   },
   {
+    "id": "ilan-haviv-5466",
+    "cik": "1695466",
+    "name": "Ilan Haviv",
+    "title": "Chairman, President & CEO",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Chairman, President & CEO"
+    },
+    "initials": "IH"
+  },
+  {
     "id": "knecht-julie-c-9349",
     "cik": "1859349",
     "name": "Knecht Julie C.",
@@ -3471,17 +3594,6 @@
     "initials": "MJ"
   },
   {
-    "id": "podbere-burt-w-8610",
-    "cik": "1778610",
-    "name": "Podbere Burt W.",
-    "title": "CHIEF FINANCIAL OFFICER",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "CHIEF FINANCIAL OFFICER"
-    },
-    "initials": "PB"
-  },
-  {
     "id": "kurtz-george-8564",
     "cik": "1778564",
     "name": "Kurtz George",
@@ -3491,6 +3603,17 @@
       "CRWD": "PRESIDENT AND CEO"
     },
     "initials": "KG"
+  },
+  {
+    "id": "podbere-burt-w-8610",
+    "cik": "1778610",
+    "name": "Podbere Burt W.",
+    "title": "CHIEF FINANCIAL OFFICER",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "CHIEF FINANCIAL OFFICER"
+    },
+    "initials": "PB"
   },
   {
     "id": "saha-anurag-1602",
@@ -3604,6 +3727,17 @@
         "sharesOwnedAfter": 891847,
         "accession": "0002016181-26-000005",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000201618126000005/0002016181-26-000005-index.htm"
+      },
+      {
+        "ticker": "PSQH",
+        "code": "A",
+        "eventType": "award",
+        "shares": 125000,
+        "price": null,
+        "date": "2026-07-09",
+        "sharesOwnedAfter": 822403,
+        "accession": "0002016181-26-000003",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2016181/000201618126000003/0002016181-26-000003-index.htm"
       },
       {
         "ticker": "PEW",

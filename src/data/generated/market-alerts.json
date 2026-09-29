@@ -1,37 +1,5 @@
 {
-  "scannedAt": "2026-09-28T20:56:00.158Z",
-  "filingsScanned": 148,
-  "alerts": [
-    {
-      "ticker": "INNV",
-      "companyName": "InnovAge Holding Corp.",
-      "cik": "0001834376",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "TCO GROUP HOLDINGS, L.P.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1844765/000119312526405348/0001193125-26-405348-index.htm",
-          "type": "sell",
-          "date": "2026-09-24"
-        },
-        {
-          "name": "Apax X EUR L.P.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1848852/000119312526405347/0001193125-26-405347-index.htm",
-          "type": "sell",
-          "date": "2026-09-24"
-        },
-        {
-          "name": "WCAS MANAGEMENT CORP",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1848767/000119312526405346/0001193125-26-405346-index.htm",
-          "type": "sell",
-          "date": "2026-09-24"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 3,
-      "other": 0,
-      "direction": "sell"
-    }
-  ]
+  "scannedAt": "2026-09-29T18:06:34.508Z",
+  "filingsScanned": 52,
+  "alerts": []
 }
