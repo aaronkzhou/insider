@@ -1,5 +1,49 @@
 {
-  "scannedAt": "2026-09-29T18:06:34.508Z",
-  "filingsScanned": 52,
-  "alerts": []
+  "scannedAt": "2026-09-30T18:04:22.825Z",
+  "filingsScanned": 30,
+  "alerts": [
+    {
+      "ticker": "FUL",
+      "companyName": "FULLER H B CO",
+      "cik": "0000039368",
+      "insiderCount": 5,
+      "insiders": [
+        {
+          "name": "HANDLEY THOMAS W",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1275967/000122520826008014/0001225208-26-008014-index.htm",
+          "type": "buy",
+          "date": "2026-09-28"
+        },
+        {
+          "name": "Rasmussen Trangsrud Teresa J",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1832403/000122520826008013/0001225208-26-008013-index.htm",
+          "type": "buy",
+          "date": "2026-09-28"
+        },
+        {
+          "name": "FLORNESS DANIEL L",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1017427/000122520826008015/0001225208-26-008015-index.htm",
+          "type": "buy",
+          "date": "2026-09-28"
+        },
+        {
+          "name": "Lauber Charles T",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1566398/000122520826008012/0001225208-26-008012-index.htm",
+          "type": "buy",
+          "date": "2026-09-29"
+        },
+        {
+          "name": "Zaheer Srilata",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1919136/000122520826008011/0001225208-26-008011-index.htm",
+          "type": "buy",
+          "date": "2026-09-28"
+        }
+      ],
+      "tracked": false,
+      "buys": 5,
+      "sells": 0,
+      "other": 0,
+      "direction": "buy"
+    }
+  ]
 }
