@@ -1442,6 +1442,17 @@
     "initials": "SM"
   },
   {
+    "id": "olivan-javier-4475",
+    "cik": "1564475",
+    "name": "Olivan Javier",
+    "title": "Chief Operating Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Operating Officer"
+    },
+    "initials": "OJ"
+  },
+  {
     "id": "zuckerberg-mark-8760",
     "cik": "1548760",
     "name": "Zuckerberg Mark",
@@ -1462,17 +1473,6 @@
       "META": "Chief Product Officer"
     },
     "initials": "CC"
-  },
-  {
-    "id": "olivan-javier-4475",
-    "cik": "1564475",
-    "name": "Olivan Javier",
-    "title": "Chief Operating Officer",
-    "company": "META",
-    "roles": {
-      "META": "Chief Operating Officer"
-    },
-    "initials": "OJ"
   },
   {
     "id": "anderson-aaron-5073",
@@ -1608,24 +1608,13 @@
     "initials": "ST"
   },
   {
-    "id": "denman-kenneth-d-4779",
-    "cik": "1254779",
-    "name": "DENMAN KENNETH D",
-    "title": "Director",
-    "company": "COST",
-    "roles": {
-      "COST": "Director"
-    },
-    "initials": "DK"
-  },
-  {
     "id": "frates-caton-8633",
     "cik": "1928633",
     "name": "Frates Caton",
-    "title": "Executive Vice President",
+    "title": "Sr. Executive Vice President",
     "company": "COST",
     "roles": {
-      "COST": "Executive Vice President"
+      "COST": "Sr. Executive Vice President"
     },
     "initials": "FC"
   },
@@ -1639,6 +1628,17 @@
       "COST": "Executive Vice President"
     },
     "initials": "AC"
+  },
+  {
+    "id": "denman-kenneth-d-4779",
+    "cik": "1254779",
+    "name": "DENMAN KENNETH D",
+    "title": "Director",
+    "company": "COST",
+    "roles": {
+      "COST": "Director"
+    },
+    "initials": "DK"
   },
   {
     "id": "jones-teresa-a-1064",
