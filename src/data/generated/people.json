@@ -2636,17 +2636,6 @@
     "initials": "SN"
   },
   {
-    "id": "yu-siying-4147",
-    "cik": "2114147",
-    "name": "Yu Siying",
-    "title": "General Counsel",
-    "company": "BABA",
-    "roles": {
-      "BABA": "General Counsel"
-    },
-    "initials": "YS"
-  },
-  {
     "id": "jiang-fang-4927",
     "cik": "2114927",
     "name": "Jiang Fang",
@@ -2656,6 +2645,17 @@
       "BABA": "Chief People Officer"
     },
     "initials": "JF"
+  },
+  {
+    "id": "yu-siying-4147",
+    "cik": "2114147",
+    "name": "Yu Siying",
+    "title": "General Counsel",
+    "company": "BABA",
+    "roles": {
+      "BABA": "General Counsel"
+    },
+    "initials": "YS"
   },
   {
     "id": "xu-hong-4529",
@@ -2711,6 +2711,17 @@
       "BABA": "CEO of Business Group"
     },
     "initials": "JF"
+  },
+  {
+    "id": "rusckowski-stephen-h-2624",
+    "cik": "1142624",
+    "name": "RUSCKOWSKI STEPHEN H",
+    "title": "Director",
+    "company": "ORCL",
+    "roles": {
+      "ORCL": "Director"
+    },
+    "initials": "RS"
   },
   {
     "id": "smith-maria-7369",
@@ -2788,17 +2799,6 @@
       "ORCL": "Pres., Global Field Operations"
     },
     "initials": "HM"
-  },
-  {
-    "id": "seligman-naomi-o-2761",
-    "cik": "1192761",
-    "name": "SELIGMAN NAOMI O",
-    "title": "Director",
-    "company": "ORCL",
-    "roles": {
-      "ORCL": "Director"
-    },
-    "initials": "SN"
   },
   {
     "id": "kirk-david-blair-7892",
@@ -3099,17 +3099,6 @@
     "initials": "SM"
   },
   {
-    "id": "murphy-matthew-j-1430",
-    "cik": "1381430",
-    "name": "MURPHY MATTHEW J",
-    "title": "Chairman of the Board and CEO",
-    "company": "MRVL",
-    "roles": {
-      "MRVL": "Chairman of the Board and CEO"
-    },
-    "initials": "MM"
-  },
-  {
     "id": "koopmans-chris-6204",
     "cik": "1676204",
     "name": "Koopmans Chris",
@@ -3119,6 +3108,17 @@
       "MRVL": "President and COO"
     },
     "initials": "KC"
+  },
+  {
+    "id": "murphy-matthew-j-1430",
+    "cik": "1381430",
+    "name": "MURPHY MATTHEW J",
+    "title": "Chairman of the Board and CEO",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "Chairman of the Board and CEO"
+    },
+    "initials": "MM"
   },
   {
     "id": "bharathi-sandeep-5808",

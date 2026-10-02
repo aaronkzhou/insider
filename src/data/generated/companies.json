@@ -2,8 +2,8 @@
   "AAPL": {
     "name": "Apple Inc.",
     "sector": "Technology",
-    "price": 340.06,
-    "priceAsOf": "2026-09-22"
+    "price": 336.18,
+    "priceAsOf": "2026-09-29"
   },
   "MSFT": {
     "name": "Microsoft Corp.",
@@ -146,14 +146,14 @@
   "BABA": {
     "name": "Alibaba Group Holding Ltd",
     "sector": "Technology",
-    "price": 13.68,
-    "priceAsOf": "2026-09-25"
+    "price": 13.55,
+    "priceAsOf": "2026-09-30"
   },
   "ORCL": {
     "name": "Oracle Corp.",
     "sector": "Technology",
-    "price": 151.59,
-    "priceAsOf": "2026-09-22"
+    "price": 139.352,
+    "priceAsOf": "2026-09-29"
   },
   "CRM": {
     "name": "Salesforce, Inc.",
@@ -194,8 +194,8 @@
   "MRVL": {
     "name": "Marvell Technology, Inc.",
     "sector": "Semiconductors",
-    "price": 223.39,
-    "priceAsOf": "2026-09-15"
+    "price": 262.05,
+    "priceAsOf": "2026-10-01"
   },
   "TXN": {
     "name": "Texas Instruments Inc.",
