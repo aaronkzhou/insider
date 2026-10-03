@@ -32,8 +32,8 @@
   "GOOGL": {
     "name": "Alphabet Inc.",
     "sector": "Technology",
-    "price": 337.71,
-    "priceAsOf": "2026-08-28"
+    "price": 340.45,
+    "priceAsOf": "2026-09-30"
   },
   "META": {
     "name": "Meta Platforms, Inc.",
@@ -140,8 +140,8 @@
   "SNDK": {
     "name": "Sandisk Corp.",
     "sector": "Semiconductors",
-    "price": 1587,
-    "priceAsOf": "2026-09-17"
+    "price": 1734.94,
+    "priceAsOf": "2026-10-01"
   },
   "BABA": {
     "name": "Alibaba Group Holding Ltd",
@@ -170,8 +170,8 @@
   "QCOM": {
     "name": "Qualcomm Inc.",
     "sector": "Semiconductors",
-    "price": 200,
-    "priceAsOf": "2026-09-25"
+    "price": 186.55,
+    "priceAsOf": "2026-10-02"
   },
   "CSCO": {
     "name": "Cisco Systems, Inc.",
@@ -188,8 +188,8 @@
   "SNOW": {
     "name": "Snowflake Inc.",
     "sector": "Technology",
-    "price": 336.362,
-    "priceAsOf": "2026-09-23"
+    "price": 344,
+    "priceAsOf": "2026-10-02"
   },
   "MRVL": {
     "name": "Marvell Technology, Inc.",
@@ -218,8 +218,8 @@
   "V": {
     "name": "Visa Inc.",
     "sector": "Financials",
-    "price": 368.34,
-    "priceAsOf": "2026-09-09"
+    "price": 358.81,
+    "priceAsOf": "2026-10-01"
   },
   "PYPL": {
     "name": "PayPal Holdings, Inc.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 262.42,
-    "priceAsOf": "2026-09-29"
+    "price": 268.13,
+    "priceAsOf": "2026-10-01"
   },
   "TRMP": {
     "name": "TRMP",

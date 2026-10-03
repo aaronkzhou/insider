@@ -1,110 +1,234 @@
 {
-  "scannedAt": "2026-10-02T17:56:56.945Z",
-  "filingsScanned": 63,
+  "scannedAt": "2026-10-03T16:14:00.879Z",
+  "filingsScanned": 240,
   "alerts": [
     {
-      "ticker": "RGCO",
-      "companyName": "RGC RESOURCES INC",
-      "cik": "0001069533",
-      "insiderCount": 7,
+      "ticker": "CRWV",
+      "companyName": "CoreWeave, Inc.",
+      "cik": "0001769628",
+      "insiderCount": 8,
       "insiders": [
         {
-          "name": "Oliver Lawrence T.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1801438/000143774926031827/0001437749-26-031827-index.htm",
-          "type": "buy",
-          "date": "2026-10-01"
+          "name": "Venturo Brian M",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2058067/000176962826000445/0001769628-26-000445-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
         },
         {
-          "name": "Miles Christen Brooke",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1968153/000143774926031825/0001437749-26-031825-index.htm",
-          "type": "buy",
-          "date": "2026-10-01"
+          "name": "McVeety Kristen J",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2058048/000176962826000444/0001769628-26-000444-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
         },
         {
-          "name": "McClanahan Elizabeth A",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1909226/000143774926031823/0001437749-26-031823-index.htm",
-          "type": "other",
-          "date": "2026-10-01"
+          "name": "McBee Brannin",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2058103/000176962826000443/0001769628-26-000443-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
         },
         {
-          "name": "Ellett Frank Russell",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1786815/000143774926031821/0001437749-26-031821-index.htm",
-          "type": "other",
-          "date": "2026-10-01"
+          "name": "Jain Sachin",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2124855/000176962826000442/0001769628-26-000442-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
         },
         {
-          "name": "CRAWFORD THOMAS J",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1229452/000143774926031819/0001437749-26-031819-index.htm",
-          "type": "other",
-          "date": "2026-10-01"
+          "name": "Intrator Michael N",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000441/0001769628-26-000441-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
         },
         {
-          "name": "BOXLEY ABNEY S III",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1201852/000143774926031817/0001437749-26-031817-index.htm",
-          "type": "other",
-          "date": "2026-10-01"
+          "name": "Goldberg Chen",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2058056/000176962826000440/0001769628-26-000440-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
         },
         {
-          "name": "Archer Jacqueline L.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1801454/000143774926031815/0001437749-26-031815-index.htm",
-          "type": "other",
-          "date": "2026-10-01"
+          "name": "Baker Jeff",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000439/0001769628-26-000439-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
+        },
+        {
+          "name": "Agrawal Nitin",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2058038/000176962826000438/0001769628-26-000438-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
         }
       ],
       "tracked": false,
-      "buys": 2,
-      "sells": 0,
-      "other": 5,
-      "direction": "buy"
+      "buys": 0,
+      "sells": 8,
+      "other": 0,
+      "direction": "sell"
     },
     {
-      "ticker": "MPB",
-      "companyName": "MID PENN BANCORP INC",
-      "cik": "0000879635",
-      "insiderCount": 6,
+      "ticker": "DOCU",
+      "companyName": "DOCUSIGN, INC.",
+      "cik": "0001261333",
+      "insiderCount": 4,
       "insiders": [
         {
-          "name": "MOWERY THEODORE W",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1278504/000127850426000010/0001278504-26-000010-index.htm",
+          "name": "Hansen Paula",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1842656/000184265626000016/0001842656-26-000016-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Shaughnessy James P",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1294600/000129460026000018/0001294600-26-000018-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Thygesen Allan C.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1657309/000165730926000016/0001657309-26-000016-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Wilderotter Mary Agnes",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1261333/000118061026000011/0001180610-26-000011-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 4,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "AUBN",
+      "companyName": "AUBURN NATIONAL BANCORPORATION, INC",
+      "cik": "0000750574",
+      "insiderCount": 4,
+      "insiders": [
+        {
+          "name": "O'DONNELL SHANNON",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1393391/000143774926031937/0001437749-26-031937-index.htm",
           "type": "buy",
           "date": "2026-09-30"
         },
         {
-          "name": "Frank Joel L.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1749279/000174927926000010/0001749279-26-000010-index.htm",
+          "name": "HOUSEL DAVID E",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1195632/000143774926031936/0001437749-26-031936-index.htm",
           "type": "buy",
           "date": "2026-09-30"
         },
         {
-          "name": "Evans Albert J.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1749416/000174941626000010/0001749416-26-000010-index.htm",
+          "name": "Barrett J Tutt",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1457242/000143774926031935/0001437749-26-031935-index.htm",
           "type": "buy",
           "date": "2026-09-30"
         },
         {
-          "name": "De Soto Matthew G",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1422493/000142249326000014/0001422493-26-000014-index.htm",
-          "type": "buy",
-          "date": "2026-09-30"
-        },
-        {
-          "name": "Brumbaugh Kimberly J",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1769745/000176974526000010/0001769745-26-000010-index.htm",
-          "type": "buy",
-          "date": "2026-09-30"
-        },
-        {
-          "name": "Abel Robert A",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1511696/000151169626000010/0001511696-26-000010-index.htm",
+          "name": "HAM WILLIAM F JR",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1195633/000143774926031934/0001437749-26-031934-index.htm",
           "type": "buy",
           "date": "2026-09-30"
         }
       ],
       "tracked": false,
-      "buys": 6,
+      "buys": 4,
       "sells": 0,
       "other": 0,
       "direction": "buy"
+    },
+    {
+      "ticker": "SYRE",
+      "companyName": "Spyre Therapeutics, Inc.",
+      "cik": "0001636282",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "King-Jones Heidy",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1794898/000163628226000119/0001636282-26-000119-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Turtle Cameron",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1758363/000163628226000118/0001636282-26-000118-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Burrows Scott L",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1853327/000163628226000117/0001636282-26-000117-index.htm",
+          "type": "sell",
+          "date": "2026-09-30"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "XMTR",
+      "companyName": "Xometry, Inc.",
+      "cik": "0001657573",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Altschuler Randolph",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1869814/000186981426000009/0001869814-26-000009-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Sahni Sanjeev Singh",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2051034/000205103426000009/0002051034-26-000009-index.htm",
+          "type": "sell",
+          "date": "2026-10-02"
+        },
+        {
+          "name": "Raghavan Vaidyanathan",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2056024/000205602426000007/0002056024-26-000007-index.htm",
+          "type": "sell",
+          "date": "2026-10-02"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "TRU",
+      "companyName": "TransUnion",
+      "cik": "0001552033",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Skinner Todd C.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1879101/000187910126000028/0001879101-26-000028-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Abdelsadek Mohamed",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2058648/000205864826000012/0002058648-26-000012-index.htm",
+          "type": "sell",
+          "date": "2026-10-01"
+        },
+        {
+          "name": "Bernholz Malte H",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2156293/000215629326000005/0002156293-26-000005-index.htm",
+          "type": "other",
+          "date": "2026-10-01"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 2,
+      "other": 1,
+      "direction": "sell"
     }
   ]
 }

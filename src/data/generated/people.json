@@ -1773,28 +1773,6 @@
     "initials": "RP"
   },
   {
-    "id": "chang-amy-1504",
-    "cik": "1551504",
-    "name": "Chang Amy",
-    "title": "Director",
-    "company": "DIS",
-    "roles": {
-      "DIS": "Director"
-    },
-    "initials": "CA"
-  },
-  {
-    "id": "coleman-sonia-l-9984",
-    "cik": "1969984",
-    "name": "Coleman Sonia L",
-    "title": "Sr. EVP & Chief People Officer",
-    "company": "DIS",
-    "roles": {
-      "DIS": "Sr. EVP & Chief People Officer"
-    },
-    "initials": "CS"
-  },
-  {
     "id": "langston-willie-7821",
     "cik": "2047821",
     "name": "Langston Willie",
@@ -2570,6 +2548,17 @@
     "initials": "SA"
   },
   {
+    "id": "shek-bernard-0144",
+    "cik": "2060144",
+    "name": "Shek Bernard",
+    "title": "Chief Legal Officer and Secty",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "Chief Legal Officer and Secty"
+    },
+    "initials": "SB"
+  },
+  {
     "id": "goeckeler-david-3941",
     "cik": "1713941",
     "name": "Goeckeler David",
@@ -2601,17 +2590,6 @@
       "SNDK": "EVP & Chief Technology Officer"
     },
     "initials": "IA"
-  },
-  {
-    "id": "shek-bernard-0144",
-    "cik": "2060144",
-    "name": "Shek Bernard",
-    "title": "Chief Legal Officer & Secty",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "Chief Legal Officer & Secty"
-    },
-    "initials": "SB"
   },
   {
     "id": "pokorny-michael-8338",
@@ -2868,6 +2846,17 @@
     "initials": "DD"
   },
   {
+    "id": "grech-patricia-y-1650",
+    "cik": "2081650",
+    "name": "Grech Patricia Y",
+    "title": "SVP, Chief Accounting Officer",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "SVP, Chief Accounting Officer"
+    },
+    "initials": "GP"
+  },
+  {
     "id": "amon-cristiano-r-9665",
     "cik": "1559665",
     "name": "AMON CRISTIANO R",
@@ -2888,17 +2877,6 @@
       "QCOM": "EVP, CFO & COO"
     },
     "initials": "PA"
-  },
-  {
-    "id": "grech-patricia-y-1650",
-    "cik": "2081650",
-    "name": "Grech Patricia Y",
-    "title": "SVP, Chief Accounting Officer",
-    "company": "QCOM",
-    "roles": {
-      "QCOM": "SVP, Chief Accounting Officer"
-    },
-    "initials": "GP"
   },
   {
     "id": "ace-heather-s-0762",
@@ -3011,6 +2989,28 @@
     "initials": "LL"
   },
   {
+    "id": "speiser-michael-l-3644",
+    "cik": "1433644",
+    "name": "Speiser Michael L",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "SM"
+  },
+  {
+    "id": "kleinerman-christian-9088",
+    "cik": "1979088",
+    "name": "Kleinerman Christian",
+    "title": "EVP, Product Management",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "EVP, Product Management"
+    },
+    "initials": "KC"
+  },
+  {
     "id": "dageville-benoit-1737",
     "cik": "1821737",
     "name": "Dageville Benoit",
@@ -3044,17 +3044,6 @@
     "initials": "SF"
   },
   {
-    "id": "kleinerman-christian-9088",
-    "cik": "1979088",
-    "name": "Kleinerman Christian",
-    "title": "EVP, Product Management",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "EVP, Product Management"
-    },
-    "initials": "KC"
-  },
-  {
     "id": "ho-emily-2024",
     "cik": "2012024",
     "name": "Ho Emily",
@@ -3086,17 +3075,6 @@
       "SNOW": "Director"
     },
     "initials": "GM"
-  },
-  {
-    "id": "speiser-michael-l-3644",
-    "cik": "1433644",
-    "name": "Speiser Michael L",
-    "title": "Director",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "Director"
-    },
-    "initials": "SM"
   },
   {
     "id": "koopmans-chris-6204",
@@ -3462,17 +3440,6 @@
     "initials": "BL"
   },
   {
-    "id": "rottenberg-julie-b-7192",
-    "cik": "1887192",
-    "name": "ROTTENBERG JULIE B",
-    "title": "GENERAL COUNSEL",
-    "company": "V",
-    "roles": {
-      "V": "GENERAL COUNSEL"
-    },
-    "initials": "RJ"
-  },
-  {
     "id": "mcinerney-ryan-8261",
     "cik": "1578261",
     "name": "MCINERNEY RYAN",
@@ -3482,6 +3449,17 @@
       "V": "Chief Executive Officer"
     },
     "initials": "MR"
+  },
+  {
+    "id": "rottenberg-julie-b-7192",
+    "cik": "1887192",
+    "name": "ROTTENBERG JULIE B",
+    "title": "GENERAL COUNSEL",
+    "company": "V",
+    "roles": {
+      "V": "GENERAL COUNSEL"
+    },
+    "initials": "RJ"
   },
   {
     "id": "taneja-rajat-2601",
@@ -3583,6 +3561,17 @@
     "initials": "MJ"
   },
   {
+    "id": "sentonas-michael-8270",
+    "cik": "1968270",
+    "name": "Sentonas Michael",
+    "title": "PRESIDENT",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "PRESIDENT"
+    },
+    "initials": "SM"
+  },
+  {
     "id": "kurtz-george-8564",
     "cik": "1778564",
     "name": "Kurtz George",
@@ -3614,17 +3603,6 @@
       "CRWD": "CHIEF ACCOUNTING OFFICER"
     },
     "initials": "SA"
-  },
-  {
-    "id": "sentonas-michael-8270",
-    "cik": "1968270",
-    "name": "Sentonas Michael",
-    "title": "PRESIDENT",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "PRESIDENT"
-    },
-    "initials": "SM"
   },
   {
     "id": "davis-cary-0632",
