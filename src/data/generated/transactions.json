@@ -915,7 +915,22 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925043625/0001104659-25-043625-index.htm"
   },
   {
-    "id": "0001936006-26-000024-244",
+    "id": "0001936006-26-000026-244",
+    "personId": "herrington-douglas-j-6006",
+    "ticker": "AMZN",
+    "type": "sell",
+    "shares": 1000,
+    "price": 251.5,
+    "priceLow": 251.5,
+    "priceHigh": 251.5,
+    "tranches": 1,
+    "date": "2026-10-01",
+    "sharesOwnedAfter": 474681,
+    "accession": "0001936006-26-000026",
+    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000026/0001936006-26-000026-index.htm"
+  },
+  {
+    "id": "0001936006-26-000024-245",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -930,7 +945,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000024/0001936006-26-000024-index.htm"
   },
   {
-    "id": "0001374545-26-000010-245",
+    "id": "0001374545-26-000010-246",
     "personId": "jassy-andrew-r-4545",
     "ticker": "AMZN",
     "type": "sell",
@@ -945,7 +960,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/0001374545-26-000010-index.htm"
   },
   {
-    "id": "0002024813-26-000010-249",
+    "id": "0002024813-26-000010-250",
     "personId": "garman-matthew-s-4813",
     "ticker": "AMZN",
     "type": "sell",
@@ -960,7 +975,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/0002024813-26-000010-index.htm"
   },
   {
-    "id": "0001936006-26-000022-253",
+    "id": "0001936006-26-000022-254",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -975,7 +990,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000022/0001936006-26-000022-index.htm"
   },
   {
-    "id": "0001557979-26-000008-256",
+    "id": "0001557979-26-000008-257",
     "personId": "zapolsky-david-7979",
     "ticker": "AMZN",
     "type": "sell",
@@ -990,7 +1005,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/0001557979-26-000008-index.htm"
   },
   {
-    "id": "0001557979-26-000008-260",
+    "id": "0001557979-26-000008-261",
     "personId": "zapolsky-david-7979",
     "ticker": "AMZN",
     "type": "sell",
@@ -1005,7 +1020,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/0001557979-26-000008-index.htm"
   },
   {
-    "id": "0001639902-26-000008-261",
+    "id": "0001639902-26-000008-262",
     "personId": "olsavsky-brian-t-9902",
     "ticker": "AMZN",
     "type": "sell",
@@ -1020,7 +1035,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000163990226000008/0001639902-26-000008-index.htm"
   },
   {
-    "id": "0001397333-26-000006-262",
+    "id": "0001397333-26-000006-263",
     "personId": "reynolds-shelley-7333",
     "ticker": "AMZN",
     "type": "sell",
@@ -1035,7 +1050,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000139733326000006/0001397333-26-000006-index.htm"
   },
   {
-    "id": "0001936006-26-000020-265",
+    "id": "0001936006-26-000020-266",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1050,7 +1065,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000020/0001936006-26-000020-index.htm"
   },
   {
-    "id": "0001018724-26-000030-268",
+    "id": "0001018724-26-000030-269",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1065,7 +1080,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000030/0001018724-26-000030-index.htm"
   },
   {
-    "id": "0001018724-26-000028-269",
+    "id": "0001018724-26-000028-270",
     "personId": "bezos-jeffrey-p-3298",
     "ticker": "AMZN",
     "type": "sell",
@@ -1080,7 +1095,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000028/0001018724-26-000028-index.htm"
   },
   {
-    "id": "0001018724-26-000022-270",
+    "id": "0001018724-26-000022-271",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1095,7 +1110,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000022/0001018724-26-000022-index.htm"
   },
   {
-    "id": "0001936006-26-000018-271",
+    "id": "0001936006-26-000018-272",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1110,7 +1125,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000018/0001936006-26-000018-index.htm"
   },
   {
-    "id": "0001374545-26-000008-272",
+    "id": "0001374545-26-000008-273",
     "personId": "jassy-andrew-r-4545",
     "ticker": "AMZN",
     "type": "sell",
@@ -1125,7 +1140,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/0001374545-26-000008-index.htm"
   },
   {
-    "id": "0002024813-26-000008-277",
+    "id": "0002024813-26-000008-278",
     "personId": "garman-matthew-s-4813",
     "ticker": "AMZN",
     "type": "sell",
@@ -1140,7 +1155,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/0002024813-26-000008-index.htm"
   },
   {
-    "id": "0001018724-26-000020-282",
+    "id": "0001018724-26-000020-283",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1155,7 +1170,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000020/0001018724-26-000020-index.htm"
   },
   {
-    "id": "0001557979-26-000006-285",
+    "id": "0001557979-26-000006-286",
     "personId": "zapolsky-david-7979",
     "ticker": "AMZN",
     "type": "sell",
@@ -1170,7 +1185,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000006/0001557979-26-000006-index.htm"
   },
   {
-    "id": "0001557979-26-000006-290",
+    "id": "0001557979-26-000006-291",
     "personId": "zapolsky-david-7979",
     "ticker": "AMZN",
     "type": "sell",
@@ -1185,7 +1200,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000006/0001557979-26-000006-index.htm"
   },
   {
-    "id": "0001018724-26-000018-291",
+    "id": "0001018724-26-000018-292",
     "personId": "reynolds-shelley-7333",
     "ticker": "AMZN",
     "type": "sell",
@@ -1200,7 +1215,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000018/0001018724-26-000018-index.htm"
   },
   {
-    "id": "0002024813-26-000006-294",
+    "id": "0002024813-26-000006-295",
     "personId": "garman-matthew-s-4813",
     "ticker": "AMZN",
     "type": "sell",
@@ -1215,7 +1230,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000006/0002024813-26-000006-index.htm"
   },
   {
-    "id": "0001936006-26-000016-297",
+    "id": "0001936006-26-000016-298",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1230,7 +1245,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000016/0001936006-26-000016-index.htm"
   },
   {
-    "id": "0001374545-26-000006-300",
+    "id": "0001374545-26-000006-301",
     "personId": "jassy-andrew-r-4545",
     "ticker": "AMZN",
     "type": "sell",
@@ -1245,7 +1260,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000006/0001374545-26-000006-index.htm"
   },
   {
-    "id": "0001936006-26-000014-301",
+    "id": "0001936006-26-000014-302",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1260,7 +1275,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000014/0001936006-26-000014-index.htm"
   },
   {
-    "id": "0001936006-26-000014-302",
+    "id": "0001936006-26-000014-303",
     "personId": "herrington-douglas-j-6006",
     "ticker": "AMZN",
     "type": "sell",
@@ -1275,7 +1290,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000014/0001936006-26-000014-index.htm"
   },
   {
-    "id": "0001209522-26-000008-303",
+    "id": "0001209522-26-000008-304",
     "personId": "rubinstein-jonathan-9522",
     "ticker": "AMZN",
     "type": "sell",
@@ -1290,7 +1305,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000120952226000008/0001209522-26-000008-index.htm"
   },
   {
-    "id": "0001209522-26-000006-304",
+    "id": "0001209522-26-000006-305",
     "personId": "rubinstein-jonathan-9522",
     "ticker": "AMZN",
     "type": "sell",
@@ -1305,7 +1320,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000120952226000006/0001209522-26-000006-index.htm"
   },
   {
-    "id": "0001374545-26-000004-305",
+    "id": "0001374545-26-000004-306",
     "personId": "jassy-andrew-r-4545",
     "ticker": "AMZN",
     "type": "sell",
@@ -1318,21 +1333,6 @@
     "sharesOwnedAfter": 2207118,
     "accession": "0001374545-26-000004",
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000004/0001374545-26-000004-index.htm"
-  },
-  {
-    "id": "0001936006-26-000012-306",
-    "personId": "herrington-douglas-j-6006",
-    "ticker": "AMZN",
-    "type": "sell",
-    "shares": 20500,
-    "price": 245,
-    "priceLow": 245,
-    "priceHigh": 245,
-    "tranches": 1,
-    "date": "2026-04-14",
-    "sharesOwnedAfter": 499861,
-    "accession": "0001936006-26-000012",
-    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000012/0001936006-26-000012-index.htm"
   },
   {
     "id": "0001193125-26-412669-307",
