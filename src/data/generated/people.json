@@ -1,5 +1,38 @@
 [
   {
+    "id": "cook-timothy-d-4156",
+    "cik": "1214156",
+    "name": "COOK TIMOTHY D",
+    "title": "Executive Chair",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Executive Chair"
+    },
+    "initials": "CT"
+  },
+  {
+    "id": "o-brien-deirdre-7094",
+    "cik": "1767094",
+    "name": "O'BRIEN DEIRDRE",
+    "title": "Senior Vice President",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Senior Vice President"
+    },
+    "initials": "OD"
+  },
+  {
+    "id": "ternus-john-8403",
+    "cik": "2148403",
+    "name": "Ternus John",
+    "title": "CEO",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "CEO"
+    },
+    "initials": "TJ"
+  },
+  {
     "id": "newstead-jennifer-0525",
     "cik": "1780525",
     "name": "Newstead Jennifer",
@@ -42,28 +75,6 @@
       "AAPL": "Senior Vice President, CFO"
     },
     "initials": "PK"
-  },
-  {
-    "id": "o-brien-deirdre-7094",
-    "cik": "1767094",
-    "name": "O'BRIEN DEIRDRE",
-    "title": "Senior Vice President",
-    "company": "AAPL",
-    "roles": {
-      "AAPL": "Senior Vice President"
-    },
-    "initials": "OD"
-  },
-  {
-    "id": "cook-timothy-d-4156",
-    "cik": "1214156",
-    "name": "COOK TIMOTHY D",
-    "title": "Chief Executive Officer",
-    "company": "AAPL",
-    "roles": {
-      "AAPL": "Chief Executive Officer"
-    },
-    "initials": "CT"
   },
   {
     "id": "hood-amy-6843",
@@ -1773,6 +1784,17 @@
     "initials": "RP"
   },
   {
+    "id": "wenzel-krista-1769",
+    "cik": "2131769",
+    "name": "Wenzel Krista",
+    "title": "Chief Accounting Officer",
+    "company": "PSQH",
+    "roles": {
+      "PSQH": "Chief Accounting Officer"
+    },
+    "initials": "WK"
+  },
+  {
     "id": "langston-willie-7821",
     "cik": "2047821",
     "name": "Langston Willie",
@@ -1927,17 +1949,6 @@
     "initials": "WJ"
   },
   {
-    "id": "moore-alexander-d-3952",
-    "cik": "1823952",
-    "name": "Moore Alexander D.",
-    "title": "Director",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "Director"
-    },
-    "initials": "MA"
-  },
-  {
     "id": "stat-lauren-elaina-friedman-0244",
     "cik": "1840244",
     "name": "Stat Lauren Elaina Friedman",
@@ -1947,6 +1958,17 @@
       "PLTR": "Director"
     },
     "initials": "SL"
+  },
+  {
+    "id": "moore-alexander-d-3952",
+    "cik": "1823952",
+    "name": "Moore Alexander D.",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "MA"
   },
   {
     "id": "buckley-jeffrey-5189",
@@ -3561,6 +3583,28 @@
     "initials": "MJ"
   },
   {
+    "id": "gandhi-sameer-k-1326",
+    "cik": "1201326",
+    "name": "GANDHI SAMEER K",
+    "title": "Director",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "Director"
+    },
+    "initials": "GS"
+  },
+  {
+    "id": "saha-anurag-1602",
+    "cik": "1921602",
+    "name": "Saha Anurag",
+    "title": "CHIEF ACCOUNTING OFFICER",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "CHIEF ACCOUNTING OFFICER"
+    },
+    "initials": "SA"
+  },
+  {
     "id": "sentonas-michael-8270",
     "cik": "1968270",
     "name": "Sentonas Michael",
@@ -3594,17 +3638,6 @@
     "initials": "PB"
   },
   {
-    "id": "saha-anurag-1602",
-    "cik": "1921602",
-    "name": "Saha Anurag",
-    "title": "CHIEF ACCOUNTING OFFICER",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "CHIEF ACCOUNTING OFFICER"
-    },
-    "initials": "SA"
-  },
-  {
     "id": "davis-cary-0632",
     "cik": "1220632",
     "name": "DAVIS CARY",
@@ -3636,17 +3669,6 @@
       "CRWD": "Director"
     },
     "initials": "AR"
-  },
-  {
-    "id": "gandhi-sameer-k-1326",
-    "cik": "1201326",
-    "name": "GANDHI SAMEER K",
-    "title": "Director",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "Director"
-    },
-    "initials": "GS"
   },
   {
     "id": "donald-trump-jr-6181",

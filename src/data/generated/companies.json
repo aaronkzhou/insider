@@ -2,8 +2,8 @@
   "AAPL": {
     "name": "Apple Inc.",
     "sector": "Technology",
-    "price": 336.18,
-    "priceAsOf": "2026-09-29"
+    "price": 334.05,
+    "priceAsOf": "2026-10-02"
   },
   "MSFT": {
     "name": "Microsoft Corp.",
@@ -80,8 +80,8 @@
   "PSQH": {
     "name": "PSQ Holdings, Inc.",
     "sector": "E-Commerce",
-    "price": 0.5038,
-    "priceAsOf": "2026-06-08"
+    "price": 4.94,
+    "priceAsOf": "2026-10-01"
   },
   "PEW": {
     "name": "GrabAGun Digital Holdings Inc.",
@@ -98,8 +98,8 @@
   "PLTR": {
     "name": "Palantir Technologies Inc.",
     "sector": "Technology",
-    "price": 176.1055,
-    "priceAsOf": "2026-09-15"
+    "price": 189.95,
+    "priceAsOf": "2026-10-01"
   },
   "AMD": {
     "name": "Advanced Micro Devices Inc.",
@@ -212,8 +212,8 @@
   "COIN": {
     "name": "Coinbase Global, Inc.",
     "sector": "Financials",
-    "price": 205.05,
-    "priceAsOf": "2026-09-21"
+    "price": 198,
+    "priceAsOf": "2026-10-02"
   },
   "V": {
     "name": "Visa Inc.",
