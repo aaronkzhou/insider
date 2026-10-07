@@ -3583,6 +3583,17 @@
     "initials": "MJ"
   },
   {
+    "id": "kurtz-george-8564",
+    "cik": "1778564",
+    "name": "Kurtz George",
+    "title": "PRESIDENT AND CEO",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "PRESIDENT AND CEO"
+    },
+    "initials": "KG"
+  },
+  {
     "id": "gandhi-sameer-k-1326",
     "cik": "1201326",
     "name": "GANDHI SAMEER K",
@@ -3614,17 +3625,6 @@
       "CRWD": "PRESIDENT"
     },
     "initials": "SM"
-  },
-  {
-    "id": "kurtz-george-8564",
-    "cik": "1778564",
-    "name": "Kurtz George",
-    "title": "PRESIDENT AND CEO",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "PRESIDENT AND CEO"
-    },
-    "initials": "KG"
   },
   {
     "id": "podbere-burt-w-8610",

@@ -8400,7 +8400,37 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000189608626000004/0001896086-26-000004-index.htm"
   },
   {
-    "id": "0001201326-26-000027-1897",
+    "id": "0001778564-26-000177-1897",
+    "personId": "kurtz-george-8564",
+    "ticker": "CRWD",
+    "type": "sell",
+    "shares": 10000,
+    "price": 269.74,
+    "priceLow": 268.47,
+    "priceHigh": 272.53,
+    "tranches": 5,
+    "date": "2026-10-02",
+    "sharesOwnedAfter": 7541504,
+    "accession": "0001778564-26-000177",
+    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/0001778564-26-000177-index.htm"
+  },
+  {
+    "id": "0001778564-26-000177-1902",
+    "personId": "kurtz-george-8564",
+    "ticker": "CRWD",
+    "type": "sell",
+    "shares": 10000,
+    "price": 271.81,
+    "priceLow": 269.4,
+    "priceHigh": 274.08,
+    "tranches": 6,
+    "date": "2026-10-05",
+    "sharesOwnedAfter": 7531504,
+    "accession": "0001778564-26-000177",
+    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/0001778564-26-000177-index.htm"
+  },
+  {
+    "id": "0001201326-26-000027-1908",
     "personId": "gandhi-sameer-k-1326",
     "ticker": "CRWD",
     "type": "sell",
@@ -8415,7 +8445,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/0001201326-26-000027-index.htm"
   },
   {
-    "id": "0001921602-26-000012-1907",
+    "id": "0001921602-26-000012-1918",
     "personId": "saha-anurag-1602",
     "ticker": "CRWD",
     "type": "sell",
@@ -8430,7 +8460,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000012/0001921602-26-000012-index.htm"
   },
   {
-    "id": "0000950103-26-015176-1913",
+    "id": "0000950103-26-015176-1924",
     "personId": "sentonas-michael-8270",
     "ticker": "CRWD",
     "type": "sell",
@@ -8445,7 +8475,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/0000950103-26-015176-index.htm"
   },
   {
-    "id": "0000950103-26-015151-1920",
+    "id": "0000950103-26-015151-1931",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8460,7 +8490,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/0000950103-26-015151-index.htm"
   },
   {
-    "id": "0000950103-26-015151-1927",
+    "id": "0000950103-26-015151-1938",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8475,7 +8505,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/0000950103-26-015151-index.htm"
   },
   {
-    "id": "0001778564-26-000175-1935",
+    "id": "0001778564-26-000175-1946",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8490,7 +8520,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000175/0001778564-26-000175-index.htm"
   },
   {
-    "id": "0001778564-26-000175-1946",
+    "id": "0001778564-26-000175-1957",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8505,7 +8535,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000175/0001778564-26-000175-index.htm"
   },
   {
-    "id": "0001778564-26-000173-1953",
+    "id": "0001778564-26-000173-1964",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8520,7 +8550,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000173/0001778564-26-000173-index.htm"
   },
   {
-    "id": "0001778564-26-000173-1958",
+    "id": "0001778564-26-000173-1969",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8535,7 +8565,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000173/0001778564-26-000173-index.htm"
   },
   {
-    "id": "0001778610-26-000024-1966",
+    "id": "0001778610-26-000024-1977",
     "personId": "podbere-burt-w-8610",
     "ticker": "CRWD",
     "type": "sell",
@@ -8550,7 +8580,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/0001778610-26-000024-index.htm"
   },
   {
-    "id": "0001778564-26-000171-1974",
+    "id": "0001778564-26-000171-1985",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8565,7 +8595,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000171/0001778564-26-000171-index.htm"
   },
   {
-    "id": "0001778564-26-000171-1980",
+    "id": "0001778564-26-000171-1991",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8580,7 +8610,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000171/0001778564-26-000171-index.htm"
   },
   {
-    "id": "0001921602-26-000010-1992",
+    "id": "0001921602-26-000010-2003",
     "personId": "saha-anurag-1602",
     "ticker": "CRWD",
     "type": "sell",
@@ -8595,7 +8625,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000010/0001921602-26-000010-index.htm"
   },
   {
-    "id": "0001968270-26-000015-1994",
+    "id": "0001968270-26-000015-2005",
     "personId": "sentonas-michael-8270",
     "ticker": "CRWD",
     "type": "sell",
@@ -8610,7 +8640,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000196827026000015/0001968270-26-000015-index.htm"
   },
   {
-    "id": "0001778564-26-000169-1997",
+    "id": "0001778564-26-000169-2008",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8625,7 +8655,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000169/0001778564-26-000169-index.htm"
   },
   {
-    "id": "0001778610-26-000022-2028",
+    "id": "0001778610-26-000022-2039",
     "personId": "podbere-burt-w-8610",
     "ticker": "CRWD",
     "type": "sell",
@@ -8640,7 +8670,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000022/0001778610-26-000022-index.htm"
   },
   {
-    "id": "0001778564-26-000165-2034",
+    "id": "0001778564-26-000165-2045",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8655,7 +8685,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000165/0001778564-26-000165-index.htm"
   },
   {
-    "id": "0001778564-26-000165-2048",
+    "id": "0001778564-26-000165-2059",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8670,7 +8700,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000165/0001778564-26-000165-index.htm"
   },
   {
-    "id": "0001220632-26-000006-2057",
+    "id": "0001220632-26-000006-2068",
     "personId": "davis-cary-0632",
     "ticker": "CRWD",
     "type": "sell",
@@ -8685,7 +8715,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000122063226000006/0001220632-26-000006-index.htm"
   },
   {
-    "id": "0001445832-26-000011-2059",
+    "id": "0001445832-26-000011-2070",
     "personId": "watzinger-gerhard-5832",
     "ticker": "CRWD",
     "type": "sell",
@@ -8700,7 +8730,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000144583226000011/0001445832-26-000011-index.htm"
   },
   {
-    "id": "0001778564-26-000163-2065",
+    "id": "0001778564-26-000163-2076",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8715,7 +8745,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000163/0001778564-26-000163-index.htm"
   },
   {
-    "id": "0001778564-26-000163-2076",
+    "id": "0001778564-26-000163-2087",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8730,7 +8760,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000163/0001778564-26-000163-index.htm"
   },
   {
-    "id": "0001061632-26-000008-2085",
+    "id": "0001061632-26-000008-2096",
     "personId": "austin-roxanne-s-1632",
     "ticker": "CRWD",
     "type": "sell",
@@ -8745,7 +8775,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000106163226000008/0001061632-26-000008-index.htm"
   },
   {
-    "id": "0001778564-26-000161-2087",
+    "id": "0001778564-26-000161-2098",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8760,7 +8790,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000161/0001778564-26-000161-index.htm"
   },
   {
-    "id": "0001778564-26-000161-2095",
+    "id": "0001778564-26-000161-2106",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8775,7 +8805,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000161/0001778564-26-000161-index.htm"
   },
   {
-    "id": "0001778564-26-000159-2114",
+    "id": "0001778564-26-000159-2125",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8790,7 +8820,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000159/0001778564-26-000159-index.htm"
   },
   {
-    "id": "0001778564-26-000159-2120",
+    "id": "0001778564-26-000159-2131",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8805,7 +8835,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000159/0001778564-26-000159-index.htm"
   },
   {
-    "id": "0001778564-26-000157-2130",
+    "id": "0001778564-26-000157-2141",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8820,7 +8850,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000157/0001778564-26-000157-index.htm"
   },
   {
-    "id": "0001778564-26-000157-2135",
+    "id": "0001778564-26-000157-2146",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8835,7 +8865,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000157/0001778564-26-000157-index.htm"
   },
   {
-    "id": "0001778564-26-000155-2141",
+    "id": "0001778564-26-000155-2152",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8850,7 +8880,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000155/0001778564-26-000155-index.htm"
   },
   {
-    "id": "0001778564-26-000155-2152",
+    "id": "0001778564-26-000155-2163",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8865,7 +8895,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000155/0001778564-26-000155-index.htm"
   },
   {
-    "id": "0001201326-26-000021-2163",
+    "id": "0001201326-26-000021-2174",
     "personId": "gandhi-sameer-k-1326",
     "ticker": "CRWD",
     "type": "sell",
@@ -8880,7 +8910,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000021/0001201326-26-000021-index.htm"
   },
   {
-    "id": "0001778564-26-000153-2179",
+    "id": "0001778564-26-000153-2190",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8895,7 +8925,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000153/0001778564-26-000153-index.htm"
   },
   {
-    "id": "0001778564-26-000153-2188",
+    "id": "0001778564-26-000153-2199",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8910,7 +8940,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000153/0001778564-26-000153-index.htm"
   },
   {
-    "id": "0001778564-26-000151-2204",
+    "id": "0001778564-26-000151-2215",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8925,7 +8955,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000151/0001778564-26-000151-index.htm"
   },
   {
-    "id": "0001778564-26-000150-2206",
+    "id": "0001778564-26-000150-2217",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8940,7 +8970,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000150/0001778564-26-000150-index.htm"
   },
   {
-    "id": "0000950103-26-013019-2235",
+    "id": "0000950103-26-013019-2246",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8955,7 +8985,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326013019/0000950103-26-013019-index.htm"
   },
   {
-    "id": "0000950103-26-013019-2247",
+    "id": "0000950103-26-013019-2258",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8970,7 +9000,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326013019/0000950103-26-013019-index.htm"
   },
   {
-    "id": "0000950103-26-012856-2256",
+    "id": "0000950103-26-012856-2267",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8985,7 +9015,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326012856/0000950103-26-012856-index.htm"
   },
   {
-    "id": "0000950103-26-012856-2262",
+    "id": "0000950103-26-012856-2273",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9000,7 +9030,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326012856/0000950103-26-012856-index.htm"
   },
   {
-    "id": "0001778564-26-000147-2269",
+    "id": "0001778564-26-000147-2280",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9015,7 +9045,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000147/0001778564-26-000147-index.htm"
   },
   {
-    "id": "0001778564-26-000145-2279",
+    "id": "0001778564-26-000145-2290",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9030,7 +9060,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000145/0001778564-26-000145-index.htm"
   },
   {
-    "id": "0001778564-26-000145-2286",
+    "id": "0001778564-26-000145-2297",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9045,7 +9075,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000145/0001778564-26-000145-index.htm"
   },
   {
-    "id": "0001778564-26-000143-2300",
+    "id": "0001778564-26-000143-2311",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9060,7 +9090,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000143/0001778564-26-000143-index.htm"
   },
   {
-    "id": "0001778564-26-000143-2309",
+    "id": "0001778564-26-000143-2320",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9075,7 +9105,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000143/0001778564-26-000143-index.htm"
   },
   {
-    "id": "0001778564-26-000141-2315",
+    "id": "0001778564-26-000141-2326",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9090,7 +9120,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000141/0001778564-26-000141-index.htm"
   },
   {
-    "id": "0001778564-26-000141-2322",
+    "id": "0001778564-26-000141-2333",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9105,7 +9135,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000141/0001778564-26-000141-index.htm"
   },
   {
-    "id": "0001778564-26-000139-2328",
+    "id": "0001778564-26-000139-2339",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9120,7 +9150,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000139/0001778564-26-000139-index.htm"
   },
   {
-    "id": "0001778564-26-000139-2339",
+    "id": "0001778564-26-000139-2350",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9135,7 +9165,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000139/0001778564-26-000139-index.htm"
   },
   {
-    "id": "0001778564-26-000137-2345",
+    "id": "0001778564-26-000137-2356",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9150,7 +9180,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000137/0001778564-26-000137-index.htm"
   },
   {
-    "id": "0001778564-26-000137-2351",
+    "id": "0001778564-26-000137-2362",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9163,21 +9193,6 @@
     "sharesOwnedAfter": 8006019,
     "accession": "0001778564-26-000137",
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000137/0001778564-26-000137-index.htm"
-  },
-  {
-    "id": "0001201326-26-000019-2358",
-    "personId": "gandhi-sameer-k-1326",
-    "ticker": "CRWD",
-    "type": "sell",
-    "shares": 20000,
-    "price": 210.05,
-    "priceLow": 204.37,
-    "priceHigh": 212.55,
-    "tranches": 9,
-    "date": "2026-08-04",
-    "sharesOwnedAfter": 2874937,
-    "accession": "0001201326-26-000019",
-    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000019/0001201326-26-000019-index.htm"
   },
   {
     "id": "0000909518-08-000726-owner-0",
