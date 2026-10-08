@@ -1,37 +1,5 @@
 {
-  "scannedAt": "2026-10-07T18:56:25.527Z",
-  "filingsScanned": 35,
-  "alerts": [
-    {
-      "ticker": "AGMB",
-      "companyName": "AgomAb Therapeutics NV",
-      "cik": "0002020932",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "Epstein David R",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2020932/000144582626000013/0001445826-26-000013-index.htm",
-          "type": "buy",
-          "date": "2026-10-05"
-        },
-        {
-          "name": "Kemula Pierre Thadee Victor",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2119332/000211933226000001/0002119332-26-000001-index.htm",
-          "type": "buy",
-          "date": "2026-10-06"
-        },
-        {
-          "name": "Knotnerus Tim Jasper",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2120886/000212088626000001/0002120886-26-000001-index.htm",
-          "type": "buy",
-          "date": "2026-10-05"
-        }
-      ],
-      "tracked": false,
-      "buys": 3,
-      "sells": 0,
-      "other": 0,
-      "direction": "buy"
-    }
-  ]
+  "scannedAt": "2026-10-08T18:58:18.715Z",
+  "filingsScanned": 37,
+  "alerts": []
 }
