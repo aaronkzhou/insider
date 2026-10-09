@@ -1,5 +1,16 @@
 [
   {
+    "id": "newstead-jennifer-0525",
+    "cik": "1780525",
+    "name": "Newstead Jennifer",
+    "title": "SVP, GC and Government Affairs",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "SVP, GC and Government Affairs"
+    },
+    "initials": "NJ"
+  },
+  {
     "id": "cook-timothy-d-4156",
     "cik": "1214156",
     "name": "COOK TIMOTHY D",
@@ -31,17 +42,6 @@
       "AAPL": "CEO"
     },
     "initials": "TJ"
-  },
-  {
-    "id": "newstead-jennifer-0525",
-    "cik": "1780525",
-    "name": "Newstead Jennifer",
-    "title": "SVP, GC and Government Affairs",
-    "company": "AAPL",
-    "roles": {
-      "AAPL": "SVP, GC and Government Affairs"
-    },
-    "initials": "NJ"
   },
   {
     "id": "borders-ben-0523",
@@ -3011,6 +3011,17 @@
     "initials": "LL"
   },
   {
+    "id": "dageville-benoit-1737",
+    "cik": "1821737",
+    "name": "Dageville Benoit",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "DB"
+  },
+  {
     "id": "speiser-michael-l-3644",
     "cik": "1433644",
     "name": "Speiser Michael L",
@@ -3031,17 +3042,6 @@
       "SNOW": "EVP, Product Management"
     },
     "initials": "KC"
-  },
-  {
-    "id": "dageville-benoit-1737",
-    "cik": "1821737",
-    "name": "Dageville Benoit",
-    "title": "Director",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "Director"
-    },
-    "initials": "DB"
   },
   {
     "id": "beaulier-jonathan-mead-7025",

@@ -2,8 +2,8 @@
   "AAPL": {
     "name": "Apple Inc.",
     "sector": "Technology",
-    "price": 334.05,
-    "priceAsOf": "2026-10-02"
+    "price": 332.01,
+    "priceAsOf": "2026-10-06"
   },
   "MSFT": {
     "name": "Microsoft Corp.",
@@ -188,8 +188,8 @@
   "SNOW": {
     "name": "Snowflake Inc.",
     "sector": "Technology",
-    "price": 344,
-    "priceAsOf": "2026-10-02"
+    "price": 333.42,
+    "priceAsOf": "2026-10-07"
   },
   "MRVL": {
     "name": "Marvell Technology, Inc.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 274.08,
-    "priceAsOf": "2026-10-05"
+    "price": 276.25,
+    "priceAsOf": "2026-10-07"
   },
   "TRMP": {
     "name": "TRMP",
