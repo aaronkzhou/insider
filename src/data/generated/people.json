@@ -154,17 +154,6 @@
     "initials": "DJ"
   },
   {
-    "id": "shah-aarti-s-5292",
-    "cik": "1725292",
-    "name": "Shah Aarti S.",
-    "title": "Director",
-    "company": "NVDA",
-    "roles": {
-      "NVDA": "Director"
-    },
-    "initials": "SA"
-  },
-  {
     "id": "taneja-vaibhav-1340",
     "cik": "1771340",
     "name": "Taneja Vaibhav",
@@ -2989,17 +2978,6 @@
     "initials": "RC"
   },
   {
-    "id": "liang-charles-2942",
-    "cik": "1392942",
-    "name": "Liang Charles",
-    "title": "President and CEO",
-    "company": "SMCI",
-    "roles": {
-      "SMCI": "President and CEO"
-    },
-    "initials": "LC"
-  },
-  {
     "id": "liu-liang-chiu-chu-sara-2941",
     "cik": "1392941",
     "name": "Liu Liang Chiu-Chu Sara",
@@ -3009,6 +2987,17 @@
       "SMCI": "Director"
     },
     "initials": "LL"
+  },
+  {
+    "id": "liang-charles-2942",
+    "cik": "1392942",
+    "name": "Liang Charles",
+    "title": "President and CEO",
+    "company": "SMCI",
+    "roles": {
+      "SMCI": "President and CEO"
+    },
+    "initials": "LC"
   },
   {
     "id": "dageville-benoit-1737",
@@ -3099,6 +3088,17 @@
     "initials": "GM"
   },
   {
+    "id": "scarpulla-justin-0963",
+    "cik": "1540963",
+    "name": "Scarpulla Justin",
+    "title": "SVP, Chief Accounting Officer",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "SVP, Chief Accounting Officer"
+    },
+    "initials": "SJ"
+  },
+  {
     "id": "koopmans-chris-6204",
     "cik": "1676204",
     "name": "Koopmans Chris",
@@ -3141,17 +3141,6 @@
       "MRVL": "Chief Financial Officer"
     },
     "initials": "MW"
-  },
-  {
-    "id": "casper-mark-7961",
-    "cik": "2007961",
-    "name": "Casper Mark",
-    "title": "EVP & Chief Legal Officer",
-    "company": "MRVL",
-    "roles": {
-      "MRVL": "EVP & Chief Legal Officer"
-    },
-    "initials": "CM"
   },
   {
     "id": "abraham-tsedeniya-7064",

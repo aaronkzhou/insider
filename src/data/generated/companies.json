@@ -68,8 +68,8 @@
   "DIS": {
     "name": "Walt Disney Co.",
     "sector": "Media",
-    "price": 107.13,
-    "priceAsOf": "2026-09-01"
+    "price": 105.31,
+    "priceAsOf": "2026-10-08"
   },
   "DJT": {
     "name": "Trump Media & Technology Group Corp.",
@@ -182,8 +182,8 @@
   "SMCI": {
     "name": "Super Micro Computer, Inc.",
     "sector": "Technology",
-    "price": 40,
-    "priceAsOf": "2026-09-04"
+    "price": 45.02,
+    "priceAsOf": "2026-10-07"
   },
   "SNOW": {
     "name": "Snowflake Inc.",
@@ -194,8 +194,8 @@
   "MRVL": {
     "name": "Marvell Technology, Inc.",
     "sector": "Semiconductors",
-    "price": 262.05,
-    "priceAsOf": "2026-10-01"
+    "price": 273.59,
+    "priceAsOf": "2026-10-08"
   },
   "TXN": {
     "name": "Texas Instruments Inc.",

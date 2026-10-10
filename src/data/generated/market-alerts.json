@@ -1,5 +1,80 @@
 {
-  "scannedAt": "2026-10-09T18:29:31.007Z",
-  "filingsScanned": 35,
-  "alerts": []
+  "scannedAt": "2026-10-10T17:25:57.311Z",
+  "filingsScanned": 154,
+  "alerts": [
+    {
+      "ticker": "CRNC",
+      "companyName": "Cerence Inc.",
+      "cik": "0001768267",
+      "insiderCount": 5,
+      "insiders": [
+        {
+          "name": "Rodriquez Antonio",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1768267/000176826726000033/0001768267-26-000033-index.htm",
+          "type": "buy",
+          "date": "2026-02-15"
+        },
+        {
+          "name": "Krzanich Brian M",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1768267/000176826726000031/0001768267-26-000031-index.htm",
+          "type": "sell",
+          "date": "2026-10-07"
+        },
+        {
+          "name": "Mentz Christian",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2052118/000176826726000029/0001768267-26-000029-index.htm",
+          "type": "sell",
+          "date": "2026-10-07"
+        },
+        {
+          "name": "Salinas Jennifer",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2026501/000176826726000027/0001768267-26-000027-index.htm",
+          "type": "sell",
+          "date": "2026-10-07"
+        },
+        {
+          "name": "Schanz Nils",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2033260/000176826726000025/0001768267-26-000025-index.htm",
+          "type": "sell",
+          "date": "2026-10-07"
+        }
+      ],
+      "tracked": false,
+      "buys": 1,
+      "sells": 4,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "IMVT",
+      "companyName": "Immunovant, Inc.",
+      "cik": "0001764013",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Stout Jay S",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1764013/000170296926000012/0001702969-26-000012-index.htm",
+          "type": "sell",
+          "date": "2026-10-07"
+        },
+        {
+          "name": "Van Tuyl Christopher",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1779707/000177970726000009/0001779707-26-000009-index.htm",
+          "type": "sell",
+          "date": "2026-10-07"
+        },
+        {
+          "name": "Gloria Melanie",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1973838/000176401326000112/0001764013-26-000112-index.htm",
+          "type": "sell",
+          "date": "2026-10-07"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    }
+  ]
 }
