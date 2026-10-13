@@ -1,80 +1,49 @@
 {
-  "scannedAt": "2026-10-12T21:23:02.108Z",
-  "filingsScanned": 154,
+  "scannedAt": "2026-10-13T19:21:52.685Z",
+  "filingsScanned": 57,
   "alerts": [
     {
-      "ticker": "CRNC",
-      "companyName": "Cerence Inc.",
-      "cik": "0001768267",
+      "ticker": null,
+      "companyName": "Fundrise Real Estate Interval Fund, LLC",
+      "cik": "0001777677",
       "insiderCount": 5,
       "insiders": [
         {
-          "name": "Rodriquez Antonio",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1768267/000176826726000033/0001768267-26-000033-index.htm",
+          "name": "Booth Richard Whitaker",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1845014/000143510926000157/0001435109-26-000157-index.htm",
           "type": "buy",
-          "date": "2026-02-15"
+          "date": "2026-10-09"
         },
         {
-          "name": "Krzanich Brian M",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1768267/000176826726000031/0001768267-26-000031-index.htm",
-          "type": "sell",
-          "date": "2026-10-07"
+          "name": "Monte Mark David",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1910629/000143510926000155/0001435109-26-000155-index.htm",
+          "type": "buy",
+          "date": "2026-10-09"
         },
         {
-          "name": "Mentz Christian",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2052118/000176826726000029/0001768267-26-000029-index.htm",
-          "type": "sell",
-          "date": "2026-10-07"
+          "name": "Jenkins Brandon T.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1800663/000121390026108892/0001213900-26-108892-index.htm",
+          "type": "buy",
+          "date": "2026-10-09"
         },
         {
-          "name": "Salinas Jennifer",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2026501/000176826726000027/0001768267-26-000027-index.htm",
-          "type": "sell",
-          "date": "2026-10-07"
+          "name": "Starr Gayle P",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1836839/000143510926000153/0001435109-26-000153-index.htm",
+          "type": "buy",
+          "date": "2026-10-09"
         },
         {
-          "name": "Schanz Nils",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2033260/000176826726000025/0001768267-26-000025-index.htm",
-          "type": "sell",
-          "date": "2026-10-07"
+          "name": "Miller Benjamin S.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1799442/000121390026108865/0001213900-26-108865-index.htm",
+          "type": "buy",
+          "date": "2026-10-09"
         }
       ],
       "tracked": false,
-      "buys": 1,
-      "sells": 4,
+      "buys": 5,
+      "sells": 0,
       "other": 0,
-      "direction": "sell"
-    },
-    {
-      "ticker": "IMVT",
-      "companyName": "Immunovant, Inc.",
-      "cik": "0001764013",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "Stout Jay S",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1764013/000170296926000012/0001702969-26-000012-index.htm",
-          "type": "sell",
-          "date": "2026-10-07"
-        },
-        {
-          "name": "Van Tuyl Christopher",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1779707/000177970726000009/0001779707-26-000009-index.htm",
-          "type": "sell",
-          "date": "2026-10-07"
-        },
-        {
-          "name": "Gloria Melanie",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1973838/000176401326000112/0001764013-26-000112-index.htm",
-          "type": "sell",
-          "date": "2026-10-07"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 3,
-      "other": 0,
-      "direction": "sell"
+      "direction": "buy"
     }
   ]
 }
