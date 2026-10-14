@@ -98,8 +98,8 @@
   "PLTR": {
     "name": "Palantir Technologies Inc.",
     "sector": "Technology",
-    "price": 189.95,
-    "priceAsOf": "2026-10-01"
+    "price": 201.15,
+    "priceAsOf": "2026-10-08"
   },
   "AMD": {
     "name": "Advanced Micro Devices Inc.",
@@ -206,8 +206,8 @@
   "MSTR": {
     "name": "Strategy Inc.",
     "sector": "Technology",
-    "price": 171,
-    "priceAsOf": "2026-09-22"
+    "price": 158,
+    "priceAsOf": "2026-10-09"
   },
   "COIN": {
     "name": "Coinbase Global, Inc.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 276.25,
-    "priceAsOf": "2026-10-07"
+    "price": 268.86,
+    "priceAsOf": "2026-10-12"
   },
   "TRMP": {
     "name": "TRMP",

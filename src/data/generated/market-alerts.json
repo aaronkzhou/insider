@@ -1,49 +1,5 @@
 {
-  "scannedAt": "2026-10-13T19:21:52.685Z",
-  "filingsScanned": 57,
-  "alerts": [
-    {
-      "ticker": null,
-      "companyName": "Fundrise Real Estate Interval Fund, LLC",
-      "cik": "0001777677",
-      "insiderCount": 5,
-      "insiders": [
-        {
-          "name": "Booth Richard Whitaker",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1845014/000143510926000157/0001435109-26-000157-index.htm",
-          "type": "buy",
-          "date": "2026-10-09"
-        },
-        {
-          "name": "Monte Mark David",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1910629/000143510926000155/0001435109-26-000155-index.htm",
-          "type": "buy",
-          "date": "2026-10-09"
-        },
-        {
-          "name": "Jenkins Brandon T.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1800663/000121390026108892/0001213900-26-108892-index.htm",
-          "type": "buy",
-          "date": "2026-10-09"
-        },
-        {
-          "name": "Starr Gayle P",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1836839/000143510926000153/0001435109-26-000153-index.htm",
-          "type": "buy",
-          "date": "2026-10-09"
-        },
-        {
-          "name": "Miller Benjamin S.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1799442/000121390026108865/0001213900-26-108865-index.htm",
-          "type": "buy",
-          "date": "2026-10-09"
-        }
-      ],
-      "tracked": false,
-      "buys": 5,
-      "sells": 0,
-      "other": 0,
-      "direction": "buy"
-    }
-  ]
+  "scannedAt": "2026-10-14T17:08:45.746Z",
+  "filingsScanned": 67,
+  "alerts": []
 }

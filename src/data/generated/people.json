@@ -1949,6 +1949,17 @@
     "initials": "SL"
   },
   {
+    "id": "taylor-ryan-d-3923",
+    "cik": "1823923",
+    "name": "Taylor Ryan D.",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "TR"
+  },
+  {
     "id": "moore-alexander-d-3952",
     "cik": "1823952",
     "name": "Moore Alexander D.",
@@ -2002,17 +2013,6 @@
       "PLTR": "See Remarks"
     },
     "initials": "GD"
-  },
-  {
-    "id": "taylor-ryan-d-3923",
-    "cik": "1823923",
-    "name": "Taylor Ryan D.",
-    "title": "See Remarks",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "See Remarks"
-    },
-    "initials": "TR"
   },
   {
     "id": "cohen-stephen-andrew-3920",
