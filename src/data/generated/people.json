@@ -1608,6 +1608,17 @@
     "initials": "ST"
   },
   {
+    "id": "wilcox-william-richard-7546",
+    "cik": "2087546",
+    "name": "Wilcox William Richard",
+    "title": "Executive Vice President",
+    "company": "COST",
+    "roles": {
+      "COST": "Executive Vice President"
+    },
+    "initials": "WW"
+  },
+  {
     "id": "frates-caton-8633",
     "cik": "1928633",
     "name": "Frates Caton",
@@ -1694,17 +1705,6 @@
       "COST": "Executive Vice President"
     },
     "initials": "PJ"
-  },
-  {
-    "id": "wilcox-william-richard-7546",
-    "cik": "2087546",
-    "name": "Wilcox William Richard",
-    "title": "Executive Vice President",
-    "company": "COST",
-    "roles": {
-      "COST": "Executive Vice President"
-    },
-    "initials": "WW"
   },
   {
     "id": "barbre-tiffany-marie-6006",
@@ -1936,6 +1936,17 @@
       "APPH": "Director"
     },
     "initials": "WJ"
+  },
+  {
+    "id": "woersching-eric-h-0526",
+    "cik": "1930526",
+    "name": "Woersching Eric H.",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "WE"
   },
   {
     "id": "stat-lauren-elaina-friedman-0244",

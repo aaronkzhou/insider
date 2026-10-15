@@ -8,8 +8,8 @@
   "MSFT": {
     "name": "Microsoft Corp.",
     "sector": "Technology",
-    "price": 500.783,
-    "priceAsOf": "2026-09-14"
+    "price": 546.5084,
+    "priceAsOf": "2026-10-13"
   },
   "NVDA": {
     "name": "NVIDIA Corp.",
@@ -38,8 +38,8 @@
   "META": {
     "name": "Meta Platforms, Inc.",
     "sector": "Technology",
-    "price": 728.08,
-    "priceAsOf": "2026-10-05"
+    "price": 728.1,
+    "priceAsOf": "2026-10-12"
   },
   "NFLX": {
     "name": "Netflix Inc.",
@@ -56,8 +56,8 @@
   "COST": {
     "name": "Costco Wholesale Corp.",
     "sector": "Retail",
-    "price": 915.93,
-    "priceAsOf": "2026-09-29"
+    "price": 958.205,
+    "priceAsOf": "2026-10-13"
   },
   "UBER": {
     "name": "Uber Technologies, Inc.",
@@ -98,8 +98,8 @@
   "PLTR": {
     "name": "Palantir Technologies Inc.",
     "sector": "Technology",
-    "price": 201.15,
-    "priceAsOf": "2026-10-08"
+    "price": 205,
+    "priceAsOf": "2026-10-09"
   },
   "AMD": {
     "name": "Advanced Micro Devices Inc.",
