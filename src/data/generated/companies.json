@@ -2,8 +2,8 @@
   "AAPL": {
     "name": "Apple Inc.",
     "sector": "Technology",
-    "price": 332.01,
-    "priceAsOf": "2026-10-06"
+    "price": 345,
+    "priceAsOf": "2026-10-13"
   },
   "MSFT": {
     "name": "Microsoft Corp.",
@@ -122,8 +122,8 @@
   "MU": {
     "name": "Micron Technology Inc.",
     "sector": "Semiconductors",
-    "price": 989.59,
-    "priceAsOf": "2026-08-21"
+    "price": 945.91,
+    "priceAsOf": "2026-10-14"
   },
   "DXYZ": {
     "name": "Destiny Tech100 Inc.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 268.86,
-    "priceAsOf": "2026-10-12"
+    "price": 255.72,
+    "priceAsOf": "2026-10-14"
   },
   "TRMP": {
     "name": "TRMP",

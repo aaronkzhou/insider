@@ -2383,6 +2383,17 @@
     "initials": "MB"
   },
   {
+    "id": "ray-michael-charles-3199",
+    "cik": "1593199",
+    "name": "RAY MICHAEL CHARLES",
+    "title": "SVP, Chief Legal Officer",
+    "company": "MU",
+    "roles": {
+      "MU": "SVP, Chief Legal Officer"
+    },
+    "initials": "RM"
+  },
+  {
     "id": "bjorlin-alexis-8757",
     "cik": "1798757",
     "name": "Bjorlin Alexis",
@@ -2458,50 +2469,6 @@
       "MU": "Director"
     },
     "initials": "GS"
-  },
-  {
-    "id": "ray-michael-charles-3199",
-    "cik": "1593199",
-    "name": "RAY MICHAEL CHARLES",
-    "title": "SVP, Chief Legal Officer",
-    "company": "MU",
-    "roles": {
-      "MU": "SVP, Chief Legal Officer"
-    },
-    "initials": "RM"
-  },
-  {
-    "id": "cordano-michael-d-1490",
-    "cik": "1201490",
-    "name": "CORDANO MICHAEL D",
-    "title": "EVP, Worldwide Sales",
-    "company": "MU",
-    "roles": {
-      "MU": "EVP, Worldwide Sales"
-    },
-    "initials": "CM"
-  },
-  {
-    "id": "bhatia-manish-h-9498",
-    "cik": "1689498",
-    "name": "BHATIA MANISH H",
-    "title": "EVP, Global Operations",
-    "company": "MU",
-    "roles": {
-      "MU": "EVP, Global Operations"
-    },
-    "initials": "BM"
-  },
-  {
-    "id": "liu-teyin-m-8769",
-    "cik": "2058769",
-    "name": "Liu Teyin M",
-    "title": "Director",
-    "company": "MU",
-    "roles": {
-      "MU": "Director"
-    },
-    "initials": "LT"
   },
   {
     "id": "silver-ethan-4406",

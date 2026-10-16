@@ -1,5 +1,73 @@
 {
-  "scannedAt": "2026-10-15T16:52:20.212Z",
-  "filingsScanned": 35,
-  "alerts": []
+  "scannedAt": "2026-10-16T16:36:32.059Z",
+  "filingsScanned": 78,
+  "alerts": [
+    {
+      "ticker": "FERG",
+      "companyName": "Ferguson Enterprises Inc. /DE/",
+      "cik": "0002011641",
+      "insiderCount": 9,
+      "insiders": [
+        {
+          "name": "Winckler Richard",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2011641/000198409826000003/0001984098-26-000003-index.htm",
+          "type": "other",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Thees William T. Jr",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2011641/000198402026000004/0001984020-26-000004-index.htm",
+          "type": "sell",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Stirrup Allison",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2030386/000203038626000004/0002030386-26-000004-index.htm",
+          "type": "sell",
+          "date": "2026-10-15"
+        },
+        {
+          "name": "Schlicher Jake",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2011641/000198410026000005/0001984100-26-000005-index.htm",
+          "type": "sell",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Paisley James A.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2011641/000157280626000007/0001572806-26-000007-index.htm",
+          "type": "other",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Murphy Kevin Michael",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2011641/000198461426000004/0001984614-26-000004-index.htm",
+          "type": "sell",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Graham Ian T.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2011641/000198415626000003/0001984156-26-000003-index.htm",
+          "type": "sell",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Camposano Robert Anthony Jr.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2074304/000207430426000004/0002074304-26-000004-index.htm",
+          "type": "sell",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Brundage William",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2011641/000198414226000004/0001984142-26-000004-index.htm",
+          "type": "other",
+          "date": "2026-10-14"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 6,
+      "other": 3,
+      "direction": "sell"
+    }
+  ]
 }
