@@ -1850,17 +1850,6 @@
     "initials": "HM"
   },
   {
-    "id": "hilty-justin-c-0555",
-    "cik": "2060555",
-    "name": "Hilty Justin C.",
-    "title": "Reporting Person",
-    "company": "PEW",
-    "roles": {
-      "PEW": "Reporting Person"
-    },
-    "initials": "HJ"
-  },
-  {
     "id": "vittitow-matthew-w-0636",
     "cik": "2060636",
     "name": "Vittitow Matthew W.",
@@ -1881,6 +1870,17 @@
       "PEW": "President and CEO"
     },
     "initials": "NM"
+  },
+  {
+    "id": "hilty-justin-c-0555",
+    "cik": "2060555",
+    "name": "Hilty Justin C.",
+    "title": "Reporting Person",
+    "company": "PEW",
+    "roles": {
+      "PEW": "Reporting Person"
+    },
+    "initials": "HJ"
   },
   {
     "id": "reisdorf-kelly-l-4008",
@@ -2835,6 +2835,17 @@
     "initials": "DD"
   },
   {
+    "id": "chaplin-ann-c-8491",
+    "cik": "1888491",
+    "name": "CHAPLIN ANN C",
+    "title": "EVP, GenCounsel&CorpSecretary",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "EVP, GenCounsel&CorpSecretary"
+    },
+    "initials": "CA"
+  },
+  {
     "id": "grech-patricia-y-1650",
     "cik": "2081650",
     "name": "Grech Patricia Y",
@@ -3066,6 +3077,28 @@
     "initials": "GM"
   },
   {
+    "id": "bharathi-sandeep-5808",
+    "cik": "1975808",
+    "name": "Bharathi Sandeep",
+    "title": "President, Data Center Group",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "President, Data Center Group"
+    },
+    "initials": "BS"
+  },
+  {
+    "id": "murphy-matthew-j-1430",
+    "cik": "1381430",
+    "name": "MURPHY MATTHEW J",
+    "title": "Chairman of the Board and CEO",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "Chairman of the Board and CEO"
+    },
+    "initials": "MM"
+  },
+  {
     "id": "scarpulla-justin-0963",
     "cik": "1540963",
     "name": "Scarpulla Justin",
@@ -3086,39 +3119,6 @@
       "MRVL": "President and COO"
     },
     "initials": "KC"
-  },
-  {
-    "id": "murphy-matthew-j-1430",
-    "cik": "1381430",
-    "name": "MURPHY MATTHEW J",
-    "title": "Chairman of the Board and CEO",
-    "company": "MRVL",
-    "roles": {
-      "MRVL": "Chairman of the Board and CEO"
-    },
-    "initials": "MM"
-  },
-  {
-    "id": "bharathi-sandeep-5808",
-    "cik": "1975808",
-    "name": "Bharathi Sandeep",
-    "title": "President, Data Center Group",
-    "company": "MRVL",
-    "roles": {
-      "MRVL": "President, Data Center Group"
-    },
-    "initials": "BS"
-  },
-  {
-    "id": "meintjes-willem-a-5800",
-    "cik": "1635800",
-    "name": "Meintjes Willem A",
-    "title": "Chief Financial Officer",
-    "company": "MRVL",
-    "roles": {
-      "MRVL": "Chief Financial Officer"
-    },
-    "initials": "MW"
   },
   {
     "id": "abraham-tsedeniya-7064",

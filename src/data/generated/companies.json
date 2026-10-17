@@ -86,8 +86,8 @@
   "PEW": {
     "name": "GrabAGun Digital Holdings Inc.",
     "sector": "Retail",
-    "price": 2.2501,
-    "priceAsOf": "2026-09-02"
+    "price": 1.8502,
+    "priceAsOf": "2026-10-16"
   },
   "APPH": {
     "name": "AppHarvest, Inc.",
@@ -170,8 +170,8 @@
   "QCOM": {
     "name": "Qualcomm Inc.",
     "sector": "Semiconductors",
-    "price": 186.55,
-    "priceAsOf": "2026-10-02"
+    "price": 174.75,
+    "priceAsOf": "2026-10-16"
   },
   "CSCO": {
     "name": "Cisco Systems, Inc.",
@@ -194,8 +194,8 @@
   "MRVL": {
     "name": "Marvell Technology, Inc.",
     "sector": "Semiconductors",
-    "price": 273.59,
-    "priceAsOf": "2026-10-08"
+    "price": 234.97,
+    "priceAsOf": "2026-10-16"
   },
   "TXN": {
     "name": "Texas Instruments Inc.",
