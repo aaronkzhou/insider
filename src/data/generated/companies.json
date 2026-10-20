@@ -2,8 +2,8 @@
   "AAPL": {
     "name": "Apple Inc.",
     "sector": "Technology",
-    "price": 345,
-    "priceAsOf": "2026-10-13"
+    "price": 347.46,
+    "priceAsOf": "2026-10-16"
   },
   "MSFT": {
     "name": "Microsoft Corp.",
@@ -68,8 +68,8 @@
   "DIS": {
     "name": "Walt Disney Co.",
     "sector": "Media",
-    "price": 105.31,
-    "priceAsOf": "2026-10-08"
+    "price": 111.68,
+    "priceAsOf": "2026-10-16"
   },
   "DJT": {
     "name": "Trump Media & Technology Group Corp.",
@@ -98,14 +98,14 @@
   "PLTR": {
     "name": "Palantir Technologies Inc.",
     "sector": "Technology",
-    "price": 205,
-    "priceAsOf": "2026-10-09"
+    "price": 200.66,
+    "priceAsOf": "2026-10-15"
   },
   "AMD": {
     "name": "Advanced Micro Devices Inc.",
     "sector": "Semiconductors",
-    "price": 506.88,
-    "priceAsOf": "2026-09-15"
+    "price": 543.03,
+    "priceAsOf": "2026-10-15"
   },
   "AVGO": {
     "name": "Broadcom Inc.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 255.72,
-    "priceAsOf": "2026-10-14"
+    "price": 247.36,
+    "priceAsOf": "2026-10-16"
   },
   "TRMP": {
     "name": "TRMP",

@@ -1,5 +1,27 @@
 [
   {
+    "id": "borders-ben-0523",
+    "cik": "2100523",
+    "name": "Borders Ben",
+    "title": "Principal Accounting Officer",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Principal Accounting Officer"
+    },
+    "initials": "BB"
+  },
+  {
+    "id": "parekh-kevan-0912",
+    "cik": "2050912",
+    "name": "Parekh Kevan",
+    "title": "Senior Vice President,  CFO",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Senior Vice President,  CFO"
+    },
+    "initials": "PK"
+  },
+  {
     "id": "newstead-jennifer-0525",
     "cik": "1780525",
     "name": "Newstead Jennifer",
@@ -44,17 +66,6 @@
     "initials": "TJ"
   },
   {
-    "id": "borders-ben-0523",
-    "cik": "2100523",
-    "name": "Borders Ben",
-    "title": "Principal Accounting Officer",
-    "company": "AAPL",
-    "roles": {
-      "AAPL": "Principal Accounting Officer"
-    },
-    "initials": "BB"
-  },
-  {
     "id": "levinson-arthur-d-4128",
     "cik": "1214128",
     "name": "LEVINSON ARTHUR D",
@@ -64,17 +75,6 @@
       "AAPL": "Director"
     },
     "initials": "LA"
-  },
-  {
-    "id": "parekh-kevan-0912",
-    "cik": "2050912",
-    "name": "Parekh Kevan",
-    "title": "Senior Vice President, CFO",
-    "company": "AAPL",
-    "roles": {
-      "AAPL": "Senior Vice President, CFO"
-    },
-    "initials": "PK"
   },
   {
     "id": "hood-amy-6843",
@@ -1938,6 +1938,17 @@
     "initials": "WJ"
   },
   {
+    "id": "moore-alexander-d-3952",
+    "cik": "1823952",
+    "name": "Moore Alexander D.",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "MA"
+  },
+  {
     "id": "woersching-eric-h-0526",
     "cik": "1930526",
     "name": "Woersching Eric H.",
@@ -1969,17 +1980,6 @@
       "PLTR": "See Remarks"
     },
     "initials": "TR"
-  },
-  {
-    "id": "moore-alexander-d-3952",
-    "cik": "1823952",
-    "name": "Moore Alexander D.",
-    "title": "Director",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "Director"
-    },
-    "initials": "MA"
   },
   {
     "id": "buckley-jeffrey-5189",
@@ -2136,10 +2136,10 @@
         "ticker": "ABCL",
         "companyName": "AbCellera Biologics Inc.",
         "shares": 14360427,
-        "percentOfClass": 4.99,
-        "asOfDate": "2023-04-24",
-        "filingType": "Schedule 13D/A",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465923049066/tm2313479d1_sc13da.htm"
+        "percentOfClass": 5.3,
+        "asOfDate": "2020-12-28",
+        "filingType": "Schedule 13D",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000106823820000249/abcellerabioinc_sch-13d.htm"
       },
       {
         "ticker": "CMPS",
@@ -2148,8 +2148,7 @@
         "percentOfClass": 3.1,
         "asOfDate": "2022-02-14",
         "filingType": "Schedule 13G/A",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm",
-        "note": "Reduced from 2,352,516 shares (6.5%) as of 2021-02-16 — a real, disclosed change."
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm"
       },
       {
         "ticker": null,
@@ -2744,28 +2743,6 @@
       "ORCL": "Chief Executive Officer"
     },
     "initials": "MC"
-  },
-  {
-    "id": "kehring-douglas-a-7283",
-    "cik": "1527283",
-    "name": "KEHRING DOUGLAS A",
-    "title": "EVP, Principal Financial Offcr",
-    "company": "ORCL",
-    "roles": {
-      "ORCL": "EVP, Principal Financial Offcr"
-    },
-    "initials": "KD"
-  },
-  {
-    "id": "hura-mark-9378",
-    "cik": "2089378",
-    "name": "Hura Mark",
-    "title": "Pres., Global Field Operations",
-    "company": "ORCL",
-    "roles": {
-      "ORCL": "Pres., Global Field Operations"
-    },
-    "initials": "HM"
   },
   {
     "id": "kirk-david-blair-7892",
@@ -3559,6 +3536,17 @@
       "CRWD": "PRESIDENT AND CEO"
     },
     "initials": "KG"
+  },
+  {
+    "id": "flower-johanna-2303",
+    "cik": "1872303",
+    "name": "Flower Johanna",
+    "title": "Director",
+    "company": "CRWD",
+    "roles": {
+      "CRWD": "Director"
+    },
+    "initials": "FJ"
   },
   {
     "id": "gandhi-sameer-k-1326",
