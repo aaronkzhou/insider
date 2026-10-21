@@ -122,8 +122,8 @@
   "MU": {
     "name": "Micron Technology Inc.",
     "sector": "Semiconductors",
-    "price": 945.91,
-    "priceAsOf": "2026-10-14"
+    "price": 902.01,
+    "priceAsOf": "2026-10-16"
   },
   "DXYZ": {
     "name": "Destiny Tech100 Inc.",
@@ -170,8 +170,8 @@
   "QCOM": {
     "name": "Qualcomm Inc.",
     "sector": "Semiconductors",
-    "price": 174.75,
-    "priceAsOf": "2026-10-16"
+    "price": 176.5777,
+    "priceAsOf": "2026-10-20"
   },
   "CSCO": {
     "name": "Cisco Systems, Inc.",

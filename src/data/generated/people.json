@@ -2136,10 +2136,10 @@
         "ticker": "ABCL",
         "companyName": "AbCellera Biologics Inc.",
         "shares": 14360427,
-        "percentOfClass": 5.3,
-        "asOfDate": "2020-12-28",
-        "filingType": "Schedule 13D",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000106823820000249/abcellerabioinc_sch-13d.htm"
+        "percentOfClass": 4.99,
+        "asOfDate": "2023-04-24",
+        "filingType": "Schedule 13D/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465923049066/tm2313479d1_sc13da.htm"
       },
       {
         "ticker": "CMPS",
@@ -2148,7 +2148,8 @@
         "percentOfClass": 3.1,
         "asOfDate": "2022-02-14",
         "filingType": "Schedule 13G/A",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm"
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm",
+        "note": "Reduced from 2,352,516 shares (6.5%) as of 2021-02-16 — a real, disclosed change."
       },
       {
         "ticker": null,
@@ -2380,6 +2381,17 @@
       "INTC": "EVP and Chief Legal Officer"
     },
     "initials": "MB"
+  },
+  {
+    "id": "deboer-scott-j-8238",
+    "cik": "1568238",
+    "name": "Deboer Scott J",
+    "title": "Pres. & Chief Tech & Prod Offr",
+    "company": "MU",
+    "roles": {
+      "MU": "Pres. & Chief Tech & Prod Offr"
+    },
+    "initials": "DS"
   },
   {
     "id": "ray-michael-charles-3199",
@@ -2812,6 +2824,17 @@
     "initials": "DD"
   },
   {
+    "id": "palkhiwala-akash-j-6420",
+    "cik": "1786420",
+    "name": "Palkhiwala Akash J.",
+    "title": "EVP, CFO & COO",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "EVP, CFO & COO"
+    },
+    "initials": "PA"
+  },
+  {
     "id": "chaplin-ann-c-8491",
     "cik": "1888491",
     "name": "CHAPLIN ANN C",
@@ -2843,17 +2866,6 @@
       "QCOM": "President & CEO"
     },
     "initials": "AC"
-  },
-  {
-    "id": "palkhiwala-akash-j-6420",
-    "cik": "1786420",
-    "name": "Palkhiwala Akash J.",
-    "title": "EVP, CFO & COO",
-    "company": "QCOM",
-    "roles": {
-      "QCOM": "EVP, CFO & COO"
-    },
-    "initials": "PA"
   },
   {
     "id": "ace-heather-s-0762",

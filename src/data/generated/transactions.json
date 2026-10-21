@@ -4125,7 +4125,22 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000086/0000050863-26-000086-index.htm"
   },
   {
-    "id": "0001593199-26-000005-972",
+    "id": "0001568238-26-000003-972",
+    "personId": "deboer-scott-j-8238",
+    "ticker": "MU",
+    "type": "sell",
+    "shares": 28544.572,
+    "price": 900,
+    "priceLow": 900,
+    "priceHigh": 902.01,
+    "tranches": 3,
+    "date": "2026-10-16",
+    "sharesOwnedAfter": 147430,
+    "accession": "0001568238-26-000003",
+    "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000156823826000003/0001568238-26-000003-index.htm"
+  },
+  {
+    "id": "0001593199-26-000005-975",
     "personId": "ray-michael-charles-3199",
     "ticker": "MU",
     "type": "sell",
@@ -4140,7 +4155,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000005/0001593199-26-000005-index.htm"
   },
   {
-    "id": "0001798757-26-000007-1000",
+    "id": "0001798757-26-000007-1003",
     "personId": "bjorlin-alexis-8757",
     "ticker": "MU",
     "type": "sell",
@@ -4155,7 +4170,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000179875726000007/0001798757-26-000007-index.htm"
   },
   {
-    "id": "0001242654-26-000015-1001",
+    "id": "0001242654-26-000015-1004",
     "personId": "mehrotra-sanjay-2654",
     "ticker": "MU",
     "type": "sell",
@@ -4170,7 +4185,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000015/0001242654-26-000015-index.htm"
   },
   {
-    "id": "0001311079-26-000003-1028",
+    "id": "0001311079-26-000003-1031",
     "personId": "sadana-sumit-1079",
     "ticker": "MU",
     "type": "sell",
@@ -4185,7 +4200,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000003/0001311079-26-000003-index.htm"
   },
   {
-    "id": "0001242654-26-000014-1029",
+    "id": "0001242654-26-000014-1032",
     "personId": "mehrotra-sanjay-2654",
     "ticker": "MU",
     "type": "sell",
@@ -4200,7 +4215,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/0001242654-26-000014-index.htm"
   },
   {
-    "id": "0001652149-26-000005-1071",
+    "id": "0001652149-26-000005-1074",
     "personId": "allen-scott-r-2149",
     "ticker": "MU",
     "type": "sell",
@@ -4215,7 +4230,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000165214926000005/0001652149-26-000005-index.htm"
   },
   {
-    "id": "0001632063-26-000003-1072",
+    "id": "0001632063-26-000003-1075",
     "personId": "arnzen-april-s-2063",
     "ticker": "MU",
     "type": "sell",
@@ -4230,7 +4245,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/0001632063-26-000003-index.htm"
   },
   {
-    "id": "0001453368-26-000001-1090",
+    "id": "0001453368-26-000001-1093",
     "personId": "dugle-lynn-a-3368",
     "ticker": "MU",
     "type": "sell",
@@ -4245,7 +4260,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000145336826000001/0001453368-26-000001-index.htm"
   },
   {
-    "id": "0001242654-26-000012-1091",
+    "id": "0001242654-26-000012-1094",
     "personId": "mehrotra-sanjay-2654",
     "ticker": "MU",
     "type": "sell",
@@ -4260,7 +4275,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/0001242654-26-000012-index.htm"
   },
   {
-    "id": "0001242654-26-000010-1140",
+    "id": "0001242654-26-000010-1143",
     "personId": "mehrotra-sanjay-2654",
     "ticker": "MU",
     "type": "sell",
@@ -4275,7 +4290,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000010/0001242654-26-000010-index.htm"
   },
   {
-    "id": "0001224095-26-000001-1176",
+    "id": "0001224095-26-000001-1179",
     "personId": "gomo-steven-j-4095",
     "ticker": "MU",
     "type": "sell",
@@ -4290,7 +4305,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000122409526000001/0001224095-26-000001-index.htm"
   },
   {
-    "id": "0001242654-26-000005-1178",
+    "id": "0001242654-26-000005-1181",
     "personId": "mehrotra-sanjay-2654",
     "ticker": "MU",
     "type": "sell",
@@ -4305,7 +4320,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000005/0001242654-26-000005-index.htm"
   },
   {
-    "id": "0001593199-26-000003-1205",
+    "id": "0001593199-26-000003-1208",
     "personId": "ray-michael-charles-3199",
     "ticker": "MU",
     "type": "sell",
@@ -4320,7 +4335,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/723125/000159319926000003/0001593199-26-000003-index.htm"
   },
   {
-    "id": "0000945621-26-001136-1230",
+    "id": "0000945621-26-001136-1233",
     "personId": "silver-ethan-4406",
     "ticker": "DXYZ",
     "type": "buy",
@@ -4335,7 +4350,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000094562126001136/0000945621-26-001136-index.htm"
   },
   {
-    "id": "0000945621-26-001118-1231",
+    "id": "0000945621-26-001118-1234",
     "personId": "prasad-sohail-3728",
     "ticker": "DXYZ",
     "type": "buy",
@@ -4350,7 +4365,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000094562126001118/0000945621-26-001118-index.htm"
   },
   {
-    "id": "0000945621-26-001118-1232",
+    "id": "0000945621-26-001118-1235",
     "personId": "prasad-sohail-3728",
     "ticker": "DXYZ",
     "type": "buy",
@@ -4365,7 +4380,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000094562126001118/0000945621-26-001118-index.htm"
   },
   {
-    "id": "0000945621-26-001118-1233",
+    "id": "0000945621-26-001118-1236",
     "personId": "prasad-sohail-3728",
     "ticker": "DXYZ",
     "type": "buy",
@@ -4380,7 +4395,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000094562126001118/0000945621-26-001118-index.htm"
   },
   {
-    "id": "0001575872-25-000471-1234",
+    "id": "0001575872-25-000471-1237",
     "personId": "prasad-sohail-3728",
     "ticker": "DXYZ",
     "type": "sell",
@@ -4395,7 +4410,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000157587225000471/0001575872-25-000471-index.htm"
   },
   {
-    "id": "0001575872-24-000367-1236",
+    "id": "0001575872-24-000367-1239",
     "personId": "prasad-sohail-3728",
     "ticker": "DXYZ",
     "type": "sell",
@@ -4410,7 +4425,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000157587224000367/0001575872-24-000367-index.htm"
   },
   {
-    "id": "0001575872-24-000340-1237",
+    "id": "0001575872-24-000340-1240",
     "personId": "prasad-sohail-3728",
     "ticker": "DXYZ",
     "type": "sell",
@@ -4425,7 +4440,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000157587224000340/0001575872-24-000340-index.htm"
   },
   {
-    "id": "0001435109-26-000034-1239",
+    "id": "0001435109-26-000034-1242",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4440,7 +4455,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510926000034/0001435109-26-000034-index.htm"
   },
   {
-    "id": "0001435109-26-000028-1240",
+    "id": "0001435109-26-000028-1243",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4455,7 +4470,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510926000028/0001435109-26-000028-index.htm"
   },
   {
-    "id": "0001435109-26-000012-1241",
+    "id": "0001435109-26-000012-1244",
     "personId": "osaka-glenn-9446",
     "ticker": "VCX",
     "type": "buy",
@@ -4470,7 +4485,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510926000012/0001435109-26-000012-index.htm"
   },
   {
-    "id": "0001435109-26-000011-1242",
+    "id": "0001435109-26-000011-1245",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4485,7 +4500,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510926000011/0001435109-26-000011-index.htm"
   },
   {
-    "id": "0001435109-26-000001-1243",
+    "id": "0001435109-26-000001-1246",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4500,7 +4515,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510926000001/0001435109-26-000001-index.htm"
   },
   {
-    "id": "0001435109-25-000366-1244",
+    "id": "0001435109-25-000366-1247",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4515,7 +4530,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000366/0001435109-25-000366-index.htm"
   },
   {
-    "id": "0001213900-25-114065-1245",
+    "id": "0001213900-25-114065-1248",
     "personId": "deitrich-jeffrey-9447",
     "ticker": "VCX",
     "type": "buy",
@@ -4530,7 +4545,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000121390025114065/0001213900-25-114065-index.htm"
   },
   {
-    "id": "0001435109-25-000339-1246",
+    "id": "0001435109-25-000339-1249",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4545,7 +4560,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000339/0001435109-25-000339-index.htm"
   },
   {
-    "id": "0001435109-25-000326-1247",
+    "id": "0001435109-25-000326-1250",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4560,7 +4575,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000326/0001435109-25-000326-index.htm"
   },
   {
-    "id": "0001213900-25-098535-1248",
+    "id": "0001213900-25-098535-1251",
     "personId": "osaka-glenn-9446",
     "ticker": "VCX",
     "type": "buy",
@@ -4575,7 +4590,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000121390025098535/0001213900-25-098535-index.htm"
   },
   {
-    "id": "0001435109-25-000316-1249",
+    "id": "0001435109-25-000316-1252",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4590,7 +4605,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000316/0001435109-25-000316-index.htm"
   },
   {
-    "id": "0001213900-25-086228-1250",
+    "id": "0001213900-25-086228-1253",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4605,7 +4620,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000121390025086228/0001213900-25-086228-index.htm"
   },
   {
-    "id": "0001435109-25-000234-1251",
+    "id": "0001435109-25-000234-1254",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4620,7 +4635,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000234/0001435109-25-000234-index.htm"
   },
   {
-    "id": "0001435109-25-000211-1252",
+    "id": "0001435109-25-000211-1255",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4635,7 +4650,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000211/0001435109-25-000211-index.htm"
   },
   {
-    "id": "0001435109-25-000210-1253",
+    "id": "0001435109-25-000210-1256",
     "personId": "osaka-glenn-9446",
     "ticker": "VCX",
     "type": "buy",
@@ -4650,7 +4665,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000210/0001435109-25-000210-index.htm"
   },
   {
-    "id": "0001435109-25-000198-1254",
+    "id": "0001435109-25-000198-1257",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4665,7 +4680,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000198/0001435109-25-000198-index.htm"
   },
   {
-    "id": "0001435109-25-000177-1255",
+    "id": "0001435109-25-000177-1258",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4680,7 +4695,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000177/0001435109-25-000177-index.htm"
   },
   {
-    "id": "0001999371-25-005986-1256",
+    "id": "0001999371-25-005986-1259",
     "personId": "staloch-alison-7181",
     "ticker": "VCX",
     "type": "buy",
@@ -4695,7 +4710,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000199937125005986/0001999371-25-005986-index.htm"
   },
   {
-    "id": "0001435109-25-000152-1257",
+    "id": "0001435109-25-000152-1260",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4710,7 +4725,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000152/0001435109-25-000152-index.htm"
   },
   {
-    "id": "0001435109-25-000131-1258",
+    "id": "0001435109-25-000131-1261",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4725,7 +4740,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000131/0001435109-25-000131-index.htm"
   },
   {
-    "id": "0001435109-25-000124-1259",
+    "id": "0001435109-25-000124-1262",
     "personId": "osaka-glenn-9446",
     "ticker": "VCX",
     "type": "buy",
@@ -4740,7 +4755,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000124/0001435109-25-000124-index.htm"
   },
   {
-    "id": "0001435109-25-000121-1260",
+    "id": "0001435109-25-000121-1263",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4755,7 +4770,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000121/0001435109-25-000121-index.htm"
   },
   {
-    "id": "0001435109-25-000099-1261",
+    "id": "0001435109-25-000099-1264",
     "personId": "hall-bjorn-9781",
     "ticker": "VCX",
     "type": "buy",
@@ -4770,7 +4785,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1867090/000143510925000099/0001435109-25-000099-index.htm"
   },
   {
-    "id": "0001242648-26-000045-1262",
+    "id": "0001242648-26-000045-1265",
     "personId": "shek-bernard-0144",
     "ticker": "SNDK",
     "type": "sell",
@@ -4785,7 +4800,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000045/0001242648-26-000045-index.htm"
   },
   {
-    "id": "0001242648-26-000041-1263",
+    "id": "0001242648-26-000041-1266",
     "personId": "goeckeler-david-3941",
     "ticker": "SNDK",
     "type": "sell",
@@ -4800,7 +4815,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000041/0001242648-26-000041-index.htm"
   },
   {
-    "id": "0001242648-26-000033-1278",
+    "id": "0001242648-26-000033-1281",
     "personId": "visoso-luis-felipe-6289",
     "ticker": "SNDK",
     "type": "sell",
@@ -4815,7 +4830,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000033/0001242648-26-000033-index.htm"
   },
   {
-    "id": "0001242648-26-000032-1279",
+    "id": "0001242648-26-000032-1282",
     "personId": "goeckeler-david-3941",
     "ticker": "SNDK",
     "type": "sell",
@@ -4830,7 +4845,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000032/0001242648-26-000032-index.htm"
   },
   {
-    "id": "0001242648-26-000029-1292",
+    "id": "0001242648-26-000029-1295",
     "personId": "ilkbahar-alper-9630",
     "ticker": "SNDK",
     "type": "sell",
@@ -4845,7 +4860,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000029/0001242648-26-000029-index.htm"
   },
   {
-    "id": "0001242648-26-000027-1326",
+    "id": "0001242648-26-000027-1329",
     "personId": "shek-bernard-0144",
     "ticker": "SNDK",
     "type": "sell",
@@ -4860,7 +4875,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000027/0001242648-26-000027-index.htm"
   },
   {
-    "id": "0001363249-26-000074-1327",
+    "id": "0001363249-26-000074-1330",
     "personId": "shek-bernard-0144",
     "ticker": "SNDK",
     "type": "sell",
@@ -4875,7 +4890,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000074/0001363249-26-000074-index.htm"
   },
   {
-    "id": "0001363249-26-000058-1328",
+    "id": "0001363249-26-000058-1331",
     "personId": "shek-bernard-0144",
     "ticker": "SNDK",
     "type": "sell",
@@ -4890,7 +4905,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000058/0001363249-26-000058-index.htm"
   },
   {
-    "id": "0001363249-26-000056-1329",
+    "id": "0001363249-26-000056-1332",
     "personId": "shek-bernard-0144",
     "ticker": "SNDK",
     "type": "sell",
@@ -4905,7 +4920,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000056/0001363249-26-000056-index.htm"
   },
   {
-    "id": "0001363249-26-000052-1330",
+    "id": "0001363249-26-000052-1333",
     "personId": "shek-bernard-0144",
     "ticker": "SNDK",
     "type": "sell",
@@ -4920,7 +4935,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000052/0001363249-26-000052-index.htm"
   },
   {
-    "id": "0001363249-26-000048-1331",
+    "id": "0001363249-26-000048-1334",
     "personId": "ilkbahar-alper-9630",
     "ticker": "SNDK",
     "type": "sell",
@@ -4935,7 +4950,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000048/0001363249-26-000048-index.htm"
   },
   {
-    "id": "0001363249-26-000032-1334",
+    "id": "0001363249-26-000032-1337",
     "personId": "pokorny-michael-8338",
     "ticker": "SNDK",
     "type": "sell",
@@ -4950,7 +4965,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000032/0001363249-26-000032-index.htm"
   },
   {
-    "id": "0001363249-26-000028-1335",
+    "id": "0001363249-26-000028-1338",
     "personId": "sayiner-necip-8515",
     "ticker": "SNDK",
     "type": "sell",
@@ -4965,7 +4980,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000028/0001363249-26-000028-index.htm"
   },
   {
-    "id": "0001193125-26-411206-1336",
+    "id": "0001193125-26-411206-1339",
     "personId": "jiang-fang-4927",
     "ticker": "BABA",
     "type": "sell",
@@ -4980,7 +4995,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526411206/0001193125-26-411206-index.htm"
   },
   {
-    "id": "0001193125-26-405907-1337",
+    "id": "0001193125-26-405907-1340",
     "personId": "yu-siying-4147",
     "ticker": "BABA",
     "type": "sell",
@@ -4995,7 +5010,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526405907/0001193125-26-405907-index.htm"
   },
   {
-    "id": "0001193125-26-405904-1338",
+    "id": "0001193125-26-405904-1341",
     "personId": "jiang-fang-4927",
     "ticker": "BABA",
     "type": "sell",
@@ -5010,7 +5025,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526405904/0001193125-26-405904-index.htm"
   },
   {
-    "id": "0001193125-26-405899-1339",
+    "id": "0001193125-26-405899-1342",
     "personId": "xu-hong-4529",
     "ticker": "BABA",
     "type": "sell",
@@ -5025,7 +5040,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526405899/0001193125-26-405899-index.htm"
   },
   {
-    "id": "0001193125-26-364044-1340",
+    "id": "0001193125-26-364044-1343",
     "personId": "tsai-joseph-c-3999",
     "ticker": "BABA",
     "type": "buy",
@@ -5040,7 +5055,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526364044/0001193125-26-364044-index.htm"
   },
   {
-    "id": "0001193125-26-361902-1341",
+    "id": "0001193125-26-361902-1344",
     "personId": "tsai-joseph-c-3999",
     "ticker": "BABA",
     "type": "buy",
@@ -5055,7 +5070,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526361902/0001193125-26-361902-index.htm"
   },
   {
-    "id": "0001193125-26-361711-1342",
+    "id": "0001193125-26-361711-1345",
     "personId": "wu-yongming-1606",
     "ticker": "BABA",
     "type": "buy",
@@ -5070,7 +5085,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526361711/0001193125-26-361711-index.htm"
   },
   {
-    "id": "0001193125-26-291402-1343",
+    "id": "0001193125-26-291402-1346",
     "personId": "evans-j-michael-8339",
     "ticker": "BABA",
     "type": "sell",
@@ -5085,7 +5100,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526291402/0001193125-26-291402-index.htm"
   },
   {
-    "id": "0001193125-26-286750-1345",
+    "id": "0001193125-26-286750-1348",
     "personId": "jiang-fan-fj-5804",
     "ticker": "BABA",
     "type": "sell",
@@ -5100,7 +5115,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526286750/0001193125-26-286750-index.htm"
   },
   {
-    "id": "0001193125-26-286743-1346",
+    "id": "0001193125-26-286743-1349",
     "personId": "xu-hong-4529",
     "ticker": "BABA",
     "type": "sell",
@@ -5115,7 +5130,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526286743/0001193125-26-286743-index.htm"
   },
   {
-    "id": "0001193125-26-286741-1347",
+    "id": "0001193125-26-286741-1350",
     "personId": "yu-siying-4147",
     "ticker": "BABA",
     "type": "sell",
@@ -5130,7 +5145,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526286741/0001193125-26-286741-index.htm"
   },
   {
-    "id": "0001193125-26-286735-1348",
+    "id": "0001193125-26-286735-1351",
     "personId": "jiang-fang-4927",
     "ticker": "BABA",
     "type": "sell",
@@ -5145,7 +5160,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526286735/0001193125-26-286735-index.htm"
   },
   {
-    "id": "0002114927-26-000005-1349",
+    "id": "0002114927-26-000005-1352",
     "personId": "jiang-fang-4927",
     "ticker": "BABA",
     "type": "sell",
@@ -5160,7 +5175,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000211492726000005/0002114927-26-000005-index.htm"
   },
   {
-    "id": "0002114529-26-000006-1350",
+    "id": "0002114529-26-000006-1353",
     "personId": "xu-hong-4529",
     "ticker": "BABA",
     "type": "sell",
@@ -5175,7 +5190,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000211452926000006/0002114529-26-000006-index.htm"
   },
   {
-    "id": "0002114147-26-000005-1351",
+    "id": "0002114147-26-000005-1354",
     "personId": "yu-siying-4147",
     "ticker": "BABA",
     "type": "sell",
@@ -5190,7 +5205,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000211414726000005/0002114147-26-000005-index.htm"
   },
   {
-    "id": "0001341439-26-000099-1352",
+    "id": "0001341439-26-000099-1355",
     "personId": "rusckowski-stephen-h-2624",
     "ticker": "ORCL",
     "type": "buy",
@@ -5205,7 +5220,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/0001341439-26-000099-index.htm"
   },
   {
-    "id": "0001341439-26-000096-1353",
+    "id": "0001341439-26-000096-1356",
     "personId": "smith-maria-7369",
     "ticker": "ORCL",
     "type": "sell",
@@ -5220,7 +5235,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000096/0001341439-26-000096-index.htm"
   },
   {
-    "id": "0001341439-26-000094-1354",
+    "id": "0001341439-26-000094-1357",
     "personId": "sicilia-michael-d-1965",
     "ticker": "ORCL",
     "type": "sell",
@@ -5235,7 +5250,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000094/0001341439-26-000094-index.htm"
   },
   {
-    "id": "0001341439-26-000083-1355",
+    "id": "0001341439-26-000083-1358",
     "personId": "sicilia-michael-d-1965",
     "ticker": "ORCL",
     "type": "sell",
@@ -5250,7 +5265,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000083/0001341439-26-000083-index.htm"
   },
   {
-    "id": "0001341439-26-000064-1356",
+    "id": "0001341439-26-000064-1359",
     "personId": "henley-jeffrey-6100",
     "ticker": "ORCL",
     "type": "sell",
@@ -5265,7 +5280,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000064/0001341439-26-000064-index.htm"
   },
   {
-    "id": "0001341439-26-000027-1367",
+    "id": "0001341439-26-000027-1370",
     "personId": "levey-stuart-2913",
     "ticker": "ORCL",
     "type": "sell",
@@ -5280,7 +5295,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000027/0001341439-26-000027-index.htm"
   },
   {
-    "id": "0001341439-26-000010-1368",
+    "id": "0001341439-26-000010-1371",
     "personId": "magouyrk-clayton-m-1873",
     "ticker": "ORCL",
     "type": "sell",
@@ -5295,7 +5310,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000010/0001341439-26-000010-index.htm"
   },
   {
-    "id": "0001108524-26-000212-1369",
+    "id": "0001108524-26-000212-1372",
     "personId": "kirk-david-blair-7892",
     "ticker": "CRM",
     "type": "buy",
@@ -5310,7 +5325,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000212/0001108524-26-000212-index.htm"
   },
   {
-    "id": "0001108524-26-000199-1370",
+    "id": "0001108524-26-000199-1373",
     "personId": "conway-craig-0922",
     "ticker": "CRM",
     "type": "sell",
@@ -5325,7 +5340,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000199/0001108524-26-000199-index.htm"
   },
   {
-    "id": "0001224154-26-000003-1372",
+    "id": "0001224154-26-000003-1375",
     "personId": "narayen-shantanu-4154",
     "ticker": "ADBE",
     "type": "sell",
@@ -5340,7 +5355,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/796343/000122415426000003/0001224154-26-000003-index.htm"
   },
   {
-    "id": "0001224154-26-000003-1377",
+    "id": "0001224154-26-000003-1380",
     "personId": "narayen-shantanu-4154",
     "ticker": "ADBE",
     "type": "sell",
@@ -5355,7 +5370,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/796343/000122415426000003/0001224154-26-000003-index.htm"
   },
   {
-    "id": "0000796343-26-000137-1384",
+    "id": "0000796343-26-000137-1387",
     "personId": "forusz-jillian-1886",
     "ticker": "ADBE",
     "type": "sell",
@@ -5370,7 +5385,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000137/0000796343-26-000137-index.htm"
   },
   {
-    "id": "0000796343-26-000118-1385",
+    "id": "0000796343-26-000118-1388",
     "personId": "ricks-david-a-8604",
     "ticker": "ADBE",
     "type": "buy",
@@ -5385,7 +5400,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000118/0000796343-26-000118-index.htm"
   },
   {
-    "id": "0000796343-26-000107-1386",
+    "id": "0000796343-26-000107-1389",
     "personId": "forusz-jillian-1886",
     "ticker": "ADBE",
     "type": "sell",
@@ -5400,7 +5415,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000107/0000796343-26-000107-index.htm"
   },
   {
-    "id": "0000796343-26-000105-1387",
+    "id": "0000796343-26-000105-1390",
     "personId": "narayen-shantanu-4154",
     "ticker": "ADBE",
     "type": "sell",
@@ -5415,7 +5430,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000105/0000796343-26-000105-index.htm"
   },
   {
-    "id": "0000796343-26-000103-1390",
+    "id": "0000796343-26-000103-1393",
     "personId": "durn-daniel-0062",
     "ticker": "ADBE",
     "type": "sell",
@@ -5430,7 +5445,22 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000103/0000796343-26-000103-index.htm"
   },
   {
-    "id": "0000804328-26-000103-1391",
+    "id": "0000804328-26-000106-1394",
+    "personId": "palkhiwala-akash-j-6420",
+    "ticker": "QCOM",
+    "type": "sell",
+    "shares": 2500,
+    "price": 175.06,
+    "priceLow": 171.8844,
+    "priceHigh": 176.5777,
+    "tranches": 6,
+    "date": "2026-10-20",
+    "sharesOwnedAfter": 20799,
+    "accession": "0000804328-26-000106",
+    "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/0000804328-26-000106-index.htm"
+  },
+  {
+    "id": "0000804328-26-000103-1400",
     "personId": "chaplin-ann-c-8491",
     "ticker": "QCOM",
     "type": "sell",
@@ -5445,7 +5475,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000103/0000804328-26-000103-index.htm"
   },
   {
-    "id": "0000804328-26-000099-1392",
+    "id": "0000804328-26-000099-1401",
     "personId": "grech-patricia-y-1650",
     "ticker": "QCOM",
     "type": "sell",
@@ -5460,7 +5490,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000099/0000804328-26-000099-index.htm"
   },
   {
-    "id": "0000804328-26-000096-1393",
+    "id": "0000804328-26-000096-1402",
     "personId": "amon-cristiano-r-9665",
     "ticker": "QCOM",
     "type": "sell",
@@ -5475,7 +5505,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000096/0000804328-26-000096-index.htm"
   },
   {
-    "id": "0000804328-26-000095-1394",
+    "id": "0000804328-26-000095-1403",
     "personId": "amon-cristiano-r-9665",
     "ticker": "QCOM",
     "type": "sell",
@@ -5490,7 +5520,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000095/0000804328-26-000095-index.htm"
   },
   {
-    "id": "0000804328-26-000094-1395",
+    "id": "0000804328-26-000094-1404",
     "personId": "palkhiwala-akash-j-6420",
     "ticker": "QCOM",
     "type": "sell",
@@ -5505,7 +5535,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000094/0000804328-26-000094-index.htm"
   },
   {
-    "id": "0000804328-26-000093-1404",
+    "id": "0000804328-26-000093-1413",
     "personId": "grech-patricia-y-1650",
     "ticker": "QCOM",
     "type": "sell",
@@ -5520,7 +5550,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000093/0000804328-26-000093-index.htm"
   },
   {
-    "id": "0000804328-26-000092-1405",
+    "id": "0000804328-26-000092-1414",
     "personId": "grech-patricia-y-1650",
     "ticker": "QCOM",
     "type": "sell",
@@ -5535,7 +5565,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000092/0000804328-26-000092-index.htm"
   },
   {
-    "id": "0000804328-26-000091-1406",
+    "id": "0000804328-26-000091-1415",
     "personId": "palkhiwala-akash-j-6420",
     "ticker": "QCOM",
     "type": "sell",
@@ -5550,7 +5580,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000091/0000804328-26-000091-index.htm"
   },
   {
-    "id": "0000804328-26-000090-1411",
+    "id": "0000804328-26-000090-1420",
     "personId": "ace-heather-s-0762",
     "ticker": "QCOM",
     "type": "sell",
@@ -5565,7 +5595,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000090/0000804328-26-000090-index.htm"
   },
   {
-    "id": "0000804328-26-000074-1412",
+    "id": "0000804328-26-000074-1421",
     "personId": "palkhiwala-akash-j-6420",
     "ticker": "QCOM",
     "type": "sell",
@@ -5580,7 +5610,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000074/0000804328-26-000074-index.htm"
   },
   {
-    "id": "0000804328-26-000071-1423",
+    "id": "0000804328-26-000071-1432",
     "personId": "palkhiwala-akash-j-6420",
     "ticker": "QCOM",
     "type": "sell",
@@ -5595,7 +5625,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000071/0000804328-26-000071-index.htm"
   },
   {
-    "id": "0000804328-26-000070-1434",
+    "id": "0000804328-26-000070-1443",
     "personId": "grech-patricia-y-1650",
     "ticker": "QCOM",
     "type": "sell",
@@ -5610,7 +5640,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000070/0000804328-26-000070-index.htm"
   },
   {
-    "id": "0000804328-26-000066-1435",
+    "id": "0000804328-26-000066-1444",
     "personId": "palkhiwala-akash-j-6420",
     "ticker": "QCOM",
     "type": "sell",
@@ -5625,7 +5655,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000066/0000804328-26-000066-index.htm"
   },
   {
-    "id": "0000804328-26-000065-1461",
+    "id": "0000804328-26-000065-1470",
     "personId": "amon-cristiano-r-9665",
     "ticker": "QCOM",
     "type": "sell",
@@ -5640,7 +5670,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000065/0000804328-26-000065-index.htm"
   },
   {
-    "id": "0000804328-26-000064-1462",
+    "id": "0000804328-26-000064-1471",
     "personId": "amon-cristiano-r-9665",
     "ticker": "QCOM",
     "type": "sell",
@@ -5655,7 +5685,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000064/0000804328-26-000064-index.htm"
   },
   {
-    "id": "0000804328-26-000063-1463",
+    "id": "0000804328-26-000063-1472",
     "personId": "ace-heather-s-0762",
     "ticker": "QCOM",
     "type": "sell",
@@ -5670,7 +5700,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000063/0000804328-26-000063-index.htm"
   },
   {
-    "id": "0000804328-26-000062-1464",
+    "id": "0000804328-26-000062-1473",
     "personId": "grech-patricia-y-1650",
     "ticker": "QCOM",
     "type": "sell",
@@ -5685,7 +5715,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000062/0000804328-26-000062-index.htm"
   },
   {
-    "id": "0000804328-26-000053-1465",
+    "id": "0000804328-26-000053-1474",
     "personId": "palkhiwala-akash-j-6420",
     "ticker": "QCOM",
     "type": "sell",
@@ -5700,7 +5730,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000053/0000804328-26-000053-index.htm"
   },
   {
-    "id": "0000804328-26-000051-1467",
+    "id": "0000804328-26-000051-1476",
     "personId": "grech-patricia-y-1650",
     "ticker": "QCOM",
     "type": "sell",
@@ -5715,7 +5745,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000051/0000804328-26-000051-index.htm"
   },
   {
-    "id": "0002015287-26-000020-1468",
+    "id": "0002015287-26-000020-1477",
     "personId": "subaiya-thimaya-k-5287",
     "ticker": "CSCO",
     "type": "sell",
@@ -5730,7 +5760,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000020/0002015287-26-000020-index.htm"
   },
   {
-    "id": "0000858877-26-000138-1469",
+    "id": "0000858877-26-000138-1478",
     "personId": "tuszik-oliver-6411",
     "ticker": "CSCO",
     "type": "sell",
@@ -5745,7 +5775,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000138/0000858877-26-000138-index.htm"
   },
   {
-    "id": "0000858877-26-000137-1470",
+    "id": "0000858877-26-000137-1479",
     "personId": "patterson-mark-0779",
     "ticker": "CSCO",
     "type": "sell",
@@ -5760,7 +5790,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000137/0000858877-26-000137-index.htm"
   },
   {
-    "id": "0000858877-26-000134-1471",
+    "id": "0000858877-26-000134-1480",
     "personId": "fink-nichlas-a-5737",
     "ticker": "CSCO",
     "type": "sell",
@@ -5775,7 +5805,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000134/0000858877-26-000134-index.htm"
   },
   {
-    "id": "0002015287-26-000017-1472",
+    "id": "0002015287-26-000017-1481",
     "personId": "subaiya-thimaya-k-5287",
     "ticker": "CSCO",
     "type": "sell",
@@ -5790,7 +5820,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000017/0002015287-26-000017-index.htm"
   },
   {
-    "id": "0000858877-26-000128-1474",
+    "id": "0000858877-26-000128-1483",
     "personId": "patel-jeetendra-i-9016",
     "ticker": "CSCO",
     "type": "sell",
@@ -5805,7 +5835,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000128/0000858877-26-000128-index.htm"
   },
   {
-    "id": "0000858877-26-000127-1478",
+    "id": "0000858877-26-000127-1487",
     "personId": "tuszik-oliver-6411",
     "ticker": "CSCO",
     "type": "sell",
@@ -5820,7 +5850,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000127/0000858877-26-000127-index.htm"
   },
   {
-    "id": "0000858877-26-000126-1479",
+    "id": "0000858877-26-000126-1488",
     "personId": "patterson-mark-0779",
     "ticker": "CSCO",
     "type": "sell",
@@ -5835,7 +5865,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000126/0000858877-26-000126-index.htm"
   },
   {
-    "id": "0000858877-26-000125-1482",
+    "id": "0000858877-26-000125-1491",
     "personId": "stahlkopf-deborah-l-3299",
     "ticker": "CSCO",
     "type": "sell",
@@ -5850,7 +5880,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000125/0000858877-26-000125-index.htm"
   },
   {
-    "id": "0000858877-26-000124-1485",
+    "id": "0000858877-26-000124-1494",
     "personId": "robbins-charles-9655",
     "ticker": "CSCO",
     "type": "sell",
@@ -5865,7 +5895,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000124/0000858877-26-000124-index.htm"
   },
   {
-    "id": "0002015287-26-000012-1489",
+    "id": "0002015287-26-000012-1498",
     "personId": "subaiya-thimaya-k-5287",
     "ticker": "CSCO",
     "type": "sell",
@@ -5880,7 +5910,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000012/0002015287-26-000012-index.htm"
   },
   {
-    "id": "0000858877-26-000098-1491",
+    "id": "0000858877-26-000098-1500",
     "personId": "tuszik-oliver-6411",
     "ticker": "CSCO",
     "type": "sell",
@@ -5895,7 +5925,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000098/0000858877-26-000098-index.htm"
   },
   {
-    "id": "0000858877-26-000097-1495",
+    "id": "0000858877-26-000097-1504",
     "personId": "patterson-mark-0779",
     "ticker": "CSCO",
     "type": "sell",
@@ -5910,7 +5940,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000097/0000858877-26-000097-index.htm"
   },
   {
-    "id": "0000858877-26-000092-1501",
+    "id": "0000858877-26-000092-1510",
     "personId": "robbins-charles-9655",
     "ticker": "CSCO",
     "type": "sell",
@@ -5925,7 +5955,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000092/0000858877-26-000092-index.htm"
   },
   {
-    "id": "0000858877-26-000086-1504",
+    "id": "0000858877-26-000086-1513",
     "personId": "tuszik-oliver-6411",
     "ticker": "CSCO",
     "type": "sell",
@@ -5940,7 +5970,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000086/0000858877-26-000086-index.htm"
   },
   {
-    "id": "0001392941-26-000015-1505",
+    "id": "0001392941-26-000015-1514",
     "personId": "liu-liang-chiu-chu-sara-2941",
     "ticker": "SMCI",
     "type": "sell",
@@ -5955,7 +5985,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000139294126000015/0001392941-26-000015-index.htm"
   },
   {
-    "id": "0001392942-26-000014-1506",
+    "id": "0001392942-26-000014-1515",
     "personId": "liang-charles-2942",
     "ticker": "SMCI",
     "type": "sell",
@@ -5970,7 +6000,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000139294226000014/0001392942-26-000014-index.htm"
   },
   {
-    "id": "0001392942-26-000013-1507",
+    "id": "0001392942-26-000013-1516",
     "personId": "liang-charles-2942",
     "ticker": "SMCI",
     "type": "sell",
@@ -5985,7 +6015,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000139294226000013/0001392942-26-000013-index.htm"
   },
   {
-    "id": "0001392942-26-000013-1509",
+    "id": "0001392942-26-000013-1518",
     "personId": "liang-charles-2942",
     "ticker": "SMCI",
     "type": "sell",
@@ -6000,7 +6030,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000139294226000013/0001392942-26-000013-index.htm"
   },
   {
-    "id": "0001392941-26-000014-1510",
+    "id": "0001392941-26-000014-1519",
     "personId": "liu-liang-chiu-chu-sara-2941",
     "ticker": "SMCI",
     "type": "sell",
@@ -6015,7 +6045,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000139294126000014/0001392941-26-000014-index.htm"
   },
   {
-    "id": "0001392941-26-000014-1512",
+    "id": "0001392941-26-000014-1521",
     "personId": "liu-liang-chiu-chu-sara-2941",
     "ticker": "SMCI",
     "type": "sell",
@@ -6030,7 +6060,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000139294126000014/0001392941-26-000014-index.htm"
   },
   {
-    "id": "0001821737-26-000016-1513",
+    "id": "0001821737-26-000016-1522",
     "personId": "dageville-benoit-1737",
     "ticker": "SNOW",
     "type": "sell",
@@ -6045,7 +6075,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000016/0001821737-26-000016-index.htm"
   },
   {
-    "id": "0001433644-26-000017-1514",
+    "id": "0001433644-26-000017-1523",
     "personId": "speiser-michael-l-3644",
     "ticker": "SNOW",
     "type": "sell",
@@ -6060,7 +6090,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/0001433644-26-000017-index.htm"
   },
   {
-    "id": "0001979088-26-000022-1521",
+    "id": "0001979088-26-000022-1530",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6075,7 +6105,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000022/0001979088-26-000022-index.htm"
   },
   {
-    "id": "0001628280-26-063478-1522",
+    "id": "0001628280-26-063478-1531",
     "personId": "dageville-benoit-1737",
     "ticker": "SNOW",
     "type": "sell",
@@ -6090,7 +6120,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063478/0001628280-26-063478-index.htm"
   },
   {
-    "id": "0001628280-26-063476-1523",
+    "id": "0001628280-26-063476-1532",
     "personId": "beaulier-jonathan-mead-7025",
     "ticker": "SNOW",
     "type": "sell",
@@ -6105,7 +6135,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063476/0001628280-26-063476-index.htm"
   },
   {
-    "id": "0001628280-26-063114-1524",
+    "id": "0001628280-26-063114-1533",
     "personId": "slootman-frank-2348",
     "ticker": "SNOW",
     "type": "sell",
@@ -6120,7 +6150,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063114/0001628280-26-063114-index.htm"
   },
   {
-    "id": "0001628280-26-063114-1532",
+    "id": "0001628280-26-063114-1541",
     "personId": "slootman-frank-2348",
     "ticker": "SNOW",
     "type": "sell",
@@ -6135,7 +6165,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063114/0001628280-26-063114-index.htm"
   },
   {
-    "id": "0001628280-26-063104-1542",
+    "id": "0001628280-26-063104-1551",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6150,7 +6180,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063104/0001628280-26-063104-index.htm"
   },
   {
-    "id": "0002127025-26-000007-1543",
+    "id": "0002127025-26-000007-1552",
     "personId": "beaulier-jonathan-mead-7025",
     "ticker": "SNOW",
     "type": "sell",
@@ -6165,7 +6195,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000212702526000007/0002127025-26-000007-index.htm"
   },
   {
-    "id": "0002012024-26-000009-1544",
+    "id": "0002012024-26-000009-1553",
     "personId": "ho-emily-2024",
     "ticker": "SNOW",
     "type": "sell",
@@ -6180,7 +6210,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000201202426000009/0002012024-26-000009-index.htm"
   },
   {
-    "id": "0001979088-26-000020-1545",
+    "id": "0001979088-26-000020-1554",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6195,7 +6225,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000020/0001979088-26-000020-index.htm"
   },
   {
-    "id": "0001402348-26-000018-1546",
+    "id": "0001402348-26-000018-1555",
     "personId": "slootman-frank-2348",
     "ticker": "SNOW",
     "type": "sell",
@@ -6210,7 +6240,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000018/0001402348-26-000018-index.htm"
   },
   {
-    "id": "0002038740-26-000011-1547",
+    "id": "0002038740-26-000011-1556",
     "personId": "raghunathan-vivek-8740",
     "ticker": "SNOW",
     "type": "sell",
@@ -6225,7 +6255,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000203874026000011/0002038740-26-000011-index.htm"
   },
   {
-    "id": "0001640147-26-000038-1548",
+    "id": "0001640147-26-000038-1557",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6240,7 +6270,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000038/0001640147-26-000038-index.htm"
   },
   {
-    "id": "0001821737-26-000013-1549",
+    "id": "0001821737-26-000013-1558",
     "personId": "dageville-benoit-1737",
     "ticker": "SNOW",
     "type": "sell",
@@ -6255,7 +6285,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000013/0001821737-26-000013-index.htm"
   },
   {
-    "id": "0001246215-26-000003-1550",
+    "id": "0001246215-26-000003-1559",
     "personId": "garrett-mark-6215",
     "ticker": "SNOW",
     "type": "sell",
@@ -6270,7 +6300,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000124621526000003/0001246215-26-000003-index.htm"
   },
   {
-    "id": "0001231919-26-001154-1551",
+    "id": "0001231919-26-001154-1560",
     "personId": "speiser-michael-l-3644",
     "ticker": "SNOW",
     "type": "sell",
@@ -6285,7 +6315,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000123191926001154/0001231919-26-001154-index.htm"
   },
   {
-    "id": "0001979088-26-000018-1558",
+    "id": "0001979088-26-000018-1567",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6300,7 +6330,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000018/0001979088-26-000018-index.htm"
   },
   {
-    "id": "0001979088-26-000018-1559",
+    "id": "0001979088-26-000018-1568",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6315,7 +6345,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000018/0001979088-26-000018-index.htm"
   },
   {
-    "id": "0001821737-26-000012-1560",
+    "id": "0001821737-26-000012-1569",
     "personId": "dageville-benoit-1737",
     "ticker": "SNOW",
     "type": "sell",
@@ -6330,7 +6360,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000012/0001821737-26-000012-index.htm"
   },
   {
-    "id": "0001402348-26-000017-1561",
+    "id": "0001402348-26-000017-1570",
     "personId": "slootman-frank-2348",
     "ticker": "SNOW",
     "type": "sell",
@@ -6345,7 +6375,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000017/0001402348-26-000017-index.htm"
   },
   {
-    "id": "0001402348-26-000017-1573",
+    "id": "0001402348-26-000017-1582",
     "personId": "slootman-frank-2348",
     "ticker": "SNOW",
     "type": "sell",
@@ -6360,7 +6390,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000017/0001402348-26-000017-index.htm"
   },
   {
-    "id": "0001821737-26-000011-1581",
+    "id": "0001821737-26-000011-1590",
     "personId": "dageville-benoit-1737",
     "ticker": "SNOW",
     "type": "sell",
@@ -6375,7 +6405,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000011/0001821737-26-000011-index.htm"
   },
   {
-    "id": "0001979088-26-000017-1582",
+    "id": "0001979088-26-000017-1591",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6390,7 +6420,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000017/0001979088-26-000017-index.htm"
   },
   {
-    "id": "0001433644-26-000016-1584",
+    "id": "0001433644-26-000016-1593",
     "personId": "speiser-michael-l-3644",
     "ticker": "SNOW",
     "type": "sell",
@@ -6405,7 +6435,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000016/0001433644-26-000016-index.htm"
   },
   {
-    "id": "0001979088-26-000016-1591",
+    "id": "0001979088-26-000016-1600",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6420,7 +6450,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000016/0001979088-26-000016-index.htm"
   },
   {
-    "id": "0001979088-26-000015-1593",
+    "id": "0001979088-26-000015-1602",
     "personId": "kleinerman-christian-9088",
     "ticker": "SNOW",
     "type": "sell",
@@ -6435,7 +6465,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000015/0001979088-26-000015-index.htm"
   },
   {
-    "id": "0001821737-26-000010-1596",
+    "id": "0001821737-26-000010-1605",
     "personId": "dageville-benoit-1737",
     "ticker": "SNOW",
     "type": "sell",
@@ -6450,7 +6480,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000010/0001821737-26-000010-index.htm"
   },
   {
-    "id": "0001402348-26-000016-1597",
+    "id": "0001402348-26-000016-1606",
     "personId": "slootman-frank-2348",
     "ticker": "SNOW",
     "type": "sell",
@@ -6465,7 +6495,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000016/0001402348-26-000016-index.htm"
   },
   {
-    "id": "0001402348-26-000016-1607",
+    "id": "0001402348-26-000016-1616",
     "personId": "slootman-frank-2348",
     "ticker": "SNOW",
     "type": "sell",
@@ -6480,7 +6510,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000016/0001402348-26-000016-index.htm"
   },
   {
-    "id": "0001628280-26-066137-1615",
+    "id": "0001628280-26-066137-1624",
     "personId": "bharathi-sandeep-5808",
     "ticker": "MRVL",
     "type": "sell",
@@ -6495,7 +6525,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026066137/0001628280-26-066137-index.htm"
   },
   {
-    "id": "0001628280-26-066130-1616",
+    "id": "0001628280-26-066130-1625",
     "personId": "murphy-matthew-j-1430",
     "ticker": "MRVL",
     "type": "sell",
@@ -6510,7 +6540,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026066130/0001628280-26-066130-index.htm"
   },
   {
-    "id": "0001628280-26-065570-1617",
+    "id": "0001628280-26-065570-1626",
     "personId": "scarpulla-justin-0963",
     "ticker": "MRVL",
     "type": "sell",
@@ -6525,7 +6555,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026065570/0001628280-26-065570-index.htm"
   },
   {
-    "id": "0001628280-26-064351-1618",
+    "id": "0001628280-26-064351-1627",
     "personId": "koopmans-chris-6204",
     "ticker": "MRVL",
     "type": "sell",
@@ -6540,7 +6570,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026064351/0001628280-26-064351-index.htm"
   },
   {
-    "id": "0001628280-26-062124-1619",
+    "id": "0001628280-26-062124-1628",
     "personId": "murphy-matthew-j-1430",
     "ticker": "MRVL",
     "type": "sell",
@@ -6555,7 +6585,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026062124/0001628280-26-062124-index.htm"
   },
   {
-    "id": "0001628280-26-060112-1620",
+    "id": "0001628280-26-060112-1629",
     "personId": "koopmans-chris-6204",
     "ticker": "MRVL",
     "type": "sell",
@@ -6570,7 +6600,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026060112/0001628280-26-060112-index.htm"
   },
   {
-    "id": "0001628280-26-057525-1621",
+    "id": "0001628280-26-057525-1630",
     "personId": "murphy-matthew-j-1430",
     "ticker": "MRVL",
     "type": "sell",
@@ -6585,7 +6615,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026057525/0001628280-26-057525-index.htm"
   },
   {
-    "id": "0001628280-26-051905-1622",
+    "id": "0001628280-26-051905-1631",
     "personId": "koopmans-chris-6204",
     "ticker": "MRVL",
     "type": "sell",
@@ -6600,7 +6630,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026051905/0001628280-26-051905-index.htm"
   },
   {
-    "id": "0001628280-26-048556-1623",
+    "id": "0001628280-26-048556-1632",
     "personId": "bharathi-sandeep-5808",
     "ticker": "MRVL",
     "type": "sell",
@@ -6615,7 +6645,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026048556/0001628280-26-048556-index.htm"
   },
   {
-    "id": "0001628280-26-048541-1624",
+    "id": "0001628280-26-048541-1633",
     "personId": "murphy-matthew-j-1430",
     "ticker": "MRVL",
     "type": "sell",
@@ -6630,7 +6660,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026048541/0001628280-26-048541-index.htm"
   },
   {
-    "id": "0001628280-26-046627-1625",
+    "id": "0001628280-26-046627-1634",
     "personId": "koopmans-chris-6204",
     "ticker": "MRVL",
     "type": "sell",
@@ -6645,7 +6675,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026046627/0001628280-26-046627-index.htm"
   },
   {
-    "id": "0001628280-26-044905-1626",
+    "id": "0001628280-26-044905-1635",
     "personId": "durn-daniel-0062",
     "ticker": "MRVL",
     "type": "sell",
@@ -6660,7 +6690,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026044905/0001628280-26-044905-index.htm"
   },
   {
-    "id": "0001628280-26-044030-1627",
+    "id": "0001628280-26-044030-1636",
     "personId": "bharathi-sandeep-5808",
     "ticker": "MRVL",
     "type": "sell",
@@ -6675,7 +6705,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026044030/0001628280-26-044030-index.htm"
   },
   {
-    "id": "0001628280-26-043503-1628",
+    "id": "0001628280-26-043503-1637",
     "personId": "murphy-matthew-j-1430",
     "ticker": "MRVL",
     "type": "sell",
@@ -6690,7 +6720,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026043503/0001628280-26-043503-index.htm"
   },
   {
-    "id": "0001628280-26-039656-1629",
+    "id": "0001628280-26-039656-1638",
     "personId": "koopmans-chris-6204",
     "ticker": "MRVL",
     "type": "sell",
@@ -6705,7 +6735,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026039656/0001628280-26-039656-index.htm"
   },
   {
-    "id": "0000097476-26-000156-1630",
+    "id": "0000097476-26-000156-1639",
     "personId": "abraham-tsedeniya-7064",
     "ticker": "TXN",
     "type": "sell",
@@ -6720,7 +6750,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000156/0000097476-26-000156-index.htm"
   },
   {
-    "id": "0001319699-26-000004-1632",
+    "id": "0001319699-26-000004-1641",
     "personId": "craighead-martin-s-9699",
     "ticker": "TXN",
     "type": "sell",
@@ -6735,7 +6765,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000131969926000004/0001319699-26-000004-index.htm"
   },
   {
-    "id": "0000097476-26-000141-1634",
+    "id": "0000097476-26-000141-1643",
     "personId": "bahai-ahmad-8135",
     "ticker": "TXN",
     "type": "sell",
@@ -6750,7 +6780,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000141/0000097476-26-000141-index.htm"
   },
   {
-    "id": "0000097476-26-000140-1635",
+    "id": "0000097476-26-000140-1644",
     "personId": "lizardi-rafael-r-1660",
     "ticker": "TXN",
     "type": "sell",
@@ -6765,7 +6795,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000140/0000097476-26-000140-index.htm"
   },
   {
-    "id": "0000097476-26-000137-1638",
+    "id": "0000097476-26-000137-1647",
     "personId": "cox-carrie-smith-0753",
     "ticker": "TXN",
     "type": "sell",
@@ -6780,7 +6810,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000137/0000097476-26-000137-index.htm"
   },
   {
-    "id": "0000097476-26-000135-1640",
+    "id": "0000097476-26-000135-1649",
     "personId": "leonard-shanon-j-0456",
     "ticker": "TXN",
     "type": "sell",
@@ -6795,7 +6825,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000135/0000097476-26-000135-index.htm"
   },
   {
-    "id": "0000097476-26-000131-1641",
+    "id": "0000097476-26-000131-1650",
     "personId": "ilan-haviv-5466",
     "ticker": "TXN",
     "type": "sell",
@@ -6810,7 +6840,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000131/0000097476-26-000131-index.htm"
   },
   {
-    "id": "0000097476-26-000129-1642",
+    "id": "0000097476-26-000129-1651",
     "personId": "knecht-julie-c-9349",
     "ticker": "TXN",
     "type": "sell",
@@ -6825,7 +6855,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000129/0000097476-26-000129-index.htm"
   },
   {
-    "id": "0000097476-26-000127-1644",
+    "id": "0000097476-26-000127-1653",
     "personId": "gary-mark-1977",
     "ticker": "TXN",
     "type": "sell",
@@ -6840,7 +6870,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000127/0000097476-26-000127-index.htm"
   },
   {
-    "id": "0000097476-26-000126-1645",
+    "id": "0000097476-26-000126-1654",
     "personId": "roberts-mark-t-9255",
     "ticker": "TXN",
     "type": "sell",
@@ -6855,7 +6885,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000126/0000097476-26-000126-index.htm"
   },
   {
-    "id": "0000097476-26-000123-1647",
+    "id": "0000097476-26-000123-1656",
     "personId": "yunus-mohammad-8366",
     "ticker": "TXN",
     "type": "sell",
@@ -6870,7 +6900,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000123/0000097476-26-000123-index.htm"
   },
   {
-    "id": "0000097476-26-000120-1650",
+    "id": "0000097476-26-000120-1659",
     "personId": "kane-katharine-2065",
     "ticker": "TXN",
     "type": "sell",
@@ -6885,7 +6915,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000120/0000097476-26-000120-index.htm"
   },
   {
-    "id": "0000097476-26-000119-1652",
+    "id": "0000097476-26-000119-1661",
     "personId": "bahai-ahmad-8135",
     "ticker": "TXN",
     "type": "sell",
@@ -6900,7 +6930,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000119/0000097476-26-000119-index.htm"
   },
   {
-    "id": "0000097476-26-000115-1653",
+    "id": "0000097476-26-000115-1662",
     "personId": "leonard-shanon-j-0456",
     "ticker": "TXN",
     "type": "sell",
@@ -6915,7 +6945,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000115/0000097476-26-000115-index.htm"
   },
   {
-    "id": "0000097476-26-000114-1654",
+    "id": "0000097476-26-000114-1663",
     "personId": "bluedorn-todd-m-5277",
     "ticker": "TXN",
     "type": "sell",
@@ -6930,7 +6960,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000114/0000097476-26-000114-index.htm"
   },
   {
-    "id": "0000097476-26-000113-1655",
+    "id": "0000097476-26-000113-1664",
     "personId": "ron-amichai-8389",
     "ticker": "TXN",
     "type": "sell",
@@ -6945,7 +6975,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000113/0000097476-26-000113-index.htm"
   },
   {
-    "id": "0000097476-26-000112-1656",
+    "id": "0000097476-26-000112-1665",
     "personId": "blinn-mark-a-9149",
     "ticker": "TXN",
     "type": "sell",
@@ -6960,7 +6990,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000112/0000097476-26-000112-index.htm"
   },
   {
-    "id": "0000097476-26-000111-1659",
+    "id": "0000097476-26-000111-1668",
     "personId": "lizardi-rafael-r-1660",
     "ticker": "TXN",
     "type": "sell",
@@ -6975,7 +7005,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000111/0000097476-26-000111-index.htm"
   },
   {
-    "id": "0000097476-26-000110-1662",
+    "id": "0000097476-26-000110-1671",
     "personId": "patsley-pamela-h-2591",
     "ticker": "TXN",
     "type": "sell",
@@ -6990,7 +7020,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000110/0000097476-26-000110-index.htm"
   },
   {
-    "id": "0000097476-26-000109-1663",
+    "id": "0000097476-26-000109-1672",
     "personId": "witzsche-christine-3939",
     "ticker": "TXN",
     "type": "sell",
@@ -7005,7 +7035,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000109/0000097476-26-000109-index.htm"
   },
   {
-    "id": "0000097476-26-000073-1664",
+    "id": "0000097476-26-000073-1673",
     "personId": "kozanian-hagop-h-6766",
     "ticker": "TXN",
     "type": "sell",
@@ -7020,7 +7050,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000073/0000097476-26-000073-index.htm"
   },
   {
-    "id": "0000097476-26-000071-1665",
+    "id": "0000097476-26-000071-1674",
     "personId": "bahai-ahmad-8135",
     "ticker": "TXN",
     "type": "sell",
@@ -7035,7 +7065,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000071/0000097476-26-000071-index.htm"
   },
   {
-    "id": "0000097476-26-000070-1666",
+    "id": "0000097476-26-000070-1675",
     "personId": "gary-mark-1977",
     "ticker": "TXN",
     "type": "sell",
@@ -7050,7 +7080,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000070/0000097476-26-000070-index.htm"
   },
   {
-    "id": "0000097476-26-000070-1667",
+    "id": "0000097476-26-000070-1676",
     "personId": "gary-mark-1977",
     "ticker": "TXN",
     "type": "sell",
@@ -7065,7 +7095,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000070/0000097476-26-000070-index.htm"
   },
   {
-    "id": "0000097476-26-000069-1668",
+    "id": "0000097476-26-000069-1677",
     "personId": "lizardi-rafael-r-1660",
     "ticker": "TXN",
     "type": "sell",
@@ -7080,7 +7110,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000069/0000097476-26-000069-index.htm"
   },
   {
-    "id": "0000097476-26-000069-1670",
+    "id": "0000097476-26-000069-1679",
     "personId": "lizardi-rafael-r-1660",
     "ticker": "TXN",
     "type": "sell",
@@ -7095,7 +7125,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000069/0000097476-26-000069-index.htm"
   },
   {
-    "id": "0000097476-26-000065-1671",
+    "id": "0000097476-26-000065-1680",
     "personId": "roberts-mark-t-9255",
     "ticker": "TXN",
     "type": "sell",
@@ -7110,7 +7140,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000065/0000097476-26-000065-index.htm"
   },
   {
-    "id": "0000097476-26-000063-1672",
+    "id": "0000097476-26-000063-1681",
     "personId": "blinn-mark-a-9149",
     "ticker": "TXN",
     "type": "sell",
@@ -7125,7 +7155,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000063/0000097476-26-000063-index.htm"
   },
   {
-    "id": "0000097476-26-000062-1673",
+    "id": "0000097476-26-000062-1682",
     "personId": "bahai-ahmad-8135",
     "ticker": "TXN",
     "type": "sell",
@@ -7140,7 +7170,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000062/0000097476-26-000062-index.htm"
   },
   {
-    "id": "0001193125-26-420388-1674",
+    "id": "0001193125-26-420388-1683",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7155,7 +7185,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526420388/0001193125-26-420388-index.htm"
   },
   {
-    "id": "0001193125-26-420388-1676",
+    "id": "0001193125-26-420388-1685",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7170,7 +7200,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526420388/0001193125-26-420388-index.htm"
   },
   {
-    "id": "0001193125-26-399364-1679",
+    "id": "0001193125-26-399364-1688",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7185,7 +7215,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526399364/0001193125-26-399364-index.htm"
   },
   {
-    "id": "0001193125-26-398168-1680",
+    "id": "0001193125-26-398168-1689",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7200,7 +7230,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526398168/0001193125-26-398168-index.htm"
   },
   {
-    "id": "0001193125-26-385183-1683",
+    "id": "0001193125-26-385183-1692",
     "personId": "chow-thomas-c-4012",
     "ticker": "MSTR",
     "type": "sell",
@@ -7215,7 +7245,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526385183/0001193125-26-385183-index.htm"
   },
   {
-    "id": "0001193125-26-376987-1684",
+    "id": "0001193125-26-376987-1693",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7230,7 +7260,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526376987/0001193125-26-376987-index.htm"
   },
   {
-    "id": "0001193125-26-368879-1686",
+    "id": "0001193125-26-368879-1695",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7245,7 +7275,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526368879/0001193125-26-368879-index.htm"
   },
   {
-    "id": "0001193125-26-368879-1687",
+    "id": "0001193125-26-368879-1696",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7260,7 +7290,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526368879/0001193125-26-368879-index.htm"
   },
   {
-    "id": "0001193125-26-342315-1690",
+    "id": "0001193125-26-342315-1699",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7275,7 +7305,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526342315/0001193125-26-342315-index.htm"
   },
   {
-    "id": "0001193125-26-321074-1693",
+    "id": "0001193125-26-321074-1702",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7290,7 +7320,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526321074/0001193125-26-321074-index.htm"
   },
   {
-    "id": "0001193125-26-321074-1694",
+    "id": "0001193125-26-321074-1703",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7305,7 +7335,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526321074/0001193125-26-321074-index.htm"
   },
   {
-    "id": "0001193125-26-314630-1695",
+    "id": "0001193125-26-314630-1704",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7320,7 +7350,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526314630/0001193125-26-314630-index.htm"
   },
   {
-    "id": "0001309191-26-000031-1696",
+    "id": "0001309191-26-000031-1705",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7335,7 +7365,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000031/0001309191-26-000031-index.htm"
   },
   {
-    "id": "0001651669-26-000010-1697",
+    "id": "0001651669-26-000010-1706",
     "personId": "le-phong-1669",
     "ticker": "MSTR",
     "type": "buy",
@@ -7350,7 +7380,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000010/0001651669-26-000010-index.htm"
   },
   {
-    "id": "0001309191-26-000029-1698",
+    "id": "0001309191-26-000029-1707",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7365,7 +7395,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000029/0001309191-26-000029-index.htm"
   },
   {
-    "id": "0001309191-26-000027-1699",
+    "id": "0001309191-26-000027-1708",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7380,7 +7410,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000027/0001309191-26-000027-index.htm"
   },
   {
-    "id": "0001834012-26-000002-1700",
+    "id": "0001834012-26-000002-1709",
     "personId": "chow-thomas-c-4012",
     "ticker": "MSTR",
     "type": "buy",
@@ -7395,7 +7425,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000183401226000002/0001834012-26-000002-index.htm"
   },
   {
-    "id": "0001651669-26-000007-1702",
+    "id": "0001651669-26-000007-1711",
     "personId": "le-phong-1669",
     "ticker": "MSTR",
     "type": "sell",
@@ -7410,7 +7440,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000007/0001651669-26-000007-index.htm"
   },
   {
-    "id": "0001825170-26-000008-1705",
+    "id": "0001825170-26-000008-1714",
     "personId": "kang-andrew-5170",
     "ticker": "MSTR",
     "type": "sell",
@@ -7425,7 +7455,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000182517026000008/0001825170-26-000008-index.htm"
   },
   {
-    "id": "0001444548-26-000002-1708",
+    "id": "0001444548-26-000002-1717",
     "personId": "montgomery-jeanine-4548",
     "ticker": "MSTR",
     "type": "sell",
@@ -7440,7 +7470,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000144454826000002/0001444548-26-000002-index.htm"
   },
   {
-    "id": "0001651669-26-000005-1711",
+    "id": "0001651669-26-000005-1720",
     "personId": "le-phong-1669",
     "ticker": "MSTR",
     "type": "sell",
@@ -7455,7 +7485,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000005/0001651669-26-000005-index.htm"
   },
   {
-    "id": "0001825170-26-000006-1723",
+    "id": "0001825170-26-000006-1732",
     "personId": "kang-andrew-5170",
     "ticker": "MSTR",
     "type": "sell",
@@ -7470,7 +7500,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000182517026000006/0001825170-26-000006-index.htm"
   },
   {
-    "id": "0001309191-26-000022-1735",
+    "id": "0001309191-26-000022-1744",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7485,7 +7515,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000022/0001309191-26-000022-index.htm"
   },
   {
-    "id": "0001309191-26-000022-1740",
+    "id": "0001309191-26-000022-1749",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7500,7 +7530,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000022/0001309191-26-000022-index.htm"
   },
   {
-    "id": "0001309191-26-000020-1746",
+    "id": "0001309191-26-000020-1755",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7515,7 +7545,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000020/0001309191-26-000020-index.htm"
   },
   {
-    "id": "0001651669-26-000003-1747",
+    "id": "0001651669-26-000003-1756",
     "personId": "le-phong-1669",
     "ticker": "MSTR",
     "type": "buy",
@@ -7530,7 +7560,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000003/0001651669-26-000003-index.htm"
   },
   {
-    "id": "0001309191-26-000018-1749",
+    "id": "0001309191-26-000018-1758",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7545,7 +7575,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000018/0001309191-26-000018-index.htm"
   },
   {
-    "id": "0001309191-26-000018-1752",
+    "id": "0001309191-26-000018-1761",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7560,7 +7590,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000018/0001309191-26-000018-index.htm"
   },
   {
-    "id": "0001825170-26-000004-1754",
+    "id": "0001825170-26-000004-1763",
     "personId": "kang-andrew-5170",
     "ticker": "MSTR",
     "type": "sell",
@@ -7575,7 +7605,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000182517026000004/0001825170-26-000004-index.htm"
   },
   {
-    "id": "0001309191-26-000016-1757",
+    "id": "0001309191-26-000016-1766",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7590,7 +7620,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000016/0001309191-26-000016-index.htm"
   },
   {
-    "id": "0001193125-26-219555-1759",
+    "id": "0001193125-26-219555-1768",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7605,7 +7635,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526219555/0001193125-26-219555-index.htm"
   },
   {
-    "id": "0001193125-26-219555-1760",
+    "id": "0001193125-26-219555-1769",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7620,7 +7650,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526219555/0001193125-26-219555-index.htm"
   },
   {
-    "id": "0001309191-26-000014-1765",
+    "id": "0001309191-26-000014-1774",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7635,7 +7665,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000014/0001309191-26-000014-index.htm"
   },
   {
-    "id": "0001309191-26-000012-1769",
+    "id": "0001309191-26-000012-1778",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7650,7 +7680,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000012/0001309191-26-000012-index.htm"
   },
   {
-    "id": "0001309191-26-000012-1772",
+    "id": "0001309191-26-000012-1781",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7665,7 +7695,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000012/0001309191-26-000012-index.htm"
   },
   {
-    "id": "0001309191-26-000010-1776",
+    "id": "0001309191-26-000010-1785",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7680,7 +7710,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000010/0001309191-26-000010-index.htm"
   },
   {
-    "id": "0001309191-26-000008-1780",
+    "id": "0001309191-26-000008-1789",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7695,7 +7725,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000008/0001309191-26-000008-index.htm"
   },
   {
-    "id": "0001309191-26-000008-1782",
+    "id": "0001309191-26-000008-1791",
     "personId": "patten-jarrod-m-9191",
     "ticker": "MSTR",
     "type": "sell",
@@ -7710,7 +7740,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000130919126000008/0001309191-26-000008-index.htm"
   },
   {
-    "id": "0001160077-26-000010-1783",
+    "id": "0001160077-26-000010-1792",
     "personId": "andreessen-marc-l-0077",
     "ticker": "COIN",
     "type": "sell",
@@ -7725,7 +7755,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000116007726000010/0001160077-26-000010-index.htm"
   },
   {
-    "id": "0001160077-26-000010-1784",
+    "id": "0001160077-26-000010-1793",
     "personId": "andreessen-marc-l-0077",
     "ticker": "COIN",
     "type": "sell",
@@ -7740,7 +7770,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000116007726000010/0001160077-26-000010-index.htm"
   },
   {
-    "id": "0001679788-26-000109-1785",
+    "id": "0001679788-26-000109-1794",
     "personId": "haas-alesia-j-8711",
     "ticker": "COIN",
     "type": "sell",
@@ -7755,7 +7785,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000109/0001679788-26-000109-index.htm"
   },
   {
-    "id": "0001679788-26-000108-1789",
+    "id": "0001679788-26-000108-1798",
     "personId": "andreessen-marc-l-0077",
     "ticker": "COIN",
     "type": "sell",
@@ -7770,7 +7800,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000108/0001679788-26-000108-index.htm"
   },
   {
-    "id": "0001679788-26-000107-1790",
+    "id": "0001679788-26-000107-1799",
     "personId": "andreessen-marc-l-0077",
     "ticker": "COIN",
     "type": "sell",
@@ -7785,7 +7815,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000107/0001679788-26-000107-index.htm"
   },
   {
-    "id": "0001679788-26-000106-1791",
+    "id": "0001679788-26-000106-1800",
     "personId": "wilson-frederick-r-7688",
     "ticker": "COIN",
     "type": "sell",
@@ -7800,7 +7830,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000106/0001679788-26-000106-index.htm"
   },
   {
-    "id": "0001679788-26-000099-1798",
+    "id": "0001679788-26-000099-1807",
     "personId": "jones-jennifer-n-1432",
     "ticker": "COIN",
     "type": "sell",
@@ -7815,7 +7845,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000099/0001679788-26-000099-index.htm"
   },
   {
-    "id": "0001679788-26-000090-1799",
+    "id": "0001679788-26-000090-1808",
     "personId": "wilson-frederick-r-7688",
     "ticker": "COIN",
     "type": "sell",
@@ -7830,7 +7860,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000090/0001679788-26-000090-index.htm"
   },
   {
-    "id": "0001227688-26-000008-1814",
+    "id": "0001227688-26-000008-1823",
     "personId": "wilson-frederick-r-7688",
     "ticker": "COIN",
     "type": "sell",
@@ -7845,7 +7875,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000122768826000008/0001227688-26-000008-index.htm"
   },
   {
-    "id": "0001679788-26-000064-1828",
+    "id": "0001679788-26-000064-1837",
     "personId": "jones-jennifer-n-1432",
     "ticker": "COIN",
     "type": "sell",
@@ -7860,7 +7890,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000064/0001679788-26-000064-index.htm"
   },
   {
-    "id": "0001679788-26-000063-1829",
+    "id": "0001679788-26-000063-1838",
     "personId": "wilson-frederick-r-7688",
     "ticker": "COIN",
     "type": "sell",
@@ -7875,7 +7905,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000063/0001679788-26-000063-index.htm"
   },
   {
-    "id": "0001679788-26-000062-1839",
+    "id": "0001679788-26-000062-1848",
     "personId": "grewal-paul-1414",
     "ticker": "COIN",
     "type": "sell",
@@ -7890,7 +7920,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000062/0001679788-26-000062-index.htm"
   },
   {
-    "id": "0001679788-26-000061-1845",
+    "id": "0001679788-26-000061-1854",
     "personId": "brock-lawrence-j-3975",
     "ticker": "COIN",
     "type": "sell",
@@ -7905,7 +7935,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000061/0001679788-26-000061-index.htm"
   },
   {
-    "id": "0001679788-26-000055-1854",
+    "id": "0001679788-26-000055-1863",
     "personId": "haas-alesia-j-8711",
     "ticker": "COIN",
     "type": "sell",
@@ -7920,7 +7950,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000055/0001679788-26-000055-index.htm"
   },
   {
-    "id": "0001679788-26-000036-1855",
+    "id": "0001679788-26-000036-1864",
     "personId": "haas-alesia-j-8711",
     "ticker": "COIN",
     "type": "sell",
@@ -7935,7 +7965,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000036/0001679788-26-000036-index.htm"
   },
   {
-    "id": "0001679788-26-000032-1856",
+    "id": "0001679788-26-000032-1865",
     "personId": "haas-alesia-j-8711",
     "ticker": "COIN",
     "type": "sell",
@@ -7950,7 +7980,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000032/0001679788-26-000032-index.htm"
   },
   {
-    "id": "0001668711-26-000003-1858",
+    "id": "0001668711-26-000003-1867",
     "personId": "haas-alesia-j-8711",
     "ticker": "COIN",
     "type": "sell",
@@ -7965,7 +7995,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000166871126000003/0001668711-26-000003-index.htm"
   },
   {
-    "id": "0001679788-26-000031-1859",
+    "id": "0001679788-26-000031-1868",
     "personId": "grewal-paul-1414",
     "ticker": "COIN",
     "type": "sell",
@@ -7980,7 +8010,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000031/0001679788-26-000031-index.htm"
   },
   {
-    "id": "0001403161-26-000123-1866",
+    "id": "0001403161-26-000123-1875",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -7995,7 +8025,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000123/0001403161-26-000123-index.htm"
   },
   {
-    "id": "0001403161-26-000118-1867",
+    "id": "0001403161-26-000118-1876",
     "personId": "rottenberg-julie-b-7192",
     "ticker": "V",
     "type": "sell",
@@ -8010,7 +8040,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000118/0001403161-26-000118-index.htm"
   },
   {
-    "id": "0001403161-26-000117-1868",
+    "id": "0001403161-26-000117-1877",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -8025,7 +8055,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000117/0001403161-26-000117-index.htm"
   },
   {
-    "id": "0001403161-26-000115-1869",
+    "id": "0001403161-26-000115-1878",
     "personId": "rottenberg-julie-b-7192",
     "ticker": "V",
     "type": "sell",
@@ -8040,7 +8070,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000115/0001403161-26-000115-index.htm"
   },
   {
-    "id": "0001403161-26-000113-1870",
+    "id": "0001403161-26-000113-1879",
     "personId": "taneja-rajat-2601",
     "ticker": "V",
     "type": "sell",
@@ -8055,7 +8085,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000113/0001403161-26-000113-index.htm"
   },
   {
-    "id": "0001403161-26-000112-1871",
+    "id": "0001403161-26-000112-1880",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -8070,7 +8100,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000112/0001403161-26-000112-index.htm"
   },
   {
-    "id": "0001403161-26-000107-1872",
+    "id": "0001403161-26-000107-1881",
     "personId": "mahon-tullier-kelly-1104",
     "ticker": "V",
     "type": "sell",
@@ -8085,7 +8115,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000107/0001403161-26-000107-index.htm"
   },
   {
-    "id": "0001403161-26-000090-1874",
+    "id": "0001403161-26-000090-1883",
     "personId": "rottenberg-julie-b-7192",
     "ticker": "V",
     "type": "sell",
@@ -8100,7 +8130,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000090/0001403161-26-000090-index.htm"
   },
   {
-    "id": "0001403161-26-000089-1875",
+    "id": "0001403161-26-000089-1884",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -8115,7 +8145,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000089/0001403161-26-000089-index.htm"
   },
   {
-    "id": "0001403161-26-000088-1877",
+    "id": "0001403161-26-000088-1886",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -8130,7 +8160,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000088/0001403161-26-000088-index.htm"
   },
   {
-    "id": "0001403161-26-000083-1878",
+    "id": "0001403161-26-000083-1887",
     "personId": "suh-chris-5015",
     "ticker": "V",
     "type": "sell",
@@ -8145,7 +8175,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000083/0001403161-26-000083-index.htm"
   },
   {
-    "id": "0001403161-26-000081-1879",
+    "id": "0001403161-26-000081-1888",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -8160,7 +8190,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000081/0001403161-26-000081-index.htm"
   },
   {
-    "id": "0001403161-26-000065-1880",
+    "id": "0001403161-26-000065-1889",
     "personId": "carney-lloyd-4424",
     "ticker": "V",
     "type": "sell",
@@ -8175,7 +8205,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000065/0001403161-26-000065-index.htm"
   },
   {
-    "id": "0001403161-26-000002-1881",
+    "id": "0001403161-26-000002-1890",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -8190,7 +8220,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000002/0001403161-26-000002-index.htm"
   },
   {
-    "id": "0001403161-25-000129-1882",
+    "id": "0001403161-25-000129-1891",
     "personId": "rottenberg-julie-b-7192",
     "ticker": "V",
     "type": "sell",
@@ -8205,7 +8235,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000129/0001403161-25-000129-index.htm"
   },
   {
-    "id": "0001403161-25-000127-1883",
+    "id": "0001403161-25-000127-1892",
     "personId": "mcinerney-ryan-8261",
     "ticker": "V",
     "type": "sell",
@@ -8220,7 +8250,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000127/0001403161-25-000127-index.htm"
   },
   {
-    "id": "0001403161-25-000123-1884",
+    "id": "0001403161-25-000123-1893",
     "personId": "fabara-paul-d-6987",
     "ticker": "V",
     "type": "sell",
@@ -8235,7 +8265,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000123/0001403161-25-000123-index.htm"
   },
   {
-    "id": "0001905272-26-000016-1885",
+    "id": "0001905272-26-000016-1894",
     "personId": "natali-chris-5272",
     "ticker": "PYPL",
     "type": "sell",
@@ -8250,7 +8280,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000190527226000016/0001905272-26-000016-index.htm"
   },
   {
-    "id": "0001896086-26-000016-1886",
+    "id": "0001896086-26-000016-1895",
     "personId": "kereere-suzan-6086",
     "ticker": "PYPL",
     "type": "sell",
@@ -8265,7 +8295,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000189608626000016/0001896086-26-000016-index.htm"
   },
   {
-    "id": "0002006416-26-000017-1889",
+    "id": "0002006416-26-000017-1898",
     "personId": "keller-frank-6416",
     "ticker": "PYPL",
     "type": "sell",
@@ -8280,7 +8310,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000200641626000017/0002006416-26-000017-index.htm"
   },
   {
-    "id": "0001896086-26-000012-1892",
+    "id": "0001896086-26-000012-1901",
     "personId": "kereere-suzan-6086",
     "ticker": "PYPL",
     "type": "sell",
@@ -8295,7 +8325,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000189608626000012/0001896086-26-000012-index.htm"
   },
   {
-    "id": "0001905272-26-000012-1894",
+    "id": "0001905272-26-000012-1903",
     "personId": "natali-chris-5272",
     "ticker": "PYPL",
     "type": "sell",
@@ -8310,7 +8340,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000190527226000012/0001905272-26-000012-index.htm"
   },
   {
-    "id": "0002006416-26-000013-1895",
+    "id": "0002006416-26-000013-1904",
     "personId": "keller-frank-6416",
     "ticker": "PYPL",
     "type": "sell",
@@ -8325,7 +8355,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000200641626000013/0002006416-26-000013-index.htm"
   },
   {
-    "id": "0001193125-26-273170-1896",
+    "id": "0001193125-26-273170-1905",
     "personId": "miller-jamie-s-0697",
     "ticker": "PYPL",
     "type": "buy",
@@ -8340,7 +8370,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000119312526273170/0001193125-26-273170-index.htm"
   },
   {
-    "id": "0001905272-26-000008-1897",
+    "id": "0001905272-26-000008-1906",
     "personId": "natali-chris-5272",
     "ticker": "PYPL",
     "type": "sell",
@@ -8355,7 +8385,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000190527226000008/0001905272-26-000008-index.htm"
   },
   {
-    "id": "0001896086-26-000008-1898",
+    "id": "0001896086-26-000008-1907",
     "personId": "kereere-suzan-6086",
     "ticker": "PYPL",
     "type": "sell",
@@ -8370,7 +8400,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000189608626000008/0001896086-26-000008-index.htm"
   },
   {
-    "id": "0002006416-26-000009-1899",
+    "id": "0002006416-26-000009-1908",
     "personId": "keller-frank-6416",
     "ticker": "PYPL",
     "type": "sell",
@@ -8385,7 +8415,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000200641626000009/0002006416-26-000009-index.htm"
   },
   {
-    "id": "0001778564-26-000187-1900",
+    "id": "0001778564-26-000187-1909",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8400,7 +8430,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000187/0001778564-26-000187-index.htm"
   },
   {
-    "id": "0001778564-26-000187-1907",
+    "id": "0001778564-26-000187-1916",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8415,7 +8445,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000187/0001778564-26-000187-index.htm"
   },
   {
-    "id": "0001872303-26-000013-1922",
+    "id": "0001872303-26-000013-1931",
     "personId": "flower-johanna-2303",
     "ticker": "CRWD",
     "type": "sell",
@@ -8430,7 +8460,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000187230326000013/0001872303-26-000013-index.htm"
   },
   {
-    "id": "0001778564-26-000185-1940",
+    "id": "0001778564-26-000185-1949",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8445,7 +8475,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000185/0001778564-26-000185-index.htm"
   },
   {
-    "id": "0001778564-26-000185-1948",
+    "id": "0001778564-26-000185-1957",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8460,7 +8490,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000185/0001778564-26-000185-index.htm"
   },
   {
-    "id": "0001778564-26-000183-1956",
+    "id": "0001778564-26-000183-1965",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8475,7 +8505,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000183/0001778564-26-000183-index.htm"
   },
   {
-    "id": "0001778564-26-000182-1961",
+    "id": "0001778564-26-000182-1970",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8490,7 +8520,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000182/0001778564-26-000182-index.htm"
   },
   {
-    "id": "0001778564-26-000182-1971",
+    "id": "0001778564-26-000182-1980",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8505,7 +8535,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000182/0001778564-26-000182-index.htm"
   },
   {
-    "id": "0001778564-26-000179-1991",
+    "id": "0001778564-26-000179-2000",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8520,7 +8550,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000179/0001778564-26-000179-index.htm"
   },
   {
-    "id": "0001778564-26-000179-2001",
+    "id": "0001778564-26-000179-2010",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8535,7 +8565,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000179/0001778564-26-000179-index.htm"
   },
   {
-    "id": "0001778564-26-000177-2012",
+    "id": "0001778564-26-000177-2021",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8550,7 +8580,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/0001778564-26-000177-index.htm"
   },
   {
-    "id": "0001778564-26-000177-2017",
+    "id": "0001778564-26-000177-2026",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8565,7 +8595,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/0001778564-26-000177-index.htm"
   },
   {
-    "id": "0001201326-26-000027-2023",
+    "id": "0001201326-26-000027-2032",
     "personId": "gandhi-sameer-k-1326",
     "ticker": "CRWD",
     "type": "sell",
@@ -8580,7 +8610,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/0001201326-26-000027-index.htm"
   },
   {
-    "id": "0001921602-26-000012-2033",
+    "id": "0001921602-26-000012-2042",
     "personId": "saha-anurag-1602",
     "ticker": "CRWD",
     "type": "sell",
@@ -8595,7 +8625,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000012/0001921602-26-000012-index.htm"
   },
   {
-    "id": "0000950103-26-015176-2039",
+    "id": "0000950103-26-015176-2048",
     "personId": "sentonas-michael-8270",
     "ticker": "CRWD",
     "type": "sell",
@@ -8610,7 +8640,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/0000950103-26-015176-index.htm"
   },
   {
-    "id": "0000950103-26-015151-2046",
+    "id": "0000950103-26-015151-2055",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8625,7 +8655,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/0000950103-26-015151-index.htm"
   },
   {
-    "id": "0000950103-26-015151-2053",
+    "id": "0000950103-26-015151-2062",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8640,7 +8670,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/0000950103-26-015151-index.htm"
   },
   {
-    "id": "0001778564-26-000175-2061",
+    "id": "0001778564-26-000175-2070",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8655,7 +8685,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000175/0001778564-26-000175-index.htm"
   },
   {
-    "id": "0001778564-26-000175-2072",
+    "id": "0001778564-26-000175-2081",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8670,7 +8700,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000175/0001778564-26-000175-index.htm"
   },
   {
-    "id": "0001778564-26-000173-2079",
+    "id": "0001778564-26-000173-2088",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8685,7 +8715,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000173/0001778564-26-000173-index.htm"
   },
   {
-    "id": "0001778564-26-000173-2084",
+    "id": "0001778564-26-000173-2093",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8700,7 +8730,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000173/0001778564-26-000173-index.htm"
   },
   {
-    "id": "0001778610-26-000024-2092",
+    "id": "0001778610-26-000024-2101",
     "personId": "podbere-burt-w-8610",
     "ticker": "CRWD",
     "type": "sell",
@@ -8715,7 +8745,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/0001778610-26-000024-index.htm"
   },
   {
-    "id": "0001778564-26-000171-2100",
+    "id": "0001778564-26-000171-2109",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8730,7 +8760,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000171/0001778564-26-000171-index.htm"
   },
   {
-    "id": "0001778564-26-000171-2106",
+    "id": "0001778564-26-000171-2115",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8745,7 +8775,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000171/0001778564-26-000171-index.htm"
   },
   {
-    "id": "0001921602-26-000010-2118",
+    "id": "0001921602-26-000010-2127",
     "personId": "saha-anurag-1602",
     "ticker": "CRWD",
     "type": "sell",
@@ -8760,7 +8790,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000010/0001921602-26-000010-index.htm"
   },
   {
-    "id": "0001968270-26-000015-2120",
+    "id": "0001968270-26-000015-2129",
     "personId": "sentonas-michael-8270",
     "ticker": "CRWD",
     "type": "sell",
@@ -8775,7 +8805,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000196827026000015/0001968270-26-000015-index.htm"
   },
   {
-    "id": "0001778564-26-000169-2123",
+    "id": "0001778564-26-000169-2132",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8790,7 +8820,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000169/0001778564-26-000169-index.htm"
   },
   {
-    "id": "0001778610-26-000022-2154",
+    "id": "0001778610-26-000022-2163",
     "personId": "podbere-burt-w-8610",
     "ticker": "CRWD",
     "type": "sell",
@@ -8805,7 +8835,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000022/0001778610-26-000022-index.htm"
   },
   {
-    "id": "0001778564-26-000165-2160",
+    "id": "0001778564-26-000165-2169",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8820,7 +8850,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000165/0001778564-26-000165-index.htm"
   },
   {
-    "id": "0001778564-26-000165-2174",
+    "id": "0001778564-26-000165-2183",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8835,7 +8865,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000165/0001778564-26-000165-index.htm"
   },
   {
-    "id": "0001220632-26-000006-2183",
+    "id": "0001220632-26-000006-2192",
     "personId": "davis-cary-0632",
     "ticker": "CRWD",
     "type": "sell",
@@ -8850,7 +8880,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000122063226000006/0001220632-26-000006-index.htm"
   },
   {
-    "id": "0001445832-26-000011-2185",
+    "id": "0001445832-26-000011-2194",
     "personId": "watzinger-gerhard-5832",
     "ticker": "CRWD",
     "type": "sell",
@@ -8865,7 +8895,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000144583226000011/0001445832-26-000011-index.htm"
   },
   {
-    "id": "0001778564-26-000163-2191",
+    "id": "0001778564-26-000163-2200",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8880,7 +8910,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000163/0001778564-26-000163-index.htm"
   },
   {
-    "id": "0001778564-26-000163-2202",
+    "id": "0001778564-26-000163-2211",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8895,7 +8925,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000163/0001778564-26-000163-index.htm"
   },
   {
-    "id": "0001061632-26-000008-2211",
+    "id": "0001061632-26-000008-2220",
     "personId": "austin-roxanne-s-1632",
     "ticker": "CRWD",
     "type": "sell",
@@ -8910,7 +8940,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000106163226000008/0001061632-26-000008-index.htm"
   },
   {
-    "id": "0001778564-26-000161-2213",
+    "id": "0001778564-26-000161-2222",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8925,7 +8955,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000161/0001778564-26-000161-index.htm"
   },
   {
-    "id": "0001778564-26-000161-2221",
+    "id": "0001778564-26-000161-2230",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8940,7 +8970,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000161/0001778564-26-000161-index.htm"
   },
   {
-    "id": "0001778564-26-000159-2240",
+    "id": "0001778564-26-000159-2249",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8955,7 +8985,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000159/0001778564-26-000159-index.htm"
   },
   {
-    "id": "0001778564-26-000159-2246",
+    "id": "0001778564-26-000159-2255",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8970,7 +9000,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000159/0001778564-26-000159-index.htm"
   },
   {
-    "id": "0001778564-26-000157-2256",
+    "id": "0001778564-26-000157-2265",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -8985,7 +9015,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000157/0001778564-26-000157-index.htm"
   },
   {
-    "id": "0001778564-26-000157-2261",
+    "id": "0001778564-26-000157-2270",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9000,7 +9030,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000157/0001778564-26-000157-index.htm"
   },
   {
-    "id": "0001778564-26-000155-2267",
+    "id": "0001778564-26-000155-2276",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9015,7 +9045,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000155/0001778564-26-000155-index.htm"
   },
   {
-    "id": "0001778564-26-000155-2278",
+    "id": "0001778564-26-000155-2287",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9030,7 +9060,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000155/0001778564-26-000155-index.htm"
   },
   {
-    "id": "0001201326-26-000021-2289",
+    "id": "0001201326-26-000021-2298",
     "personId": "gandhi-sameer-k-1326",
     "ticker": "CRWD",
     "type": "sell",
@@ -9045,7 +9075,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000021/0001201326-26-000021-index.htm"
   },
   {
-    "id": "0001778564-26-000153-2305",
+    "id": "0001778564-26-000153-2314",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9060,7 +9090,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000153/0001778564-26-000153-index.htm"
   },
   {
-    "id": "0001778564-26-000153-2314",
+    "id": "0001778564-26-000153-2323",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9075,7 +9105,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000153/0001778564-26-000153-index.htm"
   },
   {
-    "id": "0001778564-26-000151-2330",
+    "id": "0001778564-26-000151-2339",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9090,7 +9120,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000151/0001778564-26-000151-index.htm"
   },
   {
-    "id": "0001778564-26-000150-2332",
+    "id": "0001778564-26-000150-2341",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9105,7 +9135,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000150/0001778564-26-000150-index.htm"
   },
   {
-    "id": "0000950103-26-013019-2361",
+    "id": "0000950103-26-013019-2370",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
@@ -9120,7 +9150,7 @@
     "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326013019/0000950103-26-013019-index.htm"
   },
   {
-    "id": "0000950103-26-013019-2373",
+    "id": "0000950103-26-013019-2382",
     "personId": "kurtz-george-8564",
     "ticker": "CRWD",
     "type": "sell",
