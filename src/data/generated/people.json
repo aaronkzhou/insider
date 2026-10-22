@@ -2978,6 +2978,17 @@
     "initials": "LC"
   },
   {
+    "id": "slootman-frank-2348",
+    "cik": "1402348",
+    "name": "Slootman Frank",
+    "title": "Director",
+    "company": "SNOW",
+    "roles": {
+      "SNOW": "Director"
+    },
+    "initials": "SF"
+  },
+  {
     "id": "dageville-benoit-1737",
     "cik": "1821737",
     "name": "Dageville Benoit",
@@ -3020,17 +3031,6 @@
       "SNOW": "Chief Revenue Officer"
     },
     "initials": "BJ"
-  },
-  {
-    "id": "slootman-frank-2348",
-    "cik": "1402348",
-    "name": "Slootman Frank",
-    "title": "Director",
-    "company": "SNOW",
-    "roles": {
-      "SNOW": "Director"
-    },
-    "initials": "SF"
   },
   {
     "id": "ho-emily-2024",
