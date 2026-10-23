@@ -2,8 +2,8 @@
   "AAPL": {
     "name": "Apple Inc.",
     "sector": "Technology",
-    "price": 347.46,
-    "priceAsOf": "2026-10-16"
+    "price": 339.62,
+    "priceAsOf": "2026-10-20"
   },
   "MSFT": {
     "name": "Microsoft Corp.",
@@ -44,8 +44,8 @@
   "NFLX": {
     "name": "Netflix Inc.",
     "sector": "Media",
-    "price": 75.27,
-    "priceAsOf": "2026-09-10"
+    "price": 77.6,
+    "priceAsOf": "2026-09-08"
   },
   "JPM": {
     "name": "JPMorgan Chase & Co.",

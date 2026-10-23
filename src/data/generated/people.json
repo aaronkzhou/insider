@@ -1,5 +1,16 @@
 [
   {
+    "id": "newstead-jennifer-0525",
+    "cik": "1780525",
+    "name": "Newstead Jennifer",
+    "title": "SVP, GC and Government Affairs",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "SVP, GC and Government Affairs"
+    },
+    "initials": "NJ"
+  },
+  {
     "id": "borders-ben-0523",
     "cik": "2100523",
     "name": "Borders Ben",
@@ -20,17 +31,6 @@
       "AAPL": "Senior Vice President,  CFO"
     },
     "initials": "PK"
-  },
-  {
-    "id": "newstead-jennifer-0525",
-    "cik": "1780525",
-    "name": "Newstead Jennifer",
-    "title": "SVP, GC and Government Affairs",
-    "company": "AAPL",
-    "roles": {
-      "AAPL": "SVP, GC and Government Affairs"
-    },
-    "initials": "NJ"
   },
   {
     "id": "cook-timothy-d-4156",
