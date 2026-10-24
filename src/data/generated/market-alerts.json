@@ -1,5 +1,68 @@
 {
-  "scannedAt": "2026-10-23T17:19:34.910Z",
-  "filingsScanned": 45,
-  "alerts": []
+  "scannedAt": "2026-10-24T15:58:03.653Z",
+  "filingsScanned": 151,
+  "alerts": [
+    {
+      "ticker": "ZM",
+      "companyName": "Zoom Communications, Inc.",
+      "cik": "0001585521",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "McMaster Herbert Raymond",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1811490/000158552126000155/0001585521-26-000155-index.htm",
+          "type": "sell",
+          "date": "2026-10-21"
+        },
+        {
+          "name": "Subotovsky Santiago",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1773806/000158552126000154/0001585521-26-000154-index.htm",
+          "type": "sell",
+          "date": "2026-10-15"
+        },
+        {
+          "name": "Chang Michelle",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2040959/000158552126000153/0001585521-26-000153-index.htm",
+          "type": "sell",
+          "date": "2026-10-21"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "CHCO",
+      "companyName": "CITY HOLDING CO",
+      "cik": "0000726854",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "STRONG-TREISTER DIANE W",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1730666/000072685426000188/0000726854-26-000188-index.htm",
+          "type": "buy",
+          "date": "2026-10-23"
+        },
+        {
+          "name": "Reyes Javier A",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1880770/000072685426000187/0000726854-26-000187-index.htm",
+          "type": "buy",
+          "date": "2026-10-23"
+        },
+        {
+          "name": "Hoyer James A",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2029548/000072685426000186/0000726854-26-000186-index.htm",
+          "type": "buy",
+          "date": "2026-10-23"
+        }
+      ],
+      "tracked": false,
+      "buys": 3,
+      "sells": 0,
+      "other": 0,
+      "direction": "buy"
+    }
+  ]
 }

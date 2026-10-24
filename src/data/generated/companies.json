@@ -44,8 +44,8 @@
   "NFLX": {
     "name": "Netflix Inc.",
     "sector": "Media",
-    "price": 77.6,
-    "priceAsOf": "2026-09-08"
+    "price": 75.27,
+    "priceAsOf": "2026-09-10"
   },
   "JPM": {
     "name": "JPMorgan Chase & Co.",
@@ -188,8 +188,8 @@
   "SNOW": {
     "name": "Snowflake Inc.",
     "sector": "Technology",
-    "price": 319.995,
-    "priceAsOf": "2026-10-19"
+    "price": 321.74,
+    "priceAsOf": "2026-10-21"
   },
   "MRVL": {
     "name": "Marvell Technology, Inc.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 228.36,
-    "priceAsOf": "2026-10-20"
+    "price": 245.34,
+    "priceAsOf": "2026-10-22"
   },
   "TRMP": {
     "name": "TRMP",
