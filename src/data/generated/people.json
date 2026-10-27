@@ -1707,17 +1707,6 @@
     "initials": "PJ"
   },
   {
-    "id": "barbre-tiffany-marie-6006",
-    "cik": "2076006",
-    "name": "Barbre Tiffany Marie",
-    "title": "Reporting Person",
-    "company": "COST",
-    "roles": {
-      "COST": "Reporting Person"
-    },
-    "initials": "BT"
-  },
-  {
     "id": "hazelbaker-jill-5297",
     "cik": "1775297",
     "name": "Hazelbaker Jill",
@@ -2121,7 +2110,7 @@
         "asOfDate": "2024-11-14",
         "filingType": "Schedule 13G/A",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465924119313/tm2427620d21_sc13ga.htm",
-        "note": "Reduced from 148,925,737 shares (7.1%) as of 2024-02-14 — a real, disclosed change."
+        "note": "Reduced from 268,445,644 shares (16.6%) as of 2021-02-16 — a real, disclosed change."
       },
       {
         "ticker": "CMMB",
@@ -2140,16 +2129,6 @@
         "asOfDate": "2023-04-24",
         "filingType": "Schedule 13D/A",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465923049066/tm2313479d1_sc13da.htm"
-      },
-      {
-        "ticker": "CMPS",
-        "companyName": "COMPASS Pathways plc",
-        "shares": 1305788,
-        "percentOfClass": 3.1,
-        "asOfDate": "2022-02-14",
-        "filingType": "Schedule 13G/A",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm",
-        "note": "Reduced from 2,352,516 shares (6.5%) as of 2021-02-16 — a real, disclosed change."
       },
       {
         "ticker": null,
