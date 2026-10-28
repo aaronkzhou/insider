@@ -44,8 +44,8 @@
   "NFLX": {
     "name": "Netflix Inc.",
     "sector": "Media",
-    "price": 75.27,
-    "priceAsOf": "2026-09-10"
+    "price": 65.1376,
+    "priceAsOf": "2026-10-26"
   },
   "JPM": {
     "name": "JPMorgan Chase & Co.",
@@ -230,8 +230,8 @@
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "price": 245.34,
-    "priceAsOf": "2026-10-22"
+    "price": 263.53,
+    "priceAsOf": "2026-10-26"
   },
   "TRMP": {
     "name": "TRMP",
@@ -283,6 +283,12 @@
   },
   "ABCL": {
     "name": "AbCellera Biologics Inc.",
+    "sector": null,
+    "price": null,
+    "priceAsOf": null
+  },
+  "CMPS": {
+    "name": "COMPASS Pathways plc",
     "sector": null,
     "price": null,
     "priceAsOf": null

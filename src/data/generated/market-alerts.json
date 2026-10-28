@@ -1,5 +1,79 @@
 {
-  "scannedAt": "2026-10-27T17:59:58.647Z",
-  "filingsScanned": 30,
-  "alerts": []
+  "scannedAt": "2026-10-28T18:24:55.421Z",
+  "filingsScanned": 29,
+  "alerts": [
+    {
+      "ticker": "DRDGF",
+      "companyName": "DRDGOLD LTD",
+      "cik": "0001023512",
+      "insiderCount": 10,
+      "insiders": [
+        {
+          "name": "Mashatola Mpho",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2114274/000211427426000008/0002114274-26-000008-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Schoeman Jacobus",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2114041/000211404126000008/0002114041-26-000008-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Laas Lihan",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2119288/000211928826000010/0002119288-26-000010-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Moloto Kgabo",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2119220/000211922026000008/0002119220-26-000008-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Kruger Kevin",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2114046/000211404626000008/0002114046-26-000008-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Bornman Ryno",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2119291/000211929126000008/0002119291-26-000008-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Lindecke Dean",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2119238/000211923826000010/0002119238-26-000010-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Gouws Henry",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2114019/000211401926000008/0002114019-26-000008-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Hooijer Henriette",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2114034/000211403426000009/0002114034-26-000009-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Pretorius Daniel",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2114067/000211406726000009/0002114067-26-000009-index.htm",
+          "type": "sell",
+          "date": "2026-10-27"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 10,
+      "other": 0,
+      "direction": "sell"
+    }
+  ]
 }

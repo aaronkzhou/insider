@@ -1431,17 +1431,6 @@
     "initials": "AF"
   },
   {
-    "id": "saraci-marsida-8895",
-    "cik": "2138895",
-    "name": "Saraci Marsida",
-    "title": "VP, Chief Accounting Officer",
-    "company": "GOOGL",
-    "roles": {
-      "GOOGL": "VP, Chief Accounting Officer"
-    },
-    "initials": "SM"
-  },
-  {
     "id": "olivan-javier-4475",
     "cik": "1564475",
     "name": "Olivan Javier",
@@ -1551,6 +1540,17 @@
       "META": "Director"
     },
     "initials": "AP"
+  },
+  {
+    "id": "smith-bradford-l-3119",
+    "cik": "1193119",
+    "name": "SMITH BRADFORD L",
+    "title": "Director",
+    "company": "NFLX",
+    "roles": {
+      "NFLX": "Director"
+    },
+    "initials": "SB"
   },
   {
     "id": "barton-richard-n-4230",
@@ -1683,28 +1683,6 @@
       "COST": "Executive Vice President"
     },
     "initials": "KJ"
-  },
-  {
-    "id": "miller-russell-d-9741",
-    "cik": "1729741",
-    "name": "Miller Russell D",
-    "title": "Sr. Executive Vice President",
-    "company": "COST",
-    "roles": {
-      "COST": "Sr. Executive Vice President"
-    },
-    "initials": "MR"
-  },
-  {
-    "id": "polit-javier-2700",
-    "cik": "1852700",
-    "name": "POLIT JAVIER",
-    "title": "Executive Vice President",
-    "company": "COST",
-    "roles": {
-      "COST": "Executive Vice President"
-    },
-    "initials": "PJ"
   },
   {
     "id": "hazelbaker-jill-5297",
@@ -2110,7 +2088,7 @@
         "asOfDate": "2024-11-14",
         "filingType": "Schedule 13G/A",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465924119313/tm2427620d21_sc13ga.htm",
-        "note": "Reduced from 268,445,644 shares (16.6%) as of 2021-02-16 — a real, disclosed change."
+        "note": "Reduced from 148,925,737 shares (7.1%) as of 2024-02-14 — a real, disclosed change."
       },
       {
         "ticker": "CMMB",
@@ -2129,6 +2107,16 @@
         "asOfDate": "2023-04-24",
         "filingType": "Schedule 13D/A",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465923049066/tm2313479d1_sc13da.htm"
+      },
+      {
+        "ticker": "CMPS",
+        "companyName": "COMPASS Pathways plc",
+        "shares": 1305788,
+        "percentOfClass": 3.1,
+        "asOfDate": "2022-02-14",
+        "filingType": "Schedule 13G/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211060/000110465922022857/tm226592d3_sc13ga.htm",
+        "note": "Reduced from 2,352,516 shares (6.5%) as of 2021-02-16 — a real, disclosed change."
       },
       {
         "ticker": null,
@@ -2723,17 +2711,6 @@
       "ORCL": "EVP, Chief Legal Officer"
     },
     "initials": "LS"
-  },
-  {
-    "id": "magouyrk-clayton-m-1873",
-    "cik": "2071873",
-    "name": "Magouyrk Clayton M.",
-    "title": "Chief Executive Officer",
-    "company": "ORCL",
-    "roles": {
-      "ORCL": "Chief Executive Officer"
-    },
-    "initials": "MC"
   },
   {
     "id": "kirk-david-blair-7892",
