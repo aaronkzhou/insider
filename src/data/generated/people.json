@@ -1431,6 +1431,17 @@
     "initials": "AF"
   },
   {
+    "id": "alford-peggy-6236",
+    "cik": "1736236",
+    "name": "Alford Peggy",
+    "title": "Director",
+    "company": "META",
+    "roles": {
+      "META": "Director"
+    },
+    "initials": "AP"
+  },
+  {
     "id": "olivan-javier-4475",
     "cik": "1564475",
     "name": "Olivan Javier",
@@ -1529,17 +1540,6 @@
       "META": "Director"
     },
     "initials": "KR"
-  },
-  {
-    "id": "alford-peggy-6236",
-    "cik": "1736236",
-    "name": "Alford Peggy",
-    "title": "Director",
-    "company": "META",
-    "roles": {
-      "META": "Director"
-    },
-    "initials": "AP"
   },
   {
     "id": "smith-bradford-l-3119",
