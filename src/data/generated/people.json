@@ -3066,6 +3066,39 @@
     "initials": "KC"
   },
   {
+    "id": "clark-janet-f-6484",
+    "cik": "1216484",
+    "name": "CLARK JANET F",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "CJ"
+  },
+  {
+    "id": "patsley-pamela-h-2591",
+    "cik": "1182591",
+    "name": "PATSLEY PAMELA H",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "PP"
+  },
+  {
+    "id": "sanchez-robert-e-6931",
+    "cik": "1216931",
+    "name": "SANCHEZ ROBERT E",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "SR"
+  },
+  {
     "id": "abraham-tsedeniya-7064",
     "cik": "2127064",
     "name": "Abraham Tsedeniya",
@@ -3229,17 +3262,6 @@
       "TXN": "Director"
     },
     "initials": "BM"
-  },
-  {
-    "id": "patsley-pamela-h-2591",
-    "cik": "1182591",
-    "name": "PATSLEY PAMELA H",
-    "title": "Director",
-    "company": "TXN",
-    "roles": {
-      "TXN": "Director"
-    },
-    "initials": "PP"
   },
   {
     "id": "witzsche-christine-3939",
