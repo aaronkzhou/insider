@@ -1,5 +1,130 @@
 {
-  "scannedAt": "2026-10-30T18:23:28.751Z",
-  "filingsScanned": 28,
-  "alerts": []
+  "scannedAt": "2026-10-31T17:20:14.880Z",
+  "filingsScanned": 148,
+  "alerts": [
+    {
+      "ticker": "GDYN",
+      "companyName": "GRID DYNAMICS HOLDINGS, INC.",
+      "cik": "0001743725",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Livschitz Leonard",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1805657/000162828026068641/0001628280-26-068641-index.htm",
+          "type": "sell",
+          "date": "2026-10-30"
+        },
+        {
+          "name": "Doradla Anil",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1743725/000162828026068639/0001628280-26-068639-index.htm",
+          "type": "sell",
+          "date": "2026-10-30"
+        },
+        {
+          "name": "Gryzlov Yury",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1805673/000162828026068637/0001628280-26-068637-index.htm",
+          "type": "sell",
+          "date": "2026-10-30"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "PACS",
+      "companyName": "PACS Group, Inc.",
+      "cik": "0002001184",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Lewis Michelle Renee",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2014293/000201429326000012/0002014293-26-000012-index.htm",
+          "type": "sell",
+          "date": "2026-10-28"
+        },
+        {
+          "name": "Murray Jason Hulse",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2014386/000201438626000026/0002014386-26-000026-index.htm",
+          "type": "sell",
+          "date": "2026-10-28"
+        },
+        {
+          "name": "Hancock Mark",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2014361/000201436126000040/0002014361-26-000040-index.htm",
+          "type": "sell",
+          "date": "2026-10-28"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "CAKE",
+      "companyName": "CHEESECAKE FACTORY INC",
+      "cik": "0000887596",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "Clark Matthew Eliot",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1451763/000145176326000014/0001451763-26-000014-index.htm",
+          "type": "sell",
+          "date": "2026-10-29"
+        },
+        {
+          "name": "CAPPELLO ALEXANDER L",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1193532/000119353226000012/0001193532-26-000012-index.htm",
+          "type": "sell",
+          "date": "2026-10-29"
+        },
+        {
+          "name": "May Scarlett",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1305512/000130551226000014/0001305512-26-000014-index.htm",
+          "type": "sell",
+          "date": "2026-10-29"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    },
+    {
+      "ticker": "BROS",
+      "companyName": "Dutch Bros Inc.",
+      "cik": "0001866581",
+      "insiderCount": 3,
+      "insiders": [
+        {
+          "name": "DM Individual Aggregator, LLC",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1883096/000186658126000173/0001866581-26-000173-index.htm",
+          "type": "sell",
+          "date": "2026-10-30"
+        },
+        {
+          "name": "DM Trust Aggregator, LLC",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1883105/000186658126000172/0001866581-26-000172-index.htm",
+          "type": "sell",
+          "date": "2026-10-30"
+        },
+        {
+          "name": "Boersma Travis",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1883154/000186658126000171/0001866581-26-000171-index.htm",
+          "type": "sell",
+          "date": "2026-10-30"
+        }
+      ],
+      "tracked": false,
+      "buys": 0,
+      "sells": 3,
+      "other": 0,
+      "direction": "sell"
+    }
+  ]
 }

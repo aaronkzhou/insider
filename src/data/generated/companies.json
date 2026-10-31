@@ -32,8 +32,8 @@
   "GOOGL": {
     "name": "Alphabet Inc.",
     "sector": "Technology",
-    "price": 340.45,
-    "priceAsOf": "2026-09-30"
+    "price": 284,
+    "priceAsOf": "2026-10-29"
   },
   "META": {
     "name": "Meta Platforms, Inc.",
@@ -200,8 +200,8 @@
   "TXN": {
     "name": "Texas Instruments Inc.",
     "sector": "Semiconductors",
-    "price": 303.07,
-    "priceAsOf": "2026-10-27"
+    "price": 310.39,
+    "priceAsOf": "2026-10-29"
   },
   "MSTR": {
     "name": "Strategy Inc.",
@@ -224,8 +224,8 @@
   "PYPL": {
     "name": "PayPal Holdings, Inc.",
     "sector": "Financials",
-    "price": 56.7083,
-    "priceAsOf": "2026-09-03"
+    "price": 55.37,
+    "priceAsOf": "2026-10-28"
   },
   "CRWD": {
     "name": "CrowdStrike Holdings, Inc.",

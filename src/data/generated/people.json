@@ -3066,6 +3066,17 @@
     "initials": "KC"
   },
   {
+    "id": "kirk-ronald-6342",
+    "cik": "1186342",
+    "name": "KIRK RONALD",
+    "title": "Director",
+    "company": "TXN",
+    "roles": {
+      "TXN": "Director"
+    },
+    "initials": "KR"
+  },
+  {
     "id": "clark-janet-f-6484",
     "cik": "1216484",
     "name": "CLARK JANET F",
@@ -3473,6 +3484,17 @@
     "initials": "FP"
   },
   {
+    "id": "keller-frank-6416",
+    "cik": "2006416",
+    "name": "Keller Frank",
+    "title": "Pres., Checkout Sol. & PayPal",
+    "company": "PYPL",
+    "roles": {
+      "PYPL": "Pres., Checkout Sol. & PayPal"
+    },
+    "initials": "KF"
+  },
+  {
     "id": "natali-chris-5272",
     "cik": "1905272",
     "name": "Natali Chris",
@@ -3493,17 +3515,6 @@
       "PYPL": "President, Global Markets"
     },
     "initials": "KS"
-  },
-  {
-    "id": "keller-frank-6416",
-    "cik": "2006416",
-    "name": "Keller Frank",
-    "title": "Pres., Checkout Sol. & PayPal",
-    "company": "PYPL",
-    "roles": {
-      "PYPL": "Pres., Checkout Sol. & PayPal"
-    },
-    "initials": "KF"
   },
   {
     "id": "miller-jamie-s-0697",
