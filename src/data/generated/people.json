@@ -2702,17 +2702,6 @@
     "initials": "HJ"
   },
   {
-    "id": "levey-stuart-2913",
-    "cik": "1952913",
-    "name": "Levey Stuart",
-    "title": "EVP, Chief Legal Officer",
-    "company": "ORCL",
-    "roles": {
-      "ORCL": "EVP, Chief Legal Officer"
-    },
-    "initials": "LS"
-  },
-  {
     "id": "kirk-david-blair-7892",
     "cik": "2077892",
     "name": "Kirk David Blair",
@@ -3407,6 +3396,17 @@
     "initials": "BL"
   },
   {
+    "id": "carney-lloyd-4424",
+    "cik": "1204424",
+    "name": "CARNEY LLOYD",
+    "title": "Director",
+    "company": "V",
+    "roles": {
+      "V": "Director"
+    },
+    "initials": "CL"
+  },
+  {
     "id": "mcinerney-ryan-8261",
     "cik": "1578261",
     "name": "MCINERNEY RYAN",
@@ -3460,28 +3460,6 @@
       "V": "CHIEF FINANCIAL OFFICER"
     },
     "initials": "SC"
-  },
-  {
-    "id": "carney-lloyd-4424",
-    "cik": "1204424",
-    "name": "CARNEY LLOYD",
-    "title": "Director",
-    "company": "V",
-    "roles": {
-      "V": "Director"
-    },
-    "initials": "CL"
-  },
-  {
-    "id": "fabara-paul-d-6987",
-    "cik": "1646987",
-    "name": "Fabara Paul D",
-    "title": "CHIEF RISK & CLIENT SVCS OFC",
-    "company": "V",
-    "roles": {
-      "V": "CHIEF RISK & CLIENT SVCS OFC"
-    },
-    "initials": "FP"
   },
   {
     "id": "keller-frank-6416",
