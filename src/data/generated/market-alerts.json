@@ -1,37 +1,5 @@
 {
-  "scannedAt": "2026-11-02T21:56:34.553Z",
-  "filingsScanned": 134,
-  "alerts": [
-    {
-      "ticker": "ETSY",
-      "companyName": "ETSY INC",
-      "cik": "0001370637",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "Minor Bradley",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2047113/000204711326000011/0002047113-26-000011-index.htm",
-          "type": "sell",
-          "date": "2026-10-29"
-        },
-        {
-          "name": "WILSON FREDERICK R",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1370637/000122768826000015/0001227688-26-000015-index.htm",
-          "type": "sell",
-          "date": "2026-10-29"
-        },
-        {
-          "name": "Blow Marla J",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1731746/000173174626000007/0001731746-26-000007-index.htm",
-          "type": "sell",
-          "date": "2026-10-29"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 3,
-      "other": 0,
-      "direction": "sell"
-    }
-  ]
+  "scannedAt": "2026-11-03T19:43:18.987Z",
+  "filingsScanned": 28,
+  "alerts": []
 }
