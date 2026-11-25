@@ -11,6 +11,17 @@
     "initials": "NJ"
   },
   {
+    "id": "levinson-arthur-d-4128",
+    "cik": "1214128",
+    "name": "LEVINSON ARTHUR D",
+    "title": "Director",
+    "company": "AAPL",
+    "roles": {
+      "AAPL": "Director"
+    },
+    "initials": "LA"
+  },
+  {
     "id": "borders-ben-0523",
     "cik": "2100523",
     "name": "Borders Ben",
@@ -66,15 +77,15 @@
     "initials": "TJ"
   },
   {
-    "id": "levinson-arthur-d-4128",
-    "cik": "1214128",
-    "name": "LEVINSON ARTHUR D",
-    "title": "Director",
-    "company": "AAPL",
+    "id": "numoto-takeshi-9931",
+    "cik": "1899931",
+    "name": "Numoto Takeshi",
+    "title": "EVP, Chief Marketing Officer",
+    "company": "MSFT",
     "roles": {
-      "AAPL": "Director"
+      "MSFT": "EVP, Chief Marketing Officer"
     },
-    "initials": "LA"
+    "initials": "NT"
   },
   {
     "id": "hood-amy-6843",
@@ -141,17 +152,6 @@
       "NVDA": "Director"
     },
     "initials": "NS"
-  },
-  {
-    "id": "dabiri-john-8224",
-    "cik": "1818224",
-    "name": "Dabiri John",
-    "title": "Director",
-    "company": "NVDA",
-    "roles": {
-      "NVDA": "Director"
-    },
-    "initials": "DJ"
   },
   {
     "id": "taneja-vaibhav-1340",
@@ -1332,17 +1332,6 @@
     "initials": "DR"
   },
   {
-    "id": "herrington-douglas-j-6006",
-    "cik": "1936006",
-    "name": "Herrington Douglas J",
-    "title": "CEO Worldwide Amazon Stores",
-    "company": "AMZN",
-    "roles": {
-      "AMZN": "CEO Worldwide Amazon Stores"
-    },
-    "initials": "HD"
-  },
-  {
     "id": "jassy-andrew-r-4545",
     "cik": "1374545",
     "name": "Jassy Andrew R",
@@ -1363,6 +1352,17 @@
       "AMZN": "CEO Amazon Web Services"
     },
     "initials": "GM"
+  },
+  {
+    "id": "herrington-douglas-j-6006",
+    "cik": "1936006",
+    "name": "Herrington Douglas J",
+    "title": "CEO Worldwide Amazon Stores",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "CEO Worldwide Amazon Stores"
+    },
+    "initials": "HD"
   },
   {
     "id": "zapolsky-david-7979",
@@ -1398,6 +1398,17 @@
     "initials": "RS"
   },
   {
+    "id": "huttenlocher-daniel-p-0567",
+    "cik": "1630567",
+    "name": "Huttenlocher Daniel P",
+    "title": "Director",
+    "company": "AMZN",
+    "roles": {
+      "AMZN": "Director"
+    },
+    "initials": "HD"
+  },
+  {
     "id": "bezos-jeffrey-p-3298",
     "cik": "1043298",
     "name": "BEZOS JEFFREY P",
@@ -1409,15 +1420,15 @@
     "initials": "BJ"
   },
   {
-    "id": "rubinstein-jonathan-9522",
-    "cik": "1209522",
-    "name": "RUBINSTEIN JONATHAN",
+    "id": "hennessy-john-l-8046",
+    "cik": "1198046",
+    "name": "Hennessy John L.",
     "title": "Director",
-    "company": "AMZN",
+    "company": "GOOGL",
     "roles": {
-      "AMZN": "Director"
+      "GOOGL": "Director"
     },
-    "initials": "RJ"
+    "initials": "HJ"
   },
   {
     "id": "arnold-frances-5419",
@@ -1431,15 +1442,37 @@
     "initials": "AF"
   },
   {
-    "id": "alford-peggy-6236",
-    "cik": "1736236",
-    "name": "Alford Peggy",
-    "title": "Director",
+    "id": "li-susan-j-9092",
+    "cik": "1739092",
+    "name": "LI SUSAN J",
+    "title": "Chief Financial Officer",
     "company": "META",
     "roles": {
-      "META": "Director"
+      "META": "Chief Financial Officer"
     },
-    "initials": "AP"
+    "initials": "LS"
+  },
+  {
+    "id": "mahoney-curtis-j-5423",
+    "cik": "2105423",
+    "name": "Mahoney Curtis J.",
+    "title": "Chief Legal Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Legal Officer"
+    },
+    "initials": "MC"
+  },
+  {
+    "id": "bosworth-andrew-7373",
+    "cik": "1917373",
+    "name": "Bosworth Andrew",
+    "title": "Chief Technology Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Technology Officer"
+    },
+    "initials": "BA"
   },
   {
     "id": "olivan-javier-4475",
@@ -1451,6 +1484,29 @@
       "META": "Chief Operating Officer"
     },
     "initials": "OJ"
+  },
+  {
+    "id": "andreessen-marc-l-0077",
+    "cik": "1160077",
+    "name": "Andreessen Marc L",
+    "title": "Director",
+    "company": "META",
+    "roles": {
+      "META": "Director",
+      "COIN": "Director"
+    },
+    "initials": "AM"
+  },
+  {
+    "id": "alford-peggy-6236",
+    "cik": "1736236",
+    "name": "Alford Peggy",
+    "title": "Director",
+    "company": "META",
+    "roles": {
+      "META": "Director"
+    },
+    "initials": "AP"
   },
   {
     "id": "zuckerberg-mark-8760",
@@ -1475,71 +1531,48 @@
     "initials": "CC"
   },
   {
-    "id": "anderson-aaron-5073",
-    "cik": "1645073",
-    "name": "Anderson Aaron",
-    "title": "Chief Accounting Officer",
-    "company": "META",
+    "id": "peters-gregory-k-3109",
+    "cik": "1583109",
+    "name": "Peters Gregory K",
+    "title": "Co-CEO",
+    "company": "NFLX",
     "roles": {
-      "META": "Chief Accounting Officer"
+      "NFLX": "Co-CEO"
     },
-    "initials": "AA"
+    "initials": "PG"
   },
   {
-    "id": "mahoney-curtis-j-5423",
-    "cik": "2105423",
-    "name": "Mahoney Curtis J.",
-    "title": "Chief Legal Officer",
-    "company": "META",
+    "id": "sarandos-theodore-a-3838",
+    "cik": "1393838",
+    "name": "SARANDOS THEODORE A",
+    "title": "Co-CEO",
+    "company": "NFLX",
     "roles": {
-      "META": "Chief Legal Officer"
+      "NFLX": "Co-CEO"
     },
-    "initials": "MC"
+    "initials": "ST"
   },
   {
-    "id": "li-susan-j-9092",
-    "cik": "1739092",
-    "name": "LI SUSAN J",
+    "id": "neumann-spencer-adam-3133",
+    "cik": "1543133",
+    "name": "Neumann Spencer Adam",
     "title": "Chief Financial Officer",
-    "company": "META",
+    "company": "NFLX",
     "roles": {
-      "META": "Chief Financial Officer"
+      "NFLX": "Chief Financial Officer"
     },
-    "initials": "LS"
+    "initials": "NS"
   },
   {
-    "id": "bosworth-andrew-7373",
-    "cik": "1917373",
-    "name": "Bosworth Andrew",
-    "title": "Chief Technology Officer",
-    "company": "META",
+    "id": "hyman-david-a-7747",
+    "cik": "1507747",
+    "name": "HYMAN DAVID A",
+    "title": "Chief Legal Officer",
+    "company": "NFLX",
     "roles": {
-      "META": "Chief Technology Officer"
+      "NFLX": "Chief Legal Officer"
     },
-    "initials": "BA"
-  },
-  {
-    "id": "andreessen-marc-l-0077",
-    "cik": "1160077",
-    "name": "Andreessen Marc L",
-    "title": "Director",
-    "company": "META",
-    "roles": {
-      "META": "Director",
-      "COIN": "Director"
-    },
-    "initials": "AM"
-  },
-  {
-    "id": "kimmitt-robert-m-1218",
-    "cik": "1181218",
-    "name": "KIMMITT ROBERT M",
-    "title": "Director",
-    "company": "META",
-    "roles": {
-      "META": "Director"
-    },
-    "initials": "KR"
+    "initials": "HD"
   },
   {
     "id": "smith-bradford-l-3119",
@@ -1564,48 +1597,26 @@
     "initials": "BR"
   },
   {
-    "id": "neumann-spencer-adam-3133",
-    "cik": "1543133",
-    "name": "Neumann Spencer Adam",
-    "title": "Chief Financial Officer",
-    "company": "NFLX",
+    "id": "george-sarah-catherine-2687",
+    "cik": "2112687",
+    "name": "George Sarah Catherine",
+    "title": "Executive Vice President",
+    "company": "COST",
     "roles": {
-      "NFLX": "Chief Financial Officer"
+      "COST": "Executive Vice President"
     },
-    "initials": "NS"
+    "initials": "GS"
   },
   {
-    "id": "peters-gregory-k-3109",
-    "cik": "1583109",
-    "name": "Peters Gregory K",
-    "title": "Co-CEO",
-    "company": "NFLX",
+    "id": "jones-teresa-a-1064",
+    "cik": "2031064",
+    "name": "Jones Teresa A.",
+    "title": "Executive Vice President",
+    "company": "COST",
     "roles": {
-      "NFLX": "Co-CEO"
+      "COST": "Executive Vice President"
     },
-    "initials": "PG"
-  },
-  {
-    "id": "hyman-david-a-7747",
-    "cik": "1507747",
-    "name": "HYMAN DAVID A",
-    "title": "Chief Legal Officer",
-    "company": "NFLX",
-    "roles": {
-      "NFLX": "Chief Legal Officer"
-    },
-    "initials": "HD"
-  },
-  {
-    "id": "sarandos-theodore-a-3838",
-    "cik": "1393838",
-    "name": "SARANDOS THEODORE A",
-    "title": "Co-CEO",
-    "company": "NFLX",
-    "roles": {
-      "NFLX": "Co-CEO"
-    },
-    "initials": "ST"
+    "initials": "JT"
   },
   {
     "id": "wilcox-william-richard-7546",
@@ -1652,17 +1663,6 @@
     "initials": "DK"
   },
   {
-    "id": "jones-teresa-a-1064",
-    "cik": "2031064",
-    "name": "Jones Teresa A.",
-    "title": "Executive Vice President",
-    "company": "COST",
-    "roles": {
-      "COST": "Executive Vice President"
-    },
-    "initials": "JT"
-  },
-  {
     "id": "decker-susan-l-4655",
     "cik": "1234655",
     "name": "DECKER SUSAN L",
@@ -1674,15 +1674,15 @@
     "initials": "DS"
   },
   {
-    "id": "klauer-james-c-9360",
-    "cik": "1729360",
-    "name": "Klauer James C",
-    "title": "Executive Vice President",
-    "company": "COST",
+    "id": "west-tony-6201",
+    "cik": "1626201",
+    "name": "West Tony",
+    "title": "See Remarks",
+    "company": "UBER",
     "roles": {
-      "COST": "Executive Vice President"
+      "UBER": "See Remarks"
     },
-    "initials": "KJ"
+    "initials": "WT"
   },
   {
     "id": "hazelbaker-jill-5297",
@@ -1718,15 +1718,26 @@
     "initials": "MA"
   },
   {
-    "id": "woodford-brent-1698",
-    "cik": "1211698",
-    "name": "WOODFORD BRENT",
-    "title": "EVP, Control, Fin Plan & Tax",
+    "id": "gutierrez-horacio-e-5613",
+    "cik": "1905613",
+    "name": "Gutierrez Horacio E",
+    "title": "SEVP, CL&GAO",
     "company": "DIS",
     "roles": {
-      "DIS": "EVP, Control, Fin Plan & Tax"
+      "DIS": "SEVP, CL&GAO"
     },
-    "initials": "WB"
+    "initials": "GH"
+  },
+  {
+    "id": "iger-robert-a-7394",
+    "cik": "1207394",
+    "name": "IGER ROBERT A",
+    "title": "Director",
+    "company": "DIS",
+    "roles": {
+      "DIS": "Director"
+    },
+    "initials": "IR"
   },
   {
     "id": "roeder-paul-m-1555",
@@ -1738,6 +1749,17 @@
       "DIS": "Sr EVP and Chief Comm Officer"
     },
     "initials": "RP"
+  },
+  {
+    "id": "woodford-brent-1698",
+    "cik": "1211698",
+    "name": "WOODFORD BRENT",
+    "title": "EVP, Control, Fin Plan & Tax",
+    "company": "DIS",
+    "roles": {
+      "DIS": "EVP, Control, Fin Plan & Tax"
+    },
+    "initials": "WB"
   },
   {
     "id": "wenzel-krista-1769",
@@ -1905,105 +1927,6 @@
     "initials": "WJ"
   },
   {
-    "id": "moore-alexander-d-3952",
-    "cik": "1823952",
-    "name": "Moore Alexander D.",
-    "title": "Director",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "Director"
-    },
-    "initials": "MA"
-  },
-  {
-    "id": "woersching-eric-h-0526",
-    "cik": "1930526",
-    "name": "Woersching Eric H.",
-    "title": "Director",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "Director"
-    },
-    "initials": "WE"
-  },
-  {
-    "id": "stat-lauren-elaina-friedman-0244",
-    "cik": "1840244",
-    "name": "Stat Lauren Elaina Friedman",
-    "title": "Director",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "Director"
-    },
-    "initials": "SL"
-  },
-  {
-    "id": "taylor-ryan-d-3923",
-    "cik": "1823923",
-    "name": "Taylor Ryan D.",
-    "title": "See Remarks",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "See Remarks"
-    },
-    "initials": "TR"
-  },
-  {
-    "id": "buckley-jeffrey-5189",
-    "cik": "1705189",
-    "name": "Buckley Jeffrey",
-    "title": "See Remarks",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "See Remarks"
-    },
-    "initials": "BJ"
-  },
-  {
-    "id": "karp-alexander-c-3951",
-    "cik": "1823951",
-    "name": "Karp Alexander C.",
-    "title": "See Remarks",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "See Remarks"
-    },
-    "initials": "KA"
-  },
-  {
-    "id": "sankar-shyam-4159",
-    "cik": "1824159",
-    "name": "Sankar Shyam",
-    "title": "See Remarks",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "See Remarks"
-    },
-    "initials": "SS"
-  },
-  {
-    "id": "glazer-david-a-3940",
-    "cik": "1823940",
-    "name": "Glazer David A.",
-    "title": "See Remarks",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "See Remarks"
-    },
-    "initials": "GD"
-  },
-  {
-    "id": "cohen-stephen-andrew-3920",
-    "cik": "1823920",
-    "name": "Cohen Stephen Andrew",
-    "title": "See Remarks",
-    "company": "PLTR",
-    "roles": {
-      "PLTR": "See Remarks"
-    },
-    "initials": "CS"
-  },
-  {
     "id": "thiel-peter-1060",
     "cik": "1211060",
     "name": "THIEL PETER",
@@ -2017,64 +1940,43 @@
     "fundHoldings": {
       "fundName": "Thiel Macro LLC",
       "fundCik": "1562087",
-      "asOfDate": "2026-08-14",
-      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1562087/000131586326000593/0001315863-26-000593-index.htm",
-      "totalValue": 418666506,
+      "asOfDate": "2026-11-16",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1562087/000131586326000787/0001315863-26-000787-index.htm",
+      "totalValue": 460194159,
       "positions": [
+        {
+          "issuer": "ISHARES TR",
+          "cusip": 464287523,
+          "shares": 283068,
+          "value": 160963788,
+          "positionType": "Shares"
+        },
         {
           "issuer": "AMAZON COM INC",
           "cusip": 23135106,
           "shares": 495000,
-          "value": 117978300,
+          "value": 123329250,
           "positionType": "Shares"
         },
         {
           "issuer": "VISTA ENERGY S.A.B. DE C.V.",
           "cusip": "92837L109",
-          "shares": 1189792,
-          "value": 75908730,
+          "shares": 1886835,
+          "value": 123304667,
           "positionType": "Shares"
         },
         {
           "issuer": "VISTRA CORP",
           "cusip": "92840M102",
           "shares": 372755,
-          "value": 59130126,
+          "value": 51570654,
           "positionType": "Shares"
         },
         {
-          "issuer": "AMERICAN ELEC PWR CO INC",
-          "cusip": 25537101,
-          "shares": 308617,
-          "value": 42221892,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "DTE ENERGY CO",
-          "cusip": 233331107,
-          "shares": 264450,
-          "value": 40294247,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "FIRSTENERGY CORP",
-          "cusip": 337932107,
-          "shares": 839319,
-          "value": 39901225,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "CMS ENERGY CORP",
-          "cusip": 125896100,
-          "shares": 517124,
-          "value": 39559986,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "X-ENERGY INC",
-          "cusip": "98386P102",
-          "shares": 200000,
-          "value": 3672000,
+          "issuer": "MICROSOFT CORP",
+          "cusip": 594918104,
+          "shares": 2000,
+          "value": 1025800,
           "positionType": "Shares"
         }
       ]
@@ -2141,15 +2043,103 @@
     ]
   },
   {
-    "id": "norrod-forrest-eugene-2864",
-    "cik": "1622864",
-    "name": "Norrod Forrest Eugene",
-    "title": "EVP & GM DSG",
+    "id": "taylor-ryan-d-3923",
+    "cik": "1823923",
+    "name": "Taylor Ryan D.",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "TR"
+  },
+  {
+    "id": "sankar-shyam-4159",
+    "cik": "1824159",
+    "name": "Sankar Shyam",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "SS"
+  },
+  {
+    "id": "karp-alexander-c-3951",
+    "cik": "1823951",
+    "name": "Karp Alexander C.",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "KA"
+  },
+  {
+    "id": "glazer-david-a-3940",
+    "cik": "1823940",
+    "name": "Glazer David A.",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "GD"
+  },
+  {
+    "id": "buckley-jeffrey-5189",
+    "cik": "1705189",
+    "name": "Buckley Jeffrey",
+    "title": "See Remarks",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "See Remarks"
+    },
+    "initials": "BJ"
+  },
+  {
+    "id": "moore-alexander-d-3952",
+    "cik": "1823952",
+    "name": "Moore Alexander D.",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "MA"
+  },
+  {
+    "id": "stat-lauren-elaina-friedman-0244",
+    "cik": "1840244",
+    "name": "Stat Lauren Elaina Friedman",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "SL"
+  },
+  {
+    "id": "woersching-eric-h-0526",
+    "cik": "1930526",
+    "name": "Woersching Eric H.",
+    "title": "Director",
+    "company": "PLTR",
+    "roles": {
+      "PLTR": "Director"
+    },
+    "initials": "WE"
+  },
+  {
+    "id": "hahn-ava-7376",
+    "cik": "1267376",
+    "name": "Hahn Ava",
+    "title": "SVP, GC & Corporate Secretary",
     "company": "AMD",
     "roles": {
-      "AMD": "EVP & GM DSG"
+      "AMD": "SVP, GC & Corporate Secretary"
     },
-    "initials": "NF"
+    "initials": "HA"
   },
   {
     "id": "su-lisa-t-5109",
@@ -2161,6 +2151,28 @@
       "AMD": "Chair, President & CEO"
     },
     "initials": "SL"
+  },
+  {
+    "id": "norrod-forrest-eugene-2864",
+    "cik": "1622864",
+    "name": "Norrod Forrest Eugene",
+    "title": "EVP & GM DSG",
+    "company": "AMD",
+    "roles": {
+      "AMD": "EVP & GM DSG"
+    },
+    "initials": "NF"
+  },
+  {
+    "id": "denzel-nora-8351",
+    "cik": "1418351",
+    "name": "Denzel Nora",
+    "title": "Director",
+    "company": "AMD",
+    "roles": {
+      "AMD": "Director"
+    },
+    "initials": "DN"
   },
   {
     "id": "hu-jean-x-2385",
@@ -2185,17 +2197,6 @@
     "initials": "PM"
   },
   {
-    "id": "hahn-ava-7376",
-    "cik": "1267376",
-    "name": "Hahn Ava",
-    "title": "SVP, GC & Corporate Secretary",
-    "company": "AMD",
-    "roles": {
-      "AMD": "SVP, GC & Corporate Secretary"
-    },
-    "initials": "HA"
-  },
-  {
     "id": "grasby-paul-darren-8248",
     "cik": "1768248",
     "name": "GRASBY PAUL DARREN",
@@ -2205,17 +2206,6 @@
       "AMD": "EVP & CSO"
     },
     "initials": "GP"
-  },
-  {
-    "id": "denzel-nora-8351",
-    "cik": "1418351",
-    "name": "Denzel Nora",
-    "title": "Director",
-    "company": "AMD",
-    "roles": {
-      "AMD": "Director"
-    },
-    "initials": "DN"
   },
   {
     "id": "samueli-henry-1633",
@@ -2515,6 +2505,28 @@
     "initials": "SA"
   },
   {
+    "id": "pokorny-michael-8338",
+    "cik": "2058338",
+    "name": "Pokorny Michael",
+    "title": "VP, Chief Accounting Officer",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "VP, Chief Accounting Officer"
+    },
+    "initials": "PM"
+  },
+  {
+    "id": "ilkbahar-alper-9630",
+    "cik": "2059630",
+    "name": "Ilkbahar Alper",
+    "title": "EVP, Chief Technology Officer",
+    "company": "SNDK",
+    "roles": {
+      "SNDK": "EVP, Chief Technology Officer"
+    },
+    "initials": "IA"
+  },
+  {
     "id": "shek-bernard-0144",
     "cik": "2060144",
     "name": "Shek Bernard",
@@ -2546,39 +2558,6 @@
       "SNDK": "EVP & CFO"
     },
     "initials": "VL"
-  },
-  {
-    "id": "ilkbahar-alper-9630",
-    "cik": "2059630",
-    "name": "Ilkbahar Alper",
-    "title": "EVP & Chief Technology Officer",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "EVP & Chief Technology Officer"
-    },
-    "initials": "IA"
-  },
-  {
-    "id": "pokorny-michael-8338",
-    "cik": "2058338",
-    "name": "Pokorny Michael",
-    "title": "VP, Chief Accounting Officer",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "VP, Chief Accounting Officer"
-    },
-    "initials": "PM"
-  },
-  {
-    "id": "sayiner-necip-8515",
-    "cik": "1338515",
-    "name": "Sayiner Necip",
-    "title": "Director",
-    "company": "SNDK",
-    "roles": {
-      "SNDK": "Director"
-    },
-    "initials": "SN"
   },
   {
     "id": "jiang-fang-4927",
@@ -2763,32 +2742,9 @@
     "title": "EVP & CFO",
     "company": "ADBE",
     "roles": {
-      "ADBE": "EVP & CFO",
-      "MRVL": "Chief Financial Officer"
+      "ADBE": "EVP & CFO"
     },
     "initials": "DD"
-  },
-  {
-    "id": "palkhiwala-akash-j-6420",
-    "cik": "1786420",
-    "name": "Palkhiwala Akash J.",
-    "title": "EVP, CFO & COO",
-    "company": "QCOM",
-    "roles": {
-      "QCOM": "EVP, CFO & COO"
-    },
-    "initials": "PA"
-  },
-  {
-    "id": "chaplin-ann-c-8491",
-    "cik": "1888491",
-    "name": "CHAPLIN ANN C",
-    "title": "EVP, GenCounsel&CorpSecretary",
-    "company": "QCOM",
-    "roles": {
-      "QCOM": "EVP, GenCounsel&CorpSecretary"
-    },
-    "initials": "CA"
   },
   {
     "id": "grech-patricia-y-1650",
@@ -2802,15 +2758,15 @@
     "initials": "GP"
   },
   {
-    "id": "amon-cristiano-r-9665",
-    "cik": "1559665",
-    "name": "AMON CRISTIANO R",
-    "title": "President & CEO",
+    "id": "palkhiwala-akash-j-6420",
+    "cik": "1786420",
+    "name": "Palkhiwala Akash J.",
+    "title": "EVP, CFO & COO",
     "company": "QCOM",
     "roles": {
-      "QCOM": "President & CEO"
+      "QCOM": "EVP, CFO & COO"
     },
-    "initials": "AC"
+    "initials": "PA"
   },
   {
     "id": "ace-heather-s-0762",
@@ -2824,6 +2780,39 @@
     "initials": "AH"
   },
   {
+    "id": "acevedo-sylvia-9225",
+    "cik": "1829225",
+    "name": "ACEVEDO SYLVIA",
+    "title": "Director",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "Director"
+    },
+    "initials": "AS"
+  },
+  {
+    "id": "chaplin-ann-c-8491",
+    "cik": "1888491",
+    "name": "CHAPLIN ANN C",
+    "title": "EVP, GenCounsel&CorpSecretary",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "EVP, GenCounsel&CorpSecretary"
+    },
+    "initials": "CA"
+  },
+  {
+    "id": "amon-cristiano-r-9665",
+    "cik": "1559665",
+    "name": "AMON CRISTIANO R",
+    "title": "President & CEO",
+    "company": "QCOM",
+    "roles": {
+      "QCOM": "President & CEO"
+    },
+    "initials": "AC"
+  },
+  {
     "id": "subaiya-thimaya-k-5287",
     "cik": "2015287",
     "name": "Subaiya Thimaya K.",
@@ -2833,6 +2822,17 @@
       "CSCO": "EVP, Operations"
     },
     "initials": "ST"
+  },
+  {
+    "id": "robbins-charles-9655",
+    "cik": "1559655",
+    "name": "Robbins Charles",
+    "title": "Chair and CEO",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "Chair and CEO"
+    },
+    "initials": "RC"
   },
   {
     "id": "tuszik-oliver-6411",
@@ -2846,6 +2846,17 @@
     "initials": "TO"
   },
   {
+    "id": "stahlkopf-deborah-l-3299",
+    "cik": "1873299",
+    "name": "Stahlkopf Deborah L",
+    "title": "EVP and Chief Legal Officer",
+    "company": "CSCO",
+    "roles": {
+      "CSCO": "EVP and Chief Legal Officer"
+    },
+    "initials": "SD"
+  },
+  {
     "id": "patterson-mark-0779",
     "cik": "2080779",
     "name": "Patterson Mark",
@@ -2855,17 +2866,6 @@
       "CSCO": "EVP and CFO"
     },
     "initials": "PM"
-  },
-  {
-    "id": "fink-nichlas-a-5737",
-    "cik": "1595737",
-    "name": "Fink Nichlas A",
-    "title": "SVP, Chief Accounting Officer",
-    "company": "CSCO",
-    "roles": {
-      "CSCO": "SVP, Chief Accounting Officer"
-    },
-    "initials": "FN"
   },
   {
     "id": "patel-jeetendra-i-9016",
@@ -2879,26 +2879,26 @@
     "initials": "PJ"
   },
   {
-    "id": "stahlkopf-deborah-l-3299",
-    "cik": "1873299",
-    "name": "Stahlkopf Deborah L",
-    "title": "EVP and Chief Legal Officer",
+    "id": "fink-nichlas-a-5737",
+    "cik": "1595737",
+    "name": "Fink Nichlas A",
+    "title": "SVP, Chief Accounting Officer",
     "company": "CSCO",
     "roles": {
-      "CSCO": "EVP and Chief Legal Officer"
+      "CSCO": "SVP, Chief Accounting Officer"
     },
-    "initials": "SD"
+    "initials": "FN"
   },
   {
-    "id": "robbins-charles-9655",
-    "cik": "1559655",
-    "name": "Robbins Charles",
-    "title": "Chair and CEO",
-    "company": "CSCO",
+    "id": "angel-scott-3388",
+    "cik": "2063388",
+    "name": "Angel Scott",
+    "title": "Director",
+    "company": "SMCI",
     "roles": {
-      "CSCO": "Chair and CEO"
+      "SMCI": "Director"
     },
-    "initials": "RC"
+    "initials": "AS"
   },
   {
     "id": "liu-liang-chiu-chu-sara-2941",
@@ -3011,17 +3011,6 @@
     "initials": "GM"
   },
   {
-    "id": "bharathi-sandeep-5808",
-    "cik": "1975808",
-    "name": "Bharathi Sandeep",
-    "title": "President, Data Center Group",
-    "company": "MRVL",
-    "roles": {
-      "MRVL": "President, Data Center Group"
-    },
-    "initials": "BS"
-  },
-  {
     "id": "murphy-matthew-j-1430",
     "cik": "1381430",
     "name": "MURPHY MATTHEW J",
@@ -3031,6 +3020,28 @@
       "MRVL": "Chairman of the Board and CEO"
     },
     "initials": "MM"
+  },
+  {
+    "id": "koopmans-chris-6204",
+    "cik": "1676204",
+    "name": "Koopmans Chris",
+    "title": "President and COO",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "President and COO"
+    },
+    "initials": "KC"
+  },
+  {
+    "id": "bharathi-sandeep-5808",
+    "cik": "1975808",
+    "name": "Bharathi Sandeep",
+    "title": "President, Data Center Group",
+    "company": "MRVL",
+    "roles": {
+      "MRVL": "President, Data Center Group"
+    },
+    "initials": "BS"
   },
   {
     "id": "scarpulla-justin-0963",
@@ -3044,15 +3055,15 @@
     "initials": "SJ"
   },
   {
-    "id": "koopmans-chris-6204",
-    "cik": "1676204",
-    "name": "Koopmans Chris",
-    "title": "President and COO",
-    "company": "MRVL",
+    "id": "hobby-jean-m-6850",
+    "cik": "1646850",
+    "name": "Hobby Jean M.",
+    "title": "Director",
+    "company": "TXN",
     "roles": {
-      "MRVL": "President and COO"
+      "TXN": "Director"
     },
-    "initials": "KC"
+    "initials": "HJ"
   },
   {
     "id": "kirk-ronald-6342",
@@ -3341,6 +3352,17 @@
     "initials": "MJ"
   },
   {
+    "id": "jones-jennifer-n-1432",
+    "cik": "1851432",
+    "name": "Jones Jennifer N.",
+    "title": "CHIEF ACCOUNTING OFFICER",
+    "company": "COIN",
+    "roles": {
+      "COIN": "CHIEF ACCOUNTING OFFICER"
+    },
+    "initials": "JJ"
+  },
+  {
     "id": "haas-alesia-j-8711",
     "cik": "1668711",
     "name": "HAAS ALESIA J",
@@ -3361,17 +3383,6 @@
       "COIN": "Director"
     },
     "initials": "WF"
-  },
-  {
-    "id": "jones-jennifer-n-1432",
-    "cik": "1851432",
-    "name": "Jones Jennifer N.",
-    "title": "Chief Accounting Officer",
-    "company": "COIN",
-    "roles": {
-      "COIN": "Chief Accounting Officer"
-    },
-    "initials": "JJ"
   },
   {
     "id": "grewal-paul-1414",
@@ -3396,26 +3407,26 @@
     "initials": "BL"
   },
   {
-    "id": "carney-lloyd-4424",
-    "cik": "1204424",
-    "name": "CARNEY LLOYD",
-    "title": "Director",
+    "id": "fabara-paul-d-6987",
+    "cik": "1646987",
+    "name": "Fabara Paul D",
+    "title": "CHIEF RISK & CLIENT SVCS OFC",
     "company": "V",
     "roles": {
-      "V": "Director"
+      "V": "CHIEF RISK & CLIENT SVCS OFC"
     },
-    "initials": "CL"
+    "initials": "FP"
   },
   {
-    "id": "mcinerney-ryan-8261",
-    "cik": "1578261",
-    "name": "MCINERNEY RYAN",
-    "title": "Chief Executive Officer",
+    "id": "taneja-rajat-2601",
+    "cik": "1532601",
+    "name": "Taneja Rajat",
+    "title": "PRESIDENT, TECHNOLOGY",
     "company": "V",
     "roles": {
-      "V": "Chief Executive Officer"
+      "V": "PRESIDENT, TECHNOLOGY"
     },
-    "initials": "MR"
+    "initials": "TR"
   },
   {
     "id": "rottenberg-julie-b-7192",
@@ -3429,15 +3440,26 @@
     "initials": "RJ"
   },
   {
-    "id": "taneja-rajat-2601",
-    "cik": "1532601",
-    "name": "Taneja Rajat",
-    "title": "PRESIDENT, TECHNOLOGY",
+    "id": "mcinerney-ryan-8261",
+    "cik": "1578261",
+    "name": "MCINERNEY RYAN",
+    "title": "Chief Executive Officer",
     "company": "V",
     "roles": {
-      "V": "PRESIDENT, TECHNOLOGY"
+      "V": "Chief Executive Officer"
     },
-    "initials": "TR"
+    "initials": "MR"
+  },
+  {
+    "id": "carney-lloyd-4424",
+    "cik": "1204424",
+    "name": "CARNEY LLOYD",
+    "title": "Director",
+    "company": "V",
+    "roles": {
+      "V": "Director"
+    },
+    "initials": "CL"
   },
   {
     "id": "mahon-tullier-kelly-1104",
@@ -3462,6 +3484,17 @@
     "initials": "SC"
   },
   {
+    "id": "kereere-suzan-6086",
+    "cik": "1896086",
+    "name": "Kereere Suzan",
+    "title": "President, Global Markets",
+    "company": "PYPL",
+    "roles": {
+      "PYPL": "President, Global Markets"
+    },
+    "initials": "KS"
+  },
+  {
     "id": "keller-frank-6416",
     "cik": "2006416",
     "name": "Keller Frank",
@@ -3482,17 +3515,6 @@
       "PYPL": "SVP, Chief Accounting Officer"
     },
     "initials": "NC"
-  },
-  {
-    "id": "kereere-suzan-6086",
-    "cik": "1896086",
-    "name": "Kereere Suzan",
-    "title": "President, Global Markets",
-    "company": "PYPL",
-    "roles": {
-      "PYPL": "President, Global Markets"
-    },
-    "initials": "KS"
   },
   {
     "id": "miller-jamie-s-0697",
@@ -3517,17 +3539,6 @@
     "initials": "KG"
   },
   {
-    "id": "flower-johanna-2303",
-    "cik": "1872303",
-    "name": "Flower Johanna",
-    "title": "Director",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "Director"
-    },
-    "initials": "FJ"
-  },
-  {
     "id": "gandhi-sameer-k-1326",
     "cik": "1201326",
     "name": "GANDHI SAMEER K",
@@ -3537,28 +3548,6 @@
       "CRWD": "Director"
     },
     "initials": "GS"
-  },
-  {
-    "id": "saha-anurag-1602",
-    "cik": "1921602",
-    "name": "Saha Anurag",
-    "title": "CHIEF ACCOUNTING OFFICER",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "CHIEF ACCOUNTING OFFICER"
-    },
-    "initials": "SA"
-  },
-  {
-    "id": "sentonas-michael-8270",
-    "cik": "1968270",
-    "name": "Sentonas Michael",
-    "title": "PRESIDENT",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "PRESIDENT"
-    },
-    "initials": "SM"
   },
   {
     "id": "podbere-burt-w-8610",
@@ -3572,37 +3561,15 @@
     "initials": "PB"
   },
   {
-    "id": "davis-cary-0632",
-    "cik": "1220632",
-    "name": "DAVIS CARY",
+    "id": "flower-johanna-2303",
+    "cik": "1872303",
+    "name": "Flower Johanna",
     "title": "Director",
     "company": "CRWD",
     "roles": {
       "CRWD": "Director"
     },
-    "initials": "DC"
-  },
-  {
-    "id": "watzinger-gerhard-5832",
-    "cik": "1445832",
-    "name": "Watzinger Gerhard",
-    "title": "Director",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "Director"
-    },
-    "initials": "WG"
-  },
-  {
-    "id": "austin-roxanne-s-1632",
-    "cik": "1061632",
-    "name": "AUSTIN ROXANNE S",
-    "title": "Director",
-    "company": "CRWD",
-    "roles": {
-      "CRWD": "Director"
-    },
-    "initials": "AR"
+    "initials": "FJ"
   },
   {
     "id": "donald-trump-jr-6181",
@@ -4184,190 +4151,169 @@
     "fundHoldings": {
       "fundName": "Situational Awareness LP",
       "fundCik": "2045724",
-      "asOfDate": "2026-08-14",
-      "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/0000935836-26-000418-index.htm",
-      "totalValue": 20242292228,
+      "asOfDate": "2026-11-16",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/0000935836-26-000610-index.htm",
+      "totalValue": 1577454028,
       "positions": [
         {
-          "issuer": "SANDISK CORP",
-          "cusip": "80004C200",
-          "shares": 2495344,
-          "value": 5673738513,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "MICRON TECHNOLOGY INC",
-          "cusip": 595112103,
-          "shares": 4828786,
-          "value": 5573819392,
+          "issuer": "SHARONAI HOLDINGS INC",
+          "cusip": 778920306,
+          "shares": 8070950,
+          "value": 440673870,
           "positionType": "Shares"
         },
         {
           "issuer": "BLOOM ENERGY CORP",
           "cusip": 93712107,
-          "shares": 6272808,
-          "value": 1898778982,
-          "positionType": "Shares"
+          "shares": 400000,
+          "value": 110792000,
+          "positionType": "Call"
         },
         {
-          "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-          "cusip": 874039100,
-          "shares": 2649035,
-          "value": 1265099645,
-          "positionType": "Shares"
+          "issuer": "SANDISK CORP",
+          "cusip": "80004C200",
+          "shares": 60000,
+          "value": 104393400,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "BLOOM ENERGY CORP",
+          "cusip": 93712107,
+          "shares": 325000,
+          "value": 90018500,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "SANDISK CORP",
+          "cusip": "80004C200",
+          "shares": 45000,
+          "value": 78295050,
+          "positionType": "Call"
         },
         {
           "issuer": "NEBIUS GROUP N.V.",
           "cusip": "N97284108",
-          "shares": 4464260,
-          "value": 1232894684,
-          "positionType": "Shares"
+          "shares": 300000,
+          "value": 70764000,
+          "positionType": "Call"
         },
         {
-          "issuer": "COREWEAVE INC",
-          "cusip": "21873S108",
-          "shares": 7479558,
-          "value": 744515203,
-          "positionType": "Shares"
+          "issuer": "NEBIUS GROUP N.V.",
+          "cusip": "N97284108",
+          "shares": 280000,
+          "value": 66046400,
+          "positionType": "Call"
         },
         {
-          "issuer": "CORE SCIENTIFIC INC NEW",
-          "cusip": "21874A106",
-          "shares": 26008473,
-          "value": 665556824,
-          "positionType": "Shares"
+          "issuer": "BLOOM ENERGY CORP",
+          "cusip": 93712107,
+          "shares": 235000,
+          "value": 65090300,
+          "positionType": "Call"
         },
         {
-          "issuer": "STMICROELECTRONICS",
-          "cusip": 861012102,
-          "shares": 7802700,
-          "value": 584344203,
-          "positionType": "Shares"
+          "issuer": "NEBIUS GROUP N.V.",
+          "cusip": "N97284108",
+          "shares": 220000,
+          "value": 51893600,
+          "positionType": "Call"
         },
         {
-          "issuer": "APPLIED DIGITAL CORP",
-          "cusip": 38169207,
-          "shares": 15384616,
-          "value": 469022807,
-          "positionType": "Shares"
+          "issuer": "NEBIUS GROUP N.V.",
+          "cusip": "N97284108",
+          "shares": 220000,
+          "value": 51893600,
+          "positionType": "Call"
         },
         {
-          "issuer": "RIOT PLATFORMS INC",
-          "cusip": 767292105,
-          "shares": 17100000,
-          "value": 468198000,
-          "positionType": "Shares"
+          "issuer": "BLOOM ENERGY CORP",
+          "cusip": 93712107,
+          "shares": 180000,
+          "value": 49856400,
+          "positionType": "Call"
         },
         {
-          "issuer": "SHARONAI HOLDINGS INC",
-          "cusip": 778920306,
-          "shares": 5396127,
-          "value": 456836112,
-          "positionType": "Shares"
+          "issuer": "NEBIUS GROUP N.V.",
+          "cusip": "N97284108",
+          "shares": 200000,
+          "value": 47176000,
+          "positionType": "Call"
         },
         {
-          "issuer": "IREN LIMITED",
-          "cusip": "Q4982L109",
-          "shares": 9474099,
-          "value": 433250547,
-          "positionType": "Shares"
+          "issuer": "ROUNDHILL ETF TRUST",
+          "cusip": "77926X320",
+          "shares": 750000,
+          "value": 45270000,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "NEBIUS GROUP N.V.",
+          "cusip": "N97284108",
+          "shares": 190000,
+          "value": 44817200,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "BLOOM ENERGY CORP",
+          "cusip": 93712107,
+          "shares": 145000,
+          "value": 40162100,
+          "positionType": "Call"
         },
         {
           "issuer": "CLEANSPARK INC",
           "cusip": "18452B209",
-          "shares": 12276139,
-          "value": 178617822,
+          "shares": 3019029,
+          "value": 38885094,
           "positionType": "Shares"
         },
         {
-          "issuer": "KEEL INFRASTRUCTURE CORP",
-          "cusip": 486917107,
-          "shares": 26451393,
-          "value": 151830996,
-          "positionType": "Shares"
+          "issuer": "ROUNDHILL ETF TRUST",
+          "cusip": "77926X320",
+          "shares": 595000,
+          "value": 35914200,
+          "positionType": "Call"
         },
         {
-          "issuer": "SOLARIS ENERGY INFRAS INC",
-          "cusip": "83418M103",
-          "shares": 1129621,
-          "value": 90889306,
-          "positionType": "Shares"
+          "issuer": "BLOOM ENERGY CORP",
+          "cusip": 93712107,
+          "shares": 120000,
+          "value": 33237600,
+          "positionType": "Call"
         },
         {
-          "issuer": "WHITEFIBER INC",
-          "cusip": "G96115103",
-          "shares": 1757600,
-          "value": 68282760,
+          "issuer": "ROUNDHILL ETF TRUST",
+          "cusip": "77926X320",
+          "shares": 550000,
+          "value": 33198000,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "ROUNDHILL ETF TRUST",
+          "cusip": "77926X320",
+          "shares": 430000,
+          "value": 25954800,
+          "positionType": "Call"
+        },
+        {
+          "issuer": "IREN LIMITED",
+          "cusip": "Q4982L109",
+          "shares": 527864,
+          "value": 21579080,
           "positionType": "Shares"
         },
         {
           "issuer": "BITDEER TECHNOLOGIES GROUP",
           "cusip": "G11448100",
-          "shares": 3439450,
-          "value": 54584072,
+          "shares": 1934618,
+          "value": 20294143,
           "positionType": "Shares"
         },
         {
-          "issuer": "T1 ENERGY INC",
-          "cusip": "35834F104",
-          "shares": 4900000,
-          "value": 46452000,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "BLOOM ENERGY CORP",
-          "cusip": 93712107,
-          "shares": 145800,
-          "value": 44133660,
-          "positionType": "Call"
-        },
-        {
-          "issuer": "HIVE DIGITAL TECHNOLOGIES LT",
-          "cusip": 433921103,
-          "shares": 9133726,
-          "value": 33246763,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "BABCOCK & WILCOX ENTERPRISES",
-          "cusip": "05614L209",
-          "shares": 2027451,
-          "value": 28587059,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "PROPETRO HLDG CORP",
-          "cusip": "74347M108",
-          "shares": 1960382,
-          "value": 28111878,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-          "cusip": 874039100,
-          "shares": 50000,
-          "value": 23878500,
-          "positionType": "Call"
-        },
-        {
-          "issuer": "VISHAY INTERTECHNOLOGY INC",
-          "cusip": 928298108,
-          "shares": 375000,
-          "value": 20167500,
-          "positionType": "Shares"
-        },
-        {
-          "issuer": "INFOSYS LTD",
-          "cusip": 456788108,
-          "shares": 500000,
-          "value": 5245000,
-          "positionType": "Put"
-        },
-        {
-          "issuer": "CEREBRAS SYSTEMS INC",
-          "cusip": "15675D103",
-          "shares": 10000,
-          "value": 2210000,
+          "issuer": "FERMI INC",
+          "cusip": 314911108,
+          "shares": 2671898,
+          "value": 11248691,
           "positionType": "Shares"
         }
       ]
@@ -4383,15 +4329,6 @@
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000500/primary_doc.xml"
       },
       {
-        "ticker": "NBIS",
-        "companyName": "Nebius Group N.V.",
-        "shares": 12410060,
-        "percentOfClass": 5.6,
-        "asOfDate": "2026-05-27",
-        "filingType": "Schedule 13G",
-        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000303/primary_doc.xml"
-      },
-      {
         "ticker": "CORZ",
         "companyName": "Core Scientific, Inc.",
         "shares": 14089395,
@@ -4400,6 +4337,16 @@
         "filingType": "Schedule 13D/A",
         "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000091957426004796/primary_doc.xml",
         "note": "Reduced from 28,756,478 shares (9.4%) as of 2025-10-14 — a real, disclosed change."
+      },
+      {
+        "ticker": "NBIS",
+        "companyName": "Nebius Group N.V.",
+        "shares": 8010000,
+        "percentOfClass": 3.4,
+        "asOfDate": "2026-11-16",
+        "filingType": "Schedule 13G/A",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000604/primary_doc.xml",
+        "note": "Reduced from 12,410,060 shares (5.6%) as of 2026-05-27 — a real, disclosed change."
       }
     ]
   },
@@ -4416,81 +4363,113 @@
       "fundName": "Destiny Tech100 Inc.",
       "fundCik": "1843974",
       "formType": "NPORT-P",
-      "asOfDate": "2026-06-30",
-      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000089418926024246/primary_doc.xml",
-      "totalValue": 1640039147,
+      "asOfDate": "2026-09-30",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1843974/000089418926030445/primary_doc.xml",
+      "totalValue": 1636202779,
       "positions": [
         {
-          "issuer": "First American Treasury Obligations, Class X, 3.58%",
+          "issuer": "First American Treasury Obligations, Class X, 3.78%",
           "cusip": null,
-          "shares": 939712701,
-          "value": 939712701,
+          "shares": 529644689,
+          "value": 529644689,
           "positionType": "Short-Term Investment Vehicle",
-          "percentOfFund": 57.4807506635
+          "percentOfFund": 28.9999095319
         },
         {
           "issuer": "Magnitude ANC III, LLC (economic exposure to Anthropic PBC Series B Preferred Shares)",
           "cusip": null,
           "shares": 386088,
-          "value": 235671976,
+          "value": 382879609,
           "positionType": "Position",
-          "percentOfFund": 14.4156848025
+          "percentOfFund": 20.964005201
+        },
+        {
+          "issuer": "Goanna Capital 26E LLC (invested in OpenAI Group PBC Series C Preferred Stock and Class A Common Stock)",
+          "cusip": null,
+          "shares": 269016,
+          "value": 226651360,
+          "positionType": "Position",
+          "percentOfFund": 12.4099591317
         },
         {
           "issuer": "DXYZ SpaceX I LLC (economic exposure to Space Exploration Technologies Corp. Class A Common Stock)",
           "cusip": null,
-          "shares": 675675,
-          "value": 115445831,
+          "shares": 607877,
+          "value": 91704324,
           "positionType": "Position",
-          "percentOfFund": 7.0616402168
-        },
-        {
-          "issuer": "Goanna Capital 26E LLC (invested in OpenAI Group PBC Series C Preferred Stock)",
-          "cusip": null,
-          "shares": 50895,
-          "value": 35040868,
-          "positionType": "Position",
-          "percentOfFund": 2.1433948982
+          "percentOfFund": 5.0211342838
         },
         {
           "issuer": "SP21Z Opportunities LLC (invested in OpenEvidence Inc. Common Stock)",
           "cusip": null,
           "shares": 69707,
-          "value": 34933663,
+          "value": 35365149,
           "positionType": "Position",
-          "percentOfFund": 2.1368373275
+          "percentOfFund": 1.9363663111
+        },
+        {
+          "issuer": "Snowpoint Growth 2.5, LLC (invested in Shield AI, Inc. Series F-1 Preferred Stock)",
+          "cusip": null,
+          "shares": 192668,
+          "value": 31925088,
+          "positionType": "Position",
+          "percentOfFund": 1.7480108296
+        },
+        {
+          "issuer": "Hexagon Master LLC - Series 1 (invested in Ferox Games B.V. Series F Preferred Stock)",
+          "cusip": null,
+          "shares": 332895,
+          "value": 26085652,
+          "positionType": "Position",
+          "percentOfFund": 1.4282812036
         },
         {
           "issuer": "MWAM VC SpaceX-II, LLC (economic exposure to Space Exploration Technologies Corp. Class A Common Stock)",
           "cusip": null,
-          "shares": 214285,
-          "value": 33280603,
+          "shares": 172558,
+          "value": 23152699,
           "positionType": "Position",
-          "percentOfFund": 2.0357222607
-        },
-        {
-          "issuer": "Snowpoint Growth 2.5, LLC (invested in Shield AI Inc. Series F1 Preferred Stock)",
-          "cusip": null,
-          "shares": 192668,
-          "value": 30125568,
-          "positionType": "Position",
-          "percentOfFund": 1.8427337307
+          "percentOfFund": 1.2676916955
         },
         {
           "issuer": "Snowpoint Growth 2.6, LLC (invested in Space Exploration Technologies Corp. Class A Common Stock)",
           "cusip": null,
-          "shares": 142425,
-          "value": 24334736,
+          "shares": 142430,
+          "value": 21486990,
           "positionType": "Position",
-          "percentOfFund": 1.4885175682
+          "percentOfFund": 1.1764882633
+        },
+        {
+          "issuer": "Erebor Bank, N.A. - Series C Preferred Stock",
+          "cusip": null,
+          "shares": 43249,
+          "value": 19999994,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 1.0950700156
+        },
+        {
+          "issuer": "Prive Tens, LLC (invested in Tenstorrent Holdings Inc. Series E-1 and Series E-2 Preferred Stock)",
+          "cusip": null,
+          "shares": 181135,
+          "value": 18356156,
+          "positionType": "Position",
+          "percentOfFund": 1.0050641249
         },
         {
           "issuer": "Revolut Group Holdings Ltd.",
           "cusip": null,
           "shares": 8200,
-          "value": 16630994,
+          "value": 17235990,
           "positionType": "Equity — Common",
-          "percentOfFund": 1.0172917945
+          "percentOfFund": 0.9437310731
+        },
+        {
+          "issuer": "Space Exploration Technologies Corp. Class A",
+          "cusip": null,
+          "shares": 109525,
+          "value": 16522942,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.9046891599
         },
         {
           "issuer": "WH Strategic Opportunities Fund V LP (invested in Chaos Industries, Inc. Series D Preferred Stock)",
@@ -4498,7 +4477,15 @@
           "shares": 113088,
           "value": 15712254,
           "positionType": "Position",
-          "percentOfFund": 0.961093911
+          "percentOfFund": 0.860301168
+        },
+        {
+          "issuer": "Magnitude FSTK, LLC (invested in Fluidstack Ltd Series B Preferred Shares)",
+          "cusip": null,
+          "shares": 96253,
+          "value": 15000068,
+          "positionType": "Position",
+          "percentOfFund": 0.8213064534
         },
         {
           "issuer": "Hermeus Corporation - Series C Preferred Stock",
@@ -4506,7 +4493,7 @@
           "shares": 642357,
           "value": 15000000,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.9175264214
+          "percentOfFund": 0.821302729
         },
         {
           "issuer": "Beast Industries Co. - Series C Preferred Stock",
@@ -4514,7 +4501,7 @@
           "shares": 372578,
           "value": 14999990,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.9175258574
+          "percentOfFund": 0.8213022242
         },
         {
           "issuer": "Mercury Technologies, Inc. - Series D Preferred Stock",
@@ -4522,63 +4509,55 @@
           "shares": 846338,
           "value": 14999987,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.9175256513
-        },
-        {
-          "issuer": "Prive Tens, LLC (invested in Tenstorrent Holdings Inc., subordinated convertible promissory note 15.00% 12/31/2026)",
-          "cusip": null,
-          "shares": 12500000,
-          "value": 12500000,
-          "positionType": "Position",
-          "percentOfFund": 0.7646053766
-        },
-        {
-          "issuer": "Hexagon Master LLC - Series 1 (invested in Ferox Games B.V. Series F Preferred Stock)",
-          "cusip": null,
-          "shares": 374950,
-          "value": 11263273,
-          "positionType": "Position",
-          "percentOfFund": 0.6889567294
+          "percentOfFund": 0.8213020397
         },
         {
           "issuer": "MCTC Investment Holdings (Delaware) LLC (invested in Databricks, Inc. Series L Preferred Stock)",
           "cusip": null,
           "shares": 52632,
-          "value": 11200616,
+          "value": 13864848,
           "positionType": "Position",
-          "percentOfFund": 0.6851240923
-        },
-        {
-          "issuer": "Skild AI, Inc. - Series C Preferred Stock",
-          "cusip": null,
-          "shares": 153957,
-          "value": 11074127,
-          "positionType": "Equity — Preferred",
-          "percentOfFund": 0.6773869643
+          "percentOfFund": 0.7591491788
         },
         {
           "issuer": "DA-1125 Gaingels Fund II (invested in Databricks, Inc. Series L Preferred Stock)",
           "cusip": null,
           "shares": 39474,
-          "value": 8400462,
+          "value": 10398636,
           "positionType": "Position",
-          "percentOfFund": 0.5138430692
+          "percentOfFund": 0.5693618841
+        },
+        {
+          "issuer": "Skild AI, Inc. - Series C Preferred Stock",
+          "cusip": null,
+          "shares": 153957,
+          "value": 10358227,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.5671493569
+        },
+        {
+          "issuer": "Emphatic Partner Capital Kochav L.P. (invested in EnduroSat S.a r.l. Series C Preferred Shares)",
+          "cusip": null,
+          "shares": 1286,
+          "value": 9800000,
+          "positionType": "Position",
+          "percentOfFund": 0.5365844675
         },
         {
           "issuer": "DXYZ OAI I LLC (economic exposure to OpenAI Group PBC Profit Participation Units)",
           "cusip": null,
           "shares": 11236,
-          "value": 7735911,
+          "value": 9466555,
           "positionType": "Position",
-          "percentOfFund": 0.473193537
+          "percentOfFund": 0.5183271657
         },
         {
           "issuer": "Lemonade 18, LLC (invested in Monzo Bank Holding Group Limited F Ordinary Shares)",
           "cusip": null,
           "shares": 306480,
-          "value": 6201581,
+          "value": 6806921,
           "positionType": "Position",
-          "percentOfFund": 0.3793409441
+          "percentOfFund": 0.3727028544
         },
         {
           "issuer": "Vast, Inc. - Series A Preferred Stock",
@@ -4586,7 +4565,7 @@
           "shares": 2493143,
           "value": 4999998,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.3058420461
+          "percentOfFund": 0.2737674918
         },
         {
           "issuer": "Snowpoint Growth 2.7, LLC (invested in Astranis Space Technologies Corp. Series E Preferred Stock)",
@@ -4594,55 +4573,79 @@
           "shares": 259960,
           "value": 4999995,
           "positionType": "Position",
-          "percentOfFund": 0.3058418448
+          "percentOfFund": 0.2737673117
         },
         {
-          "issuer": "Redwood Materials, Inc.",
+          "issuer": "Synchron, Inc. - Series D Preferred Stock",
           "cusip": null,
-          "shares": 114000,
-          "value": 4205460,
-          "positionType": "Equity — Common",
-          "percentOfFund": 0.2572413862
+          "shares": 136251,
+          "value": 4999989,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.2737670007
         },
         {
           "issuer": "Payward, Inc. - Series C Preferred Stock",
           "cusip": null,
           "shares": 102606,
-          "value": 4166830,
+          "value": 4483882,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.2548784289
+          "percentOfFund": 0.2455083207
         },
         {
-          "issuer": "Fund FG-RTA, a series of Forge Investments LLC (economic exposure to Stripe, Inc., Common Stock)",
+          "issuer": "Redwood Materials, Inc.",
+          "cusip": null,
+          "shares": 114000,
+          "value": 4104000,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.2247084342
+        },
+        {
+          "issuer": "Boom Technology, Inc., Simple Agreement for Future Equity",
+          "cusip": null,
+          "shares": 4000000,
+          "value": 4000000,
+          "positionType": "Position",
+          "percentOfFund": 0.2190140684
+        },
+        {
+          "issuer": "Fund FG-RTA, a series of Forge Investments LLC (economic exposure to Stripe, Inc. Common Stock)",
           "cusip": null,
           "shares": 49075,
-          "value": 3314526,
+          "value": 3467149,
           "positionType": "Position",
-          "percentOfFund": 0.2027443215
-        },
-        {
-          "issuer": "Supabase, Inc. - Series A Preferred Stock",
-          "cusip": null,
-          "shares": 40909,
-          "value": 2820676,
-          "positionType": "Equity — Preferred",
-          "percentOfFund": 0.1725362953
-        },
-        {
-          "issuer": "Axiom Space, Inc. Series C-1 Preferred Stock",
-          "cusip": null,
-          "shares": 21517,
-          "value": 2618404,
-          "positionType": "Equity — Preferred",
-          "percentOfFund": 0.1601636456
+          "percentOfFund": 0.1898385884
         },
         {
           "issuer": "Vercel Inc. - Class A Common Stock",
           "cusip": null,
           "shares": 12448,
-          "value": 2500181,
+          "value": 3014034,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.1529321346
+          "percentOfFund": 0.1650289753
+        },
+        {
+          "issuer": "Supabase, Inc. - Series A Preferred Stock",
+          "cusip": null,
+          "shares": 40909,
+          "value": 2820749,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.154445939
+        },
+        {
+          "issuer": "Synchron, Inc.",
+          "cusip": null,
+          "shares": 92000,
+          "value": 2701120,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.1478958201
+        },
+        {
+          "issuer": "Axiom Space, Inc. - Series C-1 Preferred Stock",
+          "cusip": null,
+          "shares": 21517,
+          "value": 2618404,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.1433668134
         },
         {
           "issuer": "Astranis Space Technologies Corp. - Series E Preferred Stock",
@@ -4650,7 +4653,7 @@
           "shares": 129980,
           "value": 2499998,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.152920953
+          "percentOfFund": 0.1368836832
         },
         {
           "issuer": "AlpacaDB, Inc.",
@@ -4658,7 +4661,15 @@
           "shares": 457980,
           "value": 1999999,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.1223367783
+          "percentOfFund": 0.1095069608
+        },
+        {
+          "issuer": "Boom Technology, Inc. - Series B-2 Preferred Stock",
+          "cusip": null,
+          "shares": 546093,
+          "value": 1894943,
+          "positionType": "Equity — Preferred",
+          "percentOfFund": 0.1037547781
         },
         {
           "issuer": "ClassDojo, Inc.",
@@ -4666,15 +4677,15 @@
           "shares": 106136,
           "value": 1857380,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.1136130188
+          "percentOfFund": 0.1016980876
         },
         {
-          "issuer": "Boom Technology, Inc. Series B-2 Preferred Stock",
+          "issuer": "Chime Financial, Inc.",
           "cusip": null,
-          "shares": 546093,
-          "value": 1736576,
-          "positionType": "Equity — Preferred",
-          "percentOfFund": 0.1062236118
+          "shares": 60785,
+          "value": 1619312,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0886630492
         },
         {
           "issuer": "CElegans Labs, Inc.",
@@ -4682,47 +4693,39 @@
           "shares": 90952,
           "value": 1603484,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.0980825843
+          "percentOfFund": 0.0877963755
         },
         {
-          "issuer": "Chime Financial Inc.",
-          "cusip": null,
-          "shares": 60785,
-          "value": 1244877,
-          "positionType": "Equity — Common",
-          "percentOfFund": 0.0761471596
-        },
-        {
-          "issuer": "Axiom Space, Inc. Series C Preferred Stock",
+          "issuer": "Axiom Space, Inc. - Series C Preferred Stock",
           "cusip": null,
           "shares": 8879,
           "value": 1132428,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.0692688222
+          "percentOfFund": 0.0620043972
         },
         {
           "issuer": "Superhuman Platform, Inc.",
           "cusip": null,
           "shares": 82720,
-          "value": 794112,
+          "value": 1021592,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.0485745844
+          "percentOfFund": 0.055935755
         },
         {
-          "issuer": "Klarna Group PLC",
+          "issuer": "Klarna Group, plc",
           "cusip": null,
           "shares": 36924,
-          "value": 747342,
+          "value": 457488,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.0457137222
+          "percentOfFund": 0.0250490967
         },
         {
           "issuer": "Jeeves, Inc. - Series C Preferred Stock",
           "cusip": null,
           "shares": 176886,
-          "value": 449290,
+          "value": 440446,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.0274823909
+          "percentOfFund": 0.0241159753
         },
         {
           "issuer": "Discord, Inc. - Series G Preferred Stock",
@@ -4730,15 +4733,7 @@
           "shares": 13110,
           "value": 434072,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.0265515089
-        },
-        {
-          "issuer": "Public Holdings, Inc.",
-          "cusip": null,
-          "shares": 55555,
-          "value": 364996,
-          "positionType": "Equity — Common",
-          "percentOfFund": 0.0223262537
+          "percentOfFund": 0.0237669741
         },
         {
           "issuer": "Discord, Inc.",
@@ -4746,39 +4741,39 @@
           "shares": 10690,
           "value": 353946,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.0216503151
+          "percentOfFund": 0.0193797829
+        },
+        {
+          "issuer": "Public Holdings, Inc.",
+          "cusip": null,
+          "shares": 55555,
+          "value": 333330,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0182509899
         },
         {
           "issuer": "Automation Anywhere, Inc.",
           "cusip": null,
           "shares": 88885,
-          "value": 319986,
+          "value": 332430,
           "positionType": "Equity — Common",
-          "percentOfFund": 0.0195730413
+          "percentOfFund": 0.0182017062
         },
         {
-          "issuer": "Fund FG-TQY, a series of Forge Investments LLC (economic exposure to Plaid, Inc., Common Stock)",
+          "issuer": "Fund FG-TQY, a series of Forge Investments LLC (economic exposure to Plaid, Inc. Common Stock)",
           "cusip": null,
           "shares": 1540,
-          "value": 308000,
+          "value": 302133,
           "positionType": "Position",
-          "percentOfFund": 0.0188398765
+          "percentOfFund": 0.0165428225
         },
         {
-          "issuer": "Khosla Ventures IFSPV II, LLC (invested in Impossible Foods, Inc., Series H Preferred Stock)",
+          "issuer": "Khosla Ventures IFSPV II, LLC (invested in Impossible Foods, Inc. Series H Preferred Stock)",
           "cusip": null,
           "shares": null,
           "value": 132450,
           "positionType": "Position",
-          "percentOfFund": 0.0081017788
-        },
-        {
-          "issuer": "Flexport, Inc.",
-          "cusip": null,
-          "shares": 26000,
-          "value": 85800,
-          "positionType": "Equity — Common",
-          "percentOfFund": 0.0052482513
+          "percentOfFund": 0.0072521214
         },
         {
           "issuer": "Impossible Foods, Inc. - Series A Preferred Stock",
@@ -4786,10 +4781,18 @@
           "shares": 52000,
           "value": 83200,
           "positionType": "Equity — Preferred",
-          "percentOfFund": 0.0050892134
+          "percentOfFund": 0.0045554926
         },
         {
-          "issuer": "Rhenium Bolt 2021, LLC",
+          "issuer": "Flexport, Inc.",
+          "cusip": null,
+          "shares": 26000,
+          "value": 76700,
+          "positionType": "Equity — Common",
+          "percentOfFund": 0.0041995948
+        },
+        {
+          "issuer": "G Squared Special Situations Fund, LLC - Series H-1",
           "cusip": null,
           "shares": null,
           "value": 0,
@@ -4797,15 +4800,7 @@
           "percentOfFund": 0
         },
         {
-          "issuer": "Klarna Group PLC Class B Shares",
-          "cusip": null,
-          "shares": 36924,
-          "value": 0,
-          "positionType": "Equity — Common",
-          "percentOfFund": 0
-        },
-        {
-          "issuer": "G Squared Special Situations Fund, LLC - Series H-1",
+          "issuer": "Rhenium Bolt 2021, LLC",
           "cusip": null,
           "shares": null,
           "value": 0,
@@ -4825,6 +4820,21 @@
     "initials": "NP",
     "congressional": true,
     "congressionalTrades": [
+      {
+        "owner": "Spouse",
+        "asset": "Warner Bros. Discovery, Inc. - Series A Common Stock",
+        "ticker": "WBD",
+        "assetType": "ST",
+        "type": "sell",
+        "date": "2026-10-07",
+        "amountLow": 50001,
+        "amountHigh": 100000,
+        "description": "Cash proceeds from Warner Bros Discovery merger with Paramount Skydance.",
+        "shares": null,
+        "personId": "nancy-pelosi-congress",
+        "docId": 20035780,
+        "filingUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035780.pdf"
+      },
       {
         "owner": "Spouse",
         "asset": "REOF XXX, LLC",
