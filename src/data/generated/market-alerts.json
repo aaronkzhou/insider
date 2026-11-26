@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-11-25T22:11:37.232Z",
-  "filingsScanned": 122,
+  "scannedAt": "2026-11-26T21:43:55.508Z",
+  "filingsScanned": 176,
   "alerts": [
     {
       "ticker": "CODX",
@@ -58,38 +58,38 @@
       "direction": "sell"
     },
     {
-      "ticker": "RKLB",
-      "companyName": "Rocket Lab Corp",
-      "cik": "0001819994",
+      "ticker": "CBLL",
+      "companyName": "Ceribell, Inc.",
+      "cik": "0001861107",
       "insiderCount": 5,
       "insiders": [
         {
-          "name": "Spice Adam C.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000157/0002001011-26-000157-index.htm",
+          "name": "Manni Joseph S.",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2060118/000119312526478835/0001193125-26-478835-index.htm",
           "type": "sell",
           "date": "2026-11-23"
         },
         {
-          "name": "Ricupati Agostino",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000156/0002001011-26-000156-index.htm",
+          "name": "Woo Raymond",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2036112/000119312526478833/0001193125-26-478833-index.htm",
           "type": "sell",
           "date": "2026-11-23"
         },
         {
-          "name": "Clevenger Marvin Bradford",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2127567/000200101126000155/0002001011-26-000155-index.htm",
+          "name": "Foehr David",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2035882/000119312526478831/0001193125-26-478831-index.htm",
           "type": "sell",
           "date": "2026-11-23"
         },
         {
-          "name": "Kampani Arjun",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000154/0002001011-26-000154-index.htm",
+          "name": "Chao Xingjuan",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2035784/000119312526478829/0001193125-26-478829-index.htm",
           "type": "sell",
           "date": "2026-11-23"
         },
         {
-          "name": "Klein Frank",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2037530/000200101126000153/0002001011-26-000153-index.htm",
+          "name": "Blumberg Scott",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2035786/000119312526478827/0001193125-26-478827-index.htm",
           "type": "sell",
           "date": "2026-11-23"
         }
@@ -101,41 +101,35 @@
       "direction": "sell"
     },
     {
-      "ticker": "TXG",
-      "companyName": "10x Genomics, Inc.",
-      "cik": "0001770787",
-      "insiderCount": 4,
+      "ticker": "GLXY",
+      "companyName": "Galaxy Digital Inc.",
+      "cik": "0001859392",
+      "insiderCount": 3,
       "insiders": [
         {
-          "name": "Saxonov Serge",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1786720/000161071726000472/0001610717-26-000472-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
+          "name": "Novogratz Michael",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1912562/000138061526000018/0001380615-26-000018-index.htm",
+          "type": "buy",
+          "date": "2026-11-25"
         },
         {
-          "name": "Hindson Benjamin J.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1786391/000161071726000471/0001610717-26-000471-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
+          "name": "Paquette Anthony",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2052994/000205299426000005/0002052994-26-000005-index.htm",
+          "type": "buy",
+          "date": "2026-11-25"
         },
         {
-          "name": "Taich Adam",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1971187/000161071726000470/0001610717-26-000470-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
-        },
-        {
-          "name": "SULIMAN SHEHNAAZ",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1770787/000161071726000469/0001610717-26-000469-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
+          "name": "Muneka Dritan",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2154593/000215459326000005/0002154593-26-000005-index.htm",
+          "type": "other",
+          "date": "2026-11-25"
         }
       ],
       "tracked": false,
-      "buys": 0,
-      "sells": 4,
-      "other": 0,
-      "direction": "sell"
+      "buys": 2,
+      "sells": 0,
+      "other": 1,
+      "direction": "buy"
     },
     {
       "ticker": "PDYN",
@@ -158,99 +152,6 @@
         {
           "name": "SONNE STEPHEN",
           "filingUrl": "https://www.sec.gov/Archives/edgar/data/1998996/000199899626000024/0001998996-26-000024-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 3,
-      "other": 0,
-      "direction": "sell"
-    },
-    {
-      "ticker": "GKOS",
-      "companyName": "GLAUKOS Corp",
-      "cik": "0001192448",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "Gilliam Joseph E",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1705850/000119312526478625/0001193125-26-478625-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
-        },
-        {
-          "name": "Kliman Gilbert H",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1293171/000119312526478550/0001193125-26-478550-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
-        },
-        {
-          "name": "Burns Thomas William",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1644557/000119312526478551/0001193125-26-478551-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 3,
-      "other": 0,
-      "direction": "sell"
-    },
-    {
-      "ticker": "WWW",
-      "companyName": "WOLVERINE WORLD WIDE INC /DE/",
-      "cik": "0000110471",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "GERBER WILLIAM K",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1211265/000162828026076005/0001628280-26-076005-index.htm",
-          "type": "sell",
-          "date": "2026-11-24"
-        },
-        {
-          "name": "LAUDERBACK BRENDA J",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1160672/000162828026076001/0001628280-26-076001-index.htm",
-          "type": "sell",
-          "date": "2026-11-24"
-        },
-        {
-          "name": "Long Nicholas T.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1525504/000162828026076000/0001628280-26-076000-index.htm",
-          "type": "sell",
-          "date": "2026-11-24"
-        }
-      ],
-      "tracked": false,
-      "buys": 0,
-      "sells": 3,
-      "other": 0,
-      "direction": "sell"
-    },
-    {
-      "ticker": "MDLN",
-      "companyName": "Medline Inc.",
-      "cik": "0002046386",
-      "insiderCount": 3,
-      "insiders": [
-        {
-          "name": "Blackstone Management Associates VIII L.P.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2108063/000119312526478552/0001193125-26-478552-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
-        },
-        {
-          "name": "SCHWARZMAN STEPHEN A",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2094484/000119312526478553/0001193125-26-478553-index.htm",
-          "type": "sell",
-          "date": "2026-11-23"
-        },
-        {
-          "name": "HFCP X (Parallel-A), L.P.",
-          "filingUrl": "https://www.sec.gov/Archives/edgar/data/2074980/000119312526478548/0001193125-26-478548-index.htm",
           "type": "sell",
           "date": "2026-11-23"
         }

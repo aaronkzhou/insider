@@ -1442,6 +1442,17 @@
     "initials": "AF"
   },
   {
+    "id": "olivan-javier-4475",
+    "cik": "1564475",
+    "name": "Olivan Javier",
+    "title": "Chief Operating Officer",
+    "company": "META",
+    "roles": {
+      "META": "Chief Operating Officer"
+    },
+    "initials": "OJ"
+  },
+  {
     "id": "li-susan-j-9092",
     "cik": "1739092",
     "name": "LI SUSAN J",
@@ -1473,17 +1484,6 @@
       "META": "Chief Technology Officer"
     },
     "initials": "BA"
-  },
-  {
-    "id": "olivan-javier-4475",
-    "cik": "1564475",
-    "name": "Olivan Javier",
-    "title": "Chief Operating Officer",
-    "company": "META",
-    "roles": {
-      "META": "Chief Operating Officer"
-    },
-    "initials": "OJ"
   },
   {
     "id": "andreessen-marc-l-0077",
